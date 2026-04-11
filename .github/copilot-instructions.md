@@ -1,0 +1,80 @@
+# tinget.social — Workspace Instructions
+
+## Project Context
+
+This is **tinget.social**, a Swedish civic tech platform for exploring Riksdagen (Swedish parliament) open data and eventually enabling structured political discussions. See `PROJECT.md` for full details.
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript (strict mode)
+- **Database/Auth**: Supabase (PostgreSQL, Auth email, Edge Functions, Realtime)
+- **Styling**: Tailwind CSS + shadcn/ui
+- **External API**: Riksdagen öppna data (`https://data.riksdagen.se`)
+
+## Key Conventions
+
+- Server Components by default — `"use client"` only when interactivity required
+- Server Actions for mutations — no client-side `fetch` for writes
+- `@supabase/ssr` for server-side — never `@supabase/supabase-js` directly
+- RLS mandatory on every Supabase table
+- `zod` validation at all system boundaries
+- shadcn/ui components as base — extend, don't replace
+- Mobile-first Tailwind: base → `sm:` → `md:` → `lg:`
+- Theme CSS variables — no hardcoded hex colors
+
+See file-specific instructions (`.github/instructions/`) for detailed patterns on Next.js, Supabase, components, and API routes.
+
+## Task-Driven Development
+
+All work follows a **task-driven workflow** with a strict two-commit pattern.
+
+### Task Lifecycle
+
+```
+draft → designed → implementing → reviewing → done
+```
+
+1. **@planner** breaks features into tasks → writes task files to `docs/tasks/`
+2. **@architect** designs a task → writes spec to `docs/specs/TASK-{NNN}.md` → **commits the plan**
+3. **@coder** implements the spec → **commits the implementation** → hands off to review
+4. **@security** reviews → writes findings to `docs/reviews/TASK-{NNN}-security.md`
+5. **@ux** reviews → writes findings to `docs/reviews/TASK-{NNN}-ux.md`
+
+### Two-Commit Rule
+
+Every task produces exactly two commits on its branch:
+1. `docs(TASK-NNN): design spec for {title}` — spec file + task status update
+2. `feat(TASK-NNN): implement {title}` — all code changes
+
+Review findings (security/UX) are additional commits if they result in fixes.
+
+### Git Workflow
+
+- **Branches**: `task/{NNN}-short-name` (e.g., `task/003-members-api`)
+- **Commits**: `type(TASK-NNN): description` — conventional commits
+- **One task = one branch** → squash merge to `main`
+- Git history IS the project history — commit messages tell the story
+
+### Task Files
+
+```
+docs/
+├── tasks/
+│   ├── BACKLOG.md          # All tasks, status, and ordering
+│   └── TASK-NNN.md         # Individual task definitions
+├── specs/
+│   └── TASK-NNN.md         # Architect design specs
+└── reviews/
+    ├── TASK-NNN-security.md  # Security findings
+    └── TASK-NNN-ux.md        # UX findings
+```
+
+## Language
+
+- All code, comments, commits, and docs in **English**
+- Swedish only in user-facing UI and Swedish URL slugs (`/ledamoter/`, `/voteringar/`)
+
+## Attribution
+
+When displaying Riksdagen data: "Källa: Sveriges riksdag"
