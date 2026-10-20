@@ -5,7 +5,7 @@ export function PartyLabel({ party }: { party: string }) {
   const name = partyName(party);
   if (name === party) return <span>{party}</span>;
   return (
-    <abbr title={name} className="no-underline">
+    <abbr title={name}>
       {party}
     </abbr>
   );

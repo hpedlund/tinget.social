@@ -1,15 +1,24 @@
 import { PartyLabel } from "@/components/party-label";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+import { Table, TableCaption, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import type { RankedRow, UnrankedRow } from "@/lib/data";
 import { formatNumber, formatPercent } from "@/lib/format";
+import { cn } from "@/lib/utils";
+
+/**
+ * Body cells are styled once at table level and carry at most a short
+ * marker class (`sm-col`, `md-col`, `num`): with ~450 rows, per-cell
+ * utility strings would make the page several times larger.
+ */
+const tableStyles = cn(
+  "[&_tbody_tr]:border-b [&_tbody_tr:last-child]:border-0 [&_tbody_tr]:hover:bg-muted/50",
+  "[&_tbody_td]:p-2 [&_tbody_td]:align-middle [&_tbody_td]:whitespace-nowrap",
+  "[&_tbody_th]:p-2 [&_tbody_th]:text-left [&_tbody_th]:font-medium",
+  "[&_.num]:text-right [&_.dim]:text-muted-foreground [&_abbr]:no-underline",
+  "[&_.sm-col]:hidden sm:[&_.sm-col]:table-cell [&_.md-col]:hidden md:[&_.md-col]:table-cell",
+  "[&_.sm-only]:block [&_.sm-only]:text-xs [&_.sm-only]:font-normal [&_.sm-only]:text-muted-foreground sm:[&_.sm-only]:hidden",
+  "[&_.bar]:mt-1 [&_.bar]:ml-auto [&_.bar]:hidden [&_.bar]:h-1 [&_.bar]:w-20 [&_.bar]:overflow-hidden [&_.bar]:rounded-full [&_.bar]:bg-muted sm:[&_.bar]:block",
+  "[&_.bar>span]:block [&_.bar>span]:h-full [&_.bar>span]:bg-primary",
+);
 
 /**
  * One responsive table: on mobile, party and constituency move under the
@@ -25,7 +34,7 @@ export function RankingTable({
 }) {
   const showRank = rows.some((row) => "rank" in row);
   return (
-    <Table>
+    <Table className={tableStyles}>
       <TableCaption className="text-left">{caption}</TableCaption>
       <TableHeader>
         <TableRow className="hover:bg-transparent">
@@ -52,47 +61,31 @@ export function RankingTable({
           </TableHead>
         </TableRow>
       </TableHeader>
-      <TableBody className="tabular-nums">
+      <tbody className="tabular-nums">
         {rows.map((row) => (
-          <TableRow key={row.memberId}>
-            {showRank && (
-              <TableCell className="text-right text-muted-foreground">
-                {"rank" in row ? row.rank : null}
-              </TableCell>
-            )}
-            <TableHead scope="row" className="h-auto py-2 font-medium whitespace-normal">
+          <tr key={row.memberId}>
+            {showRank && <td className="num dim">{"rank" in row ? row.rank : null}</td>}
+            <th scope="row">
               {row.name}
-              <span className="block text-xs font-normal text-muted-foreground sm:hidden">
+              <span className="sm-only">
                 <PartyLabel party={row.party} /> · {row.constituency}
               </span>
-            </TableHead>
-            <TableCell className="hidden sm:table-cell">
+            </th>
+            <td className="sm-col">
               <PartyLabel party={row.party} />
-            </TableCell>
-            <TableCell className="hidden text-muted-foreground md:table-cell">
-              {row.constituency}
-            </TableCell>
-            <TableCell className="text-right">
-              <span className="font-medium">{formatPercent(row.attendance)}</span>
-              <span
-                aria-hidden="true"
-                className="mt-1 ml-auto hidden h-1 w-20 overflow-hidden rounded-full bg-muted sm:block"
-              >
-                <span
-                  className="block h-full bg-primary"
-                  style={{ width: `${row.attendance * 100}%` }}
-                />
+            </td>
+            <td className="md-col dim">{row.constituency}</td>
+            <td className="num">
+              {formatPercent(row.attendance)}
+              <span aria-hidden="true" className="bar">
+                <span style={{ width: `${row.attendance * 100}%` }} />
               </span>
-            </TableCell>
-            <TableCell className="hidden text-right sm:table-cell">
-              {formatNumber(row.eligible)}
-            </TableCell>
-            <TableCell className="hidden text-right sm:table-cell">
-              {formatNumber(row.counts.franvarande)}
-            </TableCell>
-          </TableRow>
+            </td>
+            <td className="sm-col num">{formatNumber(row.eligible)}</td>
+            <td className="sm-col num">{formatNumber(row.counts.franvarande)}</td>
+          </tr>
         ))}
-      </TableBody>
+      </tbody>
     </Table>
   );
 }

@@ -1,6 +1,6 @@
 # TASK-006: Attendance ranking page
 
-**Status**: reviewing
+**Status**: done
 **Priority**: high
 **Depends on**: TASK-005, TASK-002
 **Branch**: claude/focused-pascal-1h7rnf
