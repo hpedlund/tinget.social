@@ -12,7 +12,6 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
-| TASK-007 | [Ranking filters and sorting](TASK-007.md) | reviewing | claude/focused-pascal-1h7rnf | TASK-006 |
 
 ## Backlog
 
@@ -35,3 +34,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-004 | [Attendance calculation](TASK-004.md) | claude/happy-thompson-ua33kk | 2026-10-20 |
 | TASK-005 | [Data contract and data access layer](TASK-005.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-006 | [Attendance ranking page](TASK-006.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
+| TASK-007 | [Ranking filters and sorting](TASK-007.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
