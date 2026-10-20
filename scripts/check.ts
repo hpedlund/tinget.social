@@ -8,7 +8,8 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { DATA_DIR, getAllMemberIds, getMember, getParties, getPeriods, getRanking } from "@/lib/data";
+import { DATA_DIR, getAllMemberIds, getParties, getPeriods, getRanking } from "@/lib/data";
+import { loadMemberProfile } from "@/lib/member/load";
 
 async function main() {
   const periods = await getPeriods();
@@ -25,8 +26,9 @@ async function main() {
     }
   }
 
+  // Building the profile also checks that every member file agrees with the rankings.
   for (const id of memberIds) {
-    if (!(await getMember(id))) throw new Error(`Member ${id} is in members.json but cannot be read`);
+    if (!(await loadMemberProfile(id))) throw new Error(`Member ${id} is in members.json but cannot be read`);
   }
 
   const files = (await readdir(path.join(DATA_DIR, "members"))).filter((f) => f.endsWith(".json"));

@@ -15,3 +15,13 @@ export const NAV_ITEMS: readonly NavItem[] = [
   { href: "/partier/", label: "Partier" },
   { href: "/sa-raknar-vi/", label: "Så räknar vi" },
 ];
+
+/** The member's page on riksdagen.se (riksdagen.se redirects the id-only path). */
+export function memberSourceUrl(memberId: string): string {
+  return `https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/_${encodeURIComponent(memberId)}/`;
+}
+
+/** Riksdagen's page for one vote, listing how every member voted. */
+export function voteSourceUrl(voteId: string): string {
+  return `https://data.riksdagen.se/votering/${encodeURIComponent(voteId)}/html`;
+}

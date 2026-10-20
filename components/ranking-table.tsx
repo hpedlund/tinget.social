@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { PartyLabel } from "@/components/party-label";
 import { Table, TableCaption, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { formatNumber, formatPercent } from "@/lib/format";
@@ -13,6 +15,8 @@ const tableStyles = cn(
   "[&_tbody_tr]:border-b [&_tbody_tr:last-child]:border-0 [&_tbody_tr]:hover:bg-muted/50",
   "[&_tbody_td]:p-2 [&_tbody_td]:align-middle [&_tbody_td]:whitespace-nowrap",
   "[&_tbody_th]:p-2 [&_tbody_th]:text-left [&_tbody_th]:font-medium",
+  "[&_th_a]:underline [&_th_a]:decoration-muted-foreground/50 [&_th_a]:underline-offset-4 [&_th_a:hover]:decoration-foreground",
+  "[&_th_a:focus-visible]:outline-2 [&_th_a:focus-visible]:outline-offset-2",
   "[&_.num]:text-right [&_.dim]:text-muted-foreground [&_abbr]:no-underline",
   "[&_.sm-col]:hidden sm:[&_.sm-col]:table-cell [&_.md-col]:hidden md:[&_.md-col]:table-cell",
   "[&_.sm-only]:block [&_.sm-only]:text-xs [&_.sm-only]:font-normal [&_.sm-only]:text-muted-foreground sm:[&_.sm-only]:hidden",
@@ -69,7 +73,9 @@ export function RankingTable({
           <tr key={row.memberId}>
             {showRank && <td className="num dim">{row.rank}</td>}
             <th scope="row">
-              {row.name}
+              <Link href={`/ledamoter/${row.memberId}/`} prefetch={false}>
+                {row.name}
+              </Link>
               <span className="sm-only">
                 <PartyLabel party={row.party} /> · {row.constituency}
               </span>

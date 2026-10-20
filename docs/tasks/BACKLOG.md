@@ -17,7 +17,6 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-008 | [Member detail page](TASK-008.md) | draft | medium | TASK-005, TASK-002 |
 | TASK-009 | [Party overview page](TASK-009.md) | draft | medium | TASK-005, TASK-002 |
 | TASK-010 | [Methodology page (Så räknar vi)](TASK-010.md) | draft | high | TASK-004, TASK-002 |
 | TASK-011 | [Daily data refresh](TASK-011.md) | draft | medium | TASK-005 |
@@ -35,3 +34,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-005 | [Data contract and data access layer](TASK-005.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-006 | [Attendance ranking page](TASK-006.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-007 | [Ranking filters and sorting](TASK-007.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
+| TASK-008 | [Member detail page](TASK-008.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
