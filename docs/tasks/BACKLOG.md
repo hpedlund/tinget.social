@@ -12,7 +12,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
-| TASK-008 | [Member detail page](TASK-008.md) | designed | claude/focused-pascal-1h7rnf | TASK-005, TASK-002 |
+| TASK-008 | [Member detail page](TASK-008.md) | reviewing | claude/focused-pascal-1h7rnf | TASK-005, TASK-002 |
 
 ## Backlog
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-One static page per member at `/ledamoter/{id}/` (566 pages): attendance in the headline period with rank and the party's average, totals per vote type, attendance per riksmöte, and every missed vote linking to the vote on data.riksdagen.se. The page is a Server Component with no client JavaScript of its own. Names in the ranking tables become links to these pages.
+One static page per member at `/ledamoter/{id}/` (566 pages): attendance in the headline period with rank and the party's average, totals per vote type, attendance per riksmöte, and every missed vote linking to the vote on data.riksdagen.se. The page is a Server Component; only the missed-vote list is a Client Component, for page weight (see Technical Decisions). Names in the ranking tables become links to these pages.
 
 ## Data Model
 
@@ -37,7 +37,13 @@ interface MemberProfile {
 }
 
 buildMemberProfile(member, { defaultPeriodId, periods, rankings, parties }): MemberProfile
+
+/** [vote id, date, beteckning, punkt, motivfrågan (1) or not (0), Frånvarande in the vote] */
+type CompactMissedVote = [string, string, string, number, 0 | 1, number];
+compactMissedVotes(groups: MissedVoteGroup[]): { riksmote: string; votes: CompactMissedVote[] }[]
 ```
+
+`lib/member/load.ts` (server-only) loads a member and their periods' rankings and parties through `lib/data/` and calls the builder; the page and `data:check` use it.
 
 - **Figures match the ranking page by construction**: the builder throws if the member's row in a period's ranking is missing or its `rank`, `attendance`, `eligible` or `counts.franvarande` differ from the member file — a mismatch fails `next build` (and `npm run data:check`, which builds every profile).
 - 115 members only have `2026-27` (new members after the 2026 election); their headline is that period.
@@ -62,19 +68,20 @@ app/ledamoter/[id]/page.tsx (Server)
 │   └── AttendanceCaveat
 ├── section aria-labelledby="narvaro": h2 "Närvaro {label}" (+ " (pågår)")
 │   ├── big figure {X %} + "Plats {rank} av {rankedCount}" | "Rankas inte — färre än {min} voteringar under perioden."
-│   ├── "{partyName}s snitt: {Y %}" (omitted for "-"/unknown)
-│   └── dl (grid 2 → 5 cols): Voteringar, Ja, Nej, Avstår, Frånvarande
+│   ├── "Snitt för {partyName}: {Y %}." (omitted for "-"/unknown)
+│   └── dl (grid 2 → 5 cols, Voteringar full width on mobile): Voteringar, Ja, Nej, Avstår, Frånvarande
 ├── section aria-labelledby="per-riksmote": h2 "Per riksmöte"   (when ≥ 1 riksmöte row)
 │   └── MemberTrendTable: Riksmöte | Närvaro (+bar) | Plats | Voteringar | Frånvarande | Partiets snitt
 └── section aria-labelledby="missade": h2 "Missade voteringar"
     ├── p "{n} voteringar där {name} var frånvarande, nyast först per riksmöte." | "Inga missade voteringar."
-    └── per group: details (newest open) > summary "{rm} — {n} voteringar" > MissedVotesTable
-        Datum | Votering ("{rm}:{beteckning} punkt {p}" link, "(motivfrågan)" when so) | Ja–Nej (result)
+    └── MissedVotes (Client) groups={compactMissedVotes(…)}
+        per group: details (collapsed) > summary "{rm} — {n} voteringar" > table (sr-only caption)
+        Datum | Votering hos riksdagen ("{beteckning} punkt {p}" link, "(motivfrågan)" when so) | Frånvarande totalt (sm+)
 ```
 
-- **Source links**: member → `https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/_{id}/` (riksdagen.se redirects to the profile); vote → `https://data.riksdagen.se/votering/{id}/html` (Riksdagen's page of the vote with every member's vote). Both built in `lib/site.ts` from a constant host and `encodeURIComponent(id)`. Vote links are the rendered vote designation (descriptive link text); the column header says "Votering (riksdagen.se)".
+- **Source links**: member → `https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/_{id}/` (riksdagen.se redirects to the profile); vote → `https://data.riksdagen.se/votering/{id}/html` (Riksdagen's page of the vote with every member's vote). Both built in `lib/site.ts` from a constant host and `encodeURIComponent(id)`. Vote links are the rendered vote designation; the column header says "Votering hos riksdagen". "Frånvarande totalt" (absent in that vote) gives context: many absent at once often means kvittning.
 - **Trend table** "Plats" shows "–" with an `sr-only` "rankas inte" when below threshold; the in-progress riksmöte reads "2026/27 (pågår)".
-- **Missed-vote tables** reuse the table-level styling approach of `RankingTable` (no per-cell utility strings): Åkesson has 2 256 missed votes.
+- **Missed-vote tables** reuse the table-level styling approach of `RankingTable` (no per-cell utility strings): Åkesson has 2 256 missed votes. Groups start collapsed so the page ends after the summary; links in closed groups are not in the tab order.
 - **Ranking tables**: the name cell becomes `<Link href="/ledamoter/{id}/" prefetch={false}>` — prefetch off, or ~450 visible links would each fetch a page payload.
 
 ## Key UI states
@@ -87,8 +94,8 @@ app/ledamoter/[id]/page.tsx (Server)
 
 ## Technical Decisions
 
-- **Server Component only**: nothing on the page is interactive; `<details>` gives collapsible groups without JS.
-- **Page weight budget**: largest member page ≤ 800 kB (`out/ledamoter/*/index.html`), typical ≤ 150 kB. A Server Component's markup appears twice (HTML + RSC payload), so missed-vote rows are kept minimal. If the budget is exceeded, render the missed-vote list from compact tuple props in a Client Component (as TASK-007).
+- **Server Component, one Client Component for weight**: nothing on the page is interactive; `<details>` gives collapsible groups without JS. The list is still fully prerendered to HTML.
+- **Page weight budget**: largest member page ≤ 800 kB (`out/ledamoter/*/index.html`), typical ≤ 150 kB. Rendered as a Server Component, a row appears twice (HTML + RSC element tree): largest page 1.26 MB, all member pages 88 MB. With the list rendered from compact tuple props in a Client Component (as TASK-007): largest 575 kB (142 kB gzip), all member pages 48.7 MB (≈ 86 kB average).
 - **Status shown neutrally** (TASK-005 security note): the `personlista` status is public role information; "Avliden …" is not shown — it adds nothing to attendance figures.
 - **Party average** is the pooled party attendance from `parties.json` for the same period and the member's party in that period — not the party's current members.
 - **Security**: ids reaching URLs are schema-validated numeric strings (members) or Riksdagen vote ids, always `encodeURIComponent`-ed into fixed hosts. All text is rendered as React text.
@@ -104,7 +111,7 @@ app/ledamoter/[id]/page.tsx (Server)
 ## Implementation Order
 
 1. `lib/site.ts` URL helpers; `lib/member/profile.ts` + tests.
-2. `components/member-trend-table.tsx`, `components/missed-votes-table.tsx`.
+2. `components/member-trend-table.tsx`, `components/missed-votes.tsx`.
 3. `app/ledamoter/[id]/page.tsx`.
 4. Name links in `components/ranking-table.tsx`.
 5. `scripts/check.ts`.
@@ -114,7 +121,8 @@ app/ledamoter/[id]/page.tsx (Server)
 
 - `lib/member/profile.ts`, `lib/member/profile.test.ts` — view model (pure)
 - `lib/site.ts` — `memberSourceUrl`, `voteSourceUrl`
-- `components/member-trend-table.tsx`, `components/missed-votes-table.tsx`
+- `lib/member/load.ts` — server-only loader
+- `components/member-trend-table.tsx`, `components/missed-votes.tsx` (Client)
 - `app/ledamoter/[id]/page.tsx`
 - `components/ranking-table.tsx` — name links
 - `scripts/check.ts` — build every profile

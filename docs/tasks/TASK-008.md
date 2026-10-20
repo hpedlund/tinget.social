@@ -1,6 +1,6 @@
 # TASK-008: Member detail page
 
-**Status**: designed
+**Status**: reviewing
 **Priority**: medium
 **Depends on**: TASK-005, TASK-002
 **Branch**: claude/focused-pascal-1h7rnf
