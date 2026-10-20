@@ -73,11 +73,14 @@ Output is deterministic apart from `fetchedAt`: votes sorted by date, beteckning
 scripts/fetch.ts
   for rm in RIKSMOTEN (lib/riksdagen/config.ts):
     completed rm with valid cache (manifest.complete && votes file valid) → skip
+    vote index       → voteringlista gruppering=votering_id (ids + per-rost counts)
     dataset exists?  → download zip → unzip (fflate) → validate each file → normalise
-                       → fill null dates via /votering/{id}/json
-    else (current)   → voteringlista gruppering=votering_id → for each id not in raw cache:
-                       /votering/{id}/json (rows + datum)  |  omröstning: voteringlista bet=… rows + dokument.datum
-                       → cross-check row counts against the grouped counts
+    for each id in the index:
+      in dataset     → use it
+      else           → /votering/{id}/json (rows + datum, cached)
+                       | omröstning: voteringlista bet=… rows + dokument.datum
+      → counts must equal the index; null dates filled via /votering/{id}/json
+    dataset votes not in the index → excluded, listed in observed.json
     write votes-{rm}.json + manifest entry (complete = rm !== CURRENT_RIKSMOTE)
   personlista rdlstatus=tjanst (always refreshed) → validate → normalise → members.json
   check every ballot.memberId exists in members → else abort
@@ -103,7 +106,7 @@ None — no UI.
 - **Normalised cache files**: TASK-004/005 read ~20 MB compact files instead of re-parsing ~180 MB of raw JSON per riksmöte.
 - **Strict enums** make a new `rost`/`avser` value stop the pipeline instead of skewing the metric silently.
 - **Dependencies** (pinned exact): `zod` 4.6.5, `fflate` 0.8.3 (zero-dependency unzip), `tsx` 4.23.15 (dev, runs TS scripts with path aliases).
-- **Known source discrepancy**: the 2025/26 dataset contains one votering (`SfU31` p. 1, 2026-06-15) missing from `voteringlista` grouping. The dataset is treated as authoritative; documented in `data/README.md`.
+- **The vote index is authoritative, not the dataset** *(revised during implementation)*: comparing every dataset with `voteringlista?gruppering=votering_id` showed the datasets both **lack** votes (the 2022 PM vote, a 2024 no-confidence vote, `KU32` 2023) and **contain** votes that are not in the index (four voided votes in 2024/25 with 339–344 of 349 `Frånvarande`; one 2025/26 vote that was held again two days later). So for every riksmöte the index is fetched first; dataset votes not in it are excluded (and listed in `observed.json`), index votes missing from the dataset are fetched via `/votering/{id}/json`, and every vote's per-`rost` counts must match the index. Details in `data/README.md`.
 
 ## Implementation Order
 

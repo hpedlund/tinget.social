@@ -13,7 +13,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
 | TASK-002 | [Site layout and static page shell](TASK-002.md) | reviewing | claude/happy-thompson-ua33kk | TASK-001 |
-| TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | designed | task/003-riksdagen-fetch | TASK-001 |
+| TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | reviewing | task/003-riksdagen-fetch | TASK-001 |
 
 ## Backlog
 
