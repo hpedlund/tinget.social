@@ -11,7 +11,7 @@ Home
 ├── header
 │   ├── h1 "Närvaro i riksdagen"
 │   ├── lead: "Andel av riksdagens {totalVotes} voteringar {period.label} där ledamoten röstade Ja, Nej eller Avstår."
-│   └── "Uppgifter t.o.m. {lastVoteDate}" (sv date) · "Källa: Sveriges riksdag"
+│   └── "Voteringar från {period.firstVoteDate} till {period.lastVoteDate}" (sv dates) · "Källa: Sveriges riksdag"
 ├── AttendanceCaveat           — aside, bordered; kvittning/leave/illness/duties; link to /sa-raknar-vi/
 ├── section "Rankning" (h2, sr-only heading text visible as table caption)
 │   └── RankingTable rows=ranked
@@ -36,7 +36,7 @@ Replace the "Under uppbyggnad"/"Kommer snart" labels on `/partier/` and `/sa-rak
 
 ### RankingTable — one responsive table instead of two copies
 
-Columns (desktop `sm:` and up): **Plats** · **Ledamot** · **Parti** · **Valkrets** · **Närvaro** (with a thin bar) · **Röstade** · **Frånvarande**.
+Columns (desktop `sm:` and up): **Plats** · **Ledamot** · **Parti** · **Valkrets** · **Närvaro** (with a thin bar) · **Voteringar** (eligible: the votes the member could take part in — members served for different lengths of time) · **Frånvarande**.
 Mobile (< `sm`): **Plats** · **Ledamot** (party · valkrets as a second line) · **Närvaro**. Hidden columns use `hidden sm:table-cell`, so screen readers get one table, not a duplicated card list, and the HTML stays half the size (≈ 400 rows). This is the "mobile-friendly alternative" required by the task. The table scrolls horizontally inside its own wrapper if a very narrow screen still overflows; the page itself never does.
 
 - `<caption>` (visible, small): "Riksdagsledamöter rankade efter närvaro i voteringar {label}."
@@ -59,7 +59,7 @@ Map of the codes seen in the data (`S`, `M`, `SD`, `C`, `V`, `KD`, `L`, `MP`, `-
 
 ## Data access
 
-`getMeta()`, `getDefaultPeriod()`, `getRanking(period.id)` — nothing else. Numbers come straight from the contract; the page only formats.
+`getDefaultPeriod()`, `getRanking(period.id)` — nothing else. Dates shown are the period's own first/last vote, not `meta.lastVoteDate` (which includes the riksmöte in progress). Numbers come straight from the contract; the page only formats.
 
 ## Metadata
 
@@ -68,13 +68,13 @@ Map of the codes seen in the data (`S`, `M`, `SD`, `C`, `V`, `KD`, `L`, `MP`, `-
 ## Testing
 
 - `lib/format.test.ts`: truncation edge cases (0, 1, 0.99996, 0.12345), grouping, dates.
-- `lib/parties.test.ts`: known and unknown codes.
+- `partyName` (in `lib/format.test.ts`): known and unknown codes.
 - Build; verify in Chromium (desktop 1280×800, mobile 390×844, light + dark): row count = ranked + below-threshold count in the data file, first/last rows match `data/ranking/2022-2026.json`, caveat and method link visible without scrolling on desktop, no horizontal page scroll on mobile.
 
 ## Files to Create/Modify
 
 - `components/ui/table.tsx`, `components/ui/badge.tsx`
 - `components/attendance-caveat.tsx`, `components/ranking-table.tsx`, `components/party-label.tsx`
-- `lib/format.ts`, `lib/format.test.ts`, `lib/parties.ts`, `lib/parties.test.ts`
+- `lib/format.ts`, `lib/parties.ts`, `lib/format.test.ts` (covers both)
 - `app/page.tsx`, `app/partier/page.tsx`, `app/sa-raknar-vi/page.tsx` (Badge)
 - `docs/tasks/TASK-006.md`, `docs/tasks/BACKLOG.md`
