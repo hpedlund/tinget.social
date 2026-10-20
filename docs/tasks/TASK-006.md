@@ -1,9 +1,9 @@
 # TASK-006: Attendance ranking page
 
-**Status**: draft
+**Status**: designed
 **Priority**: high
 **Depends on**: TASK-005, TASK-002
-**Branch**: task/006-ranking-page
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
