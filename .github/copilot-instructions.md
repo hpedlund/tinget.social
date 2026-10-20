@@ -6,24 +6,30 @@ This is **tinget.social**, a Swedish civic tech platform built on Riksdagen (Swe
 
 ## Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+**Version 1 (current)** — static site, no backend:
+
+- **Framework**: Next.js 15 (App Router) with static export (`output: "export"`)
 - **Language**: TypeScript (strict mode)
-- **Database/Auth**: Supabase (PostgreSQL, Auth email, Edge Functions, Realtime)
 - **Styling**: Tailwind CSS + shadcn/ui
-- **External API**: Riksdagen öppna data (`https://data.riksdagen.se`)
+- **Data**: Pipeline scripts (`scripts/`) fetch Riksdagen data in GitHub Actions and write JSON to `data/`
+- **Hosting**: GitHub Pages
+- **External data**: Riksdagen öppna data (`https://data.riksdagen.se`)
+
+**Later (not yet introduced)**: Supabase (PostgreSQL, Auth, RLS) and a Node host (Hetzner VM or Vercel). Do not add Supabase, auth, API routes or server actions unless a task explicitly introduces the backend.
 
 ## Key Conventions
 
-- Server Components by default — `"use client"` only when interactivity required
-- Server Actions for mutations — no client-side `fetch` for writes
-- `@supabase/ssr` for server-side — never `@supabase/supabase-js` directly
-- RLS mandatory on every Supabase table
-- `zod` validation at all system boundaries
+- Server Components by default (rendered at build time) — `"use client"` only when interactivity required
+- Respect static export limits: no Server Actions, request-time Route Handlers, Middleware, `cookies()`/`headers()`, ISR or `next/image` optimisation; every dynamic route needs `generateStaticParams`
+- All data reads go through `lib/data/` — pages and components never read `data/*.json` or call Riksdagen directly
+- Attendance logic lives in `lib/attendance/` as pure, unit-tested functions
+- `zod` validation at all system boundaries — especially Riksdagen responses in the pipeline (treat as untrusted)
 - shadcn/ui components as base — extend, don't replace
 - Mobile-first Tailwind: base → `sm:` → `md:` → `lg:`
 - Theme CSS variables — no hardcoded hex colors
+- No secrets, cookies, analytics or third-party scripts in Version 1
 
-See file-specific instructions (`.github/instructions/`) for detailed patterns on Next.js, Supabase, components, and API routes.
+See file-specific instructions (`.github/instructions/`) for detailed patterns. `supabase.instructions.md` and `api.instructions.md` apply only once the backend is introduced.
 
 ## Task-Driven Development
 

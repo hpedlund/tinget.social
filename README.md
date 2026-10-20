@@ -4,7 +4,9 @@ A Swedish civic tech platform built on Riksdagen (Swedish parliament) open data.
 
 **Version 1:** an open website ranking members of parliament by how often they are present and vote — who shows up to work, and who doesn't.
 
-**Stack**: Next.js 15 · Supabase · TypeScript · Tailwind CSS · shadcn/ui
+**Stack (Version 1)**: Next.js 15 (static export) · TypeScript · Tailwind CSS · shadcn/ui · GitHub Actions · GitHub Pages
+
+Supabase is planned for later phases (accounts, discussions) — see [PROJECT.md](PROJECT.md#when-to-introduce-supabase-kept-open).
 
 See [PROJECT.md](PROJECT.md) for full project documentation.
 
@@ -35,7 +37,7 @@ Use `@orchestrator` to run the full pipeline end-to-end.
 
 | Skill | Purpose |
 |-------|---------|
-| `/data-modeling` | Design Supabase schemas and migrations |
+| `/data-modeling` | Design JSON data contracts (Version 1) and Supabase schemas (later) |
 | `/riksdagen-api` | Work with Swedish parliament open data APIs |
 | `/security-review` | OWASP + GDPR security audit |
 | `/component-design` | shadcn/ui component design + accessibility |
@@ -43,14 +45,14 @@ Use `@orchestrator` to run the full pipeline end-to-end.
 ### File Instructions (auto-loaded)
 
 - **TypeScript/TSX files** → Next.js App Router conventions
-- **Supabase/SQL files** → Supabase client patterns, RLS, migrations
+- **Supabase/SQL files** → Supabase client patterns, RLS, migrations *(later phases)*
 - **Components** → shadcn/ui, Tailwind, accessibility
-- **API routes** → Validation, error handling, response format
+- **API routes** → Validation, error handling, response format *(later phases)*
 - **Git** → Conventional commits, branch naming, two-commit rule
 
 ## Getting Started
 
-> Application scaffolding coming soon. See PROJECT.md for the planned architecture.
+> Application scaffolding coming soon. See [PROJECT.md](PROJECT.md) for the architecture.
 
 ## Data Source
 

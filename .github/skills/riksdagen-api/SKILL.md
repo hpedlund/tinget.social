@@ -15,7 +15,7 @@ Fetch and integrate data from the Swedish parliament's open data APIs.
 - Searching speeches/debates (anföranden)
 - Accessing parliamentary documents (dokument)
 - Getting calendar/schedule information (kalender)
-- Designing caching strategies for Riksdagen data
+- Designing the data pipeline and caching strategy for Riksdagen data
 
 ## API Overview
 
@@ -84,7 +84,27 @@ GET https://data.riksdagen.se/voteringlista/?utformat=json
 | `parti` | string | Party code |
 | `valkrets` | string | Constituency |
 | `iid` | string | Member ID (intressent_id) |
+| `sz` | number | Page size (number of rows) |
+| `gruppering` | string | Group/aggregate results (e.g. `iid`, `parti`) |
 | `utformat` | string | `json` or `xml` |
+
+Each row is **one member's vote in one votering**. Key fields (verify against a live response when implementing):
+
+| Field | Meaning |
+|-------|---------|
+| `votering_id` | ID of the vote (shared by all members' rows in that vote) |
+| `rm`, `beteckning`, `punkt` | Riksmöte, committee report and point voted on |
+| `intressent_id` | Member ID — joins to `personlista` |
+| `namn`, `parti`, `valkrets` | Member name, party and constituency at the time of the vote |
+| `rost` | `Ja`, `Nej`, `Avstår` or `Frånvarande` — the basis of the attendance metric |
+| `avser` | Whether the vote concerns the substance (`sakfrågan`) or the reasoning (`motivering`) |
+| `datum` | Date/time of the vote |
+
+**Attendance (Version 1)**: present = `Ja` + `Nej` + `Avstår`; absent = `Frånvarande`. See `PROJECT.md` → "Attendance metric" for eligibility rules and caveats.
+
+### Bulk Datasets
+
+For full-year data, prefer the zipped datasets under `https://data.riksdagen.se/dataset/` (e.g. votes per riksmöte) instead of paging `voteringlista`. Confirm current file names and formats on the open data site before relying on them, and cache downloads in CI.
 
 ### Speeches (Anförandelista)
 
@@ -131,20 +151,22 @@ GET https://data.riksdagen.se/dokument/{doc_id}.json
 ### API Client (`lib/riksdagen/client.ts`)
 
 ```tsx
+import { z } from "zod";
+
 const RIKSDAGEN_BASE_URL = "https://data.riksdagen.se";
 const DEFAULT_FORMAT = "json";
 
-interface RiksdagenRequestOptions {
+interface RiksdagenRequestOptions<T> {
   endpoint: string;
   params?: Record<string, string>;
-  revalidate?: number; // ISR cache in seconds
+  schema: z.ZodType<T>; // validate — Riksdagen data is untrusted input
 }
 
 export async function fetchRiksdagen<T>({
   endpoint,
   params = {},
-  revalidate = 3600,
-}: RiksdagenRequestOptions): Promise<T> {
+  schema,
+}: RiksdagenRequestOptions<T>): Promise<T> {
   const url = new URL(endpoint, RIKSDAGEN_BASE_URL);
   url.searchParams.set("utformat", DEFAULT_FORMAT);
 
@@ -152,32 +174,31 @@ export async function fetchRiksdagen<T>({
     if (value) url.searchParams.set(key, value);
   }
 
-  const response = await fetch(url.toString(), {
-    next: { revalidate },
-  });
+  const response = await fetch(url.toString());
 
   if (!response.ok) {
     throw new Error(`Riksdagen API error: ${response.status}`);
   }
 
-  return response.json();
+  return schema.parse(await response.json());
 }
 ```
 
-### Caching Strategy
+### Fetching & Caching Strategy
 
-1. **Next.js ISR**: Use `{ next: { revalidate: N } }` for fetch-level caching
-   - Member profiles: 24 hours (`86400`)
-   - Vote results: 1 hour (`3600`)
-   - Speeches: 1 hour (`3600`)
-   - Calendar: 15 minutes (`900`)
+**Version 1 — build-time pipeline (current)**
 
-2. **Supabase cache tables**: For processed/transformed data that's expensive to compute
-   - Store raw API responses in JSONB columns
-   - Track `fetched_at` and `expires_at` for cache invalidation
-   - Service role writes, public reads
+- Riksdagen is called **only** from pipeline scripts in `scripts/` running in GitHub Actions — never from pages or the browser
+- Run at most once a day (scheduled workflow) plus on demand; throttle to ≤ 5 requests/second
+- Cache raw downloads between runs (`actions/cache`); completed riksmöten rarely change, so only the current one needs re-fetching daily
+- Validate every response with `zod` and fail the run on unexpected shapes — never publish half-parsed data
+- Write processed results to `data/*.json`; pages read them through `lib/data/` and are built with `generateStaticParams`
+- Note: `fetch(..., { next: { revalidate } })` has no effect in static export — do not rely on it
 
-3. **Static generation**: Use `generateStaticParams` for politician profile pages with ISR
+**Later phases — with a backend**
+
+1. **Next.js ISR**: `{ next: { revalidate: N } }` for fetch-level caching (members 24 h, votes/speeches 1 h, calendar 15 min)
+2. **Supabase cache tables**: processed data in PostgreSQL; service role writes, public reads (see `/data-modeling`)
 
 ## Attribution
 

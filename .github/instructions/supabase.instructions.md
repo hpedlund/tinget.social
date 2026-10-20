@@ -1,9 +1,11 @@
 ---
-description: "Use when working with Supabase — database schemas, migrations, RLS policies, Edge Functions, Auth, Realtime, or client configuration. Covers server-side and client-side Supabase patterns with @supabase/ssr."
+description: "(Later phases — not used in Version 1.) Use when working with Supabase — database schemas, migrations, RLS policies, Edge Functions, Auth, Realtime, or client configuration. Covers server-side and client-side Supabase patterns with @supabase/ssr."
 applyTo: "**/supabase/**,**/*.sql,lib/supabase/**"
 ---
 
 # Supabase Conventions
+
+> **Later phases only.** Version 1 has no database: data is generated as JSON in `data/` and read through `lib/data/`. These conventions apply once a task explicitly introduces Supabase — at that point re-implement `lib/data/` against Supabase rather than querying it from pages directly. See `PROJECT.md` → "When to introduce Supabase".
 
 ## Client Creation
 

@@ -45,14 +45,16 @@ Always start by reading:
 - [ ] Consistent spacing and typography using Tailwind scale
 
 ### Interaction States
-- [ ] Loading state with skeleton or spinner
-- [ ] Error state with message and recovery action
-- [ ] Empty state with helpful guidance
+- [ ] Empty state with helpful guidance (e.g. no members match the filters)
+- [ ] Not-found page for unknown members
+- [ ] Loading/error states for anything loaded client-side
+- [ ] Filter state reflected in the URL (shareable, back button works)
 
 ### Civic Design
 - [ ] Neutral, trustworthy visual tone
 - [ ] "Källa: Sveriges riksdag" attribution on Riksdagen data
 - [ ] Data presented objectively — no editorial framing
+- [ ] Attendance figures shown with method link and fairness caveats ("Så räknar vi")
 
 ## Review File Format
 
@@ -85,6 +87,6 @@ Write to `docs/reviews/TASK-{NNN}-ux.md`:
 - DO NOT modify implementation code — write findings only
 - ALWAYS write findings to `docs/reviews/TASK-{NNN}-ux.md`
 - ALWAYS check mobile viewport behavior
-- ALWAYS verify loading and error states exist
+- ALWAYS verify empty, not-found and (for client-side interactions) loading/error states exist
 - ALWAYS check for "Källa: Sveriges riksdag" attribution on Riksdagen data
 - Update task status to `done` only if result is PASS
