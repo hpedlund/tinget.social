@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0613869444326",
+  "name": "Talla Alkurdi",
+  "firstName": "Talla",
+  "lastName": "Alkurdi",
+  "sortName": "Alkurdi,Talla",
+  "party": "S",
+  "constituency": "Stockholms kommun",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 1,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 1,
+    "present": 1,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

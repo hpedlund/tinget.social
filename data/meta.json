@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "sourceUrl": "https://data.riksdagen.se",
+  "defaultPeriodId": "2022-2026",
+  "lastVoteDate": "2026-10-15",
+  "periods": [
+    {
+      "id": "2022-2026",
+      "label": "2022–2026",
+      "kind": "term",
+      "riksmoten": [
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ],
+      "complete": true,
+      "totalVotes": 2610,
+      "minEligibleVotes": 261,
+      "firstVoteDate": "2022-10-17",
+      "lastVoteDate": "2026-08-13"
+    },
+    {
+      "id": "2022-23",
+      "label": "2022/23",
+      "kind": "riksmote",
+      "riksmoten": [
+        "2022/23"
+      ],
+      "complete": true,
+      "totalVotes": 566,
+      "minEligibleVotes": 57,
+      "firstVoteDate": "2022-10-17",
+      "lastVoteDate": "2023-09-13"
+    },
+    {
+      "id": "2023-24",
+      "label": "2023/24",
+      "kind": "riksmote",
+      "riksmoten": [
+        "2023/24"
+      ],
+      "complete": true,
+      "totalVotes": 595,
+      "minEligibleVotes": 60,
+      "firstVoteDate": "2023-10-25",
+      "lastVoteDate": "2024-09-25"
+    },
+    {
+      "id": "2024-25",
+      "label": "2024/25",
+      "kind": "riksmote",
+      "riksmoten": [
+        "2024/25"
+      ],
+      "complete": true,
+      "totalVotes": 652,
+      "minEligibleVotes": 66,
+      "firstVoteDate": "2024-09-25",
+      "lastVoteDate": "2025-06-18"
+    },
+    {
+      "id": "2025-26",
+      "label": "2025/26",
+      "kind": "riksmote",
+      "riksmoten": [
+        "2025/26"
+      ],
+      "complete": true,
+      "totalVotes": 797,
+      "minEligibleVotes": 80,
+      "firstVoteDate": "2025-09-17",
+      "lastVoteDate": "2026-08-13"
+    },
+    {
+      "id": "2026-27",
+      "label": "2026/27",
+      "kind": "riksmote",
+      "riksmoten": [
+        "2026/27"
+      ],
+      "complete": false,
+      "totalVotes": 1,
+      "minEligibleVotes": 1,
+      "firstVoteDate": "2026-10-15",
+      "lastVoteDate": "2026-10-15"
+    }
+  ]
+}

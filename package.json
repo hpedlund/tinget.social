@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "data:fetch": "tsx scripts/fetch.ts"
+    "data:fetch": "tsx scripts/fetch.ts",
+    "data:compute": "tsx scripts/compute.ts",
+    "data:check": "tsx scripts/check.ts"
   },
   "engines": {
     "node": ">=22"

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0781623040415",
+  "name": "Camilla Waltersson Grönvall",
+  "firstName": "Camilla",
+  "lastName": "Waltersson Grönvall",
+  "sortName": "Waltersson Grönvall,Camilla",
+  "party": "M",
+  "constituency": "Västra Götalands läns västra",
+  "status": "Socialtjänstminister",
+  "total": {
+    "counts": {
+      "ja": 1,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 1,
+    "present": 1,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

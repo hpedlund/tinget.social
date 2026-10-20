@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0153782796218",
+  "name": "Ulf Rexefjord",
+  "firstName": "Ulf",
+  "lastName": "Rexefjord",
+  "sortName": "Rexefjord,Ulf",
+  "party": "SD",
+  "constituency": "Västra Götalands läns norra",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 64,
+      "nej": 20,
+      "avstar": 16,
+      "franvarande": 0
+    },
+    "eligible": 100,
+    "present": 100,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 64,
+        "nej": 20,
+        "avstar": 16,
+        "franvarande": 0
+      },
+      "eligible": 100,
+      "present": 100,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 64,
+        "nej": 20,
+        "avstar": 16,
+        "franvarande": 0
+      },
+      "eligible": 100,
+      "present": 100,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 1,
+      "counts": {
+        "ja": 64,
+        "nej": 20,
+        "avstar": 16,
+        "franvarande": 0
+      },
+      "eligible": 100,
+      "present": 100,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

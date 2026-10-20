@@ -1,9 +1,9 @@
 # TASK-005: Data contract and data access layer
 
-**Status**: draft
+**Status**: done
 **Priority**: high
 **Depends on**: TASK-003, TASK-004
-**Branch**: task/005-data-contract
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
@@ -21,10 +21,10 @@ See PROJECT.md → "Data access layer" and `/data-modeling` skill.
 
 ## Acceptance Criteria
 
-- [ ] `npm run data:compute` regenerates identical output for identical input
-- [ ] Build fails if a data file is missing or invalid
-- [ ] No page or component imports `data/` directly
-- [ ] Total data size stays small enough for static hosting (documented)
+- [x] `npm run data:compute` regenerates identical output for identical input
+- [x] Build fails if a data file is missing or invalid (every `lib/data/` read throws; `npm run data:check`)
+- [x] No page or component imports `data/` directly
+- [x] Total data size stays small enough for static hosting (documented; `data/` is build input only)
 
 ## Artifacts
 

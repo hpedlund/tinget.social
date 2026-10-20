@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0862868280923",
+  "name": "Annie Lööf",
+  "firstName": "Annie",
+  "lastName": "Lööf",
+  "sortName": "Lööf,Annie",
+  "party": "C",
+  "constituency": "Jönköpings län",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 14,
+      "nej": 8,
+      "avstar": 0,
+      "franvarande": 38
+    },
+    "eligible": 60,
+    "present": 22,
+    "attendance": 0.36666666666666664
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 14,
+        "nej": 8,
+        "avstar": 0,
+        "franvarande": 38
+      },
+      "eligible": 60,
+      "present": 22,
+      "attendance": 0.36666666666666664
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 14,
+        "nej": 8,
+        "avstar": 0,
+        "franvarande": 38
+      },
+      "eligible": 60,
+      "present": 22,
+      "attendance": 0.36666666666666664
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 361,
+      "counts": {
+        "ja": 14,
+        "nej": 8,
+        "avstar": 0,
+        "franvarande": 38
+      },
+      "eligible": 60,
+      "present": 22,
+      "attendance": 0.36666666666666664
+    }
+  ],
+  "missedVoteIds": [
+    "C7E795A0-9F65-49C8-A574-6CBEBF90DD0E",
+    "E187E14A-EAEB-42CD-A8A1-606BFAD5D0E0",
+    "1459843C-F3F9-43D5-933C-759BE764543B",
+    "1CD4E98E-1706-4852-BD77-D5A46964CA8F",
+    "376923A0-8D12-4D74-981A-F3BF5B0200E7",
+    "929F8FAB-4918-4952-A0FD-996109D29816",
+    "2AC86BD5-5360-4BC1-8A99-FF4175003DFB",
+    "105A8CB7-913F-43DA-9369-3122FBF35EA3",
+    "19BEF2C6-3BB4-4647-8CE7-CAC426A8D6E4",
+    "2AE81505-40F1-40A7-8453-C389EDFF711B",
+    "315C5C6B-6299-4315-91D4-96E15C0D6622",
+    "63211B28-1AE6-4C12-AAB6-DE085BF429F1",
+    "78FF6849-4C95-4A26-906B-47E61C02E47A",
+    "99C6E88B-AE0B-4B0D-AC05-CED13E90755E",
+    "DF8FAF60-0FAB-4B3F-9B78-0FEF191BC013",
+    "F8E30CBE-D34E-43A0-82E0-4823ACD8ED67",
+    "FD565FF5-02C3-4D15-8E6F-F2FBA88E5DE3",
+    "2A7EE5A3-5F29-4293-9C6C-A401F161C620",
+    "8D1F96AB-81FF-4783-BA15-FE3F866523F3",
+    "A5E32EAE-C89F-4C6F-8D6F-163CE3CA9848",
+    "1DF964EE-B639-4462-9B35-C6D98A33CE6A",
+    "24318FC2-7698-416E-9A32-F7944FB258A4",
+    "8C441BF5-1E39-40A2-AE0A-F8E4CB565DBC",
+    "93C00594-78D0-4254-BEE6-82D8C273A625",
+    "E63F9B00-E32A-4E24-A777-ED2C36EF88F4",
+    "F21EDAC3-C441-49B5-9CAA-321F3EA6368B",
+    "0B771E7B-D719-40A3-9771-C7087A7AC20D",
+    "329F9E66-61B8-4B25-80CA-636F2BEB645F",
+    "46A967F6-0704-4E98-AB11-96B60D9205CB",
+    "58ED1351-78C2-4CDE-821D-2A6644B9AB72",
+    "5B129C13-4514-4E60-A0AA-E8EF296C684B",
+    "888A03FE-E755-40C5-AD84-7A610BDCF1B8",
+    "A2E569C3-0FFD-4A50-981E-784BE9ECE277",
+    "D169445A-8324-4E42-814D-D4E3427858A5",
+    "D61FF1CC-405E-4939-A367-A192D75C5A52",
+    "DC5797D0-04F0-4006-8045-A50B78B7DC98",
+    "E3F60E14-6F5D-4E81-8059-D8F1A9E662BE",
+    "F6E57D52-0CB2-4F33-AAB8-2B74B8B359BE"
+  ]
+}

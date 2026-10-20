@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0845783625227",
+  "name": "Arwin Sohrabi",
+  "firstName": "Arwin",
+  "lastName": "Sohrabi",
+  "sortName": "Sohrabi,Arwin",
+  "party": "S",
+  "constituency": "Malmö kommun",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 76,
+      "nej": 37,
+      "avstar": 9,
+      "franvarande": 0
+    },
+    "eligible": 122,
+    "present": 122,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 75,
+        "nej": 37,
+        "avstar": 9,
+        "franvarande": 0
+      },
+      "eligible": 121,
+      "present": 121,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 75,
+        "nej": 37,
+        "avstar": 9,
+        "franvarande": 0
+      },
+      "eligible": 121,
+      "present": 121,
+      "attendance": 1
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 1,
+      "counts": {
+        "ja": 75,
+        "nej": 37,
+        "avstar": 9,
+        "franvarande": 0
+      },
+      "eligible": 121,
+      "present": 121,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

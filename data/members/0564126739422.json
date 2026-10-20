@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0564126739422",
+  "name": "Åsa Coenraads",
+  "firstName": "Åsa",
+  "lastName": "Coenraads",
+  "sortName": "Coenraads,Åsa",
+  "party": "M",
+  "constituency": "Blekinge län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 182,
+      "nej": 2,
+      "avstar": 0,
+      "franvarande": 8
+    },
+    "eligible": 192,
+    "present": 184,
+    "attendance": 0.9583333333333334
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 64,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 8
+      },
+      "eligible": 73,
+      "present": 65,
+      "attendance": 0.8904109589041096
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 118,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 118,
+      "present": 118,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 182,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 8
+      },
+      "eligible": 191,
+      "present": 183,
+      "attendance": 0.9581151832460733
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 150,
+      "counts": {
+        "ja": 64,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 8
+      },
+      "eligible": 73,
+      "present": 65,
+      "attendance": 0.8904109589041096
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 118,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 118,
+      "present": 118,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "00419725-4314-4903-BCB7-A9B056752B1B",
+    "4AEA9DF7-E24F-4C07-9095-64C6F9BBC486",
+    "6306ABE8-3F15-44FE-9004-04B74B9E2B50",
+    "645AA761-8228-41DA-AFD4-EF607D2FE315",
+    "79DD2C91-3D33-4AB9-8250-AFE06072ED46",
+    "DB9D37EE-5250-428F-8149-708CE682D3B0",
+    "EE73143B-2037-4B6A-87AB-DB2B36839AAE",
+    "F7D2ECC6-AD1F-4837-B15F-74D8A1F35BFB"
+  ]
+}

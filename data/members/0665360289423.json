@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0665360289423",
+  "name": "Fredrik Stenberg",
+  "firstName": "Fredrik",
+  "lastName": "Stenberg",
+  "sortName": "Stenberg,Fredrik",
+  "party": "S",
+  "constituency": "Västerbottens län",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 336,
+      "nej": 202,
+      "avstar": 75,
+      "franvarande": 0
+    },
+    "eligible": 613,
+    "present": 613,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 219,
+        "nej": 121,
+        "avstar": 32,
+        "franvarande": 0
+      },
+      "eligible": 372,
+      "present": 372,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 117,
+        "nej": 81,
+        "avstar": 43,
+        "franvarande": 0
+      },
+      "eligible": 241,
+      "present": 241,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 1,
+      "counts": {
+        "ja": 336,
+        "nej": 202,
+        "avstar": 75,
+        "franvarande": 0
+      },
+      "eligible": 613,
+      "present": 613,
+      "attendance": 1
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 1,
+      "counts": {
+        "ja": 219,
+        "nej": 121,
+        "avstar": 32,
+        "franvarande": 0
+      },
+      "eligible": 372,
+      "present": 372,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 117,
+        "nej": 81,
+        "avstar": 43,
+        "franvarande": 0
+      },
+      "eligible": 241,
+      "present": 241,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

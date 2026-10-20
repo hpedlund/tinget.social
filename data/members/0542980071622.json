@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0542980071622",
+  "name": "Alexander Rosenberg",
+  "firstName": "Alexander",
+  "lastName": "Rosenberg",
+  "sortName": "Rosenberg,Alexander",
+  "party": "M",
+  "constituency": "Stockholms län",
+  "status": "Tjänstgörande statsrådsersättare",
+  "total": {
+    "counts": {
+      "ja": 0,
+      "nej": 1,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 1,
+    "present": 1,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0938171000810",
+  "name": "Annette Rydell",
+  "firstName": "Annette",
+  "lastName": "Rydell",
+  "sortName": "Rydell,Annette",
+  "party": "S",
+  "constituency": "Blekinge län",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 328,
+      "nej": 178,
+      "avstar": 47,
+      "franvarande": 8
+    },
+    "eligible": 561,
+    "present": 553,
+    "attendance": 0.9857397504456328
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 328,
+        "nej": 178,
+        "avstar": 47,
+        "franvarande": 8
+      },
+      "eligible": 561,
+      "present": 553,
+      "attendance": 0.9857397504456328
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 15,
+      "counts": {
+        "ja": 328,
+        "nej": 178,
+        "avstar": 47,
+        "franvarande": 8
+      },
+      "eligible": 561,
+      "present": 553,
+      "attendance": 0.9857397504456328
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 31,
+      "counts": {
+        "ja": 328,
+        "nej": 178,
+        "avstar": 47,
+        "franvarande": 8
+      },
+      "eligible": 561,
+      "present": 553,
+      "attendance": 0.9857397504456328
+    }
+  ],
+  "missedVoteIds": [
+    "0E7BC721-232A-495A-B305-FC99575F83ED",
+    "67FF9D06-8346-4014-AD13-08E8280064DA",
+    "B6542C29-E1B2-490A-81F9-1BF018EDCFFD",
+    "2BB5FE3D-D1EF-40FF-91AD-5405C8DF9B8A",
+    "39F9EA47-139B-4E50-A593-56ADB88E697A",
+    "5D6440F9-9A24-4A4B-A882-6CA5871DAC27",
+    "94FAEBFB-D90B-45C0-B952-96C2CE247CA1",
+    "A1CDD3DC-B97C-4E2A-BCBB-6AAC1C74A839"
+  ]
+}

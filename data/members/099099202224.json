@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "099099202224",
+  "name": "Paulina Brandberg",
+  "firstName": "Paulina",
+  "lastName": "Brandberg",
+  "sortName": "Brandberg,Paulina",
+  "party": "L",
+  "constituency": "Stockholms län",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 70,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 70,
+    "present": 70,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 70,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 70,
+      "present": 70,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 70,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 70,
+      "present": 70,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": null,
+      "counts": {
+        "ja": 70,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 70,
+      "present": 70,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

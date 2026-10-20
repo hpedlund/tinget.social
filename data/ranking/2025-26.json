@@ -1,0 +1,6000 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "periodId": "2025-26",
+  "totalVotes": 797,
+  "minEligibleVotes": 80,
+  "ranked": [
+    {
+      "rank": 1,
+      "memberId": "0448973586529",
+      "name": "Adrian Magnusson",
+      "party": "S",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 347,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0653578338415",
+      "name": "Agneta Nilsson",
+      "party": "S",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 348,
+        "nej": 337,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0374824090417",
+      "name": "Anna Lipinska",
+      "party": "KD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 211,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 211,
+      "present": 211,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0387230530213",
+      "name": "Crister Carlsson",
+      "party": "M",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 796,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0835066063627",
+      "name": "Daniel Spiik",
+      "party": "SD",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 177,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 178,
+      "present": 178,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0624040854527",
+      "name": "Emma Berginger",
+      "party": "MP",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 54,
+        "nej": 150,
+        "avstar": 39,
+        "franvarande": 0
+      },
+      "eligible": 243,
+      "present": 243,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0412502344925",
+      "name": "Ida Ekeroth Clausson",
+      "party": "S",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 328,
+        "nej": 322,
+        "avstar": 108,
+        "franvarande": 0
+      },
+      "eligible": 758,
+      "present": 758,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0339894357417",
+      "name": "Jennie Nilsson",
+      "party": "S",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 348,
+        "nej": 338,
+        "avstar": 111,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0822010116020",
+      "name": "Jim Svensk Larm",
+      "party": "S",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 97,
+        "nej": 82,
+        "avstar": 10,
+        "franvarande": 0
+      },
+      "eligible": 189,
+      "present": 189,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0512645510895",
+      "name": "Jonathan Svensson",
+      "party": "S",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 347,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0211757295524",
+      "name": "Josef Fransson",
+      "party": "SD",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 742,
+        "nej": 6,
+        "avstar": 4,
+        "franvarande": 0
+      },
+      "eligible": 752,
+      "present": 752,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0281670919717",
+      "name": "Jörgen Grubb",
+      "party": "SD",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0265240520811",
+      "name": "Leif Gripestam",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 164,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 164,
+      "present": 164,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0616721755222",
+      "name": "Louise Meijer",
+      "party": "M",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 242,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 242,
+      "present": 242,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0114714260118",
+      "name": "Magdalena Sundqvist",
+      "party": "S",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 45,
+        "nej": 45,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 93,
+      "present": 93,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "074310796828",
+      "name": "Magnus Resare",
+      "party": "M",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 796,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "083953568015",
+      "name": "Malin Höglund",
+      "party": "M",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 796,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0497217816024",
+      "name": "Markus Selin",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 345,
+        "nej": 339,
+        "avstar": 113,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0386912710815",
+      "name": "Mats Arkhem",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0360187680814",
+      "name": "Mats Hellhoff",
+      "party": "SD",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0320357433721",
+      "name": "Mohamed Yassin",
+      "party": "MP",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 48,
+        "nej": 126,
+        "avstar": 37,
+        "franvarande": 0
+      },
+      "eligible": 211,
+      "present": 211,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0136268785826",
+      "name": "Nima Gholam Ali Pour",
+      "party": "SD",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0183544538819",
+      "name": "Patrik Jönsson",
+      "party": "SD",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0926002991620",
+      "name": "Pontus Andersson Garpvall",
+      "party": "SD",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "065701062615",
+      "name": "Runar Filper",
+      "party": "SD",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0519740099915",
+      "name": "Saila Quicklund",
+      "party": "M",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 796,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0448210130417",
+      "name": "Timothy Tréville",
+      "party": "SD",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 177,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 178,
+      "present": 178,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0584183916016",
+      "name": "Ulf Holm",
+      "party": "MP",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 174,
+        "nej": 225,
+        "avstar": 155,
+        "franvarande": 0
+      },
+      "eligible": 554,
+      "present": 554,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0591020192311",
+      "name": "Ulf Lindholm",
+      "party": "SD",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0564126739422",
+      "name": "Åsa Coenraads",
+      "party": "M",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 118,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 118,
+      "present": 118,
+      "attendance": 1
+    },
+    {
+      "rank": 31,
+      "memberId": "025931369428",
+      "name": "Jonas Andersson",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 783,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 1
+      },
+      "eligible": 797,
+      "present": 796,
+      "attendance": 0.998745294855709
+    },
+    {
+      "rank": 31,
+      "memberId": "0627450126815",
+      "name": "Kajsa Fredholm",
+      "party": "V",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 229,
+        "nej": 404,
+        "avstar": 163,
+        "franvarande": 1
+      },
+      "eligible": 797,
+      "present": 796,
+      "attendance": 0.998745294855709
+    },
+    {
+      "rank": 31,
+      "memberId": "0502490570219",
+      "name": "Kristina Axén Olin",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 795,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 797,
+      "present": 796,
+      "attendance": 0.998745294855709
+    },
+    {
+      "rank": 31,
+      "memberId": "055257333723",
+      "name": "Oscar Sjöstedt",
+      "party": "SD",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 784,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 1
+      },
+      "eligible": 797,
+      "present": 796,
+      "attendance": 0.998745294855709
+    },
+    {
+      "rank": 35,
+      "memberId": "0722683622001",
+      "name": "Lars Jilmstad",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 418,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 419,
+      "present": 418,
+      "attendance": 0.9976133651551312
+    },
+    {
+      "rank": 36,
+      "memberId": "0283284978818",
+      "name": "Markus Kallifatides",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 345,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 2
+      },
+      "eligible": 797,
+      "present": 795,
+      "attendance": 0.9974905897114178
+    },
+    {
+      "rank": 36,
+      "memberId": "033935884729",
+      "name": "Martina Johansson",
+      "party": "C",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 373,
+        "nej": 267,
+        "avstar": 155,
+        "franvarande": 2
+      },
+      "eligible": 797,
+      "present": 795,
+      "attendance": 0.9974905897114178
+    },
+    {
+      "rank": 36,
+      "memberId": "071293048118",
+      "name": "Thomas Ragnarsson",
+      "party": "M",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 794,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 2
+      },
+      "eligible": 797,
+      "present": 795,
+      "attendance": 0.9974905897114178
+    },
+    {
+      "rank": 39,
+      "memberId": "0512009811316",
+      "name": "Lena Malm",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 265,
+        "nej": 282,
+        "avstar": 103,
+        "franvarande": 2
+      },
+      "eligible": 652,
+      "present": 650,
+      "attendance": 0.9969325153374233
+    },
+    {
+      "rank": 40,
+      "memberId": "036926802512",
+      "name": "Blåvitt Elofsson",
+      "party": "S",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 344,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 3
+      },
+      "eligible": 797,
+      "present": 794,
+      "attendance": 0.9962358845671268
+    },
+    {
+      "rank": 40,
+      "memberId": "0910803550317",
+      "name": "Lena Johansson",
+      "party": "S",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 345,
+        "nej": 337,
+        "avstar": 112,
+        "franvarande": 3
+      },
+      "eligible": 797,
+      "present": 794,
+      "attendance": 0.9962358845671268
+    },
+    {
+      "rank": 42,
+      "memberId": "0930305890123",
+      "name": "Sara-Lena Bjälkö",
+      "party": "-",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 780,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 4
+      },
+      "eligible": 797,
+      "present": 793,
+      "attendance": 0.9949811794228356
+    },
+    {
+      "rank": 43,
+      "memberId": "0678597762924",
+      "name": "Martin Westmont",
+      "party": "SD",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 781,
+        "nej": 9,
+        "avstar": 2,
+        "franvarande": 5
+      },
+      "eligible": 797,
+      "present": 792,
+      "attendance": 0.9937264742785445
+    },
+    {
+      "rank": 43,
+      "memberId": "0860364634014",
+      "name": "Mattias Ottosson",
+      "party": "S",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 344,
+        "nej": 336,
+        "avstar": 112,
+        "franvarande": 5
+      },
+      "eligible": 797,
+      "present": 792,
+      "attendance": 0.9937264742785445
+    },
+    {
+      "rank": 43,
+      "memberId": "0442073683012",
+      "name": "Zara Leghissa",
+      "party": "S",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 343,
+        "nej": 337,
+        "avstar": 112,
+        "franvarande": 5
+      },
+      "eligible": 797,
+      "present": 792,
+      "attendance": 0.9937264742785445
+    },
+    {
+      "rank": 46,
+      "memberId": "0845133742919",
+      "name": "Lili André",
+      "party": "KD",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 789,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 6
+      },
+      "eligible": 797,
+      "present": 791,
+      "attendance": 0.9924717691342535
+    },
+    {
+      "rank": 47,
+      "memberId": "0425115010020",
+      "name": "Kadir Kasirga",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 341,
+        "nej": 336,
+        "avstar": 112,
+        "franvarande": 8
+      },
+      "eligible": 797,
+      "present": 789,
+      "attendance": 0.9899623588456713
+    },
+    {
+      "rank": 47,
+      "memberId": "0388994689418",
+      "name": "Malin Östh",
+      "party": "V",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 226,
+        "nej": 403,
+        "avstar": 160,
+        "franvarande": 8
+      },
+      "eligible": 797,
+      "present": 789,
+      "attendance": 0.9899623588456713
+    },
+    {
+      "rank": 49,
+      "memberId": "0254021157518",
+      "name": "Lars Andersson",
+      "party": "SD",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 775,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 9
+      },
+      "eligible": 797,
+      "present": 788,
+      "attendance": 0.9887076537013801
+    },
+    {
+      "rank": 49,
+      "memberId": "0248492534018",
+      "name": "Pia Trollehjelm",
+      "party": "SD",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 775,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 9
+      },
+      "eligible": 797,
+      "present": 788,
+      "attendance": 0.9887076537013801
+    },
+    {
+      "rank": 51,
+      "memberId": "0362779191527",
+      "name": "Erik Hellsborn",
+      "party": "SD",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 775,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 10
+      },
+      "eligible": 797,
+      "present": 787,
+      "attendance": 0.9874529485570891
+    },
+    {
+      "rank": 51,
+      "memberId": "0764422217512",
+      "name": "Lars Engsund",
+      "party": "M",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 786,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 10
+      },
+      "eligible": 797,
+      "present": 787,
+      "attendance": 0.9874529485570891
+    },
+    {
+      "rank": 53,
+      "memberId": "0290003389021",
+      "name": "Chris Dahlqvist",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 773,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 11
+      },
+      "eligible": 797,
+      "present": 786,
+      "attendance": 0.986198243412798
+    },
+    {
+      "rank": 53,
+      "memberId": "0533104339313",
+      "name": "Merit Frost Lindberg",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 785,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 11
+      },
+      "eligible": 797,
+      "present": 786,
+      "attendance": 0.986198243412798
+    },
+    {
+      "rank": 53,
+      "memberId": "0783069490115",
+      "name": "Mirja Räihä",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 343,
+        "nej": 334,
+        "avstar": 109,
+        "franvarande": 11
+      },
+      "eligible": 797,
+      "present": 786,
+      "attendance": 0.986198243412798
+    },
+    {
+      "rank": 56,
+      "memberId": "0405594274208",
+      "name": "Ewa Pihl Krabbe",
+      "party": "S",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 339,
+        "nej": 335,
+        "avstar": 111,
+        "franvarande": 12
+      },
+      "eligible": 797,
+      "present": 785,
+      "attendance": 0.9849435382685069
+    },
+    {
+      "rank": 56,
+      "memberId": "0184968091618",
+      "name": "Jan Riise",
+      "party": "MP",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 221,
+        "nej": 372,
+        "avstar": 192,
+        "franvarande": 12
+      },
+      "eligible": 797,
+      "present": 785,
+      "attendance": 0.9849435382685069
+    },
+    {
+      "rank": 56,
+      "memberId": "0588282566419",
+      "name": "Lars Beckman",
+      "party": "M",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 784,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 12
+      },
+      "eligible": 797,
+      "present": 785,
+      "attendance": 0.9849435382685069
+    },
+    {
+      "rank": 59,
+      "memberId": "0803790353229",
+      "name": "Azra Muranovic",
+      "party": "S",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 302,
+        "nej": 299,
+        "avstar": 105,
+        "franvarande": 11
+      },
+      "eligible": 717,
+      "present": 706,
+      "attendance": 0.9846582984658299
+    },
+    {
+      "rank": 60,
+      "memberId": "0229350341619",
+      "name": "Ilona Szatmári Waldau",
+      "party": "V",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 227,
+        "nej": 399,
+        "avstar": 158,
+        "franvarande": 13
+      },
+      "eligible": 797,
+      "present": 784,
+      "attendance": 0.9836888331242158
+    },
+    {
+      "rank": 60,
+      "memberId": "0178323535715",
+      "name": "Johnny Svedin",
+      "party": "SD",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 771,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 13
+      },
+      "eligible": 797,
+      "present": 784,
+      "attendance": 0.9836888331242158
+    },
+    {
+      "rank": 62,
+      "memberId": "0779329190517",
+      "name": "Kjell Jansson",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 782,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 14
+      },
+      "eligible": 797,
+      "present": 783,
+      "attendance": 0.9824341279799247
+    },
+    {
+      "rank": 63,
+      "memberId": "0502688311316",
+      "name": "Anna Vikström",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 340,
+        "nej": 331,
+        "avstar": 111,
+        "franvarande": 15
+      },
+      "eligible": 797,
+      "present": 782,
+      "attendance": 0.9811794228356336
+    },
+    {
+      "rank": 63,
+      "memberId": "084624777218",
+      "name": "Helena Lindahl",
+      "party": "C",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 368,
+        "nej": 261,
+        "avstar": 153,
+        "franvarande": 15
+      },
+      "eligible": 797,
+      "present": 782,
+      "attendance": 0.9811794228356336
+    },
+    {
+      "rank": 63,
+      "memberId": "0410231576416",
+      "name": "Lars Johnsson",
+      "party": "M",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 781,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 15
+      },
+      "eligible": 797,
+      "present": 782,
+      "attendance": 0.9811794228356336
+    },
+    {
+      "rank": 66,
+      "memberId": "0468956880528",
+      "name": "Mikael Eskilandersson",
+      "party": "SD",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 769,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 16
+      },
+      "eligible": 797,
+      "present": 781,
+      "attendance": 0.9799247176913425
+    },
+    {
+      "rank": 67,
+      "memberId": "0810201628512",
+      "name": "Ann-Charlotte Hammar Johnsson",
+      "party": "M",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 779,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 17
+      },
+      "eligible": 797,
+      "present": 780,
+      "attendance": 0.9786700125470514
+    },
+    {
+      "rank": 67,
+      "memberId": "0963046628824",
+      "name": "Christian Lindefjärd",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 768,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 17
+      },
+      "eligible": 797,
+      "present": 780,
+      "attendance": 0.9786700125470514
+    },
+    {
+      "rank": 67,
+      "memberId": "0630820052511",
+      "name": "Per-Arne Håkansson",
+      "party": "S",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 334,
+        "nej": 334,
+        "avstar": 112,
+        "franvarande": 17
+      },
+      "eligible": 797,
+      "present": 780,
+      "attendance": 0.9786700125470514
+    },
+    {
+      "rank": 70,
+      "memberId": "0723133822026",
+      "name": "Carl Nordblom",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 778,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 18
+      },
+      "eligible": 797,
+      "present": 779,
+      "attendance": 0.9774153074027604
+    },
+    {
+      "rank": 71,
+      "memberId": "0554852839719",
+      "name": "Mikael Dahlqvist",
+      "party": "S",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 335,
+        "nej": 332,
+        "avstar": 111,
+        "franvarande": 19
+      },
+      "eligible": 797,
+      "present": 778,
+      "attendance": 0.9761606022584692
+    },
+    {
+      "rank": 71,
+      "memberId": "0516528386117",
+      "name": "Patrik Björck",
+      "party": "S",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 336,
+        "nej": 331,
+        "avstar": 111,
+        "franvarande": 19
+      },
+      "eligible": 797,
+      "present": 778,
+      "attendance": 0.9761606022584692
+    },
+    {
+      "rank": 73,
+      "memberId": "0628005785225",
+      "name": "Jörgen Berglund",
+      "party": "M",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 776,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 20
+      },
+      "eligible": 797,
+      "present": 777,
+      "attendance": 0.9749058971141782
+    },
+    {
+      "rank": 73,
+      "memberId": "0157618290428",
+      "name": "Rashid Farivar",
+      "party": "SD",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 764,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 20
+      },
+      "eligible": 797,
+      "present": 777,
+      "attendance": 0.9749058971141782
+    },
+    {
+      "rank": 75,
+      "memberId": "0273506284025",
+      "name": "Edward Riedl",
+      "party": "M",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 775,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 21
+      },
+      "eligible": 797,
+      "present": 776,
+      "attendance": 0.973651191969887
+    },
+    {
+      "rank": 75,
+      "memberId": "0144048894712",
+      "name": "Ellen Juntti",
+      "party": "M",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 774,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 21
+      },
+      "eligible": 797,
+      "present": 776,
+      "attendance": 0.973651191969887
+    },
+    {
+      "rank": 77,
+      "memberId": "0828721176319",
+      "name": "Sten Bergheden",
+      "party": "M",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 774,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 22
+      },
+      "eligible": 797,
+      "present": 775,
+      "attendance": 0.972396486825596
+    },
+    {
+      "rank": 78,
+      "memberId": "0121939297619",
+      "name": "Jamal El-Haj",
+      "party": "-",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 284,
+        "nej": 379,
+        "avstar": 111,
+        "franvarande": 23
+      },
+      "eligible": 797,
+      "present": 774,
+      "attendance": 0.9711417816813049
+    },
+    {
+      "rank": 79,
+      "memberId": "091303475611",
+      "name": "Eric Palmqvist",
+      "party": "SD",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 760,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 24
+      },
+      "eligible": 797,
+      "present": 773,
+      "attendance": 0.9698870765370138
+    },
+    {
+      "rank": 79,
+      "memberId": "0810852280213",
+      "name": "Marie-Louise Hänel Sandström",
+      "party": "M",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 772,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 24
+      },
+      "eligible": 797,
+      "present": 773,
+      "attendance": 0.9698870765370138
+    },
+    {
+      "rank": 81,
+      "memberId": "0641953830512",
+      "name": "Magnus Persson",
+      "party": "SD",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 761,
+        "nej": 9,
+        "avstar": 2,
+        "franvarande": 25
+      },
+      "eligible": 797,
+      "present": 772,
+      "attendance": 0.9686323713927227
+    },
+    {
+      "rank": 81,
+      "memberId": "0369212790927",
+      "name": "Sofia Skönnbrink",
+      "party": "S",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 335,
+        "nej": 329,
+        "avstar": 108,
+        "franvarande": 25
+      },
+      "eligible": 797,
+      "present": 772,
+      "attendance": 0.9686323713927227
+    },
+    {
+      "rank": 83,
+      "memberId": "0727772954327",
+      "name": "Ludvig Ceimertz",
+      "party": "M",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 770,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 26
+      },
+      "eligible": 797,
+      "present": 771,
+      "attendance": 0.9673776662484316
+    },
+    {
+      "rank": 84,
+      "memberId": "069534526423",
+      "name": "Mathias Bengtsson",
+      "party": "KD",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 766,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 29
+      },
+      "eligible": 797,
+      "present": 768,
+      "attendance": 0.9636135508155583
+    },
+    {
+      "rank": 84,
+      "memberId": "0140985614421",
+      "name": "Peder Björk",
+      "party": "S",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 336,
+        "nej": 323,
+        "avstar": 109,
+        "franvarande": 29
+      },
+      "eligible": 797,
+      "present": 768,
+      "attendance": 0.9636135508155583
+    },
+    {
+      "rank": 86,
+      "memberId": "0119672047211",
+      "name": "Madeleine Atlas",
+      "party": "C",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 330,
+        "nej": 240,
+        "avstar": 144,
+        "franvarande": 27
+      },
+      "eligible": 741,
+      "present": 714,
+      "attendance": 0.9635627530364372
+    },
+    {
+      "rank": 87,
+      "memberId": "0472349361027",
+      "name": "Kalle Olsson",
+      "party": "S",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 306,
+        "nej": 301,
+        "avstar": 106,
+        "franvarande": 28
+      },
+      "eligible": 741,
+      "present": 713,
+      "attendance": 0.9622132253711201
+    },
+    {
+      "rank": 88,
+      "memberId": "0802091197024",
+      "name": "Andrea Andersson Tay",
+      "party": "V",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 219,
+        "nej": 393,
+        "avstar": 154,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "rank": 88,
+      "memberId": "0922497728524",
+      "name": "Ardalan Shekarabi",
+      "party": "S",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 336,
+        "nej": 322,
+        "avstar": 108,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "rank": 88,
+      "memberId": "065105536026",
+      "name": "Niklas Karlsson",
+      "party": "S",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 335,
+        "nej": 323,
+        "avstar": 108,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "rank": 88,
+      "memberId": "0506541436524",
+      "name": "Sanne Lennström",
+      "party": "S",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 337,
+        "nej": 326,
+        "avstar": 103,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "rank": 92,
+      "memberId": "0148424181819",
+      "name": "Ann-Christine Frohm",
+      "party": "SD",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 752,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 32
+      },
+      "eligible": 797,
+      "present": 765,
+      "attendance": 0.9598494353826851
+    },
+    {
+      "rank": 92,
+      "memberId": "0229627943828",
+      "name": "Jytte Guteland",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 330,
+        "nej": 326,
+        "avstar": 109,
+        "franvarande": 32
+      },
+      "eligible": 797,
+      "present": 765,
+      "attendance": 0.9598494353826851
+    },
+    {
+      "rank": 94,
+      "memberId": "0831039938224",
+      "name": "Adam Marttinen",
+      "party": "SD",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 751,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 33
+      },
+      "eligible": 797,
+      "present": 764,
+      "attendance": 0.958594730238394
+    },
+    {
+      "rank": 94,
+      "memberId": "0951905661227",
+      "name": "Christofer Bergenblock",
+      "party": "C",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 359,
+        "nej": 254,
+        "avstar": 151,
+        "franvarande": 33
+      },
+      "eligible": 797,
+      "present": 764,
+      "attendance": 0.958594730238394
+    },
+    {
+      "rank": 96,
+      "memberId": "0378597308227",
+      "name": "Camilla Brodin",
+      "party": "KD",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 761,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 34
+      },
+      "eligible": 797,
+      "present": 763,
+      "attendance": 0.9573400250941029
+    },
+    {
+      "rank": 97,
+      "memberId": "0251136832626",
+      "name": "Muharrem Demirok",
+      "party": "C",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 360,
+        "nej": 255,
+        "avstar": 147,
+        "franvarande": 35
+      },
+      "eligible": 797,
+      "present": 762,
+      "attendance": 0.9560853199498118
+    },
+    {
+      "rank": 98,
+      "memberId": "0709911904721",
+      "name": "Johanna Rantsi",
+      "party": "M",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 760,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 36
+      },
+      "eligible": 797,
+      "present": 761,
+      "attendance": 0.9548306148055207
+    },
+    {
+      "rank": 99,
+      "memberId": "0427836082425",
+      "name": "Fredrik Lindstål",
+      "party": "C",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 59,
+        "nej": 29,
+        "avstar": 17,
+        "franvarande": 5
+      },
+      "eligible": 110,
+      "present": 105,
+      "attendance": 0.9545454545454546
+    },
+    {
+      "rank": 100,
+      "memberId": "07012286624",
+      "name": "Daniel Riazat",
+      "party": "-",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 45,
+        "nej": 453,
+        "avstar": 262,
+        "franvarande": 37
+      },
+      "eligible": 797,
+      "present": 760,
+      "attendance": 0.9535759096612296
+    },
+    {
+      "rank": 100,
+      "memberId": "0344222203323",
+      "name": "Dennis Dioukarev",
+      "party": "SD",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 749,
+        "nej": 8,
+        "avstar": 3,
+        "franvarande": 37
+      },
+      "eligible": 797,
+      "present": 760,
+      "attendance": 0.9535759096612296
+    },
+    {
+      "rank": 100,
+      "memberId": "0409655917321",
+      "name": "Jakob Olofsgård",
+      "party": "L",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 759,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 37
+      },
+      "eligible": 797,
+      "present": 760,
+      "attendance": 0.9535759096612296
+    },
+    {
+      "rank": 100,
+      "memberId": "0966063008623",
+      "name": "Leonid Yurkovskiy",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 748,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 37
+      },
+      "eligible": 797,
+      "present": 760,
+      "attendance": 0.9535759096612296
+    },
+    {
+      "rank": 104,
+      "memberId": "0412148992926",
+      "name": "Hanna Westerén",
+      "party": "S",
+      "constituency": "Gotlands län",
+      "counts": {
+        "ja": 338,
+        "nej": 321,
+        "avstar": 100,
+        "franvarande": 38
+      },
+      "eligible": 797,
+      "present": 759,
+      "attendance": 0.9523212045169385
+    },
+    {
+      "rank": 104,
+      "memberId": "010392780417",
+      "name": "Marie Olsson",
+      "party": "S",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 338,
+        "nej": 321,
+        "avstar": 100,
+        "franvarande": 38
+      },
+      "eligible": 797,
+      "present": 759,
+      "attendance": 0.9523212045169385
+    },
+    {
+      "rank": 104,
+      "memberId": "0648224557612",
+      "name": "Åsa Karlsson",
+      "party": "S",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 326,
+        "nej": 324,
+        "avstar": 109,
+        "franvarande": 38
+      },
+      "eligible": 797,
+      "present": 759,
+      "attendance": 0.9523212045169385
+    },
+    {
+      "rank": 107,
+      "memberId": "0729710260118",
+      "name": "Helena Bouveng",
+      "party": "M",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 756,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 40
+      },
+      "eligible": 797,
+      "present": 757,
+      "attendance": 0.9498117942283564
+    },
+    {
+      "rank": 108,
+      "memberId": "0202626512110",
+      "name": "Lars-Ingvar Ljungman",
+      "party": "M",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 526,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 28
+      },
+      "eligible": 555,
+      "present": 527,
+      "attendance": 0.9495495495495495
+    },
+    {
+      "rank": 109,
+      "memberId": "0710595759638",
+      "name": "Aida Birinxhiku",
+      "party": "S",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 334,
+        "nej": 321,
+        "avstar": 101,
+        "franvarande": 41
+      },
+      "eligible": 797,
+      "present": 756,
+      "attendance": 0.9485570890840652
+    },
+    {
+      "rank": 109,
+      "memberId": "0904448094023",
+      "name": "Linus Lakso",
+      "party": "MP",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 215,
+        "nej": 357,
+        "avstar": 184,
+        "franvarande": 41
+      },
+      "eligible": 797,
+      "present": 756,
+      "attendance": 0.9485570890840652
+    },
+    {
+      "rank": 111,
+      "memberId": "0111479807829",
+      "name": "Anna Wallentheim",
+      "party": "S",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 332,
+        "nej": 319,
+        "avstar": 104,
+        "franvarande": 42
+      },
+      "eligible": 797,
+      "present": 755,
+      "attendance": 0.9473023839397742
+    },
+    {
+      "rank": 111,
+      "memberId": "0522240580423",
+      "name": "Arin Karapet",
+      "party": "-",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 752,
+        "nej": 3,
+        "avstar": 0,
+        "franvarande": 42
+      },
+      "eligible": 797,
+      "present": 755,
+      "attendance": 0.9473023839397742
+    },
+    {
+      "rank": 111,
+      "memberId": "0653904370212",
+      "name": "Fredrik Olovsson",
+      "party": "S",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 337,
+        "nej": 320,
+        "avstar": 98,
+        "franvarande": 42
+      },
+      "eligible": 797,
+      "present": 755,
+      "attendance": 0.9473023839397742
+    },
+    {
+      "rank": 111,
+      "memberId": "0610162335824",
+      "name": "Niklas Sigvardsson",
+      "party": "S",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 321,
+        "nej": 324,
+        "avstar": 110,
+        "franvarande": 42
+      },
+      "eligible": 797,
+      "present": 755,
+      "attendance": 0.9473023839397742
+    },
+    {
+      "rank": 115,
+      "memberId": "0469084171710",
+      "name": "Ulrika Westerlund",
+      "party": "MP",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 214,
+        "nej": 354,
+        "avstar": 186,
+        "franvarande": 43
+      },
+      "eligible": 797,
+      "present": 754,
+      "attendance": 0.946047678795483
+    },
+    {
+      "rank": 116,
+      "memberId": "0146133946627",
+      "name": "Andreas Lennkvist Manriquez",
+      "party": "V",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 221,
+        "nej": 380,
+        "avstar": 152,
+        "franvarande": 44
+      },
+      "eligible": 797,
+      "present": 753,
+      "attendance": 0.944792973651192
+    },
+    {
+      "rank": 116,
+      "memberId": "0203877548421",
+      "name": "Malin Larsson",
+      "party": "S",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 333,
+        "nej": 319,
+        "avstar": 101,
+        "franvarande": 44
+      },
+      "eligible": 797,
+      "present": 753,
+      "attendance": 0.944792973651192
+    },
+    {
+      "rank": 118,
+      "memberId": "0825441263617",
+      "name": "Birger Lahti",
+      "party": "V",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 218,
+        "nej": 377,
+        "avstar": 157,
+        "franvarande": 45
+      },
+      "eligible": 797,
+      "present": 752,
+      "attendance": 0.9435382685069009
+    },
+    {
+      "rank": 118,
+      "memberId": "0327372175911",
+      "name": "Fredrik Ahlstedt",
+      "party": "M",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 751,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 45
+      },
+      "eligible": 797,
+      "present": 752,
+      "attendance": 0.9435382685069009
+    },
+    {
+      "rank": 118,
+      "memberId": "0955748436811",
+      "name": "Robert Stenkvist",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 739,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 45
+      },
+      "eligible": 797,
+      "present": 752,
+      "attendance": 0.9435382685069009
+    },
+    {
+      "rank": 121,
+      "memberId": "0240670797111",
+      "name": "Björn Tidland",
+      "party": "SD",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 739,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 46
+      },
+      "eligible": 797,
+      "present": 751,
+      "attendance": 0.9422835633626098
+    },
+    {
+      "rank": 121,
+      "memberId": "0245113256029",
+      "name": "Daniel Vencu Öhrlund Castro",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 325,
+        "nej": 320,
+        "avstar": 106,
+        "franvarande": 46
+      },
+      "eligible": 797,
+      "present": 751,
+      "attendance": 0.9422835633626098
+    },
+    {
+      "rank": 121,
+      "memberId": "0880018341619",
+      "name": "Thomas Morell",
+      "party": "SD",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 739,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 46
+      },
+      "eligible": 797,
+      "present": 751,
+      "attendance": 0.9422835633626098
+    },
+    {
+      "rank": 124,
+      "memberId": "0692076685824",
+      "name": "Camilla Hansén",
+      "party": "MP",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 211,
+        "nej": 359,
+        "avstar": 179,
+        "franvarande": 48
+      },
+      "eligible": 797,
+      "present": 749,
+      "attendance": 0.9397741530740276
+    },
+    {
+      "rank": 124,
+      "memberId": "0742883909221",
+      "name": "John E Weinerhall",
+      "party": "M",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 748,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 48
+      },
+      "eligible": 797,
+      "present": 749,
+      "attendance": 0.9397741530740276
+    },
+    {
+      "rank": 124,
+      "memberId": "0879782396219",
+      "name": "Olle Thorell",
+      "party": "S",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 333,
+        "nej": 318,
+        "avstar": 98,
+        "franvarande": 48
+      },
+      "eligible": 797,
+      "present": 749,
+      "attendance": 0.9397741530740276
+    },
+    {
+      "rank": 124,
+      "memberId": "0274462857213",
+      "name": "Petter Löberg",
+      "party": "S",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 322,
+        "nej": 319,
+        "avstar": 108,
+        "franvarande": 48
+      },
+      "eligible": 797,
+      "present": 749,
+      "attendance": 0.9397741530740276
+    },
+    {
+      "rank": 128,
+      "memberId": "0469384565811",
+      "name": "Anders Alftberg",
+      "party": "SD",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 740,
+        "nej": 8,
+        "avstar": 0,
+        "franvarande": 49
+      },
+      "eligible": 797,
+      "present": 748,
+      "attendance": 0.9385194479297365
+    },
+    {
+      "rank": 128,
+      "memberId": "0515213566019",
+      "name": "Lars Isacsson",
+      "party": "S",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 323,
+        "nej": 319,
+        "avstar": 106,
+        "franvarande": 49
+      },
+      "eligible": 797,
+      "present": 748,
+      "attendance": 0.9385194479297365
+    },
+    {
+      "rank": 128,
+      "memberId": "0456522027421",
+      "name": "Linnéa Wickman",
+      "party": "S",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 329,
+        "nej": 318,
+        "avstar": 101,
+        "franvarande": 49
+      },
+      "eligible": 797,
+      "present": 748,
+      "attendance": 0.9385194479297365
+    },
+    {
+      "rank": 128,
+      "memberId": "0410640630411",
+      "name": "Ulrik Nilsson",
+      "party": "M",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 747,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 49
+      },
+      "eligible": 797,
+      "present": 748,
+      "attendance": 0.9385194479297365
+    },
+    {
+      "rank": 132,
+      "memberId": "0496341906327",
+      "name": "Alexandra Völker",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 329,
+        "nej": 318,
+        "avstar": 100,
+        "franvarande": 50
+      },
+      "eligible": 797,
+      "present": 747,
+      "attendance": 0.9372647427854455
+    },
+    {
+      "rank": 133,
+      "memberId": "0304498908019",
+      "name": "Gudrun Brunegård",
+      "party": "KD",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 744,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 51
+      },
+      "eligible": 797,
+      "present": 746,
+      "attendance": 0.9360100376411543
+    },
+    {
+      "rank": 133,
+      "memberId": "0257612529618",
+      "name": "Kenneth G Forslund",
+      "party": "S",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 330,
+        "nej": 318,
+        "avstar": 98,
+        "franvarande": 51
+      },
+      "eligible": 797,
+      "present": 746,
+      "attendance": 0.9360100376411543
+    },
+    {
+      "rank": 133,
+      "memberId": "0457722435319",
+      "name": "Tomas Kronståhl",
+      "party": "S",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 323,
+        "nej": 319,
+        "avstar": 104,
+        "franvarande": 51
+      },
+      "eligible": 797,
+      "present": 746,
+      "attendance": 0.9360100376411543
+    },
+    {
+      "rank": 136,
+      "memberId": "0296384583518",
+      "name": "Åsa Eriksson",
+      "party": "S",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 332,
+        "nej": 313,
+        "avstar": 100,
+        "franvarande": 52
+      },
+      "eligible": 797,
+      "present": 745,
+      "attendance": 0.9347553324968633
+    },
+    {
+      "rank": 137,
+      "memberId": "0635943298419",
+      "name": "Dan Hovskär",
+      "party": "KD",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 741,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 54
+      },
+      "eligible": 797,
+      "present": 743,
+      "attendance": 0.9322459222082811
+    },
+    {
+      "rank": 137,
+      "memberId": "086684470825",
+      "name": "Tobias Andersson",
+      "party": "SD",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 730,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 54
+      },
+      "eligible": 797,
+      "present": 743,
+      "attendance": 0.9322459222082811
+    },
+    {
+      "rank": 139,
+      "memberId": "0737666060225",
+      "name": "Joakim Järrebring",
+      "party": "S",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 322,
+        "nej": 313,
+        "avstar": 107,
+        "franvarande": 55
+      },
+      "eligible": 797,
+      "present": 742,
+      "attendance": 0.93099121706399
+    },
+    {
+      "rank": 140,
+      "memberId": "0407081382317",
+      "name": "Anna-Caren Sätherberg",
+      "party": "S",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 327,
+        "nej": 315,
+        "avstar": 99,
+        "franvarande": 56
+      },
+      "eligible": 797,
+      "present": 741,
+      "attendance": 0.9297365119196989
+    },
+    {
+      "rank": 140,
+      "memberId": "0119851690521",
+      "name": "David Perez",
+      "party": "SD",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 729,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 56
+      },
+      "eligible": 797,
+      "present": 741,
+      "attendance": 0.9297365119196989
+    },
+    {
+      "rank": 142,
+      "memberId": "0667220767927",
+      "name": "Erik Ezelius",
+      "party": "S",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 323,
+        "nej": 316,
+        "avstar": 101,
+        "franvarande": 57
+      },
+      "eligible": 797,
+      "present": 740,
+      "attendance": 0.9284818067754078
+    },
+    {
+      "rank": 142,
+      "memberId": "0509830681123",
+      "name": "Ida Karkiainen",
+      "party": "S",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 327,
+        "nej": 317,
+        "avstar": 96,
+        "franvarande": 57
+      },
+      "eligible": 797,
+      "present": 740,
+      "attendance": 0.9284818067754078
+    },
+    {
+      "rank": 142,
+      "memberId": "0992473266516",
+      "name": "Larry Söder",
+      "party": "KD",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 738,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 57
+      },
+      "eligible": 797,
+      "present": 740,
+      "attendance": 0.9284818067754078
+    },
+    {
+      "rank": 142,
+      "memberId": "0760500234712",
+      "name": "Monica Haider",
+      "party": "S",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 328,
+        "nej": 315,
+        "avstar": 97,
+        "franvarande": 57
+      },
+      "eligible": 797,
+      "present": 740,
+      "attendance": 0.9284818067754078
+    },
+    {
+      "rank": 146,
+      "memberId": "0866055333028",
+      "name": "Alexandra Anstrell",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 738,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 58
+      },
+      "eligible": 797,
+      "present": 739,
+      "attendance": 0.9272271016311167
+    },
+    {
+      "rank": 146,
+      "memberId": "0226631365426",
+      "name": "Mikael Larsson",
+      "party": "C",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 350,
+        "nej": 251,
+        "avstar": 138,
+        "franvarande": 58
+      },
+      "eligible": 797,
+      "present": 739,
+      "attendance": 0.9272271016311167
+    },
+    {
+      "rank": 146,
+      "memberId": "0992867772421",
+      "name": "Nils Seye Larsen",
+      "party": "MP",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 203,
+        "nej": 357,
+        "avstar": 179,
+        "franvarande": 58
+      },
+      "eligible": 797,
+      "present": 739,
+      "attendance": 0.9272271016311167
+    },
+    {
+      "rank": 146,
+      "memberId": "0796312429425",
+      "name": "Viktor Wärnick",
+      "party": "M",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 738,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 58
+      },
+      "eligible": 797,
+      "present": 739,
+      "attendance": 0.9272271016311167
+    },
+    {
+      "rank": 150,
+      "memberId": "0832311880029",
+      "name": "Erik Ottoson",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 737,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 59
+      },
+      "eligible": 797,
+      "present": 738,
+      "attendance": 0.9259723964868256
+    },
+    {
+      "rank": 150,
+      "memberId": "0250583732424",
+      "name": "Jesper Skalberg Karlsson",
+      "party": "M",
+      "constituency": "Gotlands län",
+      "counts": {
+        "ja": 737,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 59
+      },
+      "eligible": 797,
+      "present": 738,
+      "attendance": 0.9259723964868256
+    },
+    {
+      "rank": 150,
+      "memberId": "0427321850912",
+      "name": "Lars Mejern Larsson",
+      "party": "S",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 321,
+        "nej": 315,
+        "avstar": 102,
+        "franvarande": 59
+      },
+      "eligible": 797,
+      "present": 738,
+      "attendance": 0.9259723964868256
+    },
+    {
+      "rank": 150,
+      "memberId": "0372414474424",
+      "name": "Oskar Svärd",
+      "party": "M",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 737,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 59
+      },
+      "eligible": 797,
+      "present": 738,
+      "attendance": 0.9259723964868256
+    },
+    {
+      "rank": 154,
+      "memberId": "0381853591928",
+      "name": "Malte Tängmark Roos",
+      "party": "MP",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 167,
+        "nej": 229,
+        "avstar": 146,
+        "franvarande": 44
+      },
+      "eligible": 586,
+      "present": 542,
+      "attendance": 0.9249146757679181
+    },
+    {
+      "rank": 155,
+      "memberId": "0983984918111",
+      "name": "Matilda Ernkrans",
+      "party": "S",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 325,
+        "nej": 312,
+        "avstar": 100,
+        "franvarande": 60
+      },
+      "eligible": 797,
+      "present": 737,
+      "attendance": 0.9247176913425345
+    },
+    {
+      "rank": 155,
+      "memberId": "0591055036519",
+      "name": "Mauricio Rojas",
+      "party": "L",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 736,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 60
+      },
+      "eligible": 797,
+      "present": 737,
+      "attendance": 0.9247176913425345
+    },
+    {
+      "rank": 157,
+      "memberId": "0665485817222",
+      "name": "Daniel Bäckström",
+      "party": "C",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 293,
+        "nej": 230,
+        "avstar": 140,
+        "franvarande": 54
+      },
+      "eligible": 717,
+      "present": 663,
+      "attendance": 0.9246861924686193
+    },
+    {
+      "rank": 158,
+      "memberId": "0852475703226",
+      "name": "Lorena Delgado Varas",
+      "party": "-",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 41,
+        "nej": 441,
+        "avstar": 254,
+        "franvarande": 61
+      },
+      "eligible": 797,
+      "present": 736,
+      "attendance": 0.9234629861982434
+    },
+    {
+      "rank": 159,
+      "memberId": "0855286184126",
+      "name": "Jessica Rodén",
+      "party": "S",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 327,
+        "nej": 312,
+        "avstar": 96,
+        "franvarande": 62
+      },
+      "eligible": 797,
+      "present": 735,
+      "attendance": 0.9222082810539524
+    },
+    {
+      "rank": 159,
+      "memberId": "0130789484021",
+      "name": "Mattias Bäckström Johansson",
+      "party": "SD",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 724,
+        "nej": 8,
+        "avstar": 3,
+        "franvarande": 62
+      },
+      "eligible": 797,
+      "present": 735,
+      "attendance": 0.9222082810539524
+    },
+    {
+      "rank": 161,
+      "memberId": "0920901966627",
+      "name": "Tony Haddou",
+      "party": "V",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 212,
+        "nej": 374,
+        "avstar": 146,
+        "franvarande": 65
+      },
+      "eligible": 797,
+      "present": 732,
+      "attendance": 0.918444165621079
+    },
+    {
+      "rank": 162,
+      "memberId": "0744993950910",
+      "name": "Anders Ygeman",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 320,
+        "nej": 310,
+        "avstar": 101,
+        "franvarande": 66
+      },
+      "eligible": 797,
+      "present": 731,
+      "attendance": 0.917189460476788
+    },
+    {
+      "rank": 163,
+      "memberId": "0360160202728",
+      "name": "Emma Ahlström Köster",
+      "party": "M",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 728,
+        "nej": 1,
+        "avstar": 1,
+        "franvarande": 67
+      },
+      "eligible": 797,
+      "present": 730,
+      "attendance": 0.9159347553324969
+    },
+    {
+      "rank": 163,
+      "memberId": "0271338654822",
+      "name": "Ola Möller",
+      "party": "S",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 325,
+        "nej": 311,
+        "avstar": 94,
+        "franvarande": 67
+      },
+      "eligible": 797,
+      "present": 730,
+      "attendance": 0.9159347553324969
+    },
+    {
+      "rank": 165,
+      "memberId": "0389220391128",
+      "name": "Christian Carlsson",
+      "party": "KD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 727,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 68
+      },
+      "eligible": 797,
+      "present": 729,
+      "attendance": 0.9146800501882058
+    },
+    {
+      "rank": 165,
+      "memberId": "0503029811325",
+      "name": "David Josefsson",
+      "party": "M",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 728,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 68
+      },
+      "eligible": 797,
+      "present": 729,
+      "attendance": 0.9146800501882058
+    },
+    {
+      "rank": 165,
+      "memberId": "0506482805418",
+      "name": "Isak From",
+      "party": "S",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 314,
+        "nej": 309,
+        "avstar": 106,
+        "franvarande": 68
+      },
+      "eligible": 797,
+      "present": 729,
+      "attendance": 0.9146800501882058
+    },
+    {
+      "rank": 168,
+      "memberId": "0456680171315",
+      "name": "Charlotte Quensel",
+      "party": "SD",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 717,
+        "nej": 9,
+        "avstar": 2,
+        "franvarande": 69
+      },
+      "eligible": 797,
+      "present": 728,
+      "attendance": 0.9134253450439147
+    },
+    {
+      "rank": 169,
+      "memberId": "0911067396229",
+      "name": "Mattias Vepsä",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 319,
+        "nej": 307,
+        "avstar": 101,
+        "franvarande": 70
+      },
+      "eligible": 797,
+      "present": 727,
+      "attendance": 0.9121706398996235
+    },
+    {
+      "rank": 169,
+      "memberId": "037781229619",
+      "name": "Staffan Eklöf",
+      "party": "SD",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 715,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 70
+      },
+      "eligible": 797,
+      "present": 727,
+      "attendance": 0.9121706398996235
+    },
+    {
+      "rank": 171,
+      "memberId": "0964730940415",
+      "name": "Johan Andersson",
+      "party": "S",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 323,
+        "nej": 305,
+        "avstar": 98,
+        "franvarande": 71
+      },
+      "eligible": 797,
+      "present": 726,
+      "attendance": 0.9109159347553325
+    },
+    {
+      "rank": 172,
+      "memberId": "0714968014016",
+      "name": "Anders Ekegren",
+      "party": "L",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 724,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 72
+      },
+      "eligible": 797,
+      "present": 725,
+      "attendance": 0.9096612296110415
+    },
+    {
+      "rank": 172,
+      "memberId": "025967059622",
+      "name": "Magnus Manhammar",
+      "party": "S",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 318,
+        "nej": 308,
+        "avstar": 99,
+        "franvarande": 72
+      },
+      "eligible": 797,
+      "present": 725,
+      "attendance": 0.9096612296110415
+    },
+    {
+      "rank": 172,
+      "memberId": "039102787629",
+      "name": "Oliver Rosengren",
+      "party": "M",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 724,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 72
+      },
+      "eligible": 797,
+      "present": 725,
+      "attendance": 0.9096612296110415
+    },
+    {
+      "rank": 175,
+      "memberId": "0340418158820",
+      "name": "Daniel Persson",
+      "party": "SD",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 712,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 73
+      },
+      "eligible": 797,
+      "present": 724,
+      "attendance": 0.9084065244667503
+    },
+    {
+      "rank": 175,
+      "memberId": "075747847023",
+      "name": "Gustaf Lantz",
+      "party": "S",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 317,
+        "nej": 309,
+        "avstar": 98,
+        "franvarande": 73
+      },
+      "eligible": 797,
+      "present": 724,
+      "attendance": 0.9084065244667503
+    },
+    {
+      "rank": 175,
+      "memberId": "0111697351426",
+      "name": "Louise Eklund",
+      "party": "L",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 723,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 73
+      },
+      "eligible": 797,
+      "present": 724,
+      "attendance": 0.9084065244667503
+    },
+    {
+      "rank": 175,
+      "memberId": "0546731406922",
+      "name": "Rebecka Le Moine",
+      "party": "MP",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 204,
+        "nej": 346,
+        "avstar": 174,
+        "franvarande": 73
+      },
+      "eligible": 797,
+      "present": 724,
+      "attendance": 0.9084065244667503
+    },
+    {
+      "rank": 175,
+      "memberId": "0802546764724",
+      "name": "Åsa Westlund",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 329,
+        "nej": 306,
+        "avstar": 89,
+        "franvarande": 73
+      },
+      "eligible": 797,
+      "present": 724,
+      "attendance": 0.9084065244667503
+    },
+    {
+      "rank": 180,
+      "memberId": "0837394708917",
+      "name": "Anders Ådahl",
+      "party": "C",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 348,
+        "nej": 247,
+        "avstar": 128,
+        "franvarande": 74
+      },
+      "eligible": 797,
+      "present": 723,
+      "attendance": 0.9071518193224593
+    },
+    {
+      "rank": 180,
+      "memberId": "0202577142527",
+      "name": "Matheus Enholm",
+      "party": "SD",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 710,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 74
+      },
+      "eligible": 797,
+      "present": 723,
+      "attendance": 0.9071518193224593
+    },
+    {
+      "rank": 182,
+      "memberId": "0130640724922",
+      "name": "Clara Aranda",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 709,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 75
+      },
+      "eligible": 797,
+      "present": 722,
+      "attendance": 0.9058971141781681
+    },
+    {
+      "rank": 182,
+      "memberId": "0376395541120",
+      "name": "Joakim Sandell",
+      "party": "S",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 318,
+        "nej": 308,
+        "avstar": 96,
+        "franvarande": 75
+      },
+      "eligible": 797,
+      "present": 722,
+      "attendance": 0.9058971141781681
+    },
+    {
+      "rank": 182,
+      "memberId": "066036027425",
+      "name": "Mikael Damsgaard",
+      "party": "M",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 721,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 75
+      },
+      "eligible": 797,
+      "present": 722,
+      "attendance": 0.9058971141781681
+    },
+    {
+      "rank": 182,
+      "memberId": "0492644357418",
+      "name": "Per Söderlund",
+      "party": "SD",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 713,
+        "nej": 7,
+        "avstar": 2,
+        "franvarande": 75
+      },
+      "eligible": 797,
+      "present": 722,
+      "attendance": 0.9058971141781681
+    },
+    {
+      "rank": 186,
+      "memberId": "0538387395826",
+      "name": "Mats Green",
+      "party": "M",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 720,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 76
+      },
+      "eligible": 797,
+      "present": 721,
+      "attendance": 0.904642409033877
+    },
+    {
+      "rank": 186,
+      "memberId": "0611350076611",
+      "name": "Susanne Nordström",
+      "party": "M",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 720,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 76
+      },
+      "eligible": 797,
+      "present": 721,
+      "attendance": 0.904642409033877
+    },
+    {
+      "rank": 188,
+      "memberId": "098329342620",
+      "name": "Jennie Wernäng",
+      "party": "M",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 719,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 77
+      },
+      "eligible": 797,
+      "present": 720,
+      "attendance": 0.903387703889586
+    },
+    {
+      "rank": 188,
+      "memberId": "0619928872229",
+      "name": "Laila Naraghi",
+      "party": "S",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 309,
+        "nej": 312,
+        "avstar": 99,
+        "franvarande": 77
+      },
+      "eligible": 797,
+      "present": 720,
+      "attendance": 0.903387703889586
+    },
+    {
+      "rank": 190,
+      "memberId": "0947572086414",
+      "name": "Anne-Li Sjölund",
+      "party": "C",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 331,
+        "nej": 245,
+        "avstar": 143,
+        "franvarande": 78
+      },
+      "eligible": 797,
+      "present": 719,
+      "attendance": 0.9021329987452948
+    },
+    {
+      "rank": 190,
+      "memberId": "0376353897112",
+      "name": "Leif Nysmed",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 307,
+        "nej": 305,
+        "avstar": 107,
+        "franvarande": 78
+      },
+      "eligible": 797,
+      "present": 719,
+      "attendance": 0.9021329987452948
+    },
+    {
+      "rank": 192,
+      "memberId": "0302393368216",
+      "name": "Camilla Rinaldo Miller",
+      "party": "KD",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 716,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 79
+      },
+      "eligible": 797,
+      "present": 718,
+      "attendance": 0.9008782936010038
+    },
+    {
+      "rank": 192,
+      "memberId": "0475778011711",
+      "name": "Hans Ekström",
+      "party": "S",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 322,
+        "nej": 300,
+        "avstar": 96,
+        "franvarande": 79
+      },
+      "eligible": 797,
+      "present": 718,
+      "attendance": 0.9008782936010038
+    },
+    {
+      "rank": 194,
+      "memberId": "0819601620927",
+      "name": "Annika Hirvonen",
+      "party": "MP",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 200,
+        "nej": 350,
+        "avstar": 167,
+        "franvarande": 80
+      },
+      "eligible": 797,
+      "present": 717,
+      "attendance": 0.8996235884567126
+    },
+    {
+      "rank": 194,
+      "memberId": "0737824098113",
+      "name": "Magnus Berntsson",
+      "party": "KD",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 716,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 80
+      },
+      "eligible": 797,
+      "present": 717,
+      "attendance": 0.8996235884567126
+    },
+    {
+      "rank": 196,
+      "memberId": "0838085832923",
+      "name": "Ann-Sofie Lifvenhage",
+      "party": "M",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 715,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 81
+      },
+      "eligible": 797,
+      "present": 716,
+      "attendance": 0.8983688833124216
+    },
+    {
+      "rank": 197,
+      "memberId": "0474290584024",
+      "name": "Azadeh Rojhan",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 302,
+        "nej": 307,
+        "avstar": 106,
+        "franvarande": 82
+      },
+      "eligible": 797,
+      "present": 715,
+      "attendance": 0.8971141781681304
+    },
+    {
+      "rank": 197,
+      "memberId": "025877594729",
+      "name": "John Widegren",
+      "party": "M",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 714,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 82
+      },
+      "eligible": 797,
+      "present": 715,
+      "attendance": 0.8971141781681304
+    },
+    {
+      "rank": 197,
+      "memberId": "0132818093422",
+      "name": "Rickard Nordin",
+      "party": "C",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 337,
+        "nej": 240,
+        "avstar": 138,
+        "franvarande": 82
+      },
+      "eligible": 797,
+      "present": 715,
+      "attendance": 0.8971141781681304
+    },
+    {
+      "rank": 200,
+      "memberId": "0249730539015",
+      "name": "Anders Karlsson",
+      "party": "C",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 338,
+        "nej": 241,
+        "avstar": 134,
+        "franvarande": 84
+      },
+      "eligible": 797,
+      "present": 713,
+      "attendance": 0.8946047678795483
+    },
+    {
+      "rank": 200,
+      "memberId": "0228027853620",
+      "name": "Vasiliki Tsouplaki",
+      "party": "V",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 197,
+        "nej": 361,
+        "avstar": 155,
+        "franvarande": 84
+      },
+      "eligible": 797,
+      "present": 713,
+      "attendance": 0.8946047678795483
+    },
+    {
+      "rank": 202,
+      "memberId": "0793372891224",
+      "name": "Noria Manouchi",
+      "party": "M",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 686,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 81
+      },
+      "eligible": 768,
+      "present": 687,
+      "attendance": 0.89453125
+    },
+    {
+      "rank": 203,
+      "memberId": "0937688366013",
+      "name": "Peter Hultqvist",
+      "party": "S",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 317,
+        "nej": 305,
+        "avstar": 90,
+        "franvarande": 85
+      },
+      "eligible": 797,
+      "present": 712,
+      "attendance": 0.8933500627352572
+    },
+    {
+      "rank": 204,
+      "memberId": "0717363246311",
+      "name": "Jessica Stegrud",
+      "party": "SD",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 701,
+        "nej": 8,
+        "avstar": 2,
+        "franvarande": 86
+      },
+      "eligible": 797,
+      "present": 711,
+      "attendance": 0.8920953575909661
+    },
+    {
+      "rank": 205,
+      "memberId": "010643534813",
+      "name": "Eric Westroth",
+      "party": "SD",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 702,
+        "nej": 6,
+        "avstar": 2,
+        "franvarande": 87
+      },
+      "eligible": 797,
+      "present": 710,
+      "attendance": 0.890840652446675
+    },
+    {
+      "rank": 206,
+      "memberId": "0440225263920",
+      "name": "Robert Olesen",
+      "party": "S",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 316,
+        "nej": 298,
+        "avstar": 95,
+        "franvarande": 88
+      },
+      "eligible": 797,
+      "present": 709,
+      "attendance": 0.8895859473023839
+    },
+    {
+      "rank": 207,
+      "memberId": "0525562399327",
+      "name": "Caroline Högström",
+      "party": "M",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 707,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 89
+      },
+      "eligible": 797,
+      "present": 708,
+      "attendance": 0.8883312421580929
+    },
+    {
+      "rank": 207,
+      "memberId": "0237055280513",
+      "name": "Roland Utbult",
+      "party": "KD",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 706,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 89
+      },
+      "eligible": 797,
+      "present": 708,
+      "attendance": 0.8883312421580929
+    },
+    {
+      "rank": 209,
+      "memberId": "0246927519019",
+      "name": "Karin Rågsjö",
+      "party": "V",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 195,
+        "nej": 368,
+        "avstar": 144,
+        "franvarande": 90
+      },
+      "eligible": 797,
+      "present": 707,
+      "attendance": 0.8870765370138017
+    },
+    {
+      "rank": 210,
+      "memberId": "0940980416614",
+      "name": "Jan Ericson",
+      "party": "M",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 705,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 91
+      },
+      "eligible": 797,
+      "present": 706,
+      "attendance": 0.8858218318695107
+    },
+    {
+      "rank": 210,
+      "memberId": "0122987223112",
+      "name": "Lotta Johnsson Fornarve",
+      "party": "V",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 203,
+        "nej": 357,
+        "avstar": 146,
+        "franvarande": 91
+      },
+      "eligible": 797,
+      "present": 706,
+      "attendance": 0.8858218318695107
+    },
+    {
+      "rank": 210,
+      "memberId": "0341628241813",
+      "name": "Marianne Fundahn",
+      "party": "S",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 305,
+        "nej": 298,
+        "avstar": 103,
+        "franvarande": 91
+      },
+      "eligible": 797,
+      "present": 706,
+      "attendance": 0.8858218318695107
+    },
+    {
+      "rank": 213,
+      "memberId": "07921826010",
+      "name": "Anna-Belle Strömberg",
+      "party": "S",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 308,
+        "nej": 304,
+        "avstar": 92,
+        "franvarande": 93
+      },
+      "eligible": 797,
+      "present": 704,
+      "attendance": 0.8833124215809285
+    },
+    {
+      "rank": 213,
+      "memberId": "0764949934324",
+      "name": "Ulrika Heindorff",
+      "party": "M",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 703,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 93
+      },
+      "eligible": 797,
+      "present": 704,
+      "attendance": 0.8833124215809285
+    },
+    {
+      "rank": 215,
+      "memberId": "0279488554424",
+      "name": "Alexander Christiansson",
+      "party": "SD",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 691,
+        "nej": 9,
+        "avstar": 2,
+        "franvarande": 95
+      },
+      "eligible": 797,
+      "present": 702,
+      "attendance": 0.8808030112923463
+    },
+    {
+      "rank": 215,
+      "memberId": "0985426914829",
+      "name": "Anna Lasses",
+      "party": "C",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 330,
+        "nej": 240,
+        "avstar": 132,
+        "franvarande": 95
+      },
+      "eligible": 797,
+      "present": 702,
+      "attendance": 0.8808030112923463
+    },
+    {
+      "rank": 215,
+      "memberId": "0256404677510",
+      "name": "Cecilia Engström",
+      "party": "KD",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 701,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 95
+      },
+      "eligible": 797,
+      "present": 702,
+      "attendance": 0.8808030112923463
+    },
+    {
+      "rank": 215,
+      "memberId": "0557180142229",
+      "name": "Fredrik Lindahl",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 692,
+        "nej": 7,
+        "avstar": 3,
+        "franvarande": 95
+      },
+      "eligible": 797,
+      "present": 702,
+      "attendance": 0.8808030112923463
+    },
+    {
+      "rank": 215,
+      "memberId": "0481460392727",
+      "name": "Jessica Wetterling",
+      "party": "V",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 188,
+        "nej": 364,
+        "avstar": 150,
+        "franvarande": 95
+      },
+      "eligible": 797,
+      "present": 702,
+      "attendance": 0.8808030112923463
+    },
+    {
+      "rank": 220,
+      "memberId": "0364687971222",
+      "name": "Alireza Akhondi",
+      "party": "C",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 331,
+        "nej": 226,
+        "avstar": 144,
+        "franvarande": 96
+      },
+      "eligible": 797,
+      "present": 701,
+      "attendance": 0.8795483061480552
+    },
+    {
+      "rank": 221,
+      "memberId": "0257313105220",
+      "name": "Arber Gashi",
+      "party": "S",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 276,
+        "nej": 258,
+        "avstar": 85,
+        "franvarande": 85
+      },
+      "eligible": 704,
+      "present": 619,
+      "attendance": 0.8792613636363636
+    },
+    {
+      "rank": 222,
+      "memberId": "0371882294919",
+      "name": "Carita Boulwén",
+      "party": "SD",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 688,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 97
+      },
+      "eligible": 797,
+      "present": 700,
+      "attendance": 0.8782936010037641
+    },
+    {
+      "rank": 222,
+      "memberId": "0986091320811",
+      "name": "Catarina Deremar",
+      "party": "C",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 335,
+        "nej": 238,
+        "avstar": 127,
+        "franvarande": 97
+      },
+      "eligible": 797,
+      "present": 700,
+      "attendance": 0.8782936010037641
+    },
+    {
+      "rank": 222,
+      "memberId": "0875221317013",
+      "name": "Gunilla Carlsson",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 299,
+        "nej": 299,
+        "avstar": 102,
+        "franvarande": 97
+      },
+      "eligible": 797,
+      "present": 700,
+      "attendance": 0.8782936010037641
+    },
+    {
+      "rank": 222,
+      "memberId": "0638497389621",
+      "name": "Julia Kronlid",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 687,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 97
+      },
+      "eligible": 797,
+      "present": 700,
+      "attendance": 0.8782936010037641
+    },
+    {
+      "rank": 222,
+      "memberId": "0836001490919",
+      "name": "Ulrika Heie",
+      "party": "C",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 319,
+        "nej": 239,
+        "avstar": 142,
+        "franvarande": 97
+      },
+      "eligible": 797,
+      "present": 700,
+      "attendance": 0.8782936010037641
+    },
+    {
+      "rank": 227,
+      "memberId": "0210444373111",
+      "name": "Katarina Luhr",
+      "party": "MP",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 197,
+        "nej": 341,
+        "avstar": 161,
+        "franvarande": 98
+      },
+      "eligible": 797,
+      "present": 699,
+      "attendance": 0.877038895859473
+    },
+    {
+      "rank": 227,
+      "memberId": "0615175917521",
+      "name": "Kent Kumpula",
+      "party": "SD",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 687,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 98
+      },
+      "eligible": 797,
+      "present": 699,
+      "attendance": 0.877038895859473
+    },
+    {
+      "rank": 227,
+      "memberId": "0606863154419",
+      "name": "Mats Berglund",
+      "party": "MP",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 197,
+        "nej": 334,
+        "avstar": 168,
+        "franvarande": 98
+      },
+      "eligible": 797,
+      "present": 699,
+      "attendance": 0.877038895859473
+    },
+    {
+      "rank": 227,
+      "memberId": "0345062474310",
+      "name": "Mona Olin",
+      "party": "SD",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 689,
+        "nej": 8,
+        "avstar": 2,
+        "franvarande": 98
+      },
+      "eligible": 797,
+      "present": 699,
+      "attendance": 0.877038895859473
+    },
+    {
+      "rank": 227,
+      "memberId": "0521260619925",
+      "name": "Sofia Amloh",
+      "party": "S",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 305,
+        "nej": 300,
+        "avstar": 94,
+        "franvarande": 98
+      },
+      "eligible": 797,
+      "present": 699,
+      "attendance": 0.877038895859473
+    },
+    {
+      "rank": 232,
+      "memberId": "0890152141226",
+      "name": "Nadja Awad",
+      "party": "V",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 189,
+        "nej": 365,
+        "avstar": 144,
+        "franvarande": 99
+      },
+      "eligible": 797,
+      "present": 698,
+      "attendance": 0.875784190715182
+    },
+    {
+      "rank": 233,
+      "memberId": "0411459873625",
+      "name": "Hanna Gunnarsson",
+      "party": "V",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 200,
+        "nej": 359,
+        "avstar": 138,
+        "franvarande": 100
+      },
+      "eligible": 797,
+      "present": 697,
+      "attendance": 0.8745294855708908
+    },
+    {
+      "rank": 233,
+      "memberId": "0170585430421",
+      "name": "Jimmy Ståhl",
+      "party": "SD",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 684,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 100
+      },
+      "eligible": 797,
+      "present": 697,
+      "attendance": 0.8745294855708908
+    },
+    {
+      "rank": 235,
+      "memberId": "0537400268911",
+      "name": "Caroline Helmersson Olsson",
+      "party": "S",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 306,
+        "nej": 301,
+        "avstar": 88,
+        "franvarande": 102
+      },
+      "eligible": 797,
+      "present": 695,
+      "attendance": 0.8720200752823086
+    },
+    {
+      "rank": 235,
+      "memberId": "0121015874810",
+      "name": "Torsten Elofsson",
+      "party": "KD",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 692,
+        "nej": 2,
+        "avstar": 1,
+        "franvarande": 102
+      },
+      "eligible": 797,
+      "present": 695,
+      "attendance": 0.8720200752823086
+    },
+    {
+      "rank": 237,
+      "memberId": "0452755722723",
+      "name": "Björn Söder",
+      "party": "SD",
+      "constituency": "Skåne läns norra och östra",
+      "counts": {
+        "ja": 686,
+        "nej": 6,
+        "avstar": 2,
+        "franvarande": 103
+      },
+      "eligible": 797,
+      "present": 694,
+      "attendance": 0.8707653701380176
+    },
+    {
+      "rank": 237,
+      "memberId": "0652497579621",
+      "name": "Johanna Haraldsson",
+      "party": "S",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 307,
+        "nej": 295,
+        "avstar": 92,
+        "franvarande": 103
+      },
+      "eligible": 797,
+      "present": 694,
+      "attendance": 0.8707653701380176
+    },
+    {
+      "rank": 237,
+      "memberId": "0706528359123",
+      "name": "Linus Sköld",
+      "party": "S",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 290,
+        "nej": 304,
+        "avstar": 100,
+        "franvarande": 103
+      },
+      "eligible": 797,
+      "present": 694,
+      "attendance": 0.8707653701380176
+    },
+    {
+      "rank": 237,
+      "memberId": "0358514648113",
+      "name": "Marléne Lund Kopparklint",
+      "party": "-",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 691,
+        "nej": 3,
+        "avstar": 0,
+        "franvarande": 103
+      },
+      "eligible": 797,
+      "present": 694,
+      "attendance": 0.8707653701380176
+    },
+    {
+      "rank": 237,
+      "memberId": "0671571847522",
+      "name": "Mattias Eriksson Falk",
+      "party": "SD",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 682,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 103
+      },
+      "eligible": 797,
+      "present": 694,
+      "attendance": 0.8707653701380176
+    },
+    {
+      "rank": 242,
+      "memberId": "0220064764318",
+      "name": "Camilla Brunsberg",
+      "party": "M",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 590,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 88
+      },
+      "eligible": 679,
+      "present": 591,
+      "attendance": 0.8703976435935199
+    },
+    {
+      "rank": 243,
+      "memberId": "0834510274913",
+      "name": "Charlotte Nordström",
+      "party": "M",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 692,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 104
+      },
+      "eligible": 797,
+      "present": 693,
+      "attendance": 0.8695106649937264
+    },
+    {
+      "rank": 243,
+      "memberId": "0899169869710",
+      "name": "Helena Gellerman",
+      "party": "L",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 692,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 104
+      },
+      "eligible": 797,
+      "present": 693,
+      "attendance": 0.8695106649937264
+    },
+    {
+      "rank": 243,
+      "memberId": "0682989845822",
+      "name": "Håkan Svenneling",
+      "party": "V",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 198,
+        "nej": 352,
+        "avstar": 143,
+        "franvarande": 104
+      },
+      "eligible": 797,
+      "present": 693,
+      "attendance": 0.8695106649937264
+    },
+    {
+      "rank": 243,
+      "memberId": "0980092192122",
+      "name": "Joar Forssell",
+      "party": "L",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 692,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 104
+      },
+      "eligible": 797,
+      "present": 693,
+      "attendance": 0.8695106649937264
+    },
+    {
+      "rank": 247,
+      "memberId": "0828001951212",
+      "name": "Ingemar Kihlström",
+      "party": "KD",
+      "constituency": "Västra Götalands läns södra",
+      "counts": {
+        "ja": 690,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 105
+      },
+      "eligible": 797,
+      "present": 692,
+      "attendance": 0.8682559598494354
+    },
+    {
+      "rank": 247,
+      "memberId": "0526748040023",
+      "name": "Ludvig Aspling",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 679,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 105
+      },
+      "eligible": 797,
+      "present": 692,
+      "attendance": 0.8682559598494354
+    },
+    {
+      "rank": 249,
+      "memberId": "0294138886823",
+      "name": "Martin Kinnunen",
+      "party": "SD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 679,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 106
+      },
+      "eligible": 797,
+      "present": 691,
+      "attendance": 0.8670012547051443
+    },
+    {
+      "rank": 250,
+      "memberId": "0972636989226",
+      "name": "Dzenan Cisija",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 303,
+        "nej": 298,
+        "avstar": 89,
+        "franvarande": 107
+      },
+      "eligible": 797,
+      "present": 690,
+      "attendance": 0.8657465495608532
+    },
+    {
+      "rank": 250,
+      "memberId": "0494843794418",
+      "name": "Martin Ådahl",
+      "party": "C",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 332,
+        "nej": 235,
+        "avstar": 123,
+        "franvarande": 107
+      },
+      "eligible": 797,
+      "present": 690,
+      "attendance": 0.8657465495608532
+    },
+    {
+      "rank": 250,
+      "memberId": "014744660015",
+      "name": "Mikael Damberg",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 300,
+        "nej": 295,
+        "avstar": 95,
+        "franvarande": 107
+      },
+      "eligible": 797,
+      "present": 690,
+      "attendance": 0.8657465495608532
+    },
+    {
+      "rank": 253,
+      "memberId": "0229760896014",
+      "name": "Anders W Jonsson",
+      "party": "C",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 326,
+        "nej": 230,
+        "avstar": 133,
+        "franvarande": 108
+      },
+      "eligible": 797,
+      "present": 689,
+      "attendance": 0.8644918444165621
+    },
+    {
+      "rank": 253,
+      "memberId": "0155487380917",
+      "name": "Kerstin Lundgren",
+      "party": "C",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 319,
+        "nej": 238,
+        "avstar": 132,
+        "franvarande": 108
+      },
+      "eligible": 797,
+      "present": 689,
+      "attendance": 0.8644918444165621
+    },
+    {
+      "rank": 253,
+      "memberId": "0859909330720",
+      "name": "Sanna Backeskog",
+      "party": "S",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 302,
+        "nej": 296,
+        "avstar": 91,
+        "franvarande": 108
+      },
+      "eligible": 797,
+      "present": 689,
+      "attendance": 0.8644918444165621
+    },
+    {
+      "rank": 256,
+      "memberId": "0800956862429",
+      "name": "Gulan Avci",
+      "party": "L",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 627,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 99
+      },
+      "eligible": 727,
+      "present": 628,
+      "attendance": 0.8638239339752407
+    },
+    {
+      "rank": 257,
+      "memberId": "0853395328224",
+      "name": "Lena Hallengren",
+      "party": "S",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 304,
+        "nej": 295,
+        "avstar": 89,
+        "franvarande": 109
+      },
+      "eligible": 797,
+      "present": 688,
+      "attendance": 0.863237139272271
+    },
+    {
+      "rank": 257,
+      "memberId": "0112333043027",
+      "name": "Rasmus Giertz",
+      "party": "SD",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 676,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 109
+      },
+      "eligible": 797,
+      "present": 688,
+      "attendance": 0.863237139272271
+    },
+    {
+      "rank": 259,
+      "memberId": "04571388712",
+      "name": "Adam Reuterskiöld",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 686,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 110
+      },
+      "eligible": 797,
+      "present": 687,
+      "attendance": 0.8619824341279799
+    },
+    {
+      "rank": 259,
+      "memberId": "027964311318",
+      "name": "Karin Sundin",
+      "party": "S",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 304,
+        "nej": 294,
+        "avstar": 89,
+        "franvarande": 110
+      },
+      "eligible": 797,
+      "present": 687,
+      "attendance": 0.8619824341279799
+    },
+    {
+      "rank": 259,
+      "memberId": "0576122429317",
+      "name": "Martin Melin",
+      "party": "L",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 686,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 110
+      },
+      "eligible": 797,
+      "present": 687,
+      "attendance": 0.8619824341279799
+    },
+    {
+      "rank": 262,
+      "memberId": "02658325625",
+      "name": "Angelica Lundberg",
+      "party": "SD",
+      "constituency": "Västmanlands län",
+      "counts": {
+        "ja": 673,
+        "nej": 8,
+        "avstar": 3,
+        "franvarande": 113
+      },
+      "eligible": 797,
+      "present": 684,
+      "attendance": 0.8582183186951067
+    },
+    {
+      "rank": 262,
+      "memberId": "0256716955026",
+      "name": "Serkan Köse",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 306,
+        "nej": 289,
+        "avstar": 89,
+        "franvarande": 113
+      },
+      "eligible": 797,
+      "present": 684,
+      "attendance": 0.8582183186951067
+    },
+    {
+      "rank": 264,
+      "memberId": "0926214745119",
+      "name": "Heléne Björklund",
+      "party": "S",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 303,
+        "nej": 291,
+        "avstar": 88,
+        "franvarande": 115
+      },
+      "eligible": 797,
+      "present": 682,
+      "attendance": 0.8557089084065245
+    },
+    {
+      "rank": 264,
+      "memberId": "0315499690028",
+      "name": "Teresa Carvalho",
+      "party": "S",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 290,
+        "nej": 296,
+        "avstar": 96,
+        "franvarande": 115
+      },
+      "eligible": 797,
+      "present": 682,
+      "attendance": 0.8557089084065245
+    },
+    {
+      "rank": 266,
+      "memberId": "0926477102420",
+      "name": "Cecilia Rönn",
+      "party": "L",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 680,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 266,
+      "memberId": "0494242537816",
+      "name": "Hans Eklind",
+      "party": "KD",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 680,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 266,
+      "memberId": "0430865615328",
+      "name": "Linda Lindberg",
+      "party": "SD",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 673,
+        "nej": 6,
+        "avstar": 2,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 266,
+      "memberId": "0499755198526",
+      "name": "Mattias Jonsson",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 294,
+        "nej": 292,
+        "avstar": 95,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 266,
+      "memberId": "0589561178823",
+      "name": "Peter Hedberg",
+      "party": "S",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 298,
+        "nej": 294,
+        "avstar": 89,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 266,
+      "memberId": "0191189790215",
+      "name": "Peter Ollén",
+      "party": "M",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 680,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 116
+      },
+      "eligible": 797,
+      "present": 681,
+      "attendance": 0.8544542032622334
+    },
+    {
+      "rank": 272,
+      "memberId": "0245468368228",
+      "name": "Yusuf Aydin",
+      "party": "KD",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 498,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 86
+      },
+      "eligible": 586,
+      "present": 500,
+      "attendance": 0.8532423208191127
+    },
+    {
+      "rank": 273,
+      "memberId": "0749416304126",
+      "name": "Marie Nicholson",
+      "party": "M",
+      "constituency": "Kalmar län",
+      "counts": {
+        "ja": 679,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 117
+      },
+      "eligible": 797,
+      "present": 680,
+      "attendance": 0.8531994981179423
+    },
+    {
+      "rank": 274,
+      "memberId": "0803753212716",
+      "name": "Richard Jomshof",
+      "party": "SD",
+      "constituency": "Blekinge län",
+      "counts": {
+        "ja": 665,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 119
+      },
+      "eligible": 797,
+      "present": 678,
+      "attendance": 0.8506900878293601
+    },
+    {
+      "rank": 274,
+      "memberId": "0236597884217",
+      "name": "Rose-Marie Carlsson",
+      "party": "S",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 283,
+        "nej": 290,
+        "avstar": 105,
+        "franvarande": 119
+      },
+      "eligible": 797,
+      "present": 678,
+      "attendance": 0.8506900878293601
+    },
+    {
+      "rank": 276,
+      "memberId": "0287315215921",
+      "name": "Mona Smedman",
+      "party": "C",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 46,
+        "nej": 18,
+        "avstar": 4,
+        "franvarande": 12
+      },
+      "eligible": 80,
+      "present": 68,
+      "attendance": 0.85
+    },
+    {
+      "rank": 277,
+      "memberId": "0932000030511",
+      "name": "Maria Stockhaus",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 674,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 122
+      },
+      "eligible": 797,
+      "present": 675,
+      "attendance": 0.8469259723964868
+    },
+    {
+      "rank": 278,
+      "memberId": "0999976269027",
+      "name": "Amanda Palmstierna",
+      "party": "MP",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 188,
+        "nej": 328,
+        "avstar": 158,
+        "franvarande": 123
+      },
+      "eligible": 797,
+      "present": 674,
+      "attendance": 0.8456712672521958
+    },
+    {
+      "rank": 278,
+      "memberId": "0127744006318",
+      "name": "Cecilia Gustafsson",
+      "party": "M",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 674,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 123
+      },
+      "eligible": 797,
+      "present": 674,
+      "attendance": 0.8456712672521958
+    },
+    {
+      "rank": 278,
+      "memberId": "0604811710522",
+      "name": "Ida Drougge",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 673,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 123
+      },
+      "eligible": 797,
+      "present": 674,
+      "attendance": 0.8456712672521958
+    },
+    {
+      "rank": 281,
+      "memberId": "0831636664429",
+      "name": "Mattias Karlsson",
+      "party": "SD",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 666,
+        "nej": 6,
+        "avstar": 1,
+        "franvarande": 124
+      },
+      "eligible": 797,
+      "present": 673,
+      "attendance": 0.8444165621079046
+    },
+    {
+      "rank": 281,
+      "memberId": "0473783431010",
+      "name": "Morgan Johansson",
+      "party": "S",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 289,
+        "nej": 289,
+        "avstar": 95,
+        "franvarande": 124
+      },
+      "eligible": 797,
+      "present": 673,
+      "attendance": 0.8444165621079046
+    },
+    {
+      "rank": 283,
+      "memberId": "0309480686522",
+      "name": "Leila Ali Elmi",
+      "party": "MP",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 180,
+        "nej": 326,
+        "avstar": 165,
+        "franvarande": 126
+      },
+      "eligible": 797,
+      "present": 671,
+      "attendance": 0.8419071518193224
+    },
+    {
+      "rank": 283,
+      "memberId": "0973350087929",
+      "name": "Patrik Karlson",
+      "party": "L",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 670,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 126
+      },
+      "eligible": 797,
+      "present": 671,
+      "attendance": 0.8419071518193224
+    },
+    {
+      "rank": 283,
+      "memberId": "0939158389321",
+      "name": "Samuel Gonzalez Westling",
+      "party": "V",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 184,
+        "nej": 344,
+        "avstar": 143,
+        "franvarande": 126
+      },
+      "eligible": 797,
+      "present": 671,
+      "attendance": 0.8419071518193224
+    },
+    {
+      "rank": 286,
+      "memberId": "0592345073323",
+      "name": "Anna af Sillén",
+      "party": "M",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 669,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 127
+      },
+      "eligible": 797,
+      "present": 670,
+      "attendance": 0.8406524466750314
+    },
+    {
+      "rank": 286,
+      "memberId": "0970709885516",
+      "name": "Inga-Lill Sjöblom",
+      "party": "S",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 295,
+        "nej": 286,
+        "avstar": 89,
+        "franvarande": 127
+      },
+      "eligible": 797,
+      "present": 670,
+      "attendance": 0.8406524466750314
+    },
+    {
+      "rank": 286,
+      "memberId": "0750092881021",
+      "name": "Joanna Lewerentz",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 669,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 127
+      },
+      "eligible": 797,
+      "present": 670,
+      "attendance": 0.8406524466750314
+    },
+    {
+      "rank": 289,
+      "memberId": "0780214960516",
+      "name": "Eva Lindh",
+      "party": "S",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 295,
+        "nej": 283,
+        "avstar": 91,
+        "franvarande": 128
+      },
+      "eligible": 797,
+      "present": 669,
+      "attendance": 0.8393977415307403
+    },
+    {
+      "rank": 289,
+      "memberId": "0877778793323",
+      "name": "Johan Büser",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 287,
+        "nej": 287,
+        "avstar": 95,
+        "franvarande": 128
+      },
+      "eligible": 797,
+      "present": 669,
+      "attendance": 0.8393977415307403
+    },
+    {
+      "rank": 291,
+      "memberId": "0903081277919",
+      "name": "Helena Vilhelmsson",
+      "party": "C",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 309,
+        "nej": 232,
+        "avstar": 126,
+        "franvarande": 130
+      },
+      "eligible": 797,
+      "present": 667,
+      "attendance": 0.8368883312421581
+    },
+    {
+      "rank": 292,
+      "memberId": "0776705932527",
+      "name": "Ciczie Weidby",
+      "party": "V",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 183,
+        "nej": 350,
+        "avstar": 132,
+        "franvarande": 132
+      },
+      "eligible": 797,
+      "present": 665,
+      "attendance": 0.8343789209535759
+    },
+    {
+      "rank": 292,
+      "memberId": "0504851635310",
+      "name": "Daniel Helldén",
+      "party": "MP",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 187,
+        "nej": 323,
+        "avstar": 155,
+        "franvarande": 132
+      },
+      "eligible": 797,
+      "present": 665,
+      "attendance": 0.8343789209535759
+    },
+    {
+      "rank": 292,
+      "memberId": "0607691439013",
+      "name": "Karin Enström",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 664,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 132
+      },
+      "eligible": 797,
+      "present": 665,
+      "attendance": 0.8343789209535759
+    },
+    {
+      "rank": 295,
+      "memberId": "0316505710324",
+      "name": "Janine Alm Ericson",
+      "party": "MP",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 191,
+        "nej": 319,
+        "avstar": 154,
+        "franvarande": 133
+      },
+      "eligible": 797,
+      "present": 664,
+      "attendance": 0.8331242158092849
+    },
+    {
+      "rank": 295,
+      "memberId": "0973782197017",
+      "name": "Mikael Oscarsson",
+      "party": "KD",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 662,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 133
+      },
+      "eligible": 797,
+      "present": 664,
+      "attendance": 0.8331242158092849
+    },
+    {
+      "rank": 297,
+      "memberId": "0418929039326",
+      "name": "Patrik Lundqvist",
+      "party": "S",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 215,
+        "nej": 211,
+        "avstar": 79,
+        "franvarande": 103
+      },
+      "eligible": 608,
+      "present": 505,
+      "attendance": 0.8305921052631579
+    },
+    {
+      "rank": 298,
+      "memberId": "0604604418610",
+      "name": "Jacob Risberg",
+      "party": "MP",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 194,
+        "nej": 312,
+        "avstar": 155,
+        "franvarande": 136
+      },
+      "eligible": 797,
+      "present": 661,
+      "attendance": 0.8293601003764115
+    },
+    {
+      "rank": 298,
+      "memberId": "0720250789315",
+      "name": "Mats Wiking",
+      "party": "S",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 288,
+        "nej": 282,
+        "avstar": 91,
+        "franvarande": 136
+      },
+      "eligible": 797,
+      "present": 661,
+      "attendance": 0.8293601003764115
+    },
+    {
+      "rank": 300,
+      "memberId": "0977592683711",
+      "name": "Magnus Jacobsson",
+      "party": "KD",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 659,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 137
+      },
+      "eligible": 797,
+      "present": 660,
+      "attendance": 0.8281053952321205
+    },
+    {
+      "rank": 301,
+      "memberId": "0466653728712",
+      "name": "Denis Begic",
+      "party": "S",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 284,
+        "nej": 284,
+        "avstar": 90,
+        "franvarande": 139
+      },
+      "eligible": 797,
+      "present": 658,
+      "attendance": 0.8255959849435383
+    },
+    {
+      "rank": 301,
+      "memberId": "068822158616",
+      "name": "Katarina Tolgfors",
+      "party": "M",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 657,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 139
+      },
+      "eligible": 797,
+      "present": 658,
+      "attendance": 0.8255959849435383
+    },
+    {
+      "rank": 301,
+      "memberId": "0847676507229",
+      "name": "Stina Larsson",
+      "party": "C",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 318,
+        "nej": 226,
+        "avstar": 114,
+        "franvarande": 139
+      },
+      "eligible": 797,
+      "present": 658,
+      "attendance": 0.8255959849435383
+    },
+    {
+      "rank": 304,
+      "memberId": "0587736055221",
+      "name": "Niels Paarup-Petersen",
+      "party": "C",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 305,
+        "nej": 232,
+        "avstar": 120,
+        "franvarande": 140
+      },
+      "eligible": 797,
+      "present": 657,
+      "attendance": 0.8243412797992472
+    },
+    {
+      "rank": 304,
+      "memberId": "0545733815610",
+      "name": "Patrick Reslow",
+      "party": "SD",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 646,
+        "nej": 8,
+        "avstar": 3,
+        "franvarande": 140
+      },
+      "eligible": 797,
+      "present": 657,
+      "attendance": 0.8243412797992472
+    },
+    {
+      "rank": 306,
+      "memberId": "0905254899611",
+      "name": "Louise Thunström",
+      "party": "S",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 286,
+        "nej": 284,
+        "avstar": 85,
+        "franvarande": 142
+      },
+      "eligible": 797,
+      "present": 655,
+      "attendance": 0.821831869510665
+    },
+    {
+      "rank": 307,
+      "memberId": "0333193598116",
+      "name": "Bo Broman",
+      "party": "SD",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 646,
+        "nej": 6,
+        "avstar": 2,
+        "franvarande": 143
+      },
+      "eligible": 797,
+      "present": 654,
+      "attendance": 0.820577164366374
+    },
+    {
+      "rank": 307,
+      "memberId": "0433422973328",
+      "name": "Kristoffer Lindberg",
+      "party": "S",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 286,
+        "nej": 277,
+        "avstar": 91,
+        "franvarande": 143
+      },
+      "eligible": 797,
+      "present": 654,
+      "attendance": 0.820577164366374
+    },
+    {
+      "rank": 307,
+      "memberId": "0161616238120",
+      "name": "Lina Nordquist",
+      "party": "L",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 653,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 143
+      },
+      "eligible": 797,
+      "present": 654,
+      "attendance": 0.820577164366374
+    },
+    {
+      "rank": 307,
+      "memberId": "0603366539729",
+      "name": "Malin Danielsson",
+      "party": "L",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 653,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 143
+      },
+      "eligible": 797,
+      "present": 654,
+      "attendance": 0.820577164366374
+    },
+    {
+      "rank": 311,
+      "memberId": "0770363683317",
+      "name": "Malin Björk",
+      "party": "C",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 264,
+        "nej": 194,
+        "avstar": 105,
+        "franvarande": 124
+      },
+      "eligible": 687,
+      "present": 563,
+      "attendance": 0.8195050946142649
+    },
+    {
+      "rank": 312,
+      "memberId": "0911916463828",
+      "name": "Fredrik Lundh Sammeli",
+      "party": "S",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 295,
+        "nej": 279,
+        "avstar": 78,
+        "franvarande": 145
+      },
+      "eligible": 797,
+      "present": 652,
+      "attendance": 0.8180677540777918
+    },
+    {
+      "rank": 313,
+      "memberId": "0575283695521",
+      "name": "Helena Storckenfeldt",
+      "party": "M",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 650,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 146
+      },
+      "eligible": 797,
+      "present": 651,
+      "attendance": 0.8168130489335006
+    },
+    {
+      "rank": 314,
+      "memberId": "0262411569110",
+      "name": "Helene Odenjung",
+      "party": "L",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 649,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 147
+      },
+      "eligible": 797,
+      "present": 650,
+      "attendance": 0.8155583437892095
+    },
+    {
+      "rank": 315,
+      "memberId": "0204240926023",
+      "name": "Markus Wiechel",
+      "party": "SD",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 639,
+        "nej": 7,
+        "avstar": 2,
+        "franvarande": 149
+      },
+      "eligible": 797,
+      "present": 648,
+      "attendance": 0.8130489335006273
+    },
+    {
+      "rank": 316,
+      "memberId": "035234573112",
+      "name": "Anna-Lena Hedberg",
+      "party": "SD",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 640,
+        "nej": 6,
+        "avstar": 1,
+        "franvarande": 150
+      },
+      "eligible": 797,
+      "present": 647,
+      "attendance": 0.8117942283563363
+    },
+    {
+      "rank": 316,
+      "memberId": "0523902030928",
+      "name": "Aylin Nouri",
+      "party": "S",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 289,
+        "nej": 275,
+        "avstar": 83,
+        "franvarande": 150
+      },
+      "eligible": 797,
+      "present": 647,
+      "attendance": 0.8117942283563363
+    },
+    {
+      "rank": 316,
+      "memberId": "0198917587520",
+      "name": "Maj Karlsson",
+      "party": "V",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 172,
+        "nej": 340,
+        "avstar": 135,
+        "franvarande": 150
+      },
+      "eligible": 797,
+      "present": 647,
+      "attendance": 0.8117942283563363
+    },
+    {
+      "rank": 319,
+      "memberId": "019430605328",
+      "name": "Josefin Malmqvist",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 512,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 121
+      },
+      "eligible": 633,
+      "present": 512,
+      "attendance": 0.8088467614533965
+    },
+    {
+      "rank": 320,
+      "memberId": "0103624617217",
+      "name": "Helén Pettersson",
+      "party": "S",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 264,
+        "nej": 283,
+        "avstar": 97,
+        "franvarande": 153
+      },
+      "eligible": 797,
+      "present": 644,
+      "attendance": 0.8080301129234629
+    },
+    {
+      "rank": 320,
+      "memberId": "0612916684825",
+      "name": "Johan Löfstrand",
+      "party": "S",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 283,
+        "nej": 281,
+        "avstar": 80,
+        "franvarande": 153
+      },
+      "eligible": 797,
+      "present": 644,
+      "attendance": 0.8080301129234629
+    },
+    {
+      "rank": 322,
+      "memberId": "0522054204918",
+      "name": "Mattias Karlsson",
+      "party": "M",
+      "constituency": "Norrbottens län",
+      "counts": {
+        "ja": 641,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 155
+      },
+      "eligible": 797,
+      "present": 642,
+      "attendance": 0.8055207026348808
+    },
+    {
+      "rank": 323,
+      "memberId": "0613297818326",
+      "name": "Mathias Tegnér",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 293,
+        "nej": 275,
+        "avstar": 73,
+        "franvarande": 156
+      },
+      "eligible": 797,
+      "present": 641,
+      "attendance": 0.8042659974905897
+    },
+    {
+      "rank": 324,
+      "memberId": "023767922422",
+      "name": "Mats Persson",
+      "party": "L",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 615,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 152
+      },
+      "eligible": 768,
+      "present": 616,
+      "attendance": 0.8020833333333334
+    },
+    {
+      "rank": 325,
+      "memberId": "0509415296421",
+      "name": "Kjell-Arne Ottosson",
+      "party": "KD",
+      "constituency": "Värmlands län",
+      "counts": {
+        "ja": 636,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 160
+      },
+      "eligible": 797,
+      "present": 637,
+      "attendance": 0.7992471769134254
+    },
+    {
+      "rank": 326,
+      "memberId": "011548866929",
+      "name": "Elin Nilsson",
+      "party": "L",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 632,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 164
+      },
+      "eligible": 797,
+      "present": 633,
+      "attendance": 0.794228356336261
+    },
+    {
+      "rank": 326,
+      "memberId": "0222102752213",
+      "name": "Stefan Olsson",
+      "party": "M",
+      "constituency": "Uppsala län",
+      "counts": {
+        "ja": 632,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 164
+      },
+      "eligible": 797,
+      "present": 633,
+      "attendance": 0.794228356336261
+    },
+    {
+      "rank": 328,
+      "memberId": "0440673458216",
+      "name": "Ulrika Liljeberg",
+      "party": "C",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 303,
+        "nej": 213,
+        "avstar": 116,
+        "franvarande": 165
+      },
+      "eligible": 797,
+      "present": 632,
+      "attendance": 0.7929736511919699
+    },
+    {
+      "rank": 329,
+      "memberId": "048561486727",
+      "name": "Isabell Mixter",
+      "party": "V",
+      "constituency": "Västernorrlands län",
+      "counts": {
+        "ja": 168,
+        "nej": 331,
+        "avstar": 129,
+        "franvarande": 169
+      },
+      "eligible": 797,
+      "present": 628,
+      "attendance": 0.7879548306148055
+    },
+    {
+      "rank": 330,
+      "memberId": "037561614928",
+      "name": "Lawen Redar",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 286,
+        "nej": 263,
+        "avstar": 78,
+        "franvarande": 170
+      },
+      "eligible": 797,
+      "present": 627,
+      "attendance": 0.7867001254705144
+    },
+    {
+      "rank": 331,
+      "memberId": "0482689573825",
+      "name": "Björn Wiechel",
+      "party": "S",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 277,
+        "nej": 264,
+        "avstar": 81,
+        "franvarande": 175
+      },
+      "eligible": 797,
+      "present": 622,
+      "attendance": 0.7804265997490589
+    },
+    {
+      "rank": 332,
+      "memberId": "0406831930624",
+      "name": "Henrik Vinge",
+      "party": "SD",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 609,
+        "nej": 7,
+        "avstar": 2,
+        "franvarande": 179
+      },
+      "eligible": 797,
+      "present": 618,
+      "attendance": 0.7754077791718946
+    },
+    {
+      "rank": 333,
+      "memberId": "0227531635413",
+      "name": "Lars Püss",
+      "party": "M",
+      "constituency": "Hallands län",
+      "counts": {
+        "ja": 616,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 180
+      },
+      "eligible": 797,
+      "present": 617,
+      "attendance": 0.7741530740276035
+    },
+    {
+      "rank": 334,
+      "memberId": "0662032691523",
+      "name": "Amalia Rud Stenlöf",
+      "party": "S",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 60,
+        "nej": 47,
+        "avstar": 5,
+        "franvarande": 33
+      },
+      "eligible": 145,
+      "present": 112,
+      "attendance": 0.7724137931034483
+    },
+    {
+      "rank": 335,
+      "memberId": "0792733370419",
+      "name": "Magnus Oscarsson",
+      "party": "KD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 609,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 186
+      },
+      "eligible": 797,
+      "present": 611,
+      "attendance": 0.766624843161857
+    },
+    {
+      "rank": 336,
+      "memberId": "0600069352021",
+      "name": "Fredrik Kärrholm",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 287,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 90
+      },
+      "eligible": 378,
+      "present": 288,
+      "attendance": 0.7619047619047619
+    },
+    {
+      "rank": 337,
+      "memberId": "041911485722",
+      "name": "Magdalena Thuresson",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 605,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 191
+      },
+      "eligible": 797,
+      "present": 606,
+      "attendance": 0.7603513174404015
+    },
+    {
+      "rank": 338,
+      "memberId": "0985943148917",
+      "name": "Victoria Tiblom",
+      "party": "SD",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 596,
+        "nej": 5,
+        "avstar": 1,
+        "franvarande": 195
+      },
+      "eligible": 797,
+      "present": 602,
+      "attendance": 0.7553324968632371
+    },
+    {
+      "rank": 339,
+      "memberId": "0138741628520",
+      "name": "Angelika Bengtsson",
+      "party": "SD",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 554,
+        "nej": 6,
+        "avstar": 2,
+        "franvarande": 183
+      },
+      "eligible": 745,
+      "present": 562,
+      "attendance": 0.7543624161073825
+    },
+    {
+      "rank": 340,
+      "memberId": "0880137451720",
+      "name": "Emma Nohrén",
+      "party": "MP",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 157,
+        "nej": 306,
+        "avstar": 138,
+        "franvarande": 196
+      },
+      "eligible": 797,
+      "present": 601,
+      "attendance": 0.7540777917189461
+    },
+    {
+      "rank": 340,
+      "memberId": "0984153507725",
+      "name": "Gustaf Göthberg",
+      "party": "M",
+      "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 600,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 196
+      },
+      "eligible": 797,
+      "present": 601,
+      "attendance": 0.7540777917189461
+    },
+    {
+      "rank": 342,
+      "memberId": "0530425150220",
+      "name": "Annika Strandhäll",
+      "party": "S",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 266,
+        "nej": 262,
+        "avstar": 72,
+        "franvarande": 197
+      },
+      "eligible": 797,
+      "present": 600,
+      "attendance": 0.7528230865746549
+    },
+    {
+      "rank": 342,
+      "memberId": "0773497241728",
+      "name": "Roger Hedlund",
+      "party": "SD",
+      "constituency": "Gävleborgs län",
+      "counts": {
+        "ja": 588,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 197
+      },
+      "eligible": 797,
+      "present": 600,
+      "attendance": 0.7528230865746549
+    },
+    {
+      "rank": 342,
+      "memberId": "0338088431726",
+      "name": "Sara Gille",
+      "party": "SD",
+      "constituency": "Dalarnas län",
+      "counts": {
+        "ja": 588,
+        "nej": 9,
+        "avstar": 3,
+        "franvarande": 197
+      },
+      "eligible": 797,
+      "present": 600,
+      "attendance": 0.7528230865746549
+    },
+    {
+      "rank": 345,
+      "memberId": "0331791853028",
+      "name": "Yasmine Eriksson",
+      "party": "SD",
+      "constituency": "Västra Götalands läns västra",
+      "counts": {
+        "ja": 456,
+        "nej": 6,
+        "avstar": 3,
+        "franvarande": 154
+      },
+      "eligible": 619,
+      "present": 465,
+      "attendance": 0.7512116316639742
+    },
+    {
+      "rank": 346,
+      "memberId": "02910042914",
+      "name": "Carina Ödebrink",
+      "party": "S",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 264,
+        "nej": 260,
+        "avstar": 73,
+        "franvarande": 200
+      },
+      "eligible": 797,
+      "present": 597,
+      "attendance": 0.7490589711417817
+    },
+    {
+      "rank": 347,
+      "memberId": "0861521539920",
+      "name": "Aron Emilsson",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 504,
+        "nej": 2,
+        "avstar": 1,
+        "franvarande": 174
+      },
+      "eligible": 681,
+      "present": 507,
+      "attendance": 0.7444933920704846
+    },
+    {
+      "rank": 348,
+      "memberId": "028954589415",
+      "name": "Ann-Sofie Alm",
+      "party": "M",
+      "constituency": "Västra Götalands läns norra",
+      "counts": {
+        "ja": 585,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 211
+      },
+      "eligible": 797,
+      "present": 586,
+      "attendance": 0.7352572145545797
+    },
+    {
+      "rank": 349,
+      "memberId": "0766496753128",
+      "name": "Fredrik Malm",
+      "party": "L",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 584,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 212
+      },
+      "eligible": 797,
+      "present": 585,
+      "attendance": 0.7340025094102886
+    },
+    {
+      "rank": 350,
+      "memberId": "0947134226212",
+      "name": "Markus Kauppinen",
+      "party": "S",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 29,
+        "nej": 25,
+        "avstar": 4,
+        "franvarande": 22
+      },
+      "eligible": 80,
+      "present": 58,
+      "attendance": 0.725
+    },
+    {
+      "rank": 351,
+      "memberId": "0105632258713",
+      "name": "Boriana Åberg",
+      "party": "M",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 573,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 223
+      },
+      "eligible": 797,
+      "present": 574,
+      "attendance": 0.7202007528230866
+    },
+    {
+      "rank": 352,
+      "memberId": "0721509806321",
+      "name": "Nooshi Dadgostar",
+      "party": "V",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 159,
+        "nej": 301,
+        "avstar": 113,
+        "franvarande": 224
+      },
+      "eligible": 797,
+      "present": 573,
+      "attendance": 0.7189460476787954
+    },
+    {
+      "rank": 353,
+      "memberId": "0970259744617",
+      "name": "Margareta Cederfelt",
+      "party": "M",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 558,
+        "nej": 0,
+        "avstar": 1,
+        "franvarande": 238
+      },
+      "eligible": 797,
+      "present": 559,
+      "attendance": 0.7013801756587202
+    },
+    {
+      "rank": 354,
+      "memberId": "0961483563503",
+      "name": "Gudrun Nordborg",
+      "party": "V",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 144,
+        "nej": 278,
+        "avstar": 114,
+        "franvarande": 229
+      },
+      "eligible": 765,
+      "present": 536,
+      "attendance": 0.7006535947712418
+    },
+    {
+      "rank": 355,
+      "memberId": "025158809026",
+      "name": "Ida Gabrielsson",
+      "party": "V",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 154,
+        "nej": 293,
+        "avstar": 111,
+        "franvarande": 239
+      },
+      "eligible": 797,
+      "present": 558,
+      "attendance": 0.7001254705144291
+    },
+    {
+      "rank": 356,
+      "memberId": "0313390540217",
+      "name": "Ingela Nylund Watz",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 258,
+        "nej": 233,
+        "avstar": 63,
+        "franvarande": 243
+      },
+      "eligible": 797,
+      "present": 554,
+      "attendance": 0.6951066499372648
+    },
+    {
+      "rank": 356,
+      "memberId": "0768554866215",
+      "name": "Katja Nyberg",
+      "party": "-",
+      "constituency": "Kronobergs län",
+      "counts": {
+        "ja": 544,
+        "nej": 9,
+        "avstar": 1,
+        "franvarande": 243
+      },
+      "eligible": 797,
+      "present": 554,
+      "attendance": 0.6951066499372648
+    },
+    {
+      "rank": 358,
+      "memberId": "0694917698222",
+      "name": "Michael Rubbestad",
+      "party": "SD",
+      "constituency": "Örebro län",
+      "counts": {
+        "ja": 409,
+        "nej": 5,
+        "avstar": 2,
+        "franvarande": 203
+      },
+      "eligible": 619,
+      "present": 416,
+      "attendance": 0.6720516962843296
+    },
+    {
+      "rank": 359,
+      "memberId": "0254695027922",
+      "name": "Malcolm Momodou Jallow",
+      "party": "-",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 94,
+        "nej": 295,
+        "avstar": 119,
+        "franvarande": 289
+      },
+      "eligible": 797,
+      "present": 508,
+      "attendance": 0.6373902132998746
+    },
+    {
+      "rank": 360,
+      "memberId": "0888807074321",
+      "name": "Amanda Lind",
+      "party": "MP",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 141,
+        "nej": 261,
+        "avstar": 103,
+        "franvarande": 292
+      },
+      "eligible": 797,
+      "present": 505,
+      "attendance": 0.6336260978670013
+    },
+    {
+      "rank": 361,
+      "memberId": "0602744999917",
+      "name": "Elisabeth Thand Ringqvist",
+      "party": "C",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 239,
+        "nej": 169,
+        "avstar": 77,
+        "franvarande": 312
+      },
+      "eligible": 797,
+      "present": 485,
+      "attendance": 0.6085319949811794
+    },
+    {
+      "rank": 362,
+      "memberId": "0161972600410",
+      "name": "Elsa Widding",
+      "party": "-",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 412,
+        "nej": 17,
+        "avstar": 52,
+        "franvarande": 316
+      },
+      "eligible": 797,
+      "present": 481,
+      "attendance": 0.6035131744040151
+    },
+    {
+      "rank": 363,
+      "memberId": "098412828516",
+      "name": "Magdalena Andersson",
+      "party": "S",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 191,
+        "nej": 175,
+        "avstar": 31,
+        "franvarande": 400
+      },
+      "eligible": 797,
+      "present": 397,
+      "attendance": 0.4981179422835634
+    },
+    {
+      "rank": 364,
+      "memberId": "051207517226",
+      "name": "Jimmie Åkesson",
+      "party": "SD",
+      "constituency": "Jönköpings län",
+      "counts": {
+        "ja": 297,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 499
+      },
+      "eligible": 797,
+      "present": 298,
+      "attendance": 0.3739021329987453
+    }
+  ],
+  "belowThreshold": [
+    {
+      "memberId": "0663840649717",
+      "name": "Anette Rangdag",
+      "party": "SD",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 30,
+        "nej": 4,
+        "avstar": 0,
+        "franvarande": 11
+      },
+      "eligible": 45,
+      "present": 34,
+      "attendance": 0.7555555555555555
+    },
+    {
+      "memberId": "0244552157217",
+      "name": "Annelie Sjöberg",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 46,
+        "nej": 2,
+        "avstar": 1,
+        "franvarande": 0
+      },
+      "eligible": 49,
+      "present": 49,
+      "attendance": 1
+    },
+    {
+      "memberId": "0397073482210",
+      "name": "Camilla Mårtensen",
+      "party": "L",
+      "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 29,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 29,
+      "present": 29,
+      "attendance": 1
+    },
+    {
+      "memberId": "030110584526",
+      "name": "Caroline Täljeblad",
+      "party": "V",
+      "constituency": "Västerbottens län",
+      "counts": {
+        "ja": 8,
+        "nej": 12,
+        "avstar": 1,
+        "franvarande": 11
+      },
+      "eligible": 32,
+      "present": 21,
+      "attendance": 0.65625
+    },
+    {
+      "memberId": "0526772256714",
+      "name": "Göran Hargestam",
+      "party": "SD",
+      "constituency": "Östergötlands län",
+      "counts": {
+        "ja": 51,
+        "nej": 5,
+        "avstar": 0,
+        "franvarande": 11
+      },
+      "eligible": 67,
+      "present": 56,
+      "attendance": 0.835820895522388
+    },
+    {
+      "memberId": "0475643059428",
+      "name": "Jonny Cato",
+      "party": "C",
+      "constituency": "Skåne läns västra",
+      "counts": {
+        "ja": 33,
+        "nej": 14,
+        "avstar": 1,
+        "franvarande": 8
+      },
+      "eligible": 56,
+      "present": 48,
+      "attendance": 0.8571428571428571
+    },
+    {
+      "memberId": "0599661454115",
+      "name": "Lena Bäckelin",
+      "party": "S",
+      "constituency": "Jämtlands län",
+      "counts": {
+        "ja": 29,
+        "nej": 23,
+        "avstar": 4,
+        "franvarande": 0
+      },
+      "eligible": 56,
+      "present": 56,
+      "attendance": 1
+    },
+    {
+      "memberId": "0174490514929",
+      "name": "Marcus Andersson",
+      "party": "S",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 19,
+        "nej": 16,
+        "avstar": 4,
+        "franvarande": 0
+      },
+      "eligible": 39,
+      "present": 39,
+      "attendance": 1
+    },
+    {
+      "memberId": "099099202224",
+      "name": "Paulina Brandberg",
+      "party": "L",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 70,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 70,
+      "present": 70,
+      "attendance": 1
+    },
+    {
+      "memberId": "0869100760228",
+      "name": "Tony Rahm",
+      "party": "M",
+      "constituency": "Malmö kommun",
+      "counts": {
+        "ja": 29,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 29,
+      "present": 29,
+      "attendance": 1
+    },
+    {
+      "memberId": "094145171913",
+      "name": "Unni Björnerfors",
+      "party": "SD",
+      "constituency": "Stockholms kommun",
+      "counts": {
+        "ja": 49,
+        "nej": 3,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 52,
+      "present": 52,
+      "attendance": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0512009811316",
+  "name": "Lena Malm",
+  "firstName": "Lena",
+  "lastName": "Malm",
+  "sortName": "Malm,Lena",
+  "party": "S",
+  "constituency": "Göteborgs kommun",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 265,
+      "nej": 282,
+      "avstar": 103,
+      "franvarande": 2
+    },
+    "eligible": 652,
+    "present": 650,
+    "attendance": 0.9969325153374233
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 265,
+        "nej": 282,
+        "avstar": 103,
+        "franvarande": 2
+      },
+      "eligible": 652,
+      "present": 650,
+      "attendance": 0.9969325153374233
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 7,
+      "counts": {
+        "ja": 265,
+        "nej": 282,
+        "avstar": 103,
+        "franvarande": 2
+      },
+      "eligible": 652,
+      "present": 650,
+      "attendance": 0.9969325153374233
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 39,
+      "counts": {
+        "ja": 265,
+        "nej": 282,
+        "avstar": 103,
+        "franvarande": 2
+      },
+      "eligible": 652,
+      "present": 650,
+      "attendance": 0.9969325153374233
+    }
+  ],
+  "missedVoteIds": [
+    "6536F648-A2E1-4EBC-9300-BA5556C2A209",
+    "AE467C9C-7A6D-4F83-917C-2B0C3DB77037"
+  ]
+}

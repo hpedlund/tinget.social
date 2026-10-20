@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0802091197024",
+  "name": "Andrea Andersson Tay",
+  "firstName": "Andrea",
+  "lastName": "Andersson Tay",
+  "sortName": "Andersson Tay,Andrea",
+  "party": "V",
+  "constituency": "Stockholms län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 1028,
+      "nej": 1003,
+      "avstar": 461,
+      "franvarande": 119
+    },
+    "eligible": 2611,
+    "present": 2492,
+    "attendance": 0.9544235924932976
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 269,
+        "nej": 184,
+        "avstar": 74,
+        "franvarande": 39
+      },
+      "eligible": 566,
+      "present": 527,
+      "attendance": 0.931095406360424
+    },
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 270,
+        "nej": 202,
+        "avstar": 85,
+        "franvarande": 38
+      },
+      "eligible": 595,
+      "present": 557,
+      "attendance": 0.9361344537815126
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 270,
+        "nej": 223,
+        "avstar": 148,
+        "franvarande": 11
+      },
+      "eligible": 652,
+      "present": 641,
+      "attendance": 0.9831288343558282
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 219,
+        "nej": 393,
+        "avstar": 154,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 51,
+      "counts": {
+        "ja": 1028,
+        "nej": 1002,
+        "avstar": 461,
+        "franvarande": 119
+      },
+      "eligible": 2610,
+      "present": 2491,
+      "attendance": 0.9544061302681992
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 112,
+      "counts": {
+        "ja": 269,
+        "nej": 184,
+        "avstar": 74,
+        "franvarande": 39
+      },
+      "eligible": 566,
+      "present": 527,
+      "attendance": 0.931095406360424
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 85,
+      "counts": {
+        "ja": 270,
+        "nej": 202,
+        "avstar": 85,
+        "franvarande": 38
+      },
+      "eligible": 595,
+      "present": 557,
+      "attendance": 0.9361344537815126
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 23,
+      "counts": {
+        "ja": 270,
+        "nej": 223,
+        "avstar": 148,
+        "franvarande": 11
+      },
+      "eligible": 652,
+      "present": 641,
+      "attendance": 0.9831288343558282
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 88,
+      "counts": {
+        "ja": 219,
+        "nej": 393,
+        "avstar": 154,
+        "franvarande": 31
+      },
+      "eligible": 797,
+      "present": 766,
+      "attendance": 0.9611041405269761
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "056DD082-91EE-4AFD-B2AC-3A70C9FCBE68",
+    "08D98674-C792-4914-99B9-F03EAC644723",
+    "13925143-0046-4C89-B43E-17F28BE6A6BB",
+    "1C0E5B94-DAEB-41A6-96A0-BFFA1E9A0A62",
+    "24CAF007-D6C1-4286-8D72-CC20614D128B",
+    "4AC62574-41AA-47F1-8B72-DD3AD6A4E275",
+    "4D74629C-3A0E-4694-8A6E-03CDCFF40D36",
+    "4D8B007B-1740-4219-AB85-AA15BF06C134",
+    "55F1AF50-C20E-4DD7-9DEB-FFD984F54304",
+    "58839CEA-2353-4F08-AB94-9941AC9138AF",
+    "5D3A8094-C3FB-4C13-9DEA-CAD3C1B2B00E",
+    "6C693788-F4C6-4139-ADBD-4887CF117B94",
+    "7B30013C-A760-45FB-9ACC-521E72E89DC4",
+    "83171E47-27BA-414A-8BE4-7004FBD44065",
+    "86C99EEC-4650-472A-88E3-26B825449619",
+    "8FC0166D-6BA2-44D6-A40D-FC76F4DB93EB",
+    "8FEEE8FA-2059-4A78-B856-45AE7B6BE0A9",
+    "98447D00-F5B7-4128-BE17-CF026849EE8D",
+    "A8B4D38B-AE45-42DB-A96F-446A663E27FA",
+    "B1FBAABA-1FD4-4CA3-BEBD-A644657310C4",
+    "BB9C4CE3-AEFD-4C6B-AFC3-48480192AE3F",
+    "C124E116-C77A-46B1-A1C4-B9226CEED2DE",
+    "C12DCBAE-6904-4ED4-BDF3-3665C360F3C0",
+    "C136A4BC-22C5-4B1F-BDD1-4DC2ABE57805",
+    "C1983BD3-49A1-4349-B06B-46E4C7C62AD4",
+    "CE26430A-58D1-4B28-A4C1-BDAAD81D03DF",
+    "D2E07CAC-C0EC-4BDC-AAF9-18049D6CC163",
+    "D76D7363-ED81-4304-9ACD-C0ACF4DBECB8",
+    "EF1E7BA8-952B-4B4E-825E-58915C3EE0CA",
+    "F8DCBAC9-92C8-4DC0-A2D4-A6B1D1364FFB",
+    "F9271BAE-2895-45B9-9C27-3EEF5010AB33",
+    "FA3FFA70-CE08-478C-8AE6-123C011A8186",
+    "057272C5-E6AE-4F6A-9984-0FCF3B2E962F",
+    "4E8AB6B6-D1DB-49F6-99CB-8500502F6DDA",
+    "7515F13B-F7C2-497B-AA76-E2A65552AB0C",
+    "89CEB8F2-083F-4197-A7CE-C2C866810A7E",
+    "930B4466-CAEF-49E6-8BBA-4AAB1F5D38C2",
+    "A63359AB-FA56-4BEF-B7D2-EC6C95946616",
+    "F518D462-D947-4315-8367-056BB79E80A0",
+    "34EF7406-505E-4377-95ED-ECF65B7605DF",
+    "BBF95418-BDCB-486A-818F-CB8D94FC16F3",
+    "0BEA5F7F-BA08-477B-AF99-C55C9D64F403",
+    "110FCC9A-57A8-4983-B307-CC178E9447AD",
+    "20B6A5C6-C9B9-4F2A-A676-70FE5289B7E4",
+    "20D6BDDC-B9AC-47E8-B286-48CF613D7276",
+    "20E2AC41-E9E7-40A1-821D-BBAF37490DED",
+    "2F1B8869-728F-41D2-A840-922A6C828B88",
+    "43941434-B178-467E-9B7F-A924D6305F78",
+    "49FB1796-44FA-4818-8406-2D11E0F44CED",
+    "54235ECB-547C-48B2-BA24-D0BF3F870D55",
+    "56A75E3C-F8CC-4383-963E-6884920A90B6",
+    "651C417B-B158-4CBD-A400-ADB147CC9948",
+    "69655058-CAE5-4800-8807-9495DDBF356C",
+    "8D5F7B43-D053-469E-86E0-45AC47A96CD1",
+    "93637AAC-8A78-4395-A5E9-5D7EA89C3FD1",
+    "95144EFB-61A8-4365-8328-30548DB14159",
+    "971C59AD-850F-4280-8D18-70CDAF0CC9B6",
+    "9996951A-71D5-4172-A4BB-242736AB07CB",
+    "9B51C9E7-7865-4D31-9320-2A4337EEFA66",
+    "A1C914E0-4544-4389-A757-A5BEDDACBFD9",
+    "A52E4273-06BE-4869-9C8D-078E3607B40F",
+    "A6C31473-4864-429A-8A65-4A4679393181",
+    "AE4E74C6-4930-4AE5-A0F5-23712B4F21FF",
+    "B30B7FAD-1F40-48AA-AA4E-D3C107AE81BF",
+    "B74D499B-48C6-4AEF-BF4F-8E3FDB965234",
+    "B7FC3608-0813-404D-9F74-E484B91687CF",
+    "BFC2F671-CF6D-4A97-B1AA-0197F505E949",
+    "C08B8D4C-3862-4AE4-A604-686F374B883C",
+    "C3E2FA00-CAEC-40A3-9200-AFC85E2CB936",
+    "C7395E1C-834E-418C-AC3E-D25146717255",
+    "CAF737EE-AC10-4442-8423-81D8405EA0AC",
+    "CCAEB6F6-2CC4-4A43-B922-36DE17A57A42",
+    "DD8BB0C3-59C3-4763-ACE2-F8001FD11451",
+    "E2E5B23E-080C-4C6E-B8DC-E192ADAD6C63",
+    "ECEC0DD0-0B09-4C98-BEBE-5160BADFEBD0",
+    "F15E2F2F-1790-419A-BBB4-C959F571EB23",
+    "F321E450-82EB-44E6-B289-6C07CFE6C727",
+    "08C095C2-3BB2-4AD0-82AE-3D40F2251F8D",
+    "0B1362F2-6CA6-4094-8DF1-751E16D568BA",
+    "0B4D17CB-C95A-44DF-A5A4-01F93DB25F96",
+    "2A54175B-2712-4522-A55E-259A71D24AB5",
+    "36C2427E-767B-4335-B8D9-7B1A184AAE6A",
+    "414BFBC1-6455-4EC7-A3B5-73BEF57A0324",
+    "7C2D9066-4A02-4AA3-BF14-238C1942173E",
+    "AD072D2A-37F5-496C-ABBF-8D4B42598529",
+    "AF7302E3-2E74-4955-87DE-95EB42B845A2",
+    "B384378C-C1CF-440A-8C2B-20B9F4ECDA1B",
+    "E635F7AF-5FA3-4B52-A160-92D66F1AA71C",
+    "04CDF722-B6E9-4450-A58A-21A3617BE0E5",
+    "05BD1357-ED3B-4A11-A23F-7114912565CC",
+    "0786B2C4-27A1-4C2B-A2E6-13A5423F17B5",
+    "0ACB3DA3-4CE8-4AA1-8BAD-EA752436969C",
+    "0CD76C8E-C2EB-4995-93C0-B7C651F4F0B1",
+    "0D2756B3-C92A-4708-961F-1F8C0AC678D4",
+    "16B7083B-082D-47F0-AC6C-2C1E2E4E1BC6",
+    "26AD8212-4892-416C-B6E9-2833F9C1EA44",
+    "26BD8C48-8E81-42F0-92CB-DEB588DBA07D",
+    "2FD1DA89-EB1B-4622-81C0-97BEAD6FC583",
+    "592DA169-CAA4-4F56-8E84-F908871047A0",
+    "5AAC7B68-4A54-4016-80EF-B09F394BBB55",
+    "600B5B7B-3784-434C-A088-ECCF5BC68169",
+    "6D3726BA-FF18-4C1A-9B82-601154BA6785",
+    "75A79DBA-697A-4C84-AB0F-4489824EDCD7",
+    "78EF4D01-83C5-427F-B6A7-349F8FEB7F94",
+    "85FE0341-7655-454E-A54D-2CD5C1F698DB",
+    "89C30C2A-6C32-49D0-B0F8-3F35C76EB2FF",
+    "A423B2CE-6707-4362-B7D5-71C6267E155C",
+    "A84A3A95-6A54-42E8-B669-B007461C8543",
+    "B0203470-488D-4B8F-AC8E-9034CEBD4B91",
+    "B3ABB051-149B-4D7C-887F-F75757257148",
+    "BD6808C5-A835-4988-912F-9F3324251987",
+    "BD6D862A-329D-4E06-91EC-BBCB430DDB5A",
+    "C08B9D77-17DC-4228-9B14-4FD896FDB1FC",
+    "DAED4AA9-AA99-4F7B-8746-1B3B9DB646E4",
+    "E0768ACC-1543-449C-A73F-4999E8814F78",
+    "EB69809B-905A-4727-A27B-32137541D5B6",
+    "EE715AC6-CFED-4F11-98B4-DD229CAB64D0",
+    "BC189AC8-9BBF-49E5-8B1F-AA6F7756C40C",
+    "E6B9D4D1-D69A-492F-ADBB-82345B549240"
+  ]
+}

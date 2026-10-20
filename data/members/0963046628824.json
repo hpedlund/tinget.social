@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0963046628824",
+  "name": "Christian Lindefjärd",
+  "firstName": "Christian",
+  "lastName": "Lindefjärd",
+  "sortName": "Lindefjärd,Christian",
+  "party": "SD",
+  "constituency": "Stockholms län",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 1247,
+      "nej": 112,
+      "avstar": 74,
+      "franvarande": 17
+    },
+    "eligible": 1450,
+    "present": 1433,
+    "attendance": 0.9882758620689656
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 479,
+        "nej": 101,
+        "avstar": 72,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 768,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 17
+      },
+      "eligible": 797,
+      "present": 780,
+      "attendance": 0.9786700125470514
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 12,
+      "counts": {
+        "ja": 1247,
+        "nej": 112,
+        "avstar": 74,
+        "franvarande": 17
+      },
+      "eligible": 1450,
+      "present": 1433,
+      "attendance": 0.9882758620689656
+    },
+    {
+      "periodId": "2023-24",
+      "rank": null,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 479,
+        "nej": 101,
+        "avstar": 72,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 67,
+      "counts": {
+        "ja": 768,
+        "nej": 10,
+        "avstar": 2,
+        "franvarande": 17
+      },
+      "eligible": 797,
+      "present": 780,
+      "attendance": 0.9786700125470514
+    }
+  ],
+  "missedVoteIds": [
+    "281BC4C2-F636-40E9-9996-AB4787C61EEE",
+    "362BE407-2A64-47C2-9791-6B82E3682862",
+    "C981BA20-5EE4-4F31-BBF3-87F04909BAC0",
+    "0E141968-D2CC-4E53-B4AB-52A8DA740137",
+    "0EE4E2F6-F9B9-443F-923E-FA30FE9AA9D4",
+    "2CF99E74-9E95-49C4-8119-B795B01BFB0F",
+    "339AE386-CC8E-45BB-B236-FBEC5B1C33BD",
+    "34AB2DEE-550F-4B0D-B7AC-6E8D5EDCE43E",
+    "3BE59336-34F9-471A-86DB-D71A0294B773",
+    "3C910B2A-5650-49FA-969E-8C3E29D9129F",
+    "618357AA-0190-47DF-9919-78EED23F4AD4",
+    "7EE0FFD8-7693-4978-BE36-20D3A1955F17",
+    "8E10B585-28F8-48C9-82C3-FACBA2809FE3",
+    "9B3AFE9B-A780-4CE2-B630-B780EDCA182B",
+    "D7FA6F71-B9FC-4CF2-AB21-B405C031290E",
+    "F3B49294-A1A4-4C09-963E-4A8ED74A9D07",
+    "FF518EBC-75AE-416D-A462-E0A64EB7E4E2"
+  ]
+}

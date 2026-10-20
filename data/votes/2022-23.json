@@ -1,0 +1,7365 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "riksmote": "2022/23",
+  "votes": [
+    {
+      "id": "55EFD67E-C7B7-4E40-BE63-F7616A95EDB7",
+      "date": "2022-10-17",
+      "beteckning": "1017-1",
+      "punkt": 0,
+      "avser": "frågan",
+      "counts": {
+        "ja": 176,
+        "nej": 173,
+        "avstar": 0,
+        "franvarande": 0
+      }
+    },
+    {
+      "id": "C7E795A0-9F65-49C8-A574-6CBEBF90DD0E",
+      "date": "2022-10-26",
+      "beteckning": "SkU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 14,
+        "avstar": 1,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "E187E14A-EAEB-42CD-A8A1-606BFAD5D0E0",
+      "date": "2022-10-26",
+      "beteckning": "SkU2",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 94,
+        "avstar": 33,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "1459843C-F3F9-43D5-933C-759BE764543B",
+      "date": "2022-11-16",
+      "beteckning": "KU4",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 25,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "1CD4E98E-1706-4852-BD77-D5A46964CA8F",
+      "date": "2022-11-16",
+      "beteckning": "KU7",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 38,
+        "avstar": 0,
+        "franvarande": 42
+      }
+    },
+    {
+      "id": "376923A0-8D12-4D74-981A-F3BF5B0200E7",
+      "date": "2022-11-16",
+      "beteckning": "KU7",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 270,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 42
+      }
+    },
+    {
+      "id": "929F8FAB-4918-4952-A0FD-996109D29816",
+      "date": "2022-11-16",
+      "beteckning": "KU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 270,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 42
+      }
+    },
+    {
+      "id": "2AC86BD5-5360-4BC1-8A99-FF4175003DFB",
+      "date": "2022-11-17",
+      "beteckning": "JuU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 56,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "105A8CB7-913F-43DA-9369-3122FBF35EA3",
+      "date": "2022-11-23",
+      "beteckning": "SfU5",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "19BEF2C6-3BB4-4647-8CE7-CAC426A8D6E4",
+      "date": "2022-11-23",
+      "beteckning": "KrU2",
+      "punkt": 16,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 236,
+        "nej": 63,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "2AE81505-40F1-40A7-8453-C389EDFF711B",
+      "date": "2022-11-23",
+      "beteckning": "SoU3",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 93,
+        "avstar": 55,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "315C5C6B-6299-4315-91D4-96E15C0D6622",
+      "date": "2022-11-23",
+      "beteckning": "KU13",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 279,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "63211B28-1AE6-4C12-AAB6-DE085BF429F1",
+      "date": "2022-11-23",
+      "beteckning": "FiU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "78FF6849-4C95-4A26-906B-47E61C02E47A",
+      "date": "2022-11-23",
+      "beteckning": "KrU2",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "99C6E88B-AE0B-4B0D-AC05-CED13E90755E",
+      "date": "2022-11-23",
+      "beteckning": "KrU2",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 171,
+        "nej": 107,
+        "avstar": 20,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "DF8FAF60-0FAB-4B3F-9B78-0FEF191BC013",
+      "date": "2022-11-23",
+      "beteckning": "SoU2",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 15,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "F8E30CBE-D34E-43A0-82E0-4823ACD8ED67",
+      "date": "2022-11-23",
+      "beteckning": "KU8",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 279,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "FD565FF5-02C3-4D15-8E6F-F2FBA88E5DE3",
+      "date": "2022-11-23",
+      "beteckning": "KrU2",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 279,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "0862564A-E7C4-47AB-A43E-D2F42B3D54B2",
+      "date": "2022-11-24",
+      "beteckning": "CU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "9B322D1A-F43D-4F75-A7C0-397819B0FBE8",
+      "date": "2022-11-24",
+      "beteckning": "CU4",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "26EF1EF8-B01A-45FC-8E63-83556D2F5F83",
+      "date": "2022-11-30",
+      "beteckning": "SfU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 277,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "2840874F-9F27-4704-BB3E-26557FF4D72A",
+      "date": "2022-11-30",
+      "beteckning": "SkU4",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "28FE868E-316E-496C-8F61-3CB1A268B17C",
+      "date": "2022-11-30",
+      "beteckning": "NU6",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 262,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "32BC97E5-BB9F-453D-883E-401442004685",
+      "date": "2022-11-30",
+      "beteckning": "SfU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 262,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "46703E6B-E7B5-47A9-82B8-FAA20C743D82",
+      "date": "2022-11-30",
+      "beteckning": "SkU4",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 262,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "57982A47-5CB3-48B5-862A-D69AEC6ED041",
+      "date": "2022-11-30",
+      "beteckning": "SkU4",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 279,
+        "nej": 19,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "834DB60C-A822-420E-9C03-9E2F8F51B21E",
+      "date": "2022-11-30",
+      "beteckning": "NU6",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 277,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "D1B31538-2D78-4C37-A1C8-9BFD47FD336E",
+      "date": "2022-11-30",
+      "beteckning": "SfU9",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 244,
+        "nej": 54,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "DFBF68C8-7E11-4790-83E4-751BAEB4DE03",
+      "date": "2022-11-30",
+      "beteckning": "SfU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 234,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "2A7EE5A3-5F29-4293-9C6C-A401F161C620",
+      "date": "2022-12-07",
+      "beteckning": "MJU4",
+      "punkt": 1,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 265,
+        "nej": 34,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "8D1F96AB-81FF-4783-BA15-FE3F866523F3",
+      "date": "2022-12-13",
+      "beteckning": "FiU1",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 150,
+        "nej": 93,
+        "avstar": 55,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "A5E32EAE-C89F-4C6F-8D6F-163CE3CA9848",
+      "date": "2022-12-13",
+      "beteckning": "FiU1",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 150,
+        "nej": 93,
+        "avstar": 55,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "0E7BC721-232A-495A-B305-FC99575F83ED",
+      "date": "2022-12-20",
+      "beteckning": "FöU1",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "67FF9D06-8346-4014-AD13-08E8280064DA",
+      "date": "2022-12-20",
+      "beteckning": "SfU1",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 279,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B6542C29-E1B2-490A-81F9-1BF018EDCFFD",
+      "date": "2022-12-20",
+      "beteckning": "CU1",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 21,
+        "avstar": 6,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "2BB5FE3D-D1EF-40FF-91AD-5405C8DF9B8A",
+      "date": "2022-12-21",
+      "beteckning": "FiU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 265,
+        "nej": 17,
+        "avstar": 0,
+        "franvarande": 67
+      }
+    },
+    {
+      "id": "39F9EA47-139B-4E50-A593-56ADB88E697A",
+      "date": "2022-12-21",
+      "beteckning": "NU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 200,
+        "nej": 83,
+        "avstar": 0,
+        "franvarande": 66
+      }
+    },
+    {
+      "id": "5D6440F9-9A24-4A4B-A882-6CA5871DAC27",
+      "date": "2022-12-21",
+      "beteckning": "NU1",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 159,
+        "nej": 121,
+        "avstar": 0,
+        "franvarande": 69
+      }
+    },
+    {
+      "id": "94FAEBFB-D90B-45C0-B952-96C2CE247CA1",
+      "date": "2022-12-21",
+      "beteckning": "FiU5",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 262,
+        "nej": 19,
+        "avstar": 0,
+        "franvarande": 68
+      }
+    },
+    {
+      "id": "A1CDD3DC-B97C-4E2A-BCBB-6AAC1C74A839",
+      "date": "2022-12-21",
+      "beteckning": "SkU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 250,
+        "nej": 32,
+        "avstar": 0,
+        "franvarande": 67
+      }
+    },
+    {
+      "id": "1DF964EE-B639-4462-9B35-C6D98A33CE6A",
+      "date": "2023-01-25",
+      "beteckning": "SoU5",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "24318FC2-7698-416E-9A32-F7944FB258A4",
+      "date": "2023-01-25",
+      "beteckning": "FiU6",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 58,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "8C441BF5-1E39-40A2-AE0A-F8E4CB565DBC",
+      "date": "2023-01-25",
+      "beteckning": "SoU5",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 21,
+        "avstar": 16,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "93C00594-78D0-4254-BEE6-82D8C273A625",
+      "date": "2023-01-25",
+      "beteckning": "KU16",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 58,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "E63F9B00-E32A-4E24-A777-ED2C36EF88F4",
+      "date": "2023-01-25",
+      "beteckning": "SoU5",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "F21EDAC3-C441-49B5-9CAA-321F3EA6368B",
+      "date": "2023-01-25",
+      "beteckning": "KU16",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 155,
+        "nej": 151,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "0B771E7B-D719-40A3-9771-C7087A7AC20D",
+      "date": "2023-02-08",
+      "beteckning": "FöU6",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 202,
+        "nej": 19,
+        "avstar": 71,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "329F9E66-61B8-4B25-80CA-636F2BEB645F",
+      "date": "2023-02-08",
+      "beteckning": "FöU6",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 185,
+        "nej": 94,
+        "avstar": 16,
+        "franvarande": 54
+      }
+    },
+    {
+      "id": "46A967F6-0704-4E98-AB11-96B60D9205CB",
+      "date": "2023-02-08",
+      "beteckning": "NU8",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "58ED1351-78C2-4CDE-821D-2A6644B9AB72",
+      "date": "2023-02-08",
+      "beteckning": "NU4",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 186,
+        "nej": 110,
+        "avstar": 0,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "5B129C13-4514-4E60-A0AA-E8EF296C684B",
+      "date": "2023-02-08",
+      "beteckning": "NU8",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 61,
+        "avstar": 18,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "888A03FE-E755-40C5-AD84-7A610BDCF1B8",
+      "date": "2023-02-08",
+      "beteckning": "FöU6",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 92,
+        "avstar": 29,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "A2E569C3-0FFD-4A50-981E-784BE9ECE277",
+      "date": "2023-02-08",
+      "beteckning": "FöU6",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 139,
+        "nej": 60,
+        "avstar": 97,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "D169445A-8324-4E42-814D-D4E3427858A5",
+      "date": "2023-02-08",
+      "beteckning": "NU4",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 197,
+        "nej": 35,
+        "avstar": 62,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "D61FF1CC-405E-4939-A367-A192D75C5A52",
+      "date": "2023-02-08",
+      "beteckning": "FiU12",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 255,
+        "nej": 22,
+        "avstar": 16,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "DC5797D0-04F0-4006-8045-A50B78B7DC98",
+      "date": "2023-02-08",
+      "beteckning": "NU4",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 206,
+        "nej": 16,
+        "avstar": 73,
+        "franvarande": 54
+      }
+    },
+    {
+      "id": "E3F60E14-6F5D-4E81-8059-D8F1A9E662BE",
+      "date": "2023-02-08",
+      "beteckning": "FöU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 92,
+        "avstar": 13,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "F6E57D52-0CB2-4F33-AAB8-2B74B8B359BE",
+      "date": "2023-02-08",
+      "beteckning": "NU8",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 94,
+        "avstar": 51,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "70EE89C9-B5D3-498B-BD07-465227737E83",
+      "date": "2023-02-16",
+      "beteckning": "SfU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 21,
+        "avstar": 68,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "A7C8FBA6-42E7-4CAD-9F3F-13F9EBB0194B",
+      "date": "2023-02-16",
+      "beteckning": "SfU10",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 203,
+        "nej": 62,
+        "avstar": 35,
+        "franvarande": 49
+      }
+    },
+    {
+      "id": "022C2EEA-C1EE-4083-A65C-1F64C3257C6A",
+      "date": "2023-02-22",
+      "beteckning": "SoU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 149,
+        "nej": 127,
+        "avstar": 21,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "11166599-9594-4F46-B2DA-E416807E3C33",
+      "date": "2023-02-22",
+      "beteckning": "AU5",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "25915FC5-9612-4243-9097-1C0CE96AB180",
+      "date": "2023-02-22",
+      "beteckning": "AU5",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 277,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "67BDCF4D-C3A9-48E0-979A-499012CF62CB",
+      "date": "2023-02-22",
+      "beteckning": "SfU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 63,
+        "avstar": 55,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "7E27D687-E5EA-4E78-A049-9E13163D9270",
+      "date": "2023-02-22",
+      "beteckning": "SkU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 35,
+        "avstar": 108,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "7E36B891-94F2-41E6-B75A-C92DA9578A66",
+      "date": "2023-02-22",
+      "beteckning": "SoU6",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 35,
+        "avstar": 1,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "8C2BC1DA-FC4C-413C-9FA7-8A1EB168DD3D",
+      "date": "2023-02-22",
+      "beteckning": "FiU33",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 150,
+        "nej": 92,
+        "avstar": 55,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "C63B5008-74A8-47EC-B070-25D8ECFE9058",
+      "date": "2023-02-22",
+      "beteckning": "AU5",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 205,
+        "nej": 92,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "D480B3B2-9E19-4098-9B43-96365BAF279B",
+      "date": "2023-02-22",
+      "beteckning": "SoU6",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 170,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "1061B86A-A4BF-458E-B3D0-92531EB97010",
+      "date": "2023-02-23",
+      "beteckning": "AU6",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 20,
+        "avstar": 14,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "15E5B638-46E0-496F-9C13-E82B44D2FAF3",
+      "date": "2023-02-23",
+      "beteckning": "AU6",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 20,
+        "avstar": 106,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "47AAAC34-0050-4CCC-A06E-D559DFE1209A",
+      "date": "2023-02-23",
+      "beteckning": "UbU3",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 231,
+        "nej": 63,
+        "avstar": 0,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "51057154-7755-4DD2-BEBA-FF584E96BD26",
+      "date": "2023-02-23",
+      "beteckning": "UbU3",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 169,
+        "nej": 20,
+        "avstar": 105,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "672AEF0C-0E6B-4E2A-87BE-324EBF13C5FE",
+      "date": "2023-02-23",
+      "beteckning": "AU6",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 13,
+        "avstar": 92,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "A1C97D8D-AB4C-40EC-8115-2B8BE4B63205",
+      "date": "2023-02-23",
+      "beteckning": "UbU3",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 181,
+        "nej": 93,
+        "avstar": 20,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "CC07AB2E-2E5C-4023-9A91-834444EA4E5C",
+      "date": "2023-02-23",
+      "beteckning": "UbU3",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 168,
+        "nej": 106,
+        "avstar": 20,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "F1D875AD-C0A7-4896-94AA-AE89B18BB4EE",
+      "date": "2023-02-23",
+      "beteckning": "UbU3",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 274,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "F77555F8-59EF-4822-9574-034A1DF5A148",
+      "date": "2023-02-23",
+      "beteckning": "AU6",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 169,
+        "nej": 94,
+        "avstar": 31,
+        "franvarande": 55
+      }
+    },
+    {
+      "id": "0873D466-0CDA-40BF-AE98-C28E8A62220A",
+      "date": "2023-03-08",
+      "beteckning": "TU4",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 89,
+        "nej": 91,
+        "avstar": 119,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "0ECFD2E7-733D-407A-A844-D17C6FD67DD4",
+      "date": "2023-03-08",
+      "beteckning": "CU7",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 235,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "1AF10C22-5F9D-47F9-947B-53658318266E",
+      "date": "2023-03-08",
+      "beteckning": "TU5",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 193,
+        "nej": 64,
+        "avstar": 42,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "29388C42-ACBD-4170-A164-66AB697BD1E1",
+      "date": "2023-03-08",
+      "beteckning": "CU7",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "30325BBB-9022-4F1D-8483-D548D6C7F948",
+      "date": "2023-03-08",
+      "beteckning": "KrU5",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 177,
+        "nej": 22,
+        "avstar": 100,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "3425B5B8-FB19-4DC1-95D8-AE09DDBF962C",
+      "date": "2023-03-08",
+      "beteckning": "TU4",
+      "punkt": 19,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 235,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "4FEA8CE7-B8B7-4D9A-BC46-580FC4F38A5A",
+      "date": "2023-03-08",
+      "beteckning": "CU11",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 202,
+        "nej": 34,
+        "avstar": 63,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "565742A6-9DD0-4FB7-B940-C25FF0080787",
+      "date": "2023-03-08",
+      "beteckning": "TU5",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 21,
+        "avstar": 104,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "5DF8CBA5-2666-4F6B-A934-095DE00AABDB",
+      "date": "2023-03-08",
+      "beteckning": "TU4",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 94,
+        "nej": 20,
+        "avstar": 184,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "5EEE4C25-1868-4F4B-8DDF-6C32C70A993A",
+      "date": "2023-03-08",
+      "beteckning": "KrU3",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 193,
+        "nej": 106,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "5FB9480F-80A7-428B-87FB-A350D354430E",
+      "date": "2023-03-08",
+      "beteckning": "CU9",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 215,
+        "nej": 64,
+        "avstar": 20,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "66E67087-CD13-4693-ABEC-9AB828B25BAF",
+      "date": "2023-03-08",
+      "beteckning": "CU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 235,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "69487AB9-4E9C-49AA-B531-6CA2411258A8",
+      "date": "2023-03-08",
+      "beteckning": "CU9",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "70608A90-F9D8-4EE7-B2AE-2E196F9FAE8F",
+      "date": "2023-03-08",
+      "beteckning": "TU5",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 152,
+        "nej": 91,
+        "avstar": 56,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "7F13E2B4-7340-4C2D-9ECC-F0A039703E5A",
+      "date": "2023-03-08",
+      "beteckning": "SoU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 112,
+        "avstar": 36,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "8BF43DAA-1E77-47D9-897F-DDB6BCFADEBB",
+      "date": "2023-03-08",
+      "beteckning": "CU7",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 207,
+        "nej": 91,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "91C956BB-04D2-40E9-BC02-78D731B88251",
+      "date": "2023-03-08",
+      "beteckning": "UbU4",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 141,
+        "nej": 92,
+        "avstar": 64,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "92FA74E0-0FB5-478C-9875-338C633D86C5",
+      "date": "2023-03-08",
+      "beteckning": "KrU3",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 277,
+        "nej": 22,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "949F3C25-CB85-43EB-89A6-1100DADCAE43",
+      "date": "2023-03-08",
+      "beteckning": "CU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 214,
+        "nej": 85,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "94FCF480-C4BE-4156-B22C-06A7BB3E3453",
+      "date": "2023-03-08",
+      "beteckning": "TU4",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 148,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "A7F97955-E6AB-4144-AFC8-BCEF52DD2143",
+      "date": "2023-03-08",
+      "beteckning": "KrU3",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 263,
+        "nej": 21,
+        "avstar": 15,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "A86EDC74-1C45-4330-A312-07FE7E3ABC68",
+      "date": "2023-03-08",
+      "beteckning": "UbU4",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 128,
+        "avstar": 20,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "AAC0BC6A-559E-45A6-BCE6-2C3670D6B739",
+      "date": "2023-03-08",
+      "beteckning": "KrU5",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 144,
+        "nej": 91,
+        "avstar": 64,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B4010DB6-53E0-4656-B108-E16FABE6206A",
+      "date": "2023-03-08",
+      "beteckning": "CU7",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 213,
+        "nej": 21,
+        "avstar": 65,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "BB5C8603-2C1E-4E1F-BACE-DAA5C5642AB7",
+      "date": "2023-03-08",
+      "beteckning": "KrU3",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 263,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "C1915997-FB68-4DAB-ACF9-A6D29AD69F48",
+      "date": "2023-03-08",
+      "beteckning": "KrU5",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 63,
+        "avstar": 15,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "C548FDEF-4A40-419E-BFBE-24B54DFDCA4A",
+      "date": "2023-03-08",
+      "beteckning": "CU9",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "CFAABB56-EF8E-417F-BFD7-A0EF3FA58CAD",
+      "date": "2023-03-08",
+      "beteckning": "KrU3",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 91,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "FCACD65E-4F8D-47B4-B93F-3977011A6146",
+      "date": "2023-03-08",
+      "beteckning": "CU9",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 187,
+        "nej": 112,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "42E5A1DA-771D-44D3-B46F-C302E5501A91",
+      "date": "2023-03-09",
+      "beteckning": "MJU7",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "477A83E9-3626-4A94-BA30-685BD1A7AA7F",
+      "date": "2023-03-09",
+      "beteckning": "KrU6",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "6614C002-DF55-45E5-A854-1D9C2DA6E733",
+      "date": "2023-03-09",
+      "beteckning": "KrU6",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 130,
+        "nej": 93,
+        "avstar": 79,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "828E645F-3840-4D59-81DE-773FF7ABCAA3",
+      "date": "2023-03-09",
+      "beteckning": "MJU7",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 152,
+        "nej": 86,
+        "avstar": 64,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A0497610-ED93-4AA6-892C-A4C2F01D6802",
+      "date": "2023-03-09",
+      "beteckning": "MJU7",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 193,
+        "nej": 108,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "A4D6AC11-C76C-4AFE-A0E5-D6D0DB73C27E",
+      "date": "2023-03-09",
+      "beteckning": "MJU7",
+      "punkt": 20,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A6F04D64-F1B0-4F40-A196-93A434CC5ADF",
+      "date": "2023-03-09",
+      "beteckning": "KrU6",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 20,
+        "avstar": 15,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "CBF4468A-CD98-444F-9920-9FE752E8C3C5",
+      "date": "2023-03-09",
+      "beteckning": "MJU7",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 280,
+        "nej": 22,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "14A8A3C0-9A5F-44F6-B3FE-E5F6A347F8E4",
+      "date": "2023-03-15",
+      "beteckning": "UU3",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 32,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "1D3F3FD3-1274-44AE-AD04-BE95A12BF5C2",
+      "date": "2023-03-15",
+      "beteckning": "MJU6",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 230,
+        "nej": 62,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "371DB891-B745-4181-94EC-70CB34D33BA6",
+      "date": "2023-03-15",
+      "beteckning": "JuU11",
+      "punkt": 37,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 181,
+        "nej": 19,
+        "avstar": 92,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "4BDB341E-51D3-48FE-A775-EFB0385BA1CB",
+      "date": "2023-03-15",
+      "beteckning": "JuU11",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 271,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 58
+      }
+    },
+    {
+      "id": "5158ED89-F1A7-4455-84C1-411EE44D1010",
+      "date": "2023-03-15",
+      "beteckning": "UU3",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 178,
+        "nej": 62,
+        "avstar": 52,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "53DAA907-E6A0-4CBC-ADE6-90E9FF3D8A67",
+      "date": "2023-03-15",
+      "beteckning": "MJU6",
+      "punkt": 16,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 170,
+        "nej": 121,
+        "avstar": 0,
+        "franvarande": 58
+      }
+    },
+    {
+      "id": "5FD665A2-BF8B-4E69-8D45-D6CF0BB17130",
+      "date": "2023-03-15",
+      "beteckning": "SkU11",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 19,
+        "avstar": 13,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "6B63AB7D-4C31-4B41-B9C5-682B0B48F90C",
+      "date": "2023-03-15",
+      "beteckning": "SkU11",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 259,
+        "nej": 33,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "813B6757-48E7-43F3-9B56-8CAED041901A",
+      "date": "2023-03-15",
+      "beteckning": "SkU11",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 231,
+        "nej": 61,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "9E5F7D58-8A4D-49FA-88DC-F9BB3796ED48",
+      "date": "2023-03-15",
+      "beteckning": "SkU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 148,
+        "nej": 108,
+        "avstar": 34,
+        "franvarande": 59
+      }
+    },
+    {
+      "id": "A126A3C0-57F4-470D-825F-BE275E59E946",
+      "date": "2023-03-15",
+      "beteckning": "JuU11",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 169,
+        "nej": 13,
+        "avstar": 110,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "A942BFD9-7AB5-4C3D-9B77-3B1FAB1FA87D",
+      "date": "2023-03-15",
+      "beteckning": "MJU6",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 240,
+        "nej": 52,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "B645A299-97C0-4415-AE37-209FFA9CB63C",
+      "date": "2023-03-15",
+      "beteckning": "SkU11",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 161,
+        "nej": 112,
+        "avstar": 19,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "B6EEE569-5D87-4F6E-B113-4BCE242C5755",
+      "date": "2023-03-15",
+      "beteckning": "UU3",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 258,
+        "nej": 13,
+        "avstar": 20,
+        "franvarande": 58
+      }
+    },
+    {
+      "id": "D2D39CC7-B661-4F78-92CC-F49295744CD9",
+      "date": "2023-03-15",
+      "beteckning": "MJU6",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 32,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "D475FBF9-C60A-4C65-8280-F90C6EACF5D9",
+      "date": "2023-03-15",
+      "beteckning": "MJU6",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 125,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "EF40FF9B-2B2B-4CBE-BA4C-E26333AF876A",
+      "date": "2023-03-15",
+      "beteckning": "JuU11",
+      "punkt": 36,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 230,
+        "nej": 62,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "F4ABDD10-360D-4464-999E-A0C66CA3D63A",
+      "date": "2023-03-15",
+      "beteckning": "UU3",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 258,
+        "nej": 34,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "F95AD439-590F-434B-91E9-2CC531E5C6C5",
+      "date": "2023-03-15",
+      "beteckning": "JuU11",
+      "punkt": 34,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 182,
+        "nej": 92,
+        "avstar": 18,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "B6D23ECE-FBBC-4934-82FE-36CB4D866818",
+      "date": "2023-03-16",
+      "beteckning": "FöU4",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 236,
+        "nej": 19,
+        "avstar": 34,
+        "franvarande": 60
+      }
+    },
+    {
+      "id": "EF8FED14-2F2B-4C65-8DA6-882CFCD5F958",
+      "date": "2023-03-16",
+      "beteckning": "FöU4",
+      "punkt": 2,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 146,
+        "nej": 143,
+        "avstar": 0,
+        "franvarande": 60
+      }
+    },
+    {
+      "id": "1372A387-BBB9-46FA-AB2A-AB535ABC8425",
+      "date": "2023-03-22",
+      "beteckning": "SoU22",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 199,
+        "nej": 21,
+        "avstar": 86,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "6B63ADBF-B6F8-4CE0-A574-230BEE238A46",
+      "date": "2023-03-22",
+      "beteckning": "UU16",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "83D76BBE-487D-45CF-855B-553274C8E457",
+      "date": "2023-03-22",
+      "beteckning": "SoU22",
+      "punkt": 20,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 183,
+        "nej": 64,
+        "avstar": 59,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "A4CC5EFF-400A-4BDD-A05A-62872E88E438",
+      "date": "2023-03-22",
+      "beteckning": "SoU22",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 155,
+        "nej": 21,
+        "avstar": 130,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "CB12B21D-25FF-4BED-B3BB-FB71819180EE",
+      "date": "2023-03-22",
+      "beteckning": "UU16",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "DB7CAA4D-B8ED-4F55-931E-8A0E9007451E",
+      "date": "2023-03-22",
+      "beteckning": "SoU22",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 176,
+        "nej": 130,
+        "avstar": 0,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "F7B5192B-68F8-4299-9CAB-5995D85BD4A9",
+      "date": "2023-03-22",
+      "beteckning": "SoU22",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 133,
+        "nej": 109,
+        "avstar": 64,
+        "franvarande": 43
+      }
+    },
+    {
+      "id": "20B2FCBD-7D8A-4AD9-8AD4-03877DA59C47",
+      "date": "2023-03-23",
+      "beteckning": "MJU9",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 94,
+        "avstar": 19,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "26A5C71A-8390-4A19-88C4-33B33A8A614D",
+      "date": "2023-03-23",
+      "beteckning": "MJU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 94,
+        "avstar": 35,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "3D9A6450-AE1D-4427-A326-8C6649DF103B",
+      "date": "2023-03-23",
+      "beteckning": "MJU10",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 62,
+        "avstar": 20,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "412D3D43-3125-4B5C-8CD3-F0FF853E783C",
+      "date": "2023-03-23",
+      "beteckning": "MJU9",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 224,
+        "nej": 62,
+        "avstar": 15,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "51BAC8B0-3FE2-4151-B868-EE80D43B048E",
+      "date": "2023-03-23",
+      "beteckning": "UbU12",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 128,
+        "avstar": 19,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "6942970B-86B9-4656-BCAC-E1804D215897",
+      "date": "2023-03-23",
+      "beteckning": "MJU9",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 203,
+        "nej": 20,
+        "avstar": 77,
+        "franvarande": 49
+      }
+    },
+    {
+      "id": "863CB643-C1A2-4101-9EBC-537552EFEBED",
+      "date": "2023-03-23",
+      "beteckning": "UbU12",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "89E7F97C-D275-4D4C-91B8-B8314902A8DF",
+      "date": "2023-03-23",
+      "beteckning": "MJU11",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 205,
+        "nej": 15,
+        "avstar": 81,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "CE9A0E7E-CC8F-4434-8CCA-12AED054CD81",
+      "date": "2023-03-23",
+      "beteckning": "MJU11",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 62,
+        "avstar": 20,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "D544D0C2-36A9-4815-812D-6EEADCDC9A8E",
+      "date": "2023-03-23",
+      "beteckning": "MJU11",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 187,
+        "nej": 114,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "E24491C1-034D-48CB-88E4-00F211AB9875",
+      "date": "2023-03-23",
+      "beteckning": "MJU11",
+      "punkt": 32,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 206,
+        "nej": 94,
+        "avstar": 0,
+        "franvarande": 49
+      }
+    },
+    {
+      "id": "F2BAB5CB-B877-4523-840F-58E91D64E484",
+      "date": "2023-03-23",
+      "beteckning": "MJU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 82,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "FB3BC6EE-07FE-4E29-8701-F0EB8E0D9097",
+      "date": "2023-03-23",
+      "beteckning": "MJU10",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 35,
+        "avstar": 19,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "00E18022-852B-40BC-92DA-74CE7DACF0FD",
+      "date": "2023-03-29",
+      "beteckning": "KU18",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "049924F1-5300-4B4D-965E-4C553CEFBAA4",
+      "date": "2023-03-29",
+      "beteckning": "KU27",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 129,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "05C2EE8A-2036-448F-A679-83851E553A4E",
+      "date": "2023-03-29",
+      "beteckning": "SoU19",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 246,
+        "nej": 42,
+        "avstar": 15,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "152D3C16-40E3-4C07-B443-5B1EBFB8D6D8",
+      "date": "2023-03-29",
+      "beteckning": "FiU34",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "16DF257F-636B-4287-92D8-408A00826DEB",
+      "date": "2023-03-29",
+      "beteckning": "FiU25",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 209,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "1BF005FE-5D8F-49A8-BAC1-5BC15EA3ECF6",
+      "date": "2023-03-29",
+      "beteckning": "FiU34",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "23348855-752B-4260-9930-C686639D74B2",
+      "date": "2023-03-29",
+      "beteckning": "FiU34",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 15,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "2ADD35B4-A0DC-4014-BF97-7EC00EF90FC7",
+      "date": "2023-03-29",
+      "beteckning": "NU12",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 237,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "2C788119-657E-4479-81F3-BE7F9C3A6170",
+      "date": "2023-03-29",
+      "beteckning": "SkU8",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 145,
+        "nej": 93,
+        "avstar": 63,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "37408187-1764-403A-9155-7D05DEC17213",
+      "date": "2023-03-29",
+      "beteckning": "KU18",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "454377C3-FEC3-4D86-8356-600252AE317B",
+      "date": "2023-03-29",
+      "beteckning": "SoU19",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 223,
+        "nej": 65,
+        "avstar": 15,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "4737A764-495F-4F78-92F9-E487423FE84F",
+      "date": "2023-03-29",
+      "beteckning": "SkU8",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 124,
+        "nej": 21,
+        "avstar": 156,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "4FEE2E83-6959-4E79-828A-1508CB894859",
+      "date": "2023-03-29",
+      "beteckning": "FiU25",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 21,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "518DA301-A160-48DC-91B5-0CC179D4AC3B",
+      "date": "2023-03-29",
+      "beteckning": "SkU8",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 63,
+        "avstar": 1,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "623B0ABC-0949-4080-ACFD-0C3813FABDDE",
+      "date": "2023-03-29",
+      "beteckning": "SoU19",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 129,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "65E4F51C-0902-4185-A1C8-03A66D197D5C",
+      "date": "2023-03-29",
+      "beteckning": "NU12",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 182,
+        "nej": 36,
+        "avstar": 84,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "6EAB4B63-0C4B-4E7D-8A7E-300ED62D0D2A",
+      "date": "2023-03-29",
+      "beteckning": "KU25",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "73A24F53-B977-4F0B-8712-175886BF36D2",
+      "date": "2023-03-29",
+      "beteckning": "NU12",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "73F8C7F8-733A-4F11-B812-0B9FA1C04726",
+      "date": "2023-03-29",
+      "beteckning": "SkU8",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "756EE3A4-97B6-418E-AEC7-EDE3AA16DA47",
+      "date": "2023-03-29",
+      "beteckning": "KU19",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A1281DE7-2CEC-4FE4-B717-1B5B6F72FED4",
+      "date": "2023-03-29",
+      "beteckning": "SkU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "A37657C6-D380-484B-A7D6-5DE6033AD459",
+      "date": "2023-03-29",
+      "beteckning": "KU29",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "B3F2FA71-5905-44A6-B5B3-56D927394939",
+      "date": "2023-03-29",
+      "beteckning": "NU12",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "B698DC72-33FA-4810-9588-5A37E24E03AC",
+      "date": "2023-03-29",
+      "beteckning": "NU12",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 144,
+        "nej": 93,
+        "avstar": 64,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "D06067DA-9F7E-4294-8D97-A4BA3970F0C0",
+      "date": "2023-03-29",
+      "beteckning": "FiU34",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "D68CB97F-27C8-49EE-93F5-542CF05DE806",
+      "date": "2023-03-29",
+      "beteckning": "KU27",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 21,
+        "avstar": 108,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F8DABFA5-BA9E-4572-828B-8A732CA9536E",
+      "date": "2023-03-29",
+      "beteckning": "SoU19",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "FBE4517D-EDD2-4CBA-8799-549845FBD216",
+      "date": "2023-03-29",
+      "beteckning": "KU25",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 287,
+        "nej": 15,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "0122F210-3D9F-4449-9163-4D72A4949C82",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 237,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "1801F3C6-3567-4A40-85E0-3B4E319276AF",
+      "date": "2023-03-30",
+      "beteckning": "TU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 93,
+        "avstar": 43,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "18C3F26F-E980-4A67-802E-C9AF61F78EBF",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 181,
+        "nej": 36,
+        "avstar": 85,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "2AC1FEC1-F16C-4734-9616-9350F19A4422",
+      "date": "2023-03-30",
+      "beteckning": "TU6",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "3CE82518-F2B0-4B88-A9F1-2E8A4B362C18",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 36,
+        "avstar": 114,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "4DABCCAC-2D2E-4A8E-8764-908F7578025C",
+      "date": "2023-03-30",
+      "beteckning": "TU6",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 190,
+        "nej": 93,
+        "avstar": 20,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "61B83600-B2C9-4472-A778-E681C7813C47",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 156,
+        "nej": 146,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "62C502C5-FAA5-489E-95CE-BDE48F59B04E",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 209,
+        "nej": 92,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "BEB63A02-35BF-41D2-B5E6-AC3DB6C842CC",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "EEE5B9FA-89A1-472F-9C3D-C3CB9D04102A",
+      "date": "2023-03-30",
+      "beteckning": "NU13",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 190,
+        "nej": 21,
+        "avstar": 92,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "114767E5-450E-44C5-A6EE-126B3AC4521F",
+      "date": "2023-04-12",
+      "beteckning": "FöU7",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 128,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "18CAE1F2-2841-4191-BE62-8E7F833B85F5",
+      "date": "2023-04-12",
+      "beteckning": "CU12",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 127,
+        "nej": 92,
+        "avstar": 82,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "1D0F3600-1C57-4CBE-826B-D476F3BB2FB1",
+      "date": "2023-04-12",
+      "beteckning": "JuU12",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 63,
+        "avstar": 43,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "29560C94-D2FF-44EF-83AA-497C0E47093C",
+      "date": "2023-04-12",
+      "beteckning": "CU12",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 15,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "3EC7DFAD-6922-484E-BB19-0B5C74554C8E",
+      "date": "2023-04-12",
+      "beteckning": "FöU7",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "471B3A28-1B8E-4C38-832C-37EEE9CEE6B9",
+      "date": "2023-04-12",
+      "beteckning": "FöU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 280,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "519D00A2-29D9-4C76-A08A-85AC37CC2B63",
+      "date": "2023-04-12",
+      "beteckning": "JuU12",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 259,
+        "nej": 42,
+        "avstar": 1,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "5AB62C2B-6263-4442-9F5B-FD334F2EBB9A",
+      "date": "2023-04-12",
+      "beteckning": "CU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 92,
+        "avstar": 56,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "628BEFCD-4716-46B8-88B6-BB6C6742D2E8",
+      "date": "2023-04-12",
+      "beteckning": "CU12",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "6CC5B5ED-2A0A-4658-A71B-CFBB59E500A4",
+      "date": "2023-04-12",
+      "beteckning": "CU10",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 176,
+        "nej": 21,
+        "avstar": 105,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "798E39DE-3475-45CE-B21E-FCBADC3F4308",
+      "date": "2023-04-12",
+      "beteckning": "MJU12",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "815769A5-1C6D-40A9-8D8A-94C1E3B84C1D",
+      "date": "2023-04-12",
+      "beteckning": "JuU12",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 210,
+        "nej": 92,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "87FB6B17-5222-4315-9E60-7977D3D39A5B",
+      "date": "2023-04-12",
+      "beteckning": "CU12",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 92,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "9312F7C2-040D-4326-93E3-5927C0ED570D",
+      "date": "2023-04-12",
+      "beteckning": "UU6",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 92,
+        "avstar": 57,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "99D8863D-E325-4E1A-B846-AAC7D1A9F641",
+      "date": "2023-04-12",
+      "beteckning": "MJU12",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A4D7DE89-C1FC-4FD8-8B82-88F9E440239B",
+      "date": "2023-04-12",
+      "beteckning": "CU12",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 63,
+        "avstar": 43,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A54B399C-5176-4155-8174-5B670CB3D08C",
+      "date": "2023-04-12",
+      "beteckning": "CU10",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "BF510893-ED43-4F40-B7A9-8C06DE3C78E0",
+      "date": "2023-04-12",
+      "beteckning": "MJU12",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 113,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "D1DCA0F2-2C4B-4C79-8214-56805892B64F",
+      "date": "2023-04-12",
+      "beteckning": "JuU12",
+      "punkt": 20,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 191,
+        "nej": 21,
+        "avstar": 90,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "DCE903B3-79E5-4B24-871D-A3CA5710CA92",
+      "date": "2023-04-12",
+      "beteckning": "UU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 92,
+        "avstar": 57,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "E1D56F2C-D26E-4806-A1B9-675F1330E5A1",
+      "date": "2023-04-12",
+      "beteckning": "FöU7",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 106,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F2EE84FE-BF47-4C5E-9F24-B81CF6B69C58",
+      "date": "2023-04-12",
+      "beteckning": "FöU7",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 113,
+        "avstar": 14,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F726428A-C24D-4C62-A2B3-4343B8835172",
+      "date": "2023-04-12",
+      "beteckning": "CU10",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "055380CE-7E93-4547-BB3F-449548C5EF92",
+      "date": "2023-04-13",
+      "beteckning": "SoU11",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 170,
+        "nej": 126,
+        "avstar": 0,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "3F70EB18-7459-4169-8DF7-4AD3F4A9F27F",
+      "date": "2023-04-13",
+      "beteckning": "NU14",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 139,
+        "nej": 93,
+        "avstar": 65,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "59C478DE-4231-40B6-81EF-7BBC25774157",
+      "date": "2023-04-13",
+      "beteckning": "NU14",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 33,
+        "avstar": 85,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "7295B4A4-A072-49FB-A33F-02728EC47F62",
+      "date": "2023-04-13",
+      "beteckning": "NU15",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 242,
+        "nej": 33,
+        "avstar": 21,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "9585CA3C-3C34-4429-BE8C-C50870720AFF",
+      "date": "2023-04-13",
+      "beteckning": "NU15",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 211,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "AD76BB65-5354-4A63-B2C0-01A16FC359FA",
+      "date": "2023-04-13",
+      "beteckning": "SoU11",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 171,
+        "nej": 126,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "CA146B81-1F21-4F1A-8F8A-2ED1F8260E64",
+      "date": "2023-04-13",
+      "beteckning": "NU15",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "CBD06E3A-9E83-491A-8D4E-5FE19B8C7E81",
+      "date": "2023-04-13",
+      "beteckning": "NU14",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 211,
+        "nej": 85,
+        "avstar": 1,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "DB643305-6EFA-4455-A830-CB8634AD7A50",
+      "date": "2023-04-13",
+      "beteckning": "NU15",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 203,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 53
+      }
+    },
+    {
+      "id": "EBB26466-8658-4F3C-ABA0-FF1106191658",
+      "date": "2023-04-13",
+      "beteckning": "NU15",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "EE6A4436-BA51-4FB9-8D87-8172991A12F7",
+      "date": "2023-04-13",
+      "beteckning": "SoU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "F193677B-695C-4561-B703-2097081BC1FA",
+      "date": "2023-04-13",
+      "beteckning": "SoU11",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 33,
+        "avstar": 0,
+        "franvarande": 52
+      }
+    },
+    {
+      "id": "03177C8A-FB2C-415E-81BC-83D5918956D0",
+      "date": "2023-04-19",
+      "beteckning": "JuU13",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "05FC843C-ACA7-4DC1-AA21-836DD143D80C",
+      "date": "2023-04-19",
+      "beteckning": "JuU15",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "0DEFF676-47D7-4B36-9F85-DA3C0B95BEBE",
+      "date": "2023-04-19",
+      "beteckning": "CU14",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "14ECD387-231D-4F1C-8D03-51D0F1DAF5F7",
+      "date": "2023-04-19",
+      "beteckning": "AU7",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 16,
+        "avstar": 42,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "1F0DDFC5-A881-43AE-924D-6C23D140871F",
+      "date": "2023-04-19",
+      "beteckning": "CU14",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 191,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "27B4888E-0E37-4875-B2E5-54D32D4517F9",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 16,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 241,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "27FEA55F-26DF-43A3-936A-F0146EF2F9A4",
+      "date": "2023-04-19",
+      "beteckning": "JuU15",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "2B5328D0-1AEB-4686-9938-DC2FC20D03FB",
+      "date": "2023-04-19",
+      "beteckning": "AU7",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 64,
+        "avstar": 37,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "34086DB4-8742-4ED6-B120-B2E9B0619D22",
+      "date": "2023-04-19",
+      "beteckning": "AU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 246,
+        "nej": 21,
+        "avstar": 37,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "362C8243-21E4-4194-9CD3-6334A8ACD5B4",
+      "date": "2023-04-19",
+      "beteckning": "CU14",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 192,
+        "nej": 92,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "42CEFD60-C05C-4387-B3B5-E9B433DFA180",
+      "date": "2023-04-19",
+      "beteckning": "JuU17",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "5317C057-1404-44D4-B67F-0445F3AD89A4",
+      "date": "2023-04-19",
+      "beteckning": "AU7",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 151,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "53DBCE3D-959C-4699-957F-0267EEC9E922",
+      "date": "2023-04-19",
+      "beteckning": "CU6",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 65,
+        "avstar": 20,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "54E73DD8-4FFB-4237-826F-831F162B00BD",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 48,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 289,
+        "nej": 16,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "56BC26E7-6F59-47F8-891A-8AC8DCF4AF89",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 37,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "5B9DE20C-4ECF-4526-95CB-0DA6136DBFD5",
+      "date": "2023-04-19",
+      "beteckning": "CU6",
+      "punkt": 20,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 176,
+        "nej": 128,
+        "avstar": 0,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "5F1CC1C6-76B8-4E8A-870C-F9C55B5F08BE",
+      "date": "2023-04-19",
+      "beteckning": "FiU26",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 176,
+        "nej": 91,
+        "avstar": 36,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "63631F8C-E259-4E2C-8F1E-C4045208F89A",
+      "date": "2023-04-19",
+      "beteckning": "JuU15",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 240,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "63A454DC-2727-4556-A1CD-B2BB0C7520B7",
+      "date": "2023-04-19",
+      "beteckning": "JuU17",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "646F8B1A-2ACD-4453-96A6-D7988C15A4F5",
+      "date": "2023-04-19",
+      "beteckning": "SoU20",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 91,
+        "avstar": 58,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "6CF288D4-38F4-46CE-9F9B-2BF963E759C7",
+      "date": "2023-04-19",
+      "beteckning": "SoU20",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 245,
+        "nej": 58,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "6FF27F56-57AF-48AF-9084-CA4ADC3A20DD",
+      "date": "2023-04-19",
+      "beteckning": "CU14",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 263,
+        "nej": 21,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "76A694D1-A2E1-4207-8933-A547E37E7AF0",
+      "date": "2023-04-19",
+      "beteckning": "CU6",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 288,
+        "nej": 16,
+        "avstar": 0,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "879B98D4-4047-4A11-9096-07C9FB3A200F",
+      "date": "2023-04-19",
+      "beteckning": "JuU13",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 191,
+        "nej": 114,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "9C06BF60-F071-43E1-A3D4-6CA0A15D52DE",
+      "date": "2023-04-19",
+      "beteckning": "JuU13",
+      "punkt": 19,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 242,
+        "nej": 63,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "A3A9BAFC-3FBD-48B6-9A8B-803D55097CB4",
+      "date": "2023-04-19",
+      "beteckning": "JuU15",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "A42E4DF0-A2D6-4AF3-8D28-138CCB085927",
+      "date": "2023-04-19",
+      "beteckning": "JuU13",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "B2608E7A-21AB-434F-9464-2247D3F7597A",
+      "date": "2023-04-19",
+      "beteckning": "SoU20",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 112,
+        "nej": 64,
+        "avstar": 127,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "BED5235F-5B4F-4136-AB02-134D392B21EE",
+      "date": "2023-04-19",
+      "beteckning": "JuU13",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 191,
+        "nej": 114,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "CC9D0CD3-2376-44A6-B411-EFE1DC5A9F8D",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 38,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "D1236369-74CA-401F-967D-600CA0158A33",
+      "date": "2023-04-19",
+      "beteckning": "CU14",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 240,
+        "nej": 64,
+        "avstar": 1,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "D178834F-9DB9-4929-A18E-5F89FC0E1157",
+      "date": "2023-04-19",
+      "beteckning": "SoU20",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 37,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D8323C7D-8680-4399-A024-AB8A0BC3E0DE",
+      "date": "2023-04-19",
+      "beteckning": "FiU26",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 127,
+        "avstar": 1,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "E15A24FA-8B30-423D-9540-D54924432EA9",
+      "date": "2023-04-19",
+      "beteckning": "AU7",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 21,
+        "avstar": 109,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "EBCD073E-B7BE-43DA-B621-D387994C1EF4",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 55,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "F07A01A7-55E0-45B6-90C3-0CA866BE0350",
+      "date": "2023-04-19",
+      "beteckning": "SoU20",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 128,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "F692A652-827B-40E9-930D-906AB20DFF63",
+      "date": "2023-04-19",
+      "beteckning": "JuU14",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 16,
+        "avstar": 21,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "F8DD103D-D9F7-43A0-81BF-1BE1BA5E866C",
+      "date": "2023-04-19",
+      "beteckning": "FiU26",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 239,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "FFC81C4F-0CB8-4972-A18D-4E4C62BFC19B",
+      "date": "2023-04-19",
+      "beteckning": "CU6",
+      "punkt": 23,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 93,
+        "avstar": 58,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "080F4D99-C533-4355-B76F-A182991C6EAD",
+      "date": "2023-04-20",
+      "beteckning": "SfU14",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "08D7E883-CC3C-499F-BBAB-D9089B82ABBA",
+      "date": "2023-04-20",
+      "beteckning": "SkU14",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 14,
+        "avstar": 85,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "0FF16826-D648-48E9-8F4C-FEB8F9762E53",
+      "date": "2023-04-20",
+      "beteckning": "SfU14",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 95,
+        "avstar": 54,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "344334B1-EBA9-4563-8466-33FAE4F2D3AC",
+      "date": "2023-04-20",
+      "beteckning": "SkU10",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 56,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "419DAD76-477D-418B-980B-44D302586F86",
+      "date": "2023-04-20",
+      "beteckning": "SfU15",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 110,
+        "nej": 95,
+        "avstar": 98,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "4638892E-425D-405A-901E-FB2A3861323A",
+      "date": "2023-04-20",
+      "beteckning": "SfU15",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 35,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "4C8DAB8B-7445-4811-B200-B8ABAFD4669D",
+      "date": "2023-04-20",
+      "beteckning": "SkU15",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 64,
+        "avstar": 35,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "68DFE513-3A77-40C0-9309-B76421C6C726",
+      "date": "2023-04-20",
+      "beteckning": "SkU14",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 21,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "700AEA38-16DB-4B06-8C0E-A2749A29C149",
+      "date": "2023-04-20",
+      "beteckning": "SfU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "8BC68595-4C31-4C08-AE79-2F8C1D854CF3",
+      "date": "2023-04-20",
+      "beteckning": "SfU14",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 129,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "9ED77C17-261C-4943-83D2-70C39518E5B8",
+      "date": "2023-04-20",
+      "beteckning": "SfU14",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 202,
+        "nej": 21,
+        "avstar": 78,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "AF10670A-D9B6-4740-97A8-097D59DB40BF",
+      "date": "2023-04-20",
+      "beteckning": "SkU14",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "CFBAC9DA-BA6F-4F02-BB33-B71D01AE1835",
+      "date": "2023-04-20",
+      "beteckning": "SkU14",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D572460E-CEE1-4BF0-BBDB-EC442A8D15BC",
+      "date": "2023-04-20",
+      "beteckning": "SfU14",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 197,
+        "nej": 20,
+        "avstar": 85,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "E92574BE-B2FF-4C1A-85D8-5DBC34B4D051",
+      "date": "2023-04-20",
+      "beteckning": "SkU15",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "06D12579-5035-4A68-8051-903B1BACADD7",
+      "date": "2023-04-26",
+      "beteckning": "KU30",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 92,
+        "avstar": 35,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "17964D61-7ECA-4303-91F5-5962623CEB37",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 92,
+        "avstar": 56,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "1B80BC24-E256-4866-9D59-CFF8E8CD3EEB",
+      "date": "2023-04-26",
+      "beteckning": "KrU9",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 214,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "240AB337-C38F-42A6-B325-5EA02B71544C",
+      "date": "2023-04-26",
+      "beteckning": "KU30",
+      "punkt": 32,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 193,
+        "nej": 21,
+        "avstar": 85,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "3635AB2A-8C4C-4521-A527-FF0212634033",
+      "date": "2023-04-26",
+      "beteckning": "UU7",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 193,
+        "nej": 64,
+        "avstar": 42,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "3EC7CCAD-6E8A-4029-93DA-EE2E399D3DF4",
+      "date": "2023-04-26",
+      "beteckning": "KrU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 14,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "42EBCBD8-2D19-430A-B0DD-6B49B2ADA61F",
+      "date": "2023-04-26",
+      "beteckning": "UbU8",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 148,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "44CF5F87-68EC-4601-AFB1-0D5E00F07EE7",
+      "date": "2023-04-26",
+      "beteckning": "KrU9",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 263,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "4D5CAD5C-F210-4ABF-A22B-86608F9BBB38",
+      "date": "2023-04-26",
+      "beteckning": "KU30",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 13,
+        "avstar": 112,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "55EA2027-0624-44AE-9D5B-DCA45ED8FE37",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 214,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "66A307FE-0BAB-41C3-B37D-BE27F97A77E3",
+      "date": "2023-04-26",
+      "beteckning": "KrU11",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 235,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "6C261797-7B75-4234-AAA8-FA9ED4141F69",
+      "date": "2023-04-26",
+      "beteckning": "SoU24",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 200,
+        "nej": 63,
+        "avstar": 36,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "761E29BA-FEC9-4F47-AE32-4163F4E1542C",
+      "date": "2023-04-26",
+      "beteckning": "SoU24",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 150,
+        "nej": 21,
+        "avstar": 128,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "810060A3-7673-4527-8C8F-EA874CE9FDFE",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "943268D4-B4D5-4E80-BA86-66AD6B1A36A3",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 221,
+        "nej": 14,
+        "avstar": 64,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "96839B8C-BE12-4925-A92B-DDCE15FF6BB5",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 278,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "96D80DC3-86A1-431E-89C3-2E3A25B804C6",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 200,
+        "nej": 14,
+        "avstar": 85,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "A3495FC4-4185-4DA1-9BEA-A79B58C82D61",
+      "date": "2023-04-26",
+      "beteckning": "KrU9",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 127,
+        "avstar": 21,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "A71EE33F-70CD-468B-93E7-108C7D6BB2C2",
+      "date": "2023-04-26",
+      "beteckning": "KU30",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 220,
+        "nej": 64,
+        "avstar": 14,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "A791FC28-E6F3-4034-968E-58C84F1C9F5C",
+      "date": "2023-04-26",
+      "beteckning": "UU7",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "A836EC27-EA98-4CB2-8BEF-B6E02D35502B",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 92,
+        "avstar": 55,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "ACA47E33-1C8F-4BC6-B836-61A7B491828D",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 186,
+        "nej": 113,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "ADF1715E-2CEE-44B3-9904-2559A7779678",
+      "date": "2023-04-26",
+      "beteckning": "UbU6",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 106,
+        "avstar": 20,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B044B34D-47F8-4624-8379-FD2E04A7F008",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 126,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B2C184BF-1E70-4750-9BB0-15FFD7E776B6",
+      "date": "2023-04-26",
+      "beteckning": "KU24",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 215,
+        "nej": 63,
+        "avstar": 21,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B4524B0E-0AD8-4614-A69C-0C6ECC84E2FF",
+      "date": "2023-04-26",
+      "beteckning": "UU7",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 276,
+        "nej": 22,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "B606F46E-2884-477E-A6FC-F680308596FE",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "BA564386-F825-435B-AD5A-22F40E50D7C5",
+      "date": "2023-04-26",
+      "beteckning": "UbU8",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 171,
+        "nej": 127,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "BE914B7B-3E63-4617-A011-53B3CA17F447",
+      "date": "2023-04-26",
+      "beteckning": "KU24",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 127,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "C4C95EAC-45D0-408B-AAE2-AFD2ABA9F050",
+      "date": "2023-04-26",
+      "beteckning": "UbU8",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 21,
+        "avstar": 99,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "CA525ABE-263C-41BF-AEB6-FFB4DAC167DA",
+      "date": "2023-04-26",
+      "beteckning": "UU7",
+      "punkt": 11,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 147,
+        "avstar": 0,
+        "franvarande": 51
+      }
+    },
+    {
+      "id": "D3C096B5-E425-40D1-AD95-B4DC0E44748A",
+      "date": "2023-04-26",
+      "beteckning": "KrU11",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 91,
+        "avstar": 35,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "D3EDD529-B10E-437D-A64D-7DD018285280",
+      "date": "2023-04-26",
+      "beteckning": "KrU11",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "DAA45173-74A6-4E84-B358-A5A7DB5C178E",
+      "date": "2023-04-26",
+      "beteckning": "UU7",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 151,
+        "nej": 92,
+        "avstar": 56,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "DFE5B620-EE18-4324-B138-F89073EFBA50",
+      "date": "2023-04-26",
+      "beteckning": "KU30",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 277,
+        "nej": 22,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "EE162E8A-A5A0-47D4-B49F-88B5830F89A9",
+      "date": "2023-04-26",
+      "beteckning": "UbU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 236,
+        "nej": 63,
+        "avstar": 0,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "F4E5B73E-6CCA-4812-A160-4363B26ADC08",
+      "date": "2023-04-26",
+      "beteckning": "SoU24",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 206,
+        "nej": 92,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "F6E72DB9-D9A5-4215-8DEE-EAB5647D13E9",
+      "date": "2023-04-26",
+      "beteckning": "KrU11",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 180,
+        "nej": 22,
+        "avstar": 97,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "F88CF26E-9019-4A90-8EDE-1BBD4CE39881",
+      "date": "2023-04-26",
+      "beteckning": "NU9",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 186,
+        "nej": 112,
+        "avstar": 1,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "FDF83CFE-65EE-41C3-ADC7-72B0073F494A",
+      "date": "2023-04-26",
+      "beteckning": "KU24",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 14,
+        "avstar": 21,
+        "franvarande": 50
+      }
+    },
+    {
+      "id": "3FF48A65-3397-4C4C-AB8A-6C6413102F21",
+      "date": "2023-04-27",
+      "beteckning": "UbU9",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 126,
+        "nej": 63,
+        "avstar": 113,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "42B10380-5CBD-45B0-8B25-CAD56BDC0A81",
+      "date": "2023-04-27",
+      "beteckning": "AU9",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 168,
+        "nej": 20,
+        "avstar": 114,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "45F98294-3C31-4FA0-AFFD-1BF54F6EF02C",
+      "date": "2023-04-27",
+      "beteckning": "AU8",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 63,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "55770B89-47F5-494C-AF09-9F1511992389",
+      "date": "2023-04-27",
+      "beteckning": "AU8",
+      "punkt": 16,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 20,
+        "avstar": 110,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "56CE39BF-5D0A-4382-8B84-086E9CD9B2C2",
+      "date": "2023-04-27",
+      "beteckning": "FiU22",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 183,
+        "nej": 63,
+        "avstar": 56,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "7241B838-7234-4B2E-A123-BDBBB6894236",
+      "date": "2023-04-27",
+      "beteckning": "AU9",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 94,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "784E534D-840C-4529-B0F1-C8F39E9F577A",
+      "date": "2023-04-27",
+      "beteckning": "UbU9",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 20,
+        "avstar": 115,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "9181EECE-21CA-4EC0-A04E-6EDB66159BBA",
+      "date": "2023-04-27",
+      "beteckning": "FiU22",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 21,
+        "avstar": 93,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "93A8976A-071D-4FBF-B70A-7AF273849349",
+      "date": "2023-04-27",
+      "beteckning": "AU9",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 109,
+        "nej": 16,
+        "avstar": 177,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "961ED1A5-9F3A-427E-87A9-8EDBB4D20AC9",
+      "date": "2023-04-27",
+      "beteckning": "AU9",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 286,
+        "nej": 16,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "BD093757-FD1D-40AF-B9B8-E88AE5176303",
+      "date": "2023-04-27",
+      "beteckning": "UbU9",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 171,
+        "nej": 94,
+        "avstar": 37,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "CEC00F4D-E1D9-4F9D-916F-3C84B905BE47",
+      "date": "2023-04-27",
+      "beteckning": "AU8",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 172,
+        "nej": 130,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "EB904224-ED1D-4D90-A32F-DB0C4964A8C6",
+      "date": "2023-04-27",
+      "beteckning": "AU9",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 63,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "EEB344E6-CAE7-491C-8EED-7D1BB677C7D2",
+      "date": "2023-04-27",
+      "beteckning": "FiU22",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 94,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F232B2FA-DCAA-42FF-AF8C-8EE5FB1FDB25",
+      "date": "2023-04-27",
+      "beteckning": "AU8",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 114,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "FD24562B-6BFE-4B6A-93A5-3FE5C292FDA2",
+      "date": "2023-04-27",
+      "beteckning": "AU8",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "056DD082-91EE-4AFD-B2AC-3A70C9FCBE68",
+      "date": "2023-05-03",
+      "beteckning": "SoU14",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 128,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "08D98674-C792-4914-99B9-F03EAC644723",
+      "date": "2023-05-03",
+      "beteckning": "SoU16",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 109,
+        "nej": 64,
+        "avstar": 129,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "13925143-0046-4C89-B43E-17F28BE6A6BB",
+      "date": "2023-05-03",
+      "beteckning": "JuU10",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "1C0E5B94-DAEB-41A6-96A0-BFFA1E9A0A62",
+      "date": "2023-05-03",
+      "beteckning": "FöU8",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 168,
+        "nej": 94,
+        "avstar": 41,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "24CAF007-D6C1-4286-8D72-CC20614D128B",
+      "date": "2023-05-03",
+      "beteckning": "SoU10",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 21,
+        "avstar": 34,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "4AC62574-41AA-47F1-8B72-DD3AD6A4E275",
+      "date": "2023-05-03",
+      "beteckning": "UbU7",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 197,
+        "nej": 20,
+        "avstar": 85,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "4D74629C-3A0E-4694-8A6E-03CDCFF40D36",
+      "date": "2023-05-03",
+      "beteckning": "SoU14",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 183,
+        "nej": 64,
+        "avstar": 55,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "4D8B007B-1740-4219-AB85-AA15BF06C134",
+      "date": "2023-05-03",
+      "beteckning": "SoU14",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 152,
+        "nej": 94,
+        "avstar": 55,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "55F1AF50-C20E-4DD7-9DEB-FFD984F54304",
+      "date": "2023-05-03",
+      "beteckning": "JuU20",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 94,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "58839CEA-2353-4F08-AB94-9941AC9138AF",
+      "date": "2023-05-03",
+      "beteckning": "UbU5",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 128,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "5D3A8094-C3FB-4C13-9DEA-CAD3C1B2B00E",
+      "date": "2023-05-03",
+      "beteckning": "SoU10",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 20,
+        "avstar": 35,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "6C693788-F4C6-4139-ADBD-4887CF117B94",
+      "date": "2023-05-03",
+      "beteckning": "UbU5",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 94,
+        "avstar": 20,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "7B30013C-A760-45FB-9ACC-521E72E89DC4",
+      "date": "2023-05-03",
+      "beteckning": "UbU7",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 216,
+        "nej": 64,
+        "avstar": 22,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "83171E47-27BA-414A-8BE4-7004FBD44065",
+      "date": "2023-05-03",
+      "beteckning": "JuU10",
+      "punkt": 25,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 14,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "86C99EEC-4650-472A-88E3-26B825449619",
+      "date": "2023-05-03",
+      "beteckning": "FöU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 14,
+        "avstar": 41,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "8FC0166D-6BA2-44D6-A40D-FC76F4DB93EB",
+      "date": "2023-05-03",
+      "beteckning": "SoU14",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "8FEEE8FA-2059-4A78-B856-45AE7B6BE0A9",
+      "date": "2023-05-03",
+      "beteckning": "UbU7",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 21,
+        "avstar": 107,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "98447D00-F5B7-4128-BE17-CF026849EE8D",
+      "date": "2023-05-03",
+      "beteckning": "SoU10",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "A8B4D38B-AE45-42DB-A96F-446A663E27FA",
+      "date": "2023-05-03",
+      "beteckning": "SoU16",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 187,
+        "nej": 115,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "B1FBAABA-1FD4-4CA3-BEBD-A644657310C4",
+      "date": "2023-05-03",
+      "beteckning": "FöU8",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 14,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "BB9C4CE3-AEFD-4C6B-AFC3-48480192AE3F",
+      "date": "2023-05-03",
+      "beteckning": "CU18",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 110,
+        "nej": 94,
+        "avstar": 98,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "C124E116-C77A-46B1-A1C4-B9226CEED2DE",
+      "date": "2023-05-03",
+      "beteckning": "SoU16",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 108,
+        "avstar": 40,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "C12DCBAE-6904-4ED4-BDF3-3665C360F3C0",
+      "date": "2023-05-03",
+      "beteckning": "JuU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 20,
+        "avstar": 14,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "C136A4BC-22C5-4B1F-BDD1-4DC2ABE57805",
+      "date": "2023-05-03",
+      "beteckning": "JuU20",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 34,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "C1983BD3-49A1-4349-B06B-46E4C7C62AD4",
+      "date": "2023-05-03",
+      "beteckning": "FöU8",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 21,
+        "avstar": 22,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "CE26430A-58D1-4B28-A4C1-BDAAD81D03DF",
+      "date": "2023-05-03",
+      "beteckning": "UbU5",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 14,
+        "avstar": 115,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "D2E07CAC-C0EC-4BDC-AAF9-18049D6CC163",
+      "date": "2023-05-03",
+      "beteckning": "JuU10",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 124,
+        "nej": 94,
+        "avstar": 85,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D76D7363-ED81-4304-9ACD-C0ACF4DBECB8",
+      "date": "2023-05-03",
+      "beteckning": "JuU10",
+      "punkt": 16,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 239,
+        "nej": 63,
+        "avstar": 1,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "EF1E7BA8-952B-4B4E-825E-58915C3EE0CA",
+      "date": "2023-05-03",
+      "beteckning": "UbU7",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 166,
+        "nej": 94,
+        "avstar": 41,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "F8DCBAC9-92C8-4DC0-A2D4-A6B1D1364FFB",
+      "date": "2023-05-03",
+      "beteckning": "CU18",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 34,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F9271BAE-2895-45B9-9C27-3EEF5010AB33",
+      "date": "2023-05-03",
+      "beteckning": "JuU10",
+      "punkt": 38,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 289,
+        "nej": 14,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "FA3FFA70-CE08-478C-8AE6-123C011A8186",
+      "date": "2023-05-03",
+      "beteckning": "UbU5",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 123,
+        "nej": 64,
+        "avstar": 115,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "057272C5-E6AE-4F6A-9984-0FCF3B2E962F",
+      "date": "2023-05-04",
+      "beteckning": "SfU16",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 108,
+        "avstar": 20,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "4E8AB6B6-D1DB-49F6-99CB-8500502F6DDA",
+      "date": "2023-05-04",
+      "beteckning": "TU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "7515F13B-F7C2-497B-AA76-E2A65552AB0C",
+      "date": "2023-05-04",
+      "beteckning": "TU9",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 202,
+        "nej": 15,
+        "avstar": 84,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "89CEB8F2-083F-4197-A7CE-C2C866810A7E",
+      "date": "2023-05-04",
+      "beteckning": "TU9",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 265,
+        "nej": 21,
+        "avstar": 15,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "930B4466-CAEF-49E6-8BBA-4AAB1F5D38C2",
+      "date": "2023-05-04",
+      "beteckning": "SfU16",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 64,
+        "avstar": 40,
+        "franvarande": 49
+      }
+    },
+    {
+      "id": "A63359AB-FA56-4BEF-B7D2-EC6C95946616",
+      "date": "2023-05-04",
+      "beteckning": "SfU16",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 102,
+        "nej": 93,
+        "avstar": 106,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "F518D462-D947-4315-8367-056BB79E80A0",
+      "date": "2023-05-04",
+      "beteckning": "TU9",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 201,
+        "nej": 64,
+        "avstar": 36,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "008484EA-7970-4559-BEA7-E2F6454E7571",
+      "date": "2023-05-10",
+      "beteckning": "UU15",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 289,
+        "nej": 14,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "04C2335C-F2AF-4762-B364-D6DB2058A9E0",
+      "date": "2023-05-10",
+      "beteckning": "KU26",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 195,
+        "nej": 108,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "0B252E90-A6B3-4D07-B476-BDF35335EE16",
+      "date": "2023-05-10",
+      "beteckning": "JuU16",
+      "punkt": 19,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "0F874A3B-FF93-402F-88BF-06E279982185",
+      "date": "2023-05-10",
+      "beteckning": "MJU17",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "15E0D0D7-C7A7-443D-A9B6-197F1ED0FEB4",
+      "date": "2023-05-10",
+      "beteckning": "MJU17",
+      "punkt": 24,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 125,
+        "nej": 94,
+        "avstar": 84,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "19162E51-8F28-43E2-BEF2-21F2F44C2D1B",
+      "date": "2023-05-10",
+      "beteckning": "UU15",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 182,
+        "nej": 65,
+        "avstar": 56,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "1FD4CA9C-CE98-4AED-8795-27D6DD330A4A",
+      "date": "2023-05-10",
+      "beteckning": "KU28",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 205,
+        "nej": 34,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "2C27EBDF-5511-4C5B-A62C-2045FAAB39BE",
+      "date": "2023-05-10",
+      "beteckning": "SoU12",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "2CFD35BB-F4CC-4347-BAB4-2F20E1FB01B1",
+      "date": "2023-05-10",
+      "beteckning": "CU13",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 124,
+        "nej": 94,
+        "avstar": 85,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "32189645-DF23-4258-A9C9-F25A1DAFF063",
+      "date": "2023-05-10",
+      "beteckning": "SkU13",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 197,
+        "nej": 21,
+        "avstar": 85,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "338D1580-29AC-4525-AF97-7EF71BAB7674",
+      "date": "2023-05-10",
+      "beteckning": "KU28",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 183,
+        "nej": 21,
+        "avstar": 99,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "35222007-23DE-448F-9AFB-94998FA8587C",
+      "date": "2023-05-10",
+      "beteckning": "SoU12",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 94,
+        "avstar": 56,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "3B0401FE-9ECE-4964-B8C6-6E25979C34A9",
+      "date": "2023-05-10",
+      "beteckning": "TU7",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "3DF91FDA-AE0A-43C1-9C52-B93157F8ABCA",
+      "date": "2023-05-10",
+      "beteckning": "KU23",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "4039988D-0D34-4897-A883-C5C61C3640CC",
+      "date": "2023-05-10",
+      "beteckning": "CU13",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 14,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "411FB566-54FC-4FA6-B906-6A5D2B4708D4",
+      "date": "2023-05-10",
+      "beteckning": "SoU12",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "42EDA816-B1B7-47BF-97A8-3654E3382E01",
+      "date": "2023-05-10",
+      "beteckning": "JuU16",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "488A5E2F-CF4E-4C95-8763-A78D445A6A83",
+      "date": "2023-05-10",
+      "beteckning": "MJU17",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 21,
+        "avstar": 108,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "539B5E42-505C-47F5-B5BC-2E6759DC7B4F",
+      "date": "2023-05-10",
+      "beteckning": "KU28",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 64,
+        "avstar": 42,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "578FC365-5DD3-49A4-AAA9-672901FF7BB2",
+      "date": "2023-05-10",
+      "beteckning": "KU26",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 152,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "5BBEEFC6-4967-4BB4-86A2-0A1EC1A499E2",
+      "date": "2023-05-10",
+      "beteckning": "CU13",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "627B4EDE-3B0E-4873-83F1-B5FE5E4D785F",
+      "date": "2023-05-10",
+      "beteckning": "KU26",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 217,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "650FE3DD-FD5D-49CD-A513-894A5D5E8A03",
+      "date": "2023-05-10",
+      "beteckning": "CU8",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 85,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "6B704D4F-BE32-4C40-B107-5D37569EA2F6",
+      "date": "2023-05-10",
+      "beteckning": "UU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7376C427-A646-4805-8422-49AFFB9002D0",
+      "date": "2023-05-10",
+      "beteckning": "KU23",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 239,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "767F7B57-6553-470D-BAD4-80C72B6FA795",
+      "date": "2023-05-10",
+      "beteckning": "JuU19",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "78DCA2AF-B011-4B95-8DBA-C989F4CCBCB9",
+      "date": "2023-05-10",
+      "beteckning": "TU7",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 94,
+        "avstar": 42,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7BC43F20-AF2B-4A06-B81D-D4905514281A",
+      "date": "2023-05-10",
+      "beteckning": "MJU17",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7DD78E20-A4AC-4B16-8ED0-87F7BC39C3C2",
+      "date": "2023-05-10",
+      "beteckning": "SfU17",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 94,
+        "avstar": 56,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "8FCC61C4-2135-4E20-9BA7-73C182D45446",
+      "date": "2023-05-10",
+      "beteckning": "CU13",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 14,
+        "avstar": 115,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "9559CAA4-A8B6-4EE2-91A3-320F122F1B13",
+      "date": "2023-05-10",
+      "beteckning": "SkU13",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 94,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "A16FDA23-5A33-4411-8B16-E66E5952A1BA",
+      "date": "2023-05-10",
+      "beteckning": "KU26",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 56,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "AA4A66F6-EA9B-4BA5-8191-4CCB2B6D605C",
+      "date": "2023-05-10",
+      "beteckning": "SoU12",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 35,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "B7959DDB-7A2B-4428-A0B8-721E5C187B49",
+      "date": "2023-05-10",
+      "beteckning": "SoU12",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 167,
+        "nej": 21,
+        "avstar": 115,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "BAB4B140-6F4F-4C17-8CB1-567870BC2AA7",
+      "date": "2023-05-10",
+      "beteckning": "CU8",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 128,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "BC49E3F0-0AA6-4422-8106-7161D4F952A4",
+      "date": "2023-05-10",
+      "beteckning": "SkU13",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "C2EF42F1-04BC-442B-A88D-F845A9AA56D1",
+      "date": "2023-05-10",
+      "beteckning": "SkU13",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "CA8B752E-D06D-4297-9749-89D77DF647AC",
+      "date": "2023-05-10",
+      "beteckning": "CU8",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 218,
+        "nej": 85,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D06156E8-C7B3-42B0-A0D3-28806DE965F9",
+      "date": "2023-05-10",
+      "beteckning": "TU7",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "DA062AC0-5CAA-4CDC-AF84-B07686C6F477",
+      "date": "2023-05-10",
+      "beteckning": "JuU16",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 239,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "E38AA8C7-E9FB-4024-8782-41D2694245E9",
+      "date": "2023-05-10",
+      "beteckning": "UU15",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "EF6939A4-4D16-48D4-AF68-C18DBB45A49D",
+      "date": "2023-05-10",
+      "beteckning": "KU23",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "FDA698D7-CEAA-4A4A-A202-B0BDC4324351",
+      "date": "2023-05-10",
+      "beteckning": "UU15",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 173,
+        "nej": 129,
+        "avstar": 1,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "03ECBEF1-07A4-4FA2-96F3-E72CE571F971",
+      "date": "2023-05-11",
+      "beteckning": "MJU14",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 35,
+        "avstar": 20,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "0AED1E68-457D-45EF-9AE5-7237130415F7",
+      "date": "2023-05-11",
+      "beteckning": "MJU14",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 127,
+        "nej": 90,
+        "avstar": 76,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "217C7A3E-7011-4817-B32B-04638CBD9EFC",
+      "date": "2023-05-11",
+      "beteckning": "NU16",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 149,
+        "nej": 21,
+        "avstar": 123,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "45A34568-C6FF-4B51-8952-EB6015897EF5",
+      "date": "2023-05-11",
+      "beteckning": "MJU13",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 258,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "4EE53684-F0B2-4C79-B56A-3070C5211E0B",
+      "date": "2023-05-11",
+      "beteckning": "KrU7",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 107,
+        "nej": 35,
+        "avstar": 151,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "624601AB-9CE7-4E5D-8C4B-C6B851A13A04",
+      "date": "2023-05-11",
+      "beteckning": "KrU7",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 34,
+        "avstar": 62,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "6D5B77FE-7F0C-4A84-B3B8-2BF0C02A6F2C",
+      "date": "2023-05-11",
+      "beteckning": "NU16",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 90,
+        "avstar": 14,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "82BE308C-11A6-49B5-B691-CEAABE59EBC4",
+      "date": "2023-05-11",
+      "beteckning": "KrU7",
+      "punkt": 5,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 149,
+        "nej": 124,
+        "avstar": 20,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "8878C514-9A84-44DF-8652-7BBCB368247F",
+      "date": "2023-05-11",
+      "beteckning": "MJU13",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 238,
+        "nej": 35,
+        "avstar": 20,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "8DA9AA09-585D-421E-B7C7-5815301772BF",
+      "date": "2023-05-11",
+      "beteckning": "MJU14",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 211,
+        "nej": 62,
+        "avstar": 20,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "91473212-EB5B-425A-B453-C286F19E89E6",
+      "date": "2023-05-11",
+      "beteckning": "MJU13",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 210,
+        "nej": 20,
+        "avstar": 63,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "922CFC33-E4D2-4F3C-A819-E2927BE94B51",
+      "date": "2023-05-11",
+      "beteckning": "KrU7",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 160,
+        "nej": 62,
+        "avstar": 71,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "95D20ECF-956F-4366-8673-CE4CCC33747D",
+      "date": "2023-05-11",
+      "beteckning": "NU16",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 121,
+        "nej": 20,
+        "avstar": 152,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "B5720215-CFAD-4288-B6B7-6FB731DEEADA",
+      "date": "2023-05-11",
+      "beteckning": "MJU14",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 211,
+        "nej": 20,
+        "avstar": 62,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "B6E8F1DC-2404-4AD8-AF06-6088F0955E3E",
+      "date": "2023-05-11",
+      "beteckning": "MJU13",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 183,
+        "nej": 110,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "C4080A85-2686-454F-9A99-0EF3737A65F5",
+      "date": "2023-05-11",
+      "beteckning": "KrU7",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 187,
+        "nej": 41,
+        "avstar": 64,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "CBC683CE-92D1-4A28-8E5B-6E28ED9FDE40",
+      "date": "2023-05-11",
+      "beteckning": "MJU13",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 231,
+        "nej": 62,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "E7D75131-D558-432E-8A72-CAE33D18B70E",
+      "date": "2023-05-11",
+      "beteckning": "MJU14",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 14,
+        "avstar": 90,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "F650706D-0AF4-4E10-A099-881AAAA0C0A3",
+      "date": "2023-05-11",
+      "beteckning": "NU16",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 196,
+        "nej": 62,
+        "avstar": 35,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "08750B55-BEFA-42E6-80D6-7078512037B9",
+      "date": "2023-05-24",
+      "beteckning": "MJU15",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "09B1BD7C-773C-469E-A538-EF841115BFD5",
+      "date": "2023-05-24",
+      "beteckning": "UbU10",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 148,
+        "nej": 105,
+        "avstar": 39,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "0B70FB76-7BE0-418A-B3F5-D95C36E1D102",
+      "date": "2023-05-24",
+      "beteckning": "MJU15",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 275,
+        "nej": 18,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "18CE9060-9EFC-4D72-813F-E04045807534",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 192,
+        "nej": 20,
+        "avstar": 81,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "233AF5A6-6C35-480A-8093-C9B7BB345185",
+      "date": "2023-05-24",
+      "beteckning": "SoU13",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 148,
+        "nej": 93,
+        "avstar": 52,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "265E87B2-7148-4F41-9868-B4A401DF0110",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 182,
+        "nej": 111,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "56F4FDAD-5CAE-401D-9EAA-53562AFF2C48",
+      "date": "2023-05-24",
+      "beteckning": "TU10",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 195,
+        "nej": 63,
+        "avstar": 34,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "58EB0E51-9BDC-4009-A4DC-2AA8C00F1FC9",
+      "date": "2023-05-24",
+      "beteckning": "KrU8",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 258,
+        "nej": 21,
+        "avstar": 13,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "5A77326E-2F6B-4B5A-AF92-6D8D7FB32D77",
+      "date": "2023-05-24",
+      "beteckning": "TU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 147,
+        "nej": 93,
+        "avstar": 53,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "5CB686EB-B892-4480-8424-73039C2DC10D",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 207,
+        "nej": 65,
+        "avstar": 21,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "611511D8-4D80-4FB8-A1C6-EFB70E451AFA",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "61EC5B59-B498-4C60-8D69-C15A90CF6A45",
+      "date": "2023-05-24",
+      "beteckning": "TU10",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 195,
+        "nej": 13,
+        "avstar": 85,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "728E2FE1-C615-488C-8886-83C4BC4A3B58",
+      "date": "2023-05-24",
+      "beteckning": "KrU8",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 102,
+        "nej": 93,
+        "avstar": 98,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "8236EECD-8D57-4BF7-B9F8-C537168E81D3",
+      "date": "2023-05-24",
+      "beteckning": "TU10",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 228,
+        "nej": 65,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "91F2E73F-8E9A-4A9D-B99E-4CC2A4A73DAB",
+      "date": "2023-05-24",
+      "beteckning": "SoU13",
+      "punkt": 19,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 216,
+        "nej": 64,
+        "avstar": 13,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "934BEA69-B783-44D5-942E-7796C05EF305",
+      "date": "2023-05-24",
+      "beteckning": "TU10",
+      "punkt": 18,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 209,
+        "nej": 84,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "957199E6-7BE3-4817-94AB-39D92637E535",
+      "date": "2023-05-24",
+      "beteckning": "MJU15",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 262,
+        "nej": 13,
+        "avstar": 18,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "99416877-C9C8-48A1-8093-18207F03D2C6",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 169,
+        "nej": 111,
+        "avstar": 13,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "9FA3EA3A-6FE3-4AAC-AA55-CCC0F2904132",
+      "date": "2023-05-24",
+      "beteckning": "SfU13",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 242,
+        "nej": 51,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "A276556D-182F-453A-AB24-860215596B59",
+      "date": "2023-05-24",
+      "beteckning": "SoU26",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 258,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "A37A23CB-C2A7-4CA0-8015-637716F60A1D",
+      "date": "2023-05-24",
+      "beteckning": "CU19",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 31,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "AABA6692-3368-4E3B-A384-851777527D58",
+      "date": "2023-05-24",
+      "beteckning": "KrU8",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 199,
+        "nej": 18,
+        "avstar": 76,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "B7D1CEE2-8D20-46E8-B7DF-6EA42A222D38",
+      "date": "2023-05-24",
+      "beteckning": "KrU8",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 84,
+        "nej": 64,
+        "avstar": 145,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "C2388AA4-70C5-4E1B-B5FB-888870CFF0F3",
+      "date": "2023-05-24",
+      "beteckning": "SoU13",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 171,
+        "nej": 18,
+        "avstar": 104,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "CCD47323-B18A-447D-ADAC-1085B9492C58",
+      "date": "2023-05-24",
+      "beteckning": "SkU12",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 280,
+        "nej": 13,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "CDDF2B94-7304-40C3-954B-801AB9F8F18C",
+      "date": "2023-05-24",
+      "beteckning": "UbU10",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 169,
+        "nej": 13,
+        "avstar": 111,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "CFFC8D73-A4FF-480B-A876-BC13FEDF48D5",
+      "date": "2023-05-24",
+      "beteckning": "SoU26",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 200,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "D5D1AAD5-B430-447F-9D9A-BD67B9335091",
+      "date": "2023-05-24",
+      "beteckning": "UbU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 208,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "E3CB3459-F4A6-441A-A1A6-98030B1BDDDE",
+      "date": "2023-05-24",
+      "beteckning": "SoU26",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 259,
+        "nej": 21,
+        "avstar": 13,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "E4C68CDE-0680-4051-BCE5-29B18A6F53F9",
+      "date": "2023-05-24",
+      "beteckning": "KrU8",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 170,
+        "nej": 93,
+        "avstar": 30,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "E8B69B04-3578-4DB6-BDCA-8408BA7FD12E",
+      "date": "2023-05-24",
+      "beteckning": "MJU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 179,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "E9F13062-54EA-48AB-876B-14BE42C5F57E",
+      "date": "2023-05-24",
+      "beteckning": "JuU21",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 274,
+        "nej": 18,
+        "avstar": 0,
+        "franvarande": 57
+      }
+    },
+    {
+      "id": "ED89B2A2-1C10-4F17-9B85-FF726E974087",
+      "date": "2023-05-24",
+      "beteckning": "MJU15",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 241,
+        "nej": 21,
+        "avstar": 31,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "F12A2F43-F915-43E9-BAC3-5E4D62818B72",
+      "date": "2023-05-24",
+      "beteckning": "UbU10",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 136,
+        "nej": 93,
+        "avstar": 64,
+        "franvarande": 56
+      }
+    },
+    {
+      "id": "05E755CA-C409-45C3-9999-66DEEE1AE56E",
+      "date": "2023-05-31",
+      "beteckning": "KrU10",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 240,
+        "nej": 63,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "07766ECA-D80C-404B-B2F2-ECF33354601D",
+      "date": "2023-05-31",
+      "beteckning": "NU17",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 21,
+        "avstar": 130,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "3176FDCC-5B43-4738-A59B-7396DD8ECC82",
+      "date": "2023-05-31",
+      "beteckning": "SkU17",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "3F26223A-B1E9-4F79-B116-C1EAF48B49CD",
+      "date": "2023-05-31",
+      "beteckning": "TU11",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 239,
+        "nej": 62,
+        "avstar": 1,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "5F51A0CE-E352-4F7F-A3EE-F118AFA53FEF",
+      "date": "2023-05-31",
+      "beteckning": "JuU28",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7744BC24-CAFB-423A-B329-2B818CAB0E4A",
+      "date": "2023-05-31",
+      "beteckning": "UbU14",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "816D505C-56DD-48F6-B164-666DAB03E25D",
+      "date": "2023-05-31",
+      "beteckning": "KU35",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "8C23BC3D-D1F0-4857-92AC-688CE5705CBE",
+      "date": "2023-05-31",
+      "beteckning": "NU17",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 230,
+        "nej": 16,
+        "avstar": 57,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "9C311277-D93C-439A-9E41-7F19516FCE59",
+      "date": "2023-05-31",
+      "beteckning": "SfU19",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "A8FF4A97-6AB2-445E-BA8F-9C2E1D23B3C5",
+      "date": "2023-05-31",
+      "beteckning": "NU17",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 222,
+        "nej": 63,
+        "avstar": 20,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "AE5D03C7-E8DC-459E-A230-A4248B8FFB67",
+      "date": "2023-05-31",
+      "beteckning": "TU11",
+      "punkt": 4,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 127,
+        "nej": 36,
+        "avstar": 140,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "B3E39045-268E-4A3E-B408-C6F8189FF158",
+      "date": "2023-05-31",
+      "beteckning": "UbU14",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 188,
+        "nej": 114,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "D045347A-3F84-447A-9540-2530DB5047B5",
+      "date": "2023-05-31",
+      "beteckning": "NU17",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 176,
+        "nej": 114,
+        "avstar": 15,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "D830BC11-2A4B-4640-92ED-0ED54ED359DA",
+      "date": "2023-05-31",
+      "beteckning": "TU11",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 126,
+        "nej": 94,
+        "avstar": 83,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D8C36845-5B90-40D9-84D9-393FDCBA9419",
+      "date": "2023-05-31",
+      "beteckning": "SkU17",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "DC77A5B5-BEDC-43E8-B1AC-A32877ED73BC",
+      "date": "2023-05-31",
+      "beteckning": "KrU10",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 190,
+        "nej": 94,
+        "avstar": 19,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "EAFC08FF-6E3F-4943-B8B7-02866ACE3729",
+      "date": "2023-05-31",
+      "beteckning": "TU11",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 20,
+        "avstar": 63,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "F6E4E389-CE5F-4858-9ABA-DF86A1158E2A",
+      "date": "2023-05-31",
+      "beteckning": "TU11",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 126,
+        "nej": 94,
+        "avstar": 83,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "049A9CBA-B9EE-4F29-8265-95A39C0CCFD3",
+      "date": "2023-06-07",
+      "beteckning": "SoU21",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 154,
+        "nej": 151,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "0767A1FA-54C8-43AC-91E4-0EAA2A10A924",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 190,
+        "nej": 21,
+        "avstar": 94,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "1394157F-E834-430B-B2C0-45757A9C3928",
+      "date": "2023-06-07",
+      "beteckning": "UU5",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 21,
+        "avstar": 79,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "149B00FA-8D7D-4B0C-A9C9-D0D664DAA40C",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 132,
+        "nej": 64,
+        "avstar": 109,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "3C513BB3-9CE0-46CD-8D7C-FDFAF7BEDA87",
+      "date": "2023-06-07",
+      "beteckning": "JuU25",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "3FD83685-97D6-421F-91A2-0194BB641A1B",
+      "date": "2023-06-07",
+      "beteckning": "JuU23",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 21,
+        "avstar": 15,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "437ACDA2-F986-4F75-9088-51E6B45E1FC4",
+      "date": "2023-06-07",
+      "beteckning": "AU10",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "623B2FAB-0860-4D58-9DBD-FEE8F840A85A",
+      "date": "2023-06-07",
+      "beteckning": "SoU21",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 240,
+        "nej": 64,
+        "avstar": 1,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "646BCA4D-433B-43B3-813A-47EEBB3CD83B",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 21,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 94,
+        "avstar": 36,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "69B110E2-2434-4BB1-9E9A-F4C891F687D1",
+      "date": "2023-06-07",
+      "beteckning": "UU5",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 220,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "7D6639D2-7757-4A42-A424-EEFA08B3B515",
+      "date": "2023-06-07",
+      "beteckning": "SoU21",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 247,
+        "nej": 21,
+        "avstar": 36,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "91110125-72B3-4C4F-8B1A-584C5616EF08",
+      "date": "2023-06-07",
+      "beteckning": "AU10",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "A599378A-BD1C-40C7-8D92-9A2B78F51CB3",
+      "date": "2023-06-07",
+      "beteckning": "JuU23",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "ADF75C77-D0F9-4968-9329-EBDC3CBD6019",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 36,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "B18E40DA-3D21-4D74-BAB9-4C1D56C64C6D",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 290,
+        "nej": 15,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "B8A034E7-E31E-4DA8-A20D-560BF1BDFA5D",
+      "date": "2023-06-07",
+      "beteckning": "SoU21",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 15,
+        "avstar": 22,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "BA5B7FA5-C8A5-449A-AC8E-1FC56640FB5D",
+      "date": "2023-06-07",
+      "beteckning": "MJU16",
+      "punkt": 24,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 15,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "CB1748C7-6338-4A4D-A694-5F89627447C3",
+      "date": "2023-06-07",
+      "beteckning": "UU5",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 220,
+        "nej": 63,
+        "avstar": 22,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "D284DAE7-78BD-412B-948C-F704907E7949",
+      "date": "2023-06-07",
+      "beteckning": "UU5",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 126,
+        "nej": 115,
+        "avstar": 64,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "FB01C27A-7081-4FA0-BE1D-1479411261DF",
+      "date": "2023-06-07",
+      "beteckning": "FiU41",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 130,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "762AABBA-AFFF-452A-B0B8-3F41594A4A22",
+      "date": "2023-06-08",
+      "beteckning": "UU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 63,
+        "avstar": 22,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "10811D35-78B8-4478-B88E-F4B1BFF369E8",
+      "date": "2023-06-14",
+      "beteckning": "TU12",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 205,
+        "nej": 21,
+        "avstar": 79,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "1CE00751-AD71-4029-9574-E0B1C5578C6F",
+      "date": "2023-06-14",
+      "beteckning": "UbU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 170,
+        "nej": 114,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "1E0FE71A-97EA-49E3-B1F8-E2BF8028D227",
+      "date": "2023-06-14",
+      "beteckning": "SoU17",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 21,
+        "avstar": 15,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "2C77E9C5-162F-40D6-A791-2FAFD2134939",
+      "date": "2023-06-14",
+      "beteckning": "UU13",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 36,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "2E8EF229-68CA-4239-85B8-A8D2E993ECCD",
+      "date": "2023-06-14",
+      "beteckning": "SoU17",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 248,
+        "nej": 21,
+        "avstar": 36,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "3AE862DF-FAA3-44F1-ADE2-0C5BBEA9DE69",
+      "date": "2023-06-14",
+      "beteckning": "SoU17",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 220,
+        "nej": 64,
+        "avstar": 21,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "4A67B0E0-8E19-41A8-B0FA-EB5221040C67",
+      "date": "2023-06-14",
+      "beteckning": "SoU17",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 195,
+        "nej": 94,
+        "avstar": 15,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "4F50F2C3-7870-456E-BD04-272CB610E8DF",
+      "date": "2023-06-14",
+      "beteckning": "UbU11",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 175,
+        "nej": 130,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "5B3BEC7C-A14E-46A3-9717-04E7343CD3C8",
+      "date": "2023-06-14",
+      "beteckning": "SoU17",
+      "punkt": 17,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 133,
+        "nej": 15,
+        "avstar": 157,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "666CC75A-8CBB-4B94-8173-80221EAC5EEE",
+      "date": "2023-06-14",
+      "beteckning": "TU12",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 126,
+        "nej": 94,
+        "avstar": 85,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "74102DCD-6A66-41B2-991B-950AADEC15E9",
+      "date": "2023-06-14",
+      "beteckning": "TU12",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 205,
+        "nej": 64,
+        "avstar": 36,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "826AE6B5-1737-44A8-B2B1-38BD84CE49F2",
+      "date": "2023-06-14",
+      "beteckning": "TU15",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 241,
+        "nej": 64,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "9A6D24E8-20B1-470D-B1F7-58626EAE8B15",
+      "date": "2023-06-14",
+      "beteckning": "TU12",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "CC3EA3D5-4422-4CC4-BD04-D5279C3609E8",
+      "date": "2023-06-14",
+      "beteckning": "UbU11",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 36,
+        "avstar": 64,
+        "franvarande": 45
+      }
+    },
+    {
+      "id": "DAA6BF7F-D5D3-496E-97F8-6B1189D92507",
+      "date": "2023-06-14",
+      "beteckning": "UbU11",
+      "punkt": 6,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 199,
+        "nej": 64,
+        "avstar": 42,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "E5BCC75A-4DBE-4AD7-B01C-0534367C1751",
+      "date": "2023-06-14",
+      "beteckning": "UbU11",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 220,
+        "nej": 21,
+        "avstar": 64,
+        "franvarande": 44
+      }
+    },
+    {
+      "id": "0E2E7C43-A283-4862-B5B5-79D2D6EDB722",
+      "date": "2023-06-20",
+      "beteckning": "TU13",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 184,
+        "nej": 56,
+        "avstar": 63,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "1A08ED9E-674A-4BC5-9279-2D2FFBD87273",
+      "date": "2023-06-20",
+      "beteckning": "TU13",
+      "punkt": 15,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 35,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "204F8DA6-EAF4-4F15-B8A6-B66BB25B9D1E",
+      "date": "2023-06-20",
+      "beteckning": "JuU26",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 15,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "2120995D-C5DE-4949-BF3F-AB34B1E09C5F",
+      "date": "2023-06-20",
+      "beteckning": "FiU21",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "22141A5D-141F-4414-8F55-03E82D9454C5",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 10,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "251FCF97-3BE2-4AA6-B6E4-919E7B4FF1B1",
+      "date": "2023-06-20",
+      "beteckning": "TU14",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 130,
+        "avstar": 20,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "34C07D27-BB67-4B0A-B0B2-7B04791B537C",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 125,
+        "nej": 114,
+        "avstar": 63,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "35A67C0F-F0ED-49A4-B31B-F59DDBB9BE01",
+      "date": "2023-06-20",
+      "beteckning": "FiU20",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 94,
+        "avstar": 56,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "3D343491-6BD6-477C-8D19-BC756FDE0B81",
+      "date": "2023-06-20",
+      "beteckning": "MJU18",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "3FF2D382-6032-4017-8D94-17BE6A27BB72",
+      "date": "2023-06-20",
+      "beteckning": "TU13",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 146,
+        "nej": 94,
+        "avstar": 63,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "463F9E12-C2FF-47C7-88DE-076AF1F6E245",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 260,
+        "nej": 20,
+        "avstar": 23,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "4D6268A8-A4D7-4300-B868-226EEA083741",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 5,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 174,
+        "nej": 129,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "5300BE60-0E39-46B4-AEF0-9490FF02582C",
+      "date": "2023-06-20",
+      "beteckning": "MJU18",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 225,
+        "nej": 15,
+        "avstar": 63,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "56BCB531-9530-4FD5-AF2B-55EE1A5C6F8E",
+      "date": "2023-06-20",
+      "beteckning": "MJU18",
+      "punkt": 14,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 21,
+        "avstar": 63,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "5F78FD10-DBFF-46DF-9419-88237ECE0D1E",
+      "date": "2023-06-20",
+      "beteckning": "FiU21",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 153,
+        "nej": 150,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "6964743C-20BA-4DC7-AEAC-0DEDDE3518AA",
+      "date": "2023-06-20",
+      "beteckning": "TU13",
+      "punkt": 9,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 219,
+        "nej": 20,
+        "avstar": 63,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "8894D724-343F-4268-9486-1ED2AC949101",
+      "date": "2023-06-20",
+      "beteckning": "FiU21",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 209,
+        "nej": 94,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "88E98E6B-879E-48BA-A7BD-7E339E278B25",
+      "date": "2023-06-20",
+      "beteckning": "JuU27",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 288,
+        "nej": 15,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "CB0F2B65-D56D-49EE-891C-2C2D8D7E869B",
+      "date": "2023-06-20",
+      "beteckning": "JuU26",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 268,
+        "nej": 21,
+        "avstar": 14,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "CF074EF7-35A0-432F-B878-676E2D493659",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 11,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 155,
+        "nej": 94,
+        "avstar": 54,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D47DBDA3-440C-4AC4-B992-A02A2A084079",
+      "date": "2023-06-20",
+      "beteckning": "MJU18",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 225,
+        "nej": 63,
+        "avstar": 14,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "EF69EB19-8728-43EE-A040-ABEFBD8211D4",
+      "date": "2023-06-20",
+      "beteckning": "UU10",
+      "punkt": 11,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 36,
+        "avstar": 1,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "110875DA-13B4-4B54-B5A7-990EF5C5AFA3",
+      "date": "2023-06-21",
+      "beteckning": "SoU15",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 63,
+        "avstar": 36,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "1238B135-3B17-41B6-9AF5-42A2D6A0BF13",
+      "date": "2023-06-21",
+      "beteckning": "KU32",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 303,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "2A9D9295-A7A2-4872-A8E6-55E15E9E4997",
+      "date": "2023-06-21",
+      "beteckning": "SoU15",
+      "punkt": 8,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7D99AF96-0676-4C78-9D70-A307B996F7CE",
+      "date": "2023-06-21",
+      "beteckning": "SoU18",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 245,
+        "nej": 22,
+        "avstar": 36,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "7DD24382-E6B8-4024-BCA7-B85AA1B047EA",
+      "date": "2023-06-21",
+      "beteckning": "SoU15",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "90A9BB5F-90F9-4C44-8E18-008B3402DEAD",
+      "date": "2023-06-21",
+      "beteckning": "SoU18",
+      "punkt": 13,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 189,
+        "nej": 93,
+        "avstar": 21,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "9A8FCEDD-14A2-4E6E-A730-13132C57CDA8",
+      "date": "2023-06-21",
+      "beteckning": "SkU22",
+      "punkt": 1,
+      "avser": "motivfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 36,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "A99F4C48-1D40-4B39-9CE3-B59D0F6D1684",
+      "date": "2023-06-21",
+      "beteckning": "KU41",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 282,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "BCA5BBD6-E082-41E2-91E6-189FEF1A3294",
+      "date": "2023-06-21",
+      "beteckning": "SoU18",
+      "punkt": 7,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 204,
+        "nej": 63,
+        "avstar": 36,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "D7346269-28CC-4C2A-86CA-41C8981F4B24",
+      "date": "2023-06-21",
+      "beteckning": "SoU15",
+      "punkt": 12,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 210,
+        "nej": 93,
+        "avstar": 0,
+        "franvarande": 46
+      }
+    },
+    {
+      "id": "0FAF31FB-E463-4390-8BF2-BFD41EFE3A39",
+      "date": "2023-09-13",
+      "beteckning": "JuU31",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 246,
+        "nej": 56,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "70ACCF25-BF8A-426A-8254-3D021202E4E0",
+      "date": "2023-09-13",
+      "beteckning": "JuU31",
+      "punkt": 4,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 261,
+        "nej": 40,
+        "avstar": 0,
+        "franvarande": 48
+      }
+    },
+    {
+      "id": "880CAB58-EC4C-4C4F-8617-11470CF0D198",
+      "date": "2023-09-13",
+      "beteckning": "JuU32",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 281,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "B13A0147-B765-4993-98D6-01F444F6B762",
+      "date": "2023-09-13",
+      "beteckning": "JuU31",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 16,
+        "avstar": 19,
+        "franvarande": 47
+      }
+    },
+    {
+      "id": "CCD60A0B-5D0A-40A7-BEB6-C0159C503184",
+      "date": "2023-09-13",
+      "beteckning": "JuU31",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 283,
+        "nej": 19,
+        "avstar": 0,
+        "franvarande": 47
+      }
+    }
+  ]
+}

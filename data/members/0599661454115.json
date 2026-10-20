@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0599661454115",
+  "name": "Lena Bäckelin",
+  "firstName": "Lena",
+  "lastName": "Bäckelin",
+  "sortName": "Bäckelin,Lena",
+  "party": "S",
+  "constituency": "Jämtlands län",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 288,
+      "nej": 224,
+      "avstar": 83,
+      "franvarande": 3
+    },
+    "eligible": 598,
+    "present": 595,
+    "attendance": 0.9949832775919732
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 18,
+        "nej": 15,
+        "avstar": 6,
+        "franvarande": 0
+      },
+      "eligible": 39,
+      "present": 39,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 180,
+        "nej": 144,
+        "avstar": 56,
+        "franvarande": 3
+      },
+      "eligible": 383,
+      "present": 380,
+      "attendance": 0.9921671018276762
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 61,
+        "nej": 42,
+        "avstar": 17,
+        "franvarande": 0
+      },
+      "eligible": 120,
+      "present": 120,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 29,
+        "nej": 23,
+        "avstar": 4,
+        "franvarande": 0
+      },
+      "eligible": 56,
+      "present": 56,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 10,
+      "counts": {
+        "ja": 288,
+        "nej": 224,
+        "avstar": 83,
+        "franvarande": 3
+      },
+      "eligible": 598,
+      "present": 595,
+      "attendance": 0.9949832775919732
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 18,
+        "nej": 15,
+        "avstar": 6,
+        "franvarande": 0
+      },
+      "eligible": 39,
+      "present": 39,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 25,
+      "counts": {
+        "ja": 180,
+        "nej": 144,
+        "avstar": 56,
+        "franvarande": 3
+      },
+      "eligible": 383,
+      "present": 380,
+      "attendance": 0.9921671018276762
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 61,
+        "nej": 42,
+        "avstar": 17,
+        "franvarande": 0
+      },
+      "eligible": 120,
+      "present": 120,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": null,
+      "counts": {
+        "ja": 29,
+        "nej": 23,
+        "avstar": 4,
+        "franvarande": 0
+      },
+      "eligible": 56,
+      "present": 56,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "34EF7406-505E-4377-95ED-ECF65B7605DF",
+    "BBF95418-BDCB-486A-818F-CB8D94FC16F3",
+    "55477B23-470C-40A7-8D19-0C246E55B49D"
+  ]
+}

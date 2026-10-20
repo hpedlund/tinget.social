@@ -1,6 +1,6 @@
 # TASK-004: Attendance calculation
 
-**Status**: reviewing
+**Status**: done
 **Priority**: high
 **Depends on**: TASK-001 (TASK-003 maps Riksdagen data into its input type)
 **Branch**: task/004-attendance-calc

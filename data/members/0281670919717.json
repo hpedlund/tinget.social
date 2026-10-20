@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0281670919717",
+  "name": "Jörgen Grubb",
+  "firstName": "Jörgen",
+  "lastName": "Grubb",
+  "sortName": "Grubb,Jörgen",
+  "party": "SD",
+  "constituency": "Västra Götalands läns östra",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 2040,
+      "nej": 294,
+      "avstar": 216,
+      "franvarande": 60
+    },
+    "eligible": 2610,
+    "present": 2550,
+    "attendance": 0.9770114942528736
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 365,
+        "nej": 97,
+        "avstar": 75,
+        "franvarande": 29
+      },
+      "eligible": 566,
+      "present": 537,
+      "attendance": 0.9487632508833922
+    },
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 425,
+        "nej": 88,
+        "avstar": 68,
+        "franvarande": 14
+      },
+      "eligible": 595,
+      "present": 581,
+      "attendance": 0.9764705882352941
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 466,
+        "nej": 99,
+        "avstar": 70,
+        "franvarande": 17
+      },
+      "eligible": 652,
+      "present": 635,
+      "attendance": 0.9739263803680982
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 24,
+      "counts": {
+        "ja": 2040,
+        "nej": 294,
+        "avstar": 216,
+        "franvarande": 60
+      },
+      "eligible": 2610,
+      "present": 2550,
+      "attendance": 0.9770114942528736
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 82,
+      "counts": {
+        "ja": 365,
+        "nej": 97,
+        "avstar": 75,
+        "franvarande": 29
+      },
+      "eligible": 566,
+      "present": 537,
+      "attendance": 0.9487632508833922
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 40,
+      "counts": {
+        "ja": 425,
+        "nej": 88,
+        "avstar": 68,
+        "franvarande": 14
+      },
+      "eligible": 595,
+      "present": 581,
+      "attendance": 0.9764705882352941
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 30,
+      "counts": {
+        "ja": 466,
+        "nej": 99,
+        "avstar": 70,
+        "franvarande": 17
+      },
+      "eligible": 652,
+      "present": 635,
+      "attendance": 0.9739263803680982
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "0873D466-0CDA-40BF-AE98-C28E8A62220A",
+    "0ECFD2E7-733D-407A-A844-D17C6FD67DD4",
+    "1AF10C22-5F9D-47F9-947B-53658318266E",
+    "29388C42-ACBD-4170-A164-66AB697BD1E1",
+    "30325BBB-9022-4F1D-8483-D548D6C7F948",
+    "3425B5B8-FB19-4DC1-95D8-AE09DDBF962C",
+    "4FEA8CE7-B8B7-4D9A-BC46-580FC4F38A5A",
+    "565742A6-9DD0-4FB7-B940-C25FF0080787",
+    "5DF8CBA5-2666-4F6B-A934-095DE00AABDB",
+    "5EEE4C25-1868-4F4B-8DDF-6C32C70A993A",
+    "5FB9480F-80A7-428B-87FB-A350D354430E",
+    "66E67087-CD13-4693-ABEC-9AB828B25BAF",
+    "69487AB9-4E9C-49AA-B531-6CA2411258A8",
+    "70608A90-F9D8-4EE7-B2AE-2E196F9FAE8F",
+    "7F13E2B4-7340-4C2D-9ECC-F0A039703E5A",
+    "8BF43DAA-1E77-47D9-897F-DDB6BCFADEBB",
+    "91C956BB-04D2-40E9-BC02-78D731B88251",
+    "92FA74E0-0FB5-478C-9875-338C633D86C5",
+    "949F3C25-CB85-43EB-89A6-1100DADCAE43",
+    "94FCF480-C4BE-4156-B22C-06A7BB3E3453",
+    "A7F97955-E6AB-4144-AFC8-BCEF52DD2143",
+    "A86EDC74-1C45-4330-A312-07FE7E3ABC68",
+    "AAC0BC6A-559E-45A6-BCE6-2C3670D6B739",
+    "B4010DB6-53E0-4656-B108-E16FABE6206A",
+    "BB5C8603-2C1E-4E1F-BACE-DAA5C5642AB7",
+    "C1915997-FB68-4DAB-ACF9-A6D29AD69F48",
+    "C548FDEF-4A40-419E-BFBE-24B54DFDCA4A",
+    "CFAABB56-EF8E-417F-BFD7-A0EF3FA58CAD",
+    "FCACD65E-4F8D-47B4-B93F-3977011A6146",
+    "0005C5A0-9CD4-42BA-9C62-8FFF47BB688F",
+    "11014E4E-4C66-4CDF-A919-D7C72EF83934",
+    "1DFA9BF4-0DFF-4078-89B6-01E0890756C6",
+    "33C4B39C-1C56-4F1E-88AD-E49CDB78C5B2",
+    "3FEB9E46-CBFF-49C1-B4A2-9EB0C8994B51",
+    "434F8E13-5316-4F77-838D-6110936A5CDE",
+    "657B9525-36F7-449D-8BA9-12ABDCD1781C",
+    "9353F398-551F-4604-8495-7149F4F10F4E",
+    "A117F0FA-23AC-423A-9CFC-09FB8450CB83",
+    "A3CE1A90-55AA-422E-A121-7C78AEA9A213",
+    "AD23FA67-476A-46B5-B2E4-639952F0579E",
+    "D938A355-ED1B-4CC5-9C21-938B938720FC",
+    "EC1680F5-01A1-4E18-906E-E60F7D81FF65",
+    "F0B9F746-E8DD-4145-861F-16C6E638A341",
+    "0C7A6345-B768-482E-B853-928858746E4D",
+    "13F4D4F2-4961-468E-BBB2-18F6A17652AF",
+    "C3F9793F-668C-4E4D-A557-8AAF5A352851",
+    "CCD86F7E-91A9-4F9D-8813-670498D25F41",
+    "EBE3C2DD-B243-4964-A314-A182E0E45D6D",
+    "062B49C9-96CF-4241-8465-B87AFAB5758B",
+    "0A5EACD3-D435-42A1-8124-458AD48DF644",
+    "0B5BC944-8620-47BF-A4F1-9698D844BCCB",
+    "37E0F64C-1C02-4BE3-B44E-584476978084",
+    "61D483E0-5630-4520-9B5B-73B846092450",
+    "63AEBD78-FB1B-4A5C-BDE7-3DB05EB0AB43",
+    "9A1F3E0A-467D-4B65-8F62-2121F115655C",
+    "9D9382B1-132C-401B-901D-90F660346D63",
+    "A052C38C-2C95-492D-AAE5-210E9461C624",
+    "DEFCAAB6-F263-4E65-8999-0D956B57C4FB",
+    "E11C9A4F-6162-4BE6-9099-2E54E3E10D0A",
+    "E59868A5-07DA-4466-A91A-2825B01329AF"
+  ]
+}

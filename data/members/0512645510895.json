@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0512645510895",
+  "name": "Jonathan Svensson",
+  "firstName": "Jonathan",
+  "lastName": "Svensson",
+  "sortName": "Svensson,Jonathan",
+  "party": "S",
+  "constituency": "Västra Götalands läns norra",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 960,
+      "nej": 782,
+      "avstar": 298,
+      "franvarande": 10
+    },
+    "eligible": 2050,
+    "present": 2040,
+    "attendance": 0.9951219512195122
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 5,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 5,
+      "present": 5,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 290,
+        "nej": 209,
+        "avstar": 86,
+        "franvarande": 10
+      },
+      "eligible": 595,
+      "present": 585,
+      "attendance": 0.9831932773109243
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 317,
+        "nej": 235,
+        "avstar": 100,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 347,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 9,
+      "counts": {
+        "ja": 959,
+        "nej": 782,
+        "avstar": 298,
+        "franvarande": 10
+      },
+      "eligible": 2049,
+      "present": 2039,
+      "attendance": 0.995119570522206
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 5,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 5,
+      "present": 5,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 33,
+      "counts": {
+        "ja": 290,
+        "nej": 209,
+        "avstar": 86,
+        "franvarande": 10
+      },
+      "eligible": 595,
+      "present": 585,
+      "attendance": 0.9831932773109243
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 317,
+        "nej": 235,
+        "avstar": 100,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 347,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "02A57C69-5F30-4CBC-8D61-B2D8755A5043",
+    "053B74F5-44B8-4E1C-AE0B-44F66328F267",
+    "0D69292E-97FF-43DE-A2BD-EA5D18FB8941",
+    "16A4D95D-96C1-40FB-87FB-9BD00AA9C082",
+    "190D71ED-1EE8-4F74-9878-84252D5010B3",
+    "2517918A-977A-43F7-B167-FD5AE0746195",
+    "9D5A0694-44CD-495E-91AC-4CC87B327B15",
+    "A76B7349-3091-4DC7-8BA5-61193538B146",
+    "ABC22B82-5935-4752-9395-B57E4FB86CA7",
+    "ED208C80-715B-4447-9B53-A0F1F9A9CA4C"
+  ]
+}

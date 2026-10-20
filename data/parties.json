@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "parties": [
+        {
+          "party": "S",
+          "memberCount": 136,
+          "counts": {
+            "ja": 120882,
+            "nej": 90571,
+            "avstar": 32018,
+            "franvarande": 33852
+          },
+          "eligible": 277323,
+          "present": 243471,
+          "attendance": 0.877932951828734,
+          "rankedMembers": 124,
+          "spread": {
+            "min": 0.4591797623610579,
+            "median": 0.8891958719997852,
+            "max": 1
+          }
+        },
+        {
+          "party": "M",
+          "memberCount": 92,
+          "counts": {
+            "ja": 154225,
+            "nej": 599,
+            "avstar": 70,
+            "franvarande": 21798
+          },
+          "eligible": 176692,
+          "present": 154894,
+          "attendance": 0.8766327847327553,
+          "rankedMembers": 75,
+          "spread": {
+            "min": 0.6160919540229886,
+            "median": 0.8877394636015326,
+            "max": 1
+          }
+        },
+        {
+          "party": "SD",
+          "memberCount": 88,
+          "counts": {
+            "ja": 130762,
+            "nej": 19086,
+            "avstar": 14087,
+            "franvarande": 23169
+          },
+          "eligible": 187104,
+          "present": 163935,
+          "attendance": 0.876170472036942,
+          "rankedMembers": 79,
+          "spread": {
+            "min": 0.135632183908046,
+            "median": 0.9051724137931034,
+            "max": 1
+          }
+        },
+        {
+          "party": "-",
+          "memberCount": 9,
+          "counts": {
+            "ja": 3761,
+            "nej": 2041,
+            "avstar": 1076,
+            "franvarande": 1142
+          },
+          "eligible": 8020,
+          "present": 6878,
+          "attendance": 0.8576059850374065,
+          "rankedMembers": 9,
+          "spread": {
+            "min": 0.6735632183908046,
+            "median": 0.8781609195402299,
+            "max": 0.926295585412668
+          }
+        },
+        {
+          "party": "C",
+          "memberCount": 29,
+          "counts": {
+            "ja": 26566,
+            "nej": 14864,
+            "avstar": 12290,
+            "franvarande": 8920
+          },
+          "eligible": 62640,
+          "present": 53720,
+          "attendance": 0.8575989782886334,
+          "rankedMembers": 27,
+          "spread": {
+            "min": 0.6996168582375479,
+            "median": 0.8459770114942529,
+            "max": 0.9635627530364372
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 25,
+          "counts": {
+            "ja": 41555,
+            "nej": 209,
+            "avstar": 20,
+            "franvarande": 7806
+          },
+          "eligible": 49590,
+          "present": 41784,
+          "attendance": 0.8425892316999395,
+          "rankedMembers": 20,
+          "spread": {
+            "min": 0.7582375478927204,
+            "median": 0.8381226053639848,
+            "max": 0.9237547892720307
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 28,
+          "counts": {
+            "ja": 21087,
+            "nej": 20328,
+            "avstar": 9598,
+            "franvarande": 9768
+          },
+          "eligible": 60781,
+          "present": 51013,
+          "attendance": 0.8392918839769007,
+          "rankedMembers": 24,
+          "spread": {
+            "min": 0.6478927203065135,
+            "median": 0.8689611830585462,
+            "max": 1
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 28,
+          "counts": {
+            "ja": 14046,
+            "nej": 15158,
+            "avstar": 9948,
+            "franvarande": 7828
+          },
+          "eligible": 46980,
+          "present": 39152,
+          "attendance": 0.8333759046402724,
+          "rankedMembers": 24,
+          "spread": {
+            "min": 0.6022364217252396,
+            "median": 0.846551724137931,
+            "max": 0.9731638418079096
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 25,
+          "counts": {
+            "ja": 34333,
+            "nej": 129,
+            "avstar": 18,
+            "franvarande": 7280
+          },
+          "eligible": 41760,
+          "present": 34480,
+          "attendance": 0.8256704980842912,
+          "rankedMembers": 21,
+          "spread": {
+            "min": 0.7107142857142857,
+            "median": 0.7995444191343963,
+            "max": 0.9110595514307811
+          }
+        }
+      ]
+    },
+    {
+      "periodId": "2022-23",
+      "parties": [
+        {
+          "party": "SD",
+          "memberCount": 77,
+          "counts": {
+            "ja": 24088,
+            "nej": 6563,
+            "avstar": 5106,
+            "franvarande": 5334
+          },
+          "eligible": 41091,
+          "present": 35757,
+          "attendance": 0.8701905526757684,
+          "rankedMembers": 74,
+          "spread": {
+            "min": 0.038869257950530034,
+            "median": 0.926678445229682,
+            "max": 1
+          }
+        },
+        {
+          "party": "S",
+          "memberCount": 126,
+          "counts": {
+            "ja": 31591,
+            "nej": 16629,
+            "avstar": 4355,
+            "franvarande": 7987
+          },
+          "eligible": 60562,
+          "present": 52575,
+          "attendance": 0.8681186222383673,
+          "rankedMembers": 111,
+          "spread": {
+            "min": 0.2973451327433628,
+            "median": 0.8798586572438163,
+            "max": 1
+          }
+        },
+        {
+          "party": "M",
+          "memberCount": 81,
+          "counts": {
+            "ja": 33228,
+            "nej": 175,
+            "avstar": 3,
+            "franvarande": 5082
+          },
+          "eligible": 38488,
+          "present": 33406,
+          "attendance": 0.8679588443151112,
+          "rankedMembers": 70,
+          "spread": {
+            "min": 0.3321554770318021,
+            "median": 0.9090106007067138,
+            "max": 1
+          }
+        },
+        {
+          "party": "-",
+          "memberCount": 1,
+          "counts": {
+            "ja": 128,
+            "nej": 37,
+            "avstar": 32,
+            "franvarande": 30
+          },
+          "eligible": 227,
+          "present": 197,
+          "attendance": 0.8678414096916299,
+          "rankedMembers": 1,
+          "spread": {
+            "min": 0.7897526501766784,
+            "median": 0.7897526501766784,
+            "max": 0.7897526501766784
+          }
+        },
+        {
+          "party": "C",
+          "memberCount": 25,
+          "counts": {
+            "ja": 5017,
+            "nej": 3147,
+            "avstar": 3468,
+            "franvarande": 1952
+          },
+          "eligible": 13584,
+          "present": 11632,
+          "attendance": 0.856301531213192,
+          "rankedMembers": 25,
+          "spread": {
+            "min": 0.36666666666666664,
+            "median": 0.8745583038869258,
+            "max": 0.9770318021201413
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 25,
+          "counts": {
+            "ja": 5862,
+            "nej": 3945,
+            "avstar": 1787,
+            "franvarande": 1990
+          },
+          "eligible": 13584,
+          "present": 11594,
+          "attendance": 0.8535041224970553,
+          "rankedMembers": 25,
+          "spread": {
+            "min": 0.5777385159010601,
+            "median": 0.8568904593639576,
+            "max": 1
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 21,
+          "counts": {
+            "ja": 7606,
+            "nej": 36,
+            "avstar": 4,
+            "franvarande": 1410
+          },
+          "eligible": 9056,
+          "present": 7646,
+          "attendance": 0.8443021201413428,
+          "rankedMembers": 18,
+          "spread": {
+            "min": 0.7107142857142857,
+            "median": 0.8339222614840989,
+            "max": 0.9540636042402827
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 23,
+          "counts": {
+            "ja": 8810,
+            "nej": 47,
+            "avstar": 1,
+            "franvarande": 1896
+          },
+          "eligible": 10754,
+          "present": 8858,
+          "attendance": 0.8236935093918542,
+          "rankedMembers": 19,
+          "spread": {
+            "min": 0.7158081705150977,
+            "median": 0.8162544169611308,
+            "max": 0.9593639575971732
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 24,
+          "counts": {
+            "ja": 3802,
+            "nej": 2626,
+            "avstar": 1831,
+            "franvarande": 1929
+          },
+          "eligible": 10188,
+          "present": 8259,
+          "attendance": 0.8106595995288575,
+          "rankedMembers": 21,
+          "spread": {
+            "min": 0.5600706713780919,
+            "median": 0.837378640776699,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "periodId": "2023-24",
+      "parties": [
+        {
+          "party": "S",
+          "memberCount": 117,
+          "counts": {
+            "ja": 26837,
+            "nej": 19769,
+            "avstar": 8062,
+            "franvarande": 8499
+          },
+          "eligible": 63167,
+          "present": 54668,
+          "attendance": 0.8654518973514652,
+          "rankedMembers": 111,
+          "spread": {
+            "min": 0.41904761904761906,
+            "median": 0.8840336134453781,
+            "max": 1
+          }
+        },
+        {
+          "party": "M",
+          "memberCount": 76,
+          "counts": {
+            "ja": 34807,
+            "nej": 183,
+            "avstar": 3,
+            "franvarande": 5467
+          },
+          "eligible": 40460,
+          "present": 34993,
+          "attendance": 0.864878892733564,
+          "rankedMembers": 71,
+          "spread": {
+            "min": 0.4689075630252101,
+            "median": 0.8941176470588236,
+            "max": 1
+          }
+        },
+        {
+          "party": "SD",
+          "memberCount": 79,
+          "counts": {
+            "ja": 27049,
+            "nej": 5624,
+            "avstar": 4343,
+            "franvarande": 5824
+          },
+          "eligible": 42840,
+          "present": 37016,
+          "attendance": 0.8640522875816994,
+          "rankedMembers": 77,
+          "spread": {
+            "min": 0.0033613445378151263,
+            "median": 0.8957983193277311,
+            "max": 1
+          }
+        },
+        {
+          "party": "C",
+          "memberCount": 26,
+          "counts": {
+            "ja": 6774,
+            "nej": 2897,
+            "avstar": 2417,
+            "franvarande": 2192
+          },
+          "eligible": 14280,
+          "present": 12088,
+          "attendance": 0.8464985994397759,
+          "rankedMembers": 26,
+          "spread": {
+            "min": 0.6336134453781512,
+            "median": 0.873109243697479,
+            "max": 0.9630252100840336
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 26,
+          "counts": {
+            "ja": 5547,
+            "nej": 4313,
+            "avstar": 1847,
+            "franvarande": 2573
+          },
+          "eligible": 14280,
+          "present": 11707,
+          "attendance": 0.8198179271708683,
+          "rankedMembers": 25,
+          "spread": {
+            "min": 0.5243697478991597,
+            "median": 0.8436974789915966,
+            "max": 0.9680672268907563
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 20,
+          "counts": {
+            "ja": 9144,
+            "nej": 71,
+            "avstar": 1,
+            "franvarande": 2089
+          },
+          "eligible": 11305,
+          "present": 9216,
+          "attendance": 0.8152145068553738,
+          "rankedMembers": 20,
+          "spread": {
+            "min": 0.5949579831932773,
+            "median": 0.838655462184874,
+            "max": 0.8991596638655462
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 20,
+          "counts": {
+            "ja": 3207,
+            "nej": 3230,
+            "avstar": 2228,
+            "franvarande": 2045
+          },
+          "eligible": 10710,
+          "present": 8665,
+          "attendance": 0.8090569561157797,
+          "rankedMembers": 20,
+          "spread": {
+            "min": 0.28535353535353536,
+            "median": 0.8428571428571429,
+            "max": 1
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 17,
+          "counts": {
+            "ja": 7482,
+            "nej": 41,
+            "avstar": 0,
+            "franvarande": 1997
+          },
+          "eligible": 9520,
+          "present": 7523,
+          "attendance": 0.7902310924369748,
+          "rankedMembers": 17,
+          "spread": {
+            "min": 0.4305555555555556,
+            "median": 0.8067226890756303,
+            "max": 0.9596638655462185
+          }
+        },
+        {
+          "party": "-",
+          "memberCount": 2,
+          "counts": {
+            "ja": 506,
+            "nej": 231,
+            "avstar": 118,
+            "franvarande": 238
+          },
+          "eligible": 1093,
+          "present": 855,
+          "attendance": 0.7822506861848124,
+          "rankedMembers": 2,
+          "spread": {
+            "min": 0.6621848739495798,
+            "median": 0.8,
+            "max": 0.9378151260504202
+          }
+        }
+      ]
+    },
+    {
+      "periodId": "2024-25",
+      "parties": [
+        {
+          "party": "M",
+          "memberCount": 73,
+          "counts": {
+            "ja": 38139,
+            "nej": 175,
+            "avstar": 62,
+            "franvarande": 5960
+          },
+          "eligible": 44336,
+          "present": 38376,
+          "attendance": 0.8655719956694334,
+          "rankedMembers": 73,
+          "spread": {
+            "min": 0.5460122699386503,
+            "median": 0.8895705521472392,
+            "max": 1
+          }
+        },
+        {
+          "party": "S",
+          "memberCount": 115,
+          "counts": {
+            "ja": 29006,
+            "nej": 21605,
+            "avstar": 9204,
+            "franvarande": 9297
+          },
+          "eligible": 69112,
+          "present": 59815,
+          "attendance": 0.8654792221321912,
+          "rankedMembers": 113,
+          "spread": {
+            "min": 0.49038461538461536,
+            "median": 0.8773006134969326,
+            "max": 1
+          }
+        },
+        {
+          "party": "SD",
+          "memberCount": 75,
+          "counts": {
+            "ja": 29804,
+            "nej": 6277,
+            "avstar": 4460,
+            "franvarande": 6403
+          },
+          "eligible": 46944,
+          "present": 40541,
+          "attendance": 0.8636034423994546,
+          "rankedMembers": 74,
+          "spread": {
+            "min": 0.049079754601226995,
+            "median": 0.89340490797546,
+            "max": 1
+          }
+        },
+        {
+          "party": "C",
+          "memberCount": 24,
+          "counts": {
+            "ja": 6820,
+            "nej": 3116,
+            "avstar": 3221,
+            "franvarande": 2491
+          },
+          "eligible": 15648,
+          "present": 13157,
+          "attendance": 0.840810327198364,
+          "rankedMembers": 24,
+          "spread": {
+            "min": 0.495398773006135,
+            "median": 0.8588957055214724,
+            "max": 0.9647239263803681
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 19,
+          "counts": {
+            "ja": 10159,
+            "nej": 58,
+            "avstar": 17,
+            "franvarande": 2154
+          },
+          "eligible": 12388,
+          "present": 10234,
+          "attendance": 0.8261220536002584,
+          "rankedMembers": 19,
+          "spread": {
+            "min": 0.6993865030674846,
+            "median": 0.8358895705521472,
+            "max": 0.9202453987730062
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 24,
+          "counts": {
+            "ja": 5498,
+            "nej": 4456,
+            "avstar": 2933,
+            "franvarande": 2761
+          },
+          "eligible": 15648,
+          "present": 12887,
+          "attendance": 0.8235557259713702,
+          "rankedMembers": 24,
+          "spread": {
+            "min": 0.5015337423312883,
+            "median": 0.8366564417177914,
+            "max": 0.9831288343558282
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 20,
+          "counts": {
+            "ja": 3494,
+            "nej": 3227,
+            "avstar": 2894,
+            "franvarande": 2121
+          },
+          "eligible": 11736,
+          "present": 9615,
+          "attendance": 0.8192740286298569,
+          "rankedMembers": 19,
+          "spread": {
+            "min": 0.6457055214723927,
+            "median": 0.8316831683168316,
+            "max": 0.9706959706959707
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 18,
+          "counts": {
+            "ja": 8371,
+            "nej": 36,
+            "avstar": 14,
+            "franvarande": 2011
+          },
+          "eligible": 10432,
+          "present": 8421,
+          "attendance": 0.8072277607361963,
+          "rankedMembers": 18,
+          "spread": {
+            "min": 0.632,
+            "median": 0.8190184049079754,
+            "max": 0.9133064516129032
+          }
+        },
+        {
+          "party": "-",
+          "memberCount": 2,
+          "counts": {
+            "ja": 580,
+            "nej": 285,
+            "avstar": 167,
+            "franvarande": 272
+          },
+          "eligible": 1304,
+          "present": 1032,
+          "attendance": 0.7914110429447853,
+          "rankedMembers": 2,
+          "spread": {
+            "min": 0.6687116564417178,
+            "median": 0.7914110429447854,
+            "max": 0.9141104294478528
+          }
+        }
+      ]
+    },
+    {
+      "periodId": "2025-26",
+      "parties": [
+        {
+          "party": "S",
+          "memberCount": 112,
+          "counts": {
+            "ja": 33448,
+            "nej": 32568,
+            "avstar": 10397,
+            "franvarande": 8069
+          },
+          "eligible": 84482,
+          "present": 76413,
+          "attendance": 0.9044885301010867,
+          "rankedMembers": 110,
+          "spread": {
+            "min": 0.4981179422835634,
+            "median": 0.9165621079046424,
+            "max": 1
+          }
+        },
+        {
+          "party": "M",
+          "memberCount": 73,
+          "counts": {
+            "ja": 48051,
+            "nej": 66,
+            "avstar": 2,
+            "franvarande": 5289
+          },
+          "eligible": 53408,
+          "present": 48119,
+          "attendance": 0.9009698921509887,
+          "rankedMembers": 70,
+          "spread": {
+            "min": 0.7013801756587202,
+            "median": 0.9153074027603514,
+            "max": 1
+          }
+        },
+        {
+          "party": "SD",
+          "memberCount": 78,
+          "counts": {
+            "ja": 49821,
+            "nej": 622,
+            "avstar": 178,
+            "franvarande": 5608
+          },
+          "eligible": 56229,
+          "present": 50621,
+          "attendance": 0.9002649878176742,
+          "rankedMembers": 72,
+          "spread": {
+            "min": 0.3739021329987453,
+            "median": 0.9127979924717691,
+            "max": 1
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 20,
+          "counts": {
+            "ja": 13442,
+            "nej": 33,
+            "avstar": 1,
+            "franvarande": 1667
+          },
+          "eligible": 15143,
+          "present": 13476,
+          "attendance": 0.889916132866671,
+          "rankedMembers": 20,
+          "spread": {
+            "min": 0.766624843161857,
+            "median": 0.8939774153074027,
+            "max": 1
+          }
+        },
+        {
+          "party": "-",
+          "memberCount": 9,
+          "counts": {
+            "ja": 2547,
+            "nej": 1488,
+            "avstar": 759,
+            "franvarande": 602
+          },
+          "eligible": 5396,
+          "present": 4794,
+          "attendance": 0.8884358784284655,
+          "rankedMembers": 9,
+          "spread": {
+            "min": 0.6035131744040151,
+            "median": 0.9234629861982434,
+            "max": 0.9949811794228356
+          }
+        },
+        {
+          "party": "C",
+          "memberCount": 27,
+          "counts": {
+            "ja": 7955,
+            "nej": 5704,
+            "avstar": 3184,
+            "franvarande": 2285
+          },
+          "eligible": 19128,
+          "present": 16843,
+          "attendance": 0.8805416143872856,
+          "rankedMembers": 26,
+          "spread": {
+            "min": 0.6085319949811794,
+            "median": 0.8801756587202008,
+            "max": 0.9974905897114178
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 20,
+          "counts": {
+            "ja": 3543,
+            "nej": 6075,
+            "avstar": 2995,
+            "franvarande": 1733
+          },
+          "eligible": 14346,
+          "present": 12613,
+          "attendance": 0.8791997769413077,
+          "rankedMembers": 20,
+          "spread": {
+            "min": 0.6336260978670013,
+            "median": 0.9040150564617315,
+            "max": 1
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 25,
+          "counts": {
+            "ja": 4180,
+            "nej": 7614,
+            "avstar": 3031,
+            "franvarande": 2444
+          },
+          "eligible": 17269,
+          "present": 14825,
+          "attendance": 0.8584747234929643,
+          "rankedMembers": 21,
+          "spread": {
+            "min": 0.7001254705144291,
+            "median": 0.8808030112923463,
+            "max": 0.998745294855709
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 18,
+          "counts": {
+            "ja": 10874,
+            "nej": 16,
+            "avstar": 0,
+            "franvarande": 1862
+          },
+          "eligible": 12752,
+          "present": 10890,
+          "attendance": 0.8539836888331243,
+          "rankedMembers": 16,
+          "spread": {
+            "min": 0.7340025094102886,
+            "median": 0.8582183186951067,
+            "max": 0.9535759096612296
+          }
+        }
+      ]
+    },
+    {
+      "periodId": "2026-27",
+      "parties": [
+        {
+          "party": "C",
+          "memberCount": 25,
+          "counts": {
+            "ja": 0,
+            "nej": 25,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 25,
+          "present": 25,
+          "attendance": 1,
+          "rankedMembers": 25,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "KD",
+          "memberCount": 22,
+          "counts": {
+            "ja": 0,
+            "nej": 22,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 22,
+          "present": 22,
+          "attendance": 1,
+          "rankedMembers": 22,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "L",
+          "memberCount": 19,
+          "counts": {
+            "ja": 0,
+            "nej": 19,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 19,
+          "present": 19,
+          "attendance": 1,
+          "rankedMembers": 19,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "M",
+          "memberCount": 70,
+          "counts": {
+            "ja": 0,
+            "nej": 70,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 70,
+          "present": 70,
+          "attendance": 1,
+          "rankedMembers": 70,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "S",
+          "memberCount": 99,
+          "counts": {
+            "ja": 99,
+            "nej": 0,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 99,
+          "present": 99,
+          "attendance": 1,
+          "rankedMembers": 99,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "SD",
+          "memberCount": 62,
+          "counts": {
+            "ja": 0,
+            "nej": 62,
+            "avstar": 0,
+            "franvarande": 0
+          },
+          "eligible": 62,
+          "present": 62,
+          "attendance": 1,
+          "rankedMembers": 62,
+          "spread": {
+            "min": 1,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "V",
+          "memberCount": 30,
+          "counts": {
+            "ja": 0,
+            "nej": 29,
+            "avstar": 0,
+            "franvarande": 1
+          },
+          "eligible": 30,
+          "present": 29,
+          "attendance": 0.9666666666666667,
+          "rankedMembers": 30,
+          "spread": {
+            "min": 0,
+            "median": 1,
+            "max": 1
+          }
+        },
+        {
+          "party": "MP",
+          "memberCount": 22,
+          "counts": {
+            "ja": 0,
+            "nej": 21,
+            "avstar": 0,
+            "franvarande": 1
+          },
+          "eligible": 22,
+          "present": 21,
+          "attendance": 0.9545454545454546,
+          "rankedMembers": 22,
+          "spread": {
+            "min": 0,
+            "median": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}
