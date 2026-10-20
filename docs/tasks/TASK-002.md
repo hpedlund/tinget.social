@@ -1,6 +1,6 @@
 # TASK-002: Site layout and static page shell
 
-**Status**: draft
+**Status**: designed
 **Priority**: high
 **Depends on**: TASK-001
 **Branch**: task/002-site-layout
