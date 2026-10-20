@@ -12,7 +12,6 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
-| TASK-005 | [Data contract and data access layer](TASK-005.md) | reviewing | claude/focused-pascal-1h7rnf | TASK-003, TASK-004 |
 
 ## Backlog
 
@@ -35,3 +34,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-002 | [Site layout and static page shell](TASK-002.md) | claude/happy-thompson-ua33kk | 2026-10-20 |
 | TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | task/003-riksdagen-fetch | 2026-10-20 |
 | TASK-004 | [Attendance calculation](TASK-004.md) | claude/happy-thompson-ua33kk | 2026-10-20 |
+| TASK-005 | [Data contract and data access layer](TASK-005.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
