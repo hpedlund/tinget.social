@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { Badge } from "@/components/ui/badge";
+
 export const metadata: Metadata = {
   title: "Så räknar vi",
   description:
@@ -25,9 +27,9 @@ export default function MethodologyPage() {
         mellan partierna, föräldraledighet, sjukdom eller andra uppdrag.
         Siffrorna visar <em>att</em> någon var frånvarande, inte <em>varför</em>.
       </p>
-      <p className="w-fit rounded-md border px-2.5 py-0.5 text-xs font-medium text-muted-foreground">
+      <Badge variant="outline" className="text-muted-foreground">
         Fullständig metodbeskrivning kommer
-      </p>
+      </Badge>
     </div>
   );
 }

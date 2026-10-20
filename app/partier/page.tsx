@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { Badge } from "@/components/ui/badge";
+
 export const metadata: Metadata = {
   title: "Partier",
   description: "Genomsnittlig närvaro i riksdagens voteringar per parti.",
@@ -13,9 +15,9 @@ export default function PartiesPage() {
         Här kommer du kunna jämföra den genomsnittliga närvaron i voteringar
         mellan riksdagspartierna.
       </p>
-      <p className="w-fit rounded-md border px-2.5 py-0.5 text-xs font-medium text-muted-foreground">
+      <Badge variant="outline" className="text-muted-foreground">
         Kommer snart
-      </p>
+      </Badge>
     </div>
   );
 }
