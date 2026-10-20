@@ -1,6 +1,6 @@
 # TASK-001: Project setup, default page and GitHub Pages deploy
 
-**Status**: draft
+**Status**: designed
 **Priority**: high
 **Depends on**: none
 **Branch**: task/001-project-setup
