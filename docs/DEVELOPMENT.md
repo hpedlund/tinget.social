@@ -15,7 +15,10 @@ npm run lint        # ESLint
 npm run typecheck   # TypeScript
 npm test            # unit tests (Vitest)
 npm run build       # static export to out/
+npm run data:fetch  # download + validate Riksdagen data into .cache/ (add -- --refresh to bypass the cache)
 ```
+
+`data:fetch` needs network access to `data.riksdagen.se`; a first run takes about 30 seconds and downloads ~50 MB. What it fetches and the values observed are documented in [data/README.md](../data/README.md).
 
 To preview the build as GitHub Pages serves it (under `/tinget.social/`):
 

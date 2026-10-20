@@ -1,6 +1,6 @@
 # TASK-003: Riksdagen data client and fetch script
 
-**Status**: draft
+**Status**: reviewing
 **Priority**: high
 **Depends on**: TASK-001
 **Branch**: task/003-riksdagen-fetch

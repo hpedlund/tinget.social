@@ -38,7 +38,7 @@ GET https://data.riksdagen.se/personlista/?utformat=json
 | `enamn` | string | Last name filter |
 | `parti` | string | Party code (S, M, SD, C, V, KD, L, MP) |
 | `valkrets` | string | Constituency |
-| `rdlstatus` | string | `tjl` (active) or `ers` (substitute) |
+| `rdlstatus` | string | empty = currently serving; `tjanst` = everyone who has served since 2018; `samtliga` = everyone since ~1990 |
 | `utformat` | string | `json` or `xml` |
 
 **Response structure**:
@@ -88,7 +88,14 @@ GET https://data.riksdagen.se/voteringlista/?utformat=json
 | `gruppering` | string | Group/aggregate results (e.g. `iid`, `parti`) |
 | `utformat` | string | `json` or `xml` |
 
-Each row is **one member's vote in one votering**. Key fields (verify against a live response when implementing):
+Each row is **one member's vote in one votering** (always 349 rows per votering — one per seat). Verified behaviour (2026-10-20, see `data/README.md` for full value sets):
+
+- Hard cap of **10 000 rows** per request — larger `sz` is ignored and results are silently truncated. Never page a whole riksmöte through it.
+- Rows have **no `datum`** (use `/votering/{id}/json` or the dataset).
+- Unknown query parameters are silently ignored — check that `@villkor` echoes your filters.
+- `gruppering=votering_id` (or `bet`, `iid`) returns one row per group with counts per `rost` — the authoritative **vote index** for a riksmöte.
+
+Key fields:
 
 | Field | Meaning |
 |-------|---------|
@@ -104,7 +111,20 @@ Each row is **one member's vote in one votering**. Key fields (verify against a 
 
 ### Bulk Datasets
 
-For full-year data, prefer the zipped datasets under `https://data.riksdagen.se/dataset/` (e.g. votes per riksmöte) instead of paging `voteringlista`. Confirm current file names and formats on the open data site before relying on them, and cache downloads in CI.
+For full-year data, prefer the zipped datasets under `https://data.riksdagen.se/dataset/` instead of paging `voteringlista`. Catalogue: `/dataset/katalog/dataset.xml`.
+
+- Votes: `/dataset/votering/votering-{rm}.json.zip` (e.g. `votering-202526.json.zip`) — one JSON file per votering, `{ dokvotering: { votering: Row[] } }`, rows include `datum` (`null` for omröstningar). The CSV variant has no header row.
+- **No dataset exists for the current riksmöte** early in the year (404) — use `/votering/{id}/json` per vote.
+- Datasets are **not** complete or exact: they lack some omröstningar (e.g. PM votes) and contain voided votes. Reconcile against the vote index (`voteringlista?gruppering=votering_id`). `lib/riksdagen/votes.ts` does this.
+- `/dataset/person/person.json.zip` is broken (2-byte files); use `/personlista/?rdlstatus=tjanst` (everyone who has served since 2018, ~770 people) instead.
+
+### Single vote
+
+```
+GET https://data.riksdagen.se/votering/{votering_id}/json
+```
+
+Returns `{ votering: { dokument, dokvotering? } }`. `dokvotering.votering` has the same row shape as the dataset, including `datum`. For omröstningar (beteckning `MMDD-N`) `dokvotering` is absent — read rows from `voteringlista?rm=…&bet={beteckning}`, date from `dokument.datum`.
 
 ### Speeches (Anförandelista)
 
@@ -149,6 +169,8 @@ GET https://data.riksdagen.se/dokument/{doc_id}.json
 ## Implementation Pattern
 
 ### API Client (`lib/riksdagen/client.ts`)
+
+Implemented in TASK-003 — use `fetchJson` / `fetchBinary` from `lib/riksdagen/client.ts` (throttled, validated, size-capped). The sketch below shows the idea:
 
 ```tsx
 import { z } from "zod";

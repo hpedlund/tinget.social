@@ -12,13 +12,13 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
+| TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | reviewing | task/003-riksdagen-fetch | TASK-001 |
 | TASK-004 | [Attendance calculation](TASK-004.md) | reviewing | claude/happy-thompson-ua33kk | TASK-001 |
 
 ## Backlog
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | draft | high | TASK-001 |
 | TASK-005 | [Data contract and data access layer](TASK-005.md) | draft | high | TASK-003, TASK-004 |
 | TASK-006 | [Attendance ranking page](TASK-006.md) | draft | high | TASK-005, TASK-002 |
 | TASK-007 | [Ranking filters and sorting](TASK-007.md) | draft | medium | TASK-006 |
