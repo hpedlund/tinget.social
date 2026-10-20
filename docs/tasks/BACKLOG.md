@@ -4,7 +4,7 @@
 
 Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered by dependency chain.
 
-- **Critical path**: 001 → 003 → 004 → 005 → 006 → 007 → 012
+- **Critical path**: 001 → 003 + 004 → 005 → 006 → 007 → 012
 - **In parallel**: 002 after 001 · 008, 009, 010 once 002 and 005 (010: 004) are done · 011 after 005
 - **Blocked on DNS**: 013
 
@@ -19,7 +19,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
 | TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | draft | high | TASK-001 |
-| TASK-004 | [Attendance calculation](TASK-004.md) | draft | high | TASK-003 |
+| TASK-004 | [Attendance calculation](TASK-004.md) | designed | high | TASK-001 |
 | TASK-005 | [Data contract and data access layer](TASK-005.md) | draft | high | TASK-004 |
 | TASK-006 | [Attendance ranking page](TASK-006.md) | draft | high | TASK-005, TASK-002 |
 | TASK-007 | [Ranking filters and sorting](TASK-007.md) | draft | medium | TASK-006 |

@@ -18,6 +18,7 @@ See `.github/skills/riksdagen-api/SKILL.md`.
 - `scripts/fetch.ts`: fetch the riksmöten for the 2022–2026 term and the current one into `.cache/` (git-ignored)
 - Fail loudly on unexpected response shapes — never continue with half-parsed data
 - Record field names and value sets actually observed (e.g. all `rost` values) in `data/README.md`
+- Map vote rows to the `VoteRecord` type from `lib/attendance/types.ts` (TASK-004) and add a real-data test fixture
 
 ## Acceptance Criteria
 
