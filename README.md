@@ -1,59 +1,56 @@
 # tinget.social
 
-A Swedish civic tech platform built on Riksdagen (Swedish parliament) open data.
+**Who in the Swedish parliament actually shows up and votes?**
 
-**Version 1:** an open website ranking members of parliament by how often they are present and vote — who shows up to work, and who doesn't.
+tinget.social is an independent, non-partisan website that uses the Swedish parliament's own open data to show how often each member of parliament (riksdagsledamot) is present and votes — and how often they are absent.
 
-**Stack (Version 1)**: Next.js 15 (static export) · TypeScript · Tailwind CSS · shadcn/ui · GitHub Actions · GitHub Pages
+> **På svenska:** tinget.social är en oberoende och partipolitiskt obunden webbplats som visar hur ofta varje riksdagsledamot är på plats och röstar i kammaren — och hur ofta de är frånvarande. Allt bygger på riksdagens egna öppna data.
 
-Supabase is planned for later phases (accounts, discussions) — see [PROJECT.md](PROJECT.md#when-to-introduce-supabase-kept-open).
+🚧 **Status:** under development — not yet live.
 
-See [PROJECT.md](PROJECT.md) for full project documentation.
+## What you will find
 
-## Task-Driven Development
+- **A ranked list of all members of parliament** by voting attendance, from most present to most absent
+- **Filters** by party, constituency and period
+- **A page per member** showing their attendance over time and which votes they missed
+- **A party overview** so individual numbers can be compared with their party's average
+- **"Så räknar vi"** — a plain-language explanation of how every number is calculated
 
-All work follows a task-driven workflow with a strict two-commit pattern per task:
+## How attendance is measured
 
-1. **@planner** breaks features into tasks → `docs/tasks/`
-2. **@architect** designs → spec to `docs/specs/TASK-{NNN}.md` → **commit 1 (plan)**
-3. **@coder** implements → **commit 2 (code)**
-4. **@security** reviews → `docs/reviews/TASK-{NNN}-security.md`
-5. **@ux** reviews → `docs/reviews/TASK-{NNN}-ux.md`
+Every time the Riksdag votes, each member is recorded as voting *Ja* (yes), *Nej* (no), *Avstår* (abstain) or *Frånvarande* (absent).
 
-Use `@orchestrator` to run the full pipeline end-to-end.
+**Attendance = the share of votes where the member voted Ja, Nej or Avstår.**
 
-### Agents
+Only votes held while a person was actually serving count, so substitutes and members who joined or left mid-term are measured fairly.
 
-| Agent | Role |
-|-------|------|
-| `@planner` | Break features into small, atomic tasks |
-| `@architect` | Design specs with data models, APIs, components |
-| `@coder` | Implement following architect specs |
-| `@security` | OWASP, GDPR, RLS security review |
-| `@ux` | Accessibility, responsive design, UX review |
-| `@orchestrator` | End-to-end pipeline coordination |
+### What the numbers don't tell you
 
-### Skills
+Absence is not always a failure to show up for work. Members can be absent for legitimate reasons, such as:
 
-| Skill | Purpose |
-|-------|---------|
-| `/data-modeling` | Design JSON data contracts (Version 1) and Supabase schemas (later) |
-| `/riksdagen-api` | Work with Swedish parliament open data APIs |
-| `/security-review` | OWASP + GDPR security audit |
-| `/component-design` | shadcn/ui component design + accessibility |
+- **Kvittning** — agreements between parties where members on opposite sides both stay away, so the outcome is unaffected
+- Parental leave, illness or official duties elsewhere
 
-### File Instructions (auto-loaded)
+The data shows *that* someone was absent, not *why*. We present the figures factually and never comment on individual members.
 
-- **TypeScript/TSX files** → Next.js App Router conventions
-- **Supabase/SQL files** → Supabase client patterns, RLS, migrations *(later phases)*
-- **Components** → shadcn/ui, Tailwind, accessibility
-- **API routes** → Validation, error handling, response format *(later phases)*
-- **Git** → Conventional commits, branch naming, two-commit rule
+## The name
 
-## Getting Started
+*Tinget* was the ancient Nordic assembly where free people gathered to settle matters of common concern. tinget.social aims to make today's assembly a little easier to follow.
 
-> Application scaffolding coming soon. See [PROJECT.md](PROJECT.md) for the architecture.
+## Looking ahead
 
-## Data Source
+Attendance is the first step. Later ideas include exploring how members voted on specific issues, their speeches and parliamentary documents — and possibly a place for structured discussion between citizens and politicians.
 
-[Riksdagen öppna data](https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/) — free to use. Källa: Sveriges riksdag.
+## Data source
+
+All data comes from [Riksdagens öppna data](https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/), which is free for anyone to use.
+
+**Källa: Sveriges riksdag.** tinget.social is not affiliated with the Riksdag.
+
+## Feedback
+
+Found an error in the data, or have a suggestion? Please [open an issue](https://github.com/hpedlund/tinget.social/issues).
+
+---
+
+*Technical documentation for maintaining the project is in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) and [PROJECT.md](PROJECT.md).*

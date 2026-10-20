@@ -1,4 +1,4 @@
-# tinget.social
+# tinget.social — Project Plan
 
 ## Vision
 
@@ -80,7 +80,6 @@ Riksdagen also publishes **bulk datasets** (zipped files per riksmöte) under `h
 
 **Response formats**: JSON, XML, CSV (datasets)
 **Rate limits**: Not formally documented — the pipeline runs at most once a day, throttles requests and caches downloads.
-**Contact**: riksdagsinformation@riksdagen.se / 020-349 000
 
 ## Architecture Overview
 
@@ -156,11 +155,7 @@ Migration path: create a Supabase project (EU region), add migrations under `sup
 
 ### Later — backend and server hosting
 
-| Option | Pros | Cons |
-|--------|------|------|
-| **Supabase** (backend) | Managed PostgreSQL, Auth, RLS, EU region | Another service to operate and pay for at scale |
-| **Hetzner VM + Docker/Coolify** (frontend) | EU-based, cheap, full control | Self-managed |
-| **Vercel** (frontend) | Native Next.js support, zero config | US-based company, free tier limits |
+When the backend is introduced: Supabase (EU region) for database and auth, and a Node host for the frontend — a Hetzner VM (Docker/Coolify) is the preferred option for EU hosting and control.
 
 ## Project Structure (Planned — Version 1)
 
@@ -190,31 +185,15 @@ tinget.social/
 ├── data/                          # Generated JSON (committed) + README.md
 ├── public/                        # Static assets, CNAME
 ├── PROJECT.md                     # This file
-└── README.md                      # Quick start guide
+├── docs/                          # Development guide, tasks, specs, reviews
+└── README.md                      # Public project description
 ```
 
 Added later with the backend: `supabase/` (migrations, seed), `lib/supabase/`, `app/api/`.
 
 ## Development Workflow
 
-This project uses an **agentic development workflow** with specialized AI agents:
-
-1. **@architect** — Designs features, data models, and API surfaces (read-only)
-2. **@coder** — Implements designs following project conventions (full tools)
-3. **@security** — Reviews for OWASP Top 10, GDPR, CI/supply-chain safety, and (once introduced) Supabase RLS (read-only)
-4. **@ux** — Reviews accessibility (WCAG 2.1 AA), responsive design, and UX patterns (read-only)
-5. **@orchestrator** — Chains all agents for end-to-end feature development
-
-### Feature Development Flow
-
-```
-Feature Request → @orchestrator
-    └→ @architect (design spec)
-        └→ @coder (implementation)
-            └→ @security (security review)
-                └→ @ux (UX review)
-                    └→ Done (or back to @coder for fixes)
-```
+The project is built with an agentic, task-driven workflow (@planner → @architect → @coder → @security → @ux). See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
 
 ## Legal & Compliance
 
