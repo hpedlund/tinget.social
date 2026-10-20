@@ -60,6 +60,8 @@ export function createClient() {
 
 ### Middleware Client (Auth Refresh)
 
+> In Next.js 16 middleware is called **proxy** (`proxy.ts`); adapt file names accordingly.
+
 ```tsx
 // lib/supabase/middleware.ts
 import { createServerClient } from "@supabase/ssr";

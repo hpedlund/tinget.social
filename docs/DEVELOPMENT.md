@@ -2,11 +2,32 @@
 
 How this project is built and maintained. For the vision, scope and architecture, see [PROJECT.md](../PROJECT.md).
 
-**Stack (Version 1)**: Next.js 15 (static export) · TypeScript · Tailwind CSS · shadcn/ui · GitHub Actions · GitHub Pages. Supabase is planned for later phases — see [PROJECT.md → When to introduce Supabase](../PROJECT.md#when-to-introduce-supabase-kept-open).
+**Stack (Version 1)**: Next.js 16 (static export) · TypeScript · Tailwind CSS · shadcn/ui · GitHub Actions · GitHub Pages. Supabase is planned for later phases — see [PROJECT.md → When to introduce Supabase](../PROJECT.md#when-to-introduce-supabase-kept-open).
 
 ## Getting Started
 
-> Application scaffolding is not in place yet. This section will describe how to install dependencies, run the data pipeline and start the site locally.
+Requirements: Node.js 22 (see `.nvmrc`).
+
+```bash
+npm ci              # install dependencies
+npm run dev         # development server at http://localhost:3000
+npm run lint        # ESLint
+npm run typecheck   # TypeScript
+npm run build       # static export to out/
+```
+
+To preview the build as GitHub Pages serves it (under `/tinget.social/`):
+
+```bash
+PAGES_BASE_PATH=/tinget.social npm run build
+```
+
+### Deployment
+
+- **CI** (`.github/workflows/ci.yml`): lint, typecheck and build on every pull request and branch push.
+- **Deploy** (`.github/workflows/deploy.yml`): on every push to `main` (and manually), builds and publishes `out/` to GitHub Pages.
+- One-time setup: repository Settings → Pages → Source: **GitHub Actions**.
+- The site is live at `https://hpedlund.github.io/tinget.social/` until the custom domain is mapped (TASK-013); the sub-path is picked up automatically from the Pages configuration.
 
 ## Task-Driven Development
 

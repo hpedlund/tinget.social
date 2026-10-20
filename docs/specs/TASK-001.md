@@ -2,7 +2,7 @@
 
 ## Summary
 
-Scaffold the Next.js 15 static-export application with Tailwind CSS and the shadcn/ui base configuration, add a simple Swedish default page, and deploy it to GitHub Pages with GitHub Actions. The site must work under the project sub-path (`https://hpedlund.github.io/tinget.social/`) now and on the custom domain later (TASK-013) without code changes.
+Scaffold the Next.js 16 static-export application with Tailwind CSS and the shadcn/ui base configuration, add a simple Swedish default page, and deploy it to GitHub Pages with GitHub Actions. The site must work under the project sub-path (`https://hpedlund.github.io/tinget.social/`) now and on the custom domain later (TASK-013) without code changes.
 
 ## Data Model
 
@@ -70,7 +70,7 @@ No client components. No `loading.tsx`/`error.tsx` needed (static page, nothing 
 
 ## Technical Decisions
 
-- **Next.js 15 (latest 15.5.x)** to match the documented stack. Next.js 16 is available; upgrading is a separate decision.
+- **Next.js 16 instead of 15** — decided during implementation: `npm audit` reported high-severity advisories in Next.js 15.5.x (bundled PostCSS) that are only fixed in Next.js 16. With 16.4.2 the production dependency tree has no known vulnerabilities. The remaining advisories are in dev-only lint tooling (`eslint-config-next` → `fast-glob` → `micromatch`/`braces`) with no upstream fix yet; they never ship to the site. Project docs updated from Next.js 15 to 16.
 - **Manual scaffold instead of `create-next-app`** — keeps the file set minimal and aligned with project conventions.
 - **No test runner yet** — added in TASK-004 when there is logic to test.
 - **Sub-path via environment** rather than hardcoding `/tinget.social` — avoids a code change when the domain is mapped.

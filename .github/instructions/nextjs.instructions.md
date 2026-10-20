@@ -1,5 +1,5 @@
 ---
-description: "Use when writing Next.js App Router code — pages, layouts, server components, client components, metadata, static export and data access. Covers Next.js 15 patterns, Version 1 static export constraints, and later-phase server actions."
+description: "Use when writing Next.js App Router code — pages, layouts, server components, client components, metadata, static export and data access. Covers Next.js 16 patterns, Version 1 static export constraints, and later-phase server actions."
 applyTo: "**/*.tsx,**/*.ts,app/**"
 ---
 
