@@ -1,9 +1,9 @@
 # TASK-007: Ranking filters and sorting
 
-**Status**: draft
+**Status**: done
 **Priority**: medium
 **Depends on**: TASK-006
-**Branch**: task/007-ranking-filters
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
@@ -18,10 +18,10 @@ Visitors can filter the ranking by party, constituency and period and sort most-
 
 ## Acceptance Criteria
 
-- [ ] Filters combine correctly and can be cleared
-- [ ] Sorting works in both directions
-- [ ] Reloading or sharing the URL restores the same view
-- [ ] Keyboard and screen reader accessible
+- [x] Filters combine correctly and can be cleared
+- [x] Sorting works in both directions
+- [x] Reloading or sharing the URL restores the same view
+- [x] Keyboard and screen reader accessible
 
 ## Artifacts
 
