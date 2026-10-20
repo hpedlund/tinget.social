@@ -1,6 +1,6 @@
 # TASK-001: Project setup, default page and GitHub Pages deploy
 
-**Status**: reviewing
+**Status**: reviewing (deploy pending: enable Pages, merge to main)
 **Priority**: high
 **Depends on**: none
 **Branch**: task/001-project-setup
