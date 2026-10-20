@@ -12,12 +12,12 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
+| TASK-007 | [Ranking filters and sorting](TASK-007.md) | designed | claude/focused-pascal-1h7rnf | TASK-006 |
 
 ## Backlog
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-007 | [Ranking filters and sorting](TASK-007.md) | draft | medium | TASK-006 |
 | TASK-008 | [Member detail page](TASK-008.md) | draft | medium | TASK-005, TASK-002 |
 | TASK-009 | [Party overview page](TASK-009.md) | draft | medium | TASK-005, TASK-002 |
 | TASK-010 | [Methodology page (Så räknar vi)](TASK-010.md) | draft | high | TASK-004, TASK-002 |
