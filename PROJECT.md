@@ -4,24 +4,46 @@
 
 **tinget.social** is a Swedish civic tech platform that makes parliamentary democracy more accessible and transparent. The name references "tinget" — the ancient Nordic assembly where citizens gathered to discuss governance.
 
-### Phase 1 — Government Data Explorer (MVP)
+The long-term ambition is a place to explore Riksdagen open data and, eventually, to hold structured political discussions. We get there one small, useful step at a time — starting with a single question citizens can't easily answer today:
 
-A public-facing web application for exploring Swedish parliamentary (Riksdagen) open data:
+> **Are the members of parliament actually showing up and voting?**
 
-- **Politicians (Ledamöter)**: Browse current and historical members of parliament — party, constituency, roles, committees, and biographical data (from ~1990 onwards)
-- **Votes (Voteringar)**: Explore how parliament members voted on specific issues, with filtering by party, topic, and date (from 1993/94 onwards)
-- **Speeches (Anföranden)**: Read and search chamber debate transcripts — who said what, when, and in which debate (from 1993/94 onwards)
-- **Documents (Dokument)**: Access parliamentary decisions, government propositions, motions, and chamber protocols (some from 1961)
-- **Calendar (Kalender)**: View upcoming debates, decisions, committee meetings, public hearings, and foreign visits
+### Version 1 — Attendance Ranking (MVP)
 
-### Phase 2 — Civic Discussion Platform
+An open, public website (no accounts, no login) that uses Riksdagen open data to rank members of parliament (ledamöter) by how often they are present and vote in the chamber — and, just as clearly, who is not.
 
-Extend the platform with social features for structured political discussions:
+**In scope**
 
-- ID-verified accounts (BankID/Freja eID) for trust and accountability
-- Direct channels between citizens and politicians
-- Structured discussion threads linked to specific votes, motions, or policy areas
-- An alternative to X/Facebook/Instagram for political discourse — focused on substance over engagement metrics
+- **Ranked list**: All members ranked by voting attendance — share of votes (voteringar) where they cast a vote (`Ja`, `Nej` or `Avstår`) versus were absent (`Frånvarande`). Sortable both ways: most present first and most absent first.
+- **Filters**: Party, constituency (valkrets), and period (parliamentary year / riksmöte, e.g. `2025/26`, or full electoral term).
+- **Member detail page**: Attendance over time for one member — totals per vote type, trend per riksmöte, and the list of votes they missed.
+- **Party overview**: Average attendance per party, so individual numbers can be put in context.
+- **Transparent method**: A public "Så räknar vi" (how we calculate) page explaining the metric, its limitations, and linking to the raw Riksdagen data. Every number must be traceable back to the source.
+- **Attribution**: "Källa: Sveriges riksdag" on every page showing data.
+
+**Out of scope for Version 1**
+
+- User accounts, authentication, comments or any user-generated content
+- Speeches (anföranden), documents (dokument) and calendar (kalender) exploration
+- How members voted on specific issues (only *whether* they voted)
+- Historical data before the electoral terms needed for the ranking
+
+**Attendance metric (definition)**
+
+```
+attendance % = (Ja + Nej + Avstår) / (Ja + Nej + Avstår + Frånvarande)
+```
+
+- Only votes held while the person was actually serving (tjänstgörande) count. Members who served part of a period are measured over the votes during their own service, and members below a minimum number of eligible votes are listed separately rather than ranked.
+- `Avstår` (abstain) counts as **present** — the member showed up and took a position.
+- **Fairness caveats** that must be shown in the UI, not hidden: absence can be legitimate — e.g. *kvittning* (pairing agreements between parties), parental leave, illness, or official duties. When a member is on longer leave an ersättare (substitute) takes the seat and is measured separately. The Speaker (talman) does not normally vote and is excluded. The data shows *that* someone was absent, not *why*.
+
+### Later Phases (not committed)
+
+These remain part of the long-term vision but are explicitly **not** part of Version 1:
+
+- **Government Data Explorer** — browse members (from ~1990), how they voted per issue (from 1993/94), speeches, documents, and the parliamentary calendar.
+- **Civic Discussion Platform** — ID-verified accounts (BankID/Freja eID), direct channels between citizens and politicians, structured discussion threads linked to votes and motions; an alternative to X/Facebook/Instagram for political discourse, focused on substance over engagement metrics.
 
 ## Technology Stack
 
@@ -29,8 +51,8 @@ Extend the platform with social features for structured political discussions:
 |-------|-----------|---------|
 | **Frontend** | Next.js 15 (App Router) | Full-stack React framework with SSR/SSG |
 | **UI** | Tailwind CSS + shadcn/ui | Utility-first CSS + accessible component library |
-| **Backend** | Supabase | PostgreSQL database, Auth, Edge Functions, Realtime, Storage |
-| **Auth** | Supabase Auth (email) | Email-based authentication (Phase 1); BankID integration (Phase 2) |
+| **Backend** | Supabase | PostgreSQL database for cached vote data and precomputed attendance statistics; Edge Functions / scheduled jobs for data sync |
+| **Auth** | None (Version 1) | Version 1 is fully public and read-only; Supabase Auth / BankID only in later phases |
 | **Language** | TypeScript (strict mode) | Type safety throughout the stack |
 | **Data Source** | Riksdagen öppna data | Swedish parliament open data APIs |
 | **Deployment** | TBD | Supabase (backend) + Vercel or Hetzner/Coolify (frontend) |
@@ -80,7 +102,8 @@ Extend the platform with social features for structured political discussions:
 ### Key Architectural Decisions
 
 - **Server Components by default** — Client components only when interactivity is required
-- **Server Actions for mutations** — Form submissions and data mutations use Next.js server actions
+- **Read-only public site (Version 1)** — No user mutations; data is written only by the sync job
+- **Precomputed statistics** — Attendance figures are computed when vote data is synced, not per page request
 - **Supabase server client** — Use `@supabase/ssr` for server-side auth and data access
 - **External API caching** — Riksdagen API responses cached in Supabase (PostgreSQL) with configurable TTL to reduce external calls and improve performance
 - **Row Level Security (RLS)** — All Supabase tables must have RLS policies; no public access without explicit policies
@@ -104,7 +127,7 @@ Supabase hosts the database, authentication, edge functions, and realtime subscr
 
 **Recommendation**: Start with Vercel free tier for simplicity; evaluate Hetzner+Coolify for production if EU data sovereignty is a priority.
 
-## Project Structure (Planned)
+## Project Structure (Planned — Version 1)
 
 ```
 tinget.social/
@@ -114,13 +137,11 @@ tinget.social/
 │   ├── instructions/              # File-specific agent instructions
 │   └── skills/                    # Agent skills (on-demand workflows)
 ├── app/                           # Next.js App Router
-│   ├── (auth)/                    # Auth pages (login, register)
-│   ├── (public)/                  # Public pages
-│   │   ├── ledamoter/             # Politicians
-│   │   ├── voteringar/            # Votes
-│   │   ├── anforanden/            # Speeches
-│   │   └── dokument/              # Documents
-│   ├── api/                       # API routes
+│   ├── page.tsx                   # Start page: attendance ranking
+│   ├── ledamoter/[id]/            # Member attendance detail
+│   ├── partier/                   # Party attendance overview
+│   ├── sa-raknar-vi/              # Methodology ("how we calculate")
+│   ├── api/                       # API routes / sync endpoints
 │   └── layout.tsx                 # Root layout
 ├── components/                    # Shared UI components
 │   ├── ui/                        # shadcn/ui components
@@ -163,4 +184,5 @@ Feature Request → @orchestrator
 - **Riksdagen data**: Free to use, must attribute "Sveriges riksdag" as source
 - **GDPR**: User data stored in Supabase (EU region); minimize PII collection; implement data deletion flows
 - **Accessibility**: Target WCAG 2.1 AA compliance for all public-facing pages
-- **Phase 2 (BankID)**: Requires agreement with BankID provider; Swedish personal numbers are PII — handle with care
+- **Personal data about politicians**: Attendance figures concern public officials acting in their public role, sourced from public records; present them factually, with method and caveats, and never editorialise about individuals
+- **Later phase (BankID)**: Requires agreement with BankID provider; Swedish personal numbers are PII — handle with care

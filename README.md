@@ -1,6 +1,8 @@
 # tinget.social
 
-A Swedish civic tech platform for exploring Riksdagen (Swedish parliament) open data and enabling structured political discussions.
+A Swedish civic tech platform built on Riksdagen (Swedish parliament) open data.
+
+**Version 1:** an open website ranking members of parliament by how often they are present and vote — who shows up to work, and who doesn't.
 
 **Stack**: Next.js 15 · Supabase · TypeScript · Tailwind CSS · shadcn/ui
 

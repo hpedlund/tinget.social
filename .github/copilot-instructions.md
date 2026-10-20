@@ -2,7 +2,7 @@
 
 ## Project Context
 
-This is **tinget.social**, a Swedish civic tech platform for exploring Riksdagen (Swedish parliament) open data and eventually enabling structured political discussions. See `PROJECT.md` for full details.
+This is **tinget.social**, a Swedish civic tech platform built on Riksdagen (Swedish parliament) open data. **Version 1 scope** is a public, read-only website ranking members of parliament by voting attendance (present vs. `Frånvarande`). No accounts, auth or user content in Version 1 — don't build features outside this scope unless a task explicitly asks for it. See `PROJECT.md` for the full vision, metric definition and later phases.
 
 ## Tech Stack
 
