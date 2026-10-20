@@ -1,9 +1,9 @@
 # TASK-008: Member detail page
 
-**Status**: draft
+**Status**: designed
 **Priority**: medium
 **Depends on**: TASK-005, TASK-002
-**Branch**: task/008-member-page
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
