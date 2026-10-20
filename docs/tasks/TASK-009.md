@@ -1,9 +1,9 @@
 # TASK-009: Party overview page
 
-**Status**: draft
+**Status**: in progress
 **Priority**: medium
 **Depends on**: TASK-005, TASK-002
-**Branch**: task/009-party-overview
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
