@@ -1,6 +1,6 @@
 # TASK-001: Project setup, default page and GitHub Pages deploy
 
-**Status**: designed
+**Status**: reviewing
 **Priority**: high
 **Depends on**: none
 **Branch**: task/001-project-setup
@@ -13,7 +13,7 @@ A Next.js static-export app with a simple Swedish default page builds in CI and 
 
 Foundation for everything else. See PROJECT.md → "Static export constraints" and "Deployment".
 
-- Next.js 15 (App Router), TypeScript strict, `output: "export"`, `trailingSlash: true`, `images.unoptimized`
+- Next.js 16 (App Router), TypeScript strict, `output: "export"`, `trailingSlash: true`, `images.unoptimized`
 - Tailwind CSS + shadcn/ui base setup (`components.json`, theme CSS variables, `cn()` helper)
 - ESLint configured; `npm run lint`, `npm run typecheck`, `npm run build` scripts
 - GitHub Actions: build on pull requests; build + deploy to GitHub Pages on push to `main` and manual dispatch

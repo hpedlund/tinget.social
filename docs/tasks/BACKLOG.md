@@ -12,12 +12,12 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
+| TASK-001 | [Project setup, default page and GitHub Pages deploy](TASK-001.md) | reviewing | claude/happy-thompson-ua33kk | none |
 
 ## Backlog
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-001 | [Project setup, default page and GitHub Pages deploy](TASK-001.md) | designed | high | none |
 | TASK-002 | [Site layout and static page shell](TASK-002.md) | draft | high | TASK-001 |
 | TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | draft | high | TASK-001 |
 | TASK-004 | [Attendance calculation](TASK-004.md) | draft | high | TASK-003 |

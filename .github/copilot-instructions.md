@@ -8,7 +8,7 @@ This is **tinget.social**, a Swedish civic tech platform built on Riksdagen (Swe
 
 **Version 1 (current)** — static site, no backend:
 
-- **Framework**: Next.js 15 (App Router) with static export (`output: "export"`)
+- **Framework**: Next.js 16 (App Router) with static export (`output: "export"`)
 - **Language**: TypeScript (strict mode)
 - **Styling**: Tailwind CSS + shadcn/ui
 - **Data**: Pipeline scripts (`scripts/`) fetch Riksdagen data in GitHub Actions and write JSON to `data/`

@@ -51,7 +51,7 @@ Version 1 is a **static website**: all data is downloaded and processed at build
 
 | Layer | Version 1 | Later (when needed) |
 |-------|-----------|---------------------|
-| **Frontend** | Next.js 15 (App Router) with static export (`output: "export"`) | Same app with static export switched off (SSR/ISR) |
+| **Frontend** | Next.js 16 (App Router) with static export (`output: "export"`) | Same app with static export switched off (SSR/ISR) |
 | **UI** | Tailwind CSS + shadcn/ui | Same |
 | **Language** | TypeScript (strict mode) | Same |
 | **Data pipeline** | Node/TypeScript scripts run in GitHub Actions | Same scripts, writing to Supabase instead of / as well as JSON |
