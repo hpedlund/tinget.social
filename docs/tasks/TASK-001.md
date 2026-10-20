@@ -1,6 +1,6 @@
 # TASK-001: Project setup, default page and GitHub Pages deploy
 
-**Status**: reviewing (deploy pending: enable Pages, merge to main)
+**Status**: done
 **Priority**: high
 **Depends on**: none
 **Branch**: task/001-project-setup
@@ -23,12 +23,12 @@ Foundation for everything else. See PROJECT.md → "Static export constraints" a
 
 ## Acceptance Criteria
 
-- [ ] `npm ci && npm run build` produces a static site in `out/`
-- [ ] `npm run lint` and `npm run typecheck` pass
-- [ ] Pull requests run the build workflow; pushes to `main` deploy to GitHub Pages
-- [ ] Workflows use least-privilege `permissions:` and pinned action versions
-- [ ] Default page renders correctly under the `/tinget.social/` sub-path (assets and links)
-- [ ] Page has `lang="sv"`, a title and description, and passes basic accessibility checks (heading, contrast)
+- [x] `npm ci && npm run build` produces a static site in `out/`
+- [x] `npm run lint` and `npm run typecheck` pass
+- [x] Pull requests run the build workflow; pushes to `main` deploy to GitHub Pages
+- [x] Workflows use least-privilege `permissions:` and pinned action versions
+- [x] Default page renders correctly under the `/tinget.social/` sub-path (assets and links)
+- [x] Page has `lang="sv"`, a title and description, and passes basic accessibility checks (heading, contrast)
 
 ## Artifacts
 
