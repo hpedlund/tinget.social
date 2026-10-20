@@ -12,7 +12,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
-| TASK-005 | [Data contract and data access layer](TASK-005.md) | designed | claude/focused-pascal-1h7rnf | TASK-003, TASK-004 |
+| TASK-005 | [Data contract and data access layer](TASK-005.md) | reviewing | claude/focused-pascal-1h7rnf | TASK-003, TASK-004 |
 
 ## Backlog
 
