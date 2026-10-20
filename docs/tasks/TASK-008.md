@@ -1,6 +1,6 @@
 # TASK-008: Member detail page
 
-**Status**: reviewing
+**Status**: done
 **Priority**: medium
 **Depends on**: TASK-005, TASK-002
 **Branch**: claude/focused-pascal-1h7rnf
@@ -18,10 +18,10 @@ Each member has a static page showing attendance per riksmöte, totals per vote 
 
 ## Acceptance Criteria
 
-- [ ] A page is generated for every member in the data
-- [ ] Figures match the ranking page
-- [ ] Missed votes link to the corresponding Riksdagen source
-- [ ] Unknown member IDs give the 404 page
+- [x] A page is generated for every member in the data
+- [x] Figures match the ranking page
+- [x] Missed votes link to the corresponding Riksdagen source
+- [x] Unknown member IDs give the 404 page
 
 ## Artifacts
 
