@@ -28,6 +28,7 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
+      - run: npm test
       - run: npm run build
         env:
           # "/tinget.social" on hpedlund.github.io, empty once a custom domain is set

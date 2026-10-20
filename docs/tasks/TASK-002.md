@@ -1,6 +1,6 @@
 # TASK-002: Site layout and static page shell
 
-**Status**: reviewing
+**Status**: done
 **Priority**: high
 **Depends on**: TASK-001
 **Branch**: task/002-site-layout
@@ -18,11 +18,11 @@ Every page shares a header, footer and navigation, and placeholder pages exist f
 
 ## Acceptance Criteria
 
-- [ ] All routes render under the Pages sub-path and in the static export
-- [ ] Navigation works with keyboard and shows the current page
-- [ ] Footer shows attribution and privacy note on every page
-- [ ] Unknown URLs show the custom 404 page
-- [ ] UX review passes WCAG 2.1 AA checks for layout and navigation
+- [x] All routes render under the Pages sub-path and in the static export
+- [x] Navigation works with keyboard and shows the current page
+- [x] Footer shows attribution and privacy note on every page
+- [x] Unknown URLs show the custom 404 page
+- [x] UX review passes WCAG 2.1 AA checks for layout and navigation
 
 ## Artifacts
 

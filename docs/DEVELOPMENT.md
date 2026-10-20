@@ -13,6 +13,7 @@ npm ci              # install dependencies
 npm run dev         # development server at http://localhost:3000
 npm run lint        # ESLint
 npm run typecheck   # TypeScript
+npm test            # unit tests (Vitest)
 npm run build       # static export to out/
 npm run data:fetch  # download + validate Riksdagen data into .cache/ (add -- --refresh to bypass the cache)
 ```
@@ -27,7 +28,7 @@ PAGES_BASE_PATH=/tinget.social npm run build
 
 ### Deployment
 
-- **CI** (`.github/workflows/ci.yml`): lint, typecheck and build on every pull request and branch push.
+- **CI** (`.github/workflows/ci.yml`): lint, typecheck, unit tests and build on every pull request and branch push.
 - **Deploy** (`.github/workflows/deploy.yml`): on every push to `main` (and manually), builds and publishes `out/` to GitHub Pages.
 - One-time setup: repository Settings → Pages → Source: **GitHub Actions**.
 - The site is live at `https://hpedlund.github.io/tinget.social/` until the custom domain is mapped (TASK-013); the sub-path is picked up automatically from the Pages configuration.

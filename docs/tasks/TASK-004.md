@@ -1,8 +1,8 @@
 # TASK-004: Attendance calculation
 
-**Status**: draft
+**Status**: reviewing
 **Priority**: high
-**Depends on**: TASK-003
+**Depends on**: TASK-001 (TASK-003 maps Riksdagen data into its input type)
 **Branch**: task/004-attendance-calc
 
 ## Goal
@@ -17,7 +17,7 @@ See PROJECT.md → "Attendance metric (definition)".
 - Only votes during the member's own service count; members below a minimum number of eligible votes are flagged rather than ranked (threshold defined in the spec)
 - Speaker (talman) excluded; substitutes (ersättare) measured separately
 - Party averages and per-riksmöte trends
-- Add a test runner (Vitest) with fixtures built from real vote rows
+- Add a test runner (Vitest); fixtures are hand-built normalised records, real-data fixtures follow in TASK-003
 
 ## Acceptance Criteria
 
