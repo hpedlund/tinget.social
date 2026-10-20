@@ -12,15 +12,14 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Branch | Dependencies |
 |----|-------|--------|--------|--------------|
-| TASK-002 | [Site layout and static page shell](TASK-002.md) | reviewing | claude/happy-thompson-ua33kk | TASK-001 |
+| TASK-004 | [Attendance calculation](TASK-004.md) | reviewing | claude/happy-thompson-ua33kk | TASK-001 |
 
 ## Backlog
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
 | TASK-003 | [Riksdagen data client and fetch script](TASK-003.md) | draft | high | TASK-001 |
-| TASK-004 | [Attendance calculation](TASK-004.md) | designed | high | TASK-001 |
-| TASK-005 | [Data contract and data access layer](TASK-005.md) | draft | high | TASK-004 |
+| TASK-005 | [Data contract and data access layer](TASK-005.md) | draft | high | TASK-003, TASK-004 |
 | TASK-006 | [Attendance ranking page](TASK-006.md) | draft | high | TASK-005, TASK-002 |
 | TASK-007 | [Ranking filters and sorting](TASK-007.md) | draft | medium | TASK-006 |
 | TASK-008 | [Member detail page](TASK-008.md) | draft | medium | TASK-005, TASK-002 |
@@ -35,3 +34,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | ID | Title | Branch | Completed |
 |----|-------|--------|-----------|
 | TASK-001 | [Project setup, default page and GitHub Pages deploy](TASK-001.md) | claude/happy-thompson-ua33kk | 2026-10-20 |
+| TASK-002 | [Site layout and static page shell](TASK-002.md) | claude/happy-thompson-ua33kk | 2026-10-20 |

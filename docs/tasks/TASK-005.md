@@ -2,7 +2,7 @@
 
 **Status**: draft
 **Priority**: high
-**Depends on**: TASK-004
+**Depends on**: TASK-003, TASK-004
 **Branch**: task/005-data-contract
 
 ## Goal
