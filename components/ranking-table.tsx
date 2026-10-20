@@ -1,7 +1,7 @@
 import { PartyLabel } from "@/components/party-label";
 import { Table, TableCaption, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import type { RankedRow, UnrankedRow } from "@/lib/data";
 import { formatNumber, formatPercent } from "@/lib/format";
+import type { RankingRow } from "@/lib/ranking/explorer";
 import { cn } from "@/lib/utils";
 
 /**
@@ -28,11 +28,14 @@ const tableStyles = cn(
 export function RankingTable({
   rows,
   caption,
+  sortDirection,
 }: {
-  rows: readonly (RankedRow | UnrankedRow)[];
+  rows: readonly RankingRow[];
   caption: string;
+  /** Sets `aria-sort` on Närvaro: "descending" = most present first. */
+  sortDirection?: "ascending" | "descending";
 }) {
-  const showRank = rows.some((row) => "rank" in row);
+  const showRank = rows.some((row) => row.rank !== null);
   return (
     <Table className={tableStyles}>
       <TableCaption className="text-left">{caption}</TableCaption>
@@ -50,7 +53,7 @@ export function RankingTable({
           <TableHead scope="col" className="hidden md:table-cell">
             Valkrets
           </TableHead>
-          <TableHead scope="col" className="text-right">
+          <TableHead scope="col" className="text-right" aria-sort={sortDirection}>
             Närvaro
           </TableHead>
           <TableHead scope="col" className="hidden text-right sm:table-cell">
@@ -64,7 +67,7 @@ export function RankingTable({
       <tbody className="tabular-nums">
         {rows.map((row) => (
           <tr key={row.memberId}>
-            {showRank && <td className="num dim">{"rank" in row ? row.rank : null}</td>}
+            {showRank && <td className="num dim">{row.rank}</td>}
             <th scope="row">
               {row.name}
               <span className="sm-only">
@@ -82,7 +85,7 @@ export function RankingTable({
               </span>
             </td>
             <td className="sm-col num">{formatNumber(row.eligible)}</td>
-            <td className="sm-col num">{formatNumber(row.counts.franvarande)}</td>
+            <td className="sm-col num">{formatNumber(row.absent)}</td>
           </tr>
         ))}
       </tbody>

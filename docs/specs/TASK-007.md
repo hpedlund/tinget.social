@@ -59,9 +59,9 @@ URL query parameters, Swedish and readable; default values are omitted so the de
 
 ## Selecting rows
 
-`selectRows(data, state) → { period, ranked: TableRow[], belowThreshold: TableRow[], totalRanked, totalBelow }`
+`selectRows(data, state) → { period, ranked: RankingRow[], belowThreshold: RankingRow[], totalRanked, totalBelow }`
 
-- Decode the period's rows into `TableRow { memberId, name, party, constituency, rank: number | null, attendance, eligible, absent }`.
+- Decode the period's rows into `RankingRow { memberId, name, party, constituency, rank: number | null, attendance, eligible, absent }`.
 - Filter both lists by party and constituency (AND).
 - `ranked` keeps rank order for `narvaro`; for `franvaro` it is **stable-sorted by rank descending**, so tied members stay alphabetical in both directions. Ranks are always the overall rank in the period (filtering never re-numbers).
 - `belowThreshold` is filtered but always alphabetical (it is not a ranking).
@@ -122,7 +122,7 @@ app/page.tsx (Server)
   - filtered: "Visar {k} av {n} rankade ledamöter." and, when the period has below-threshold members, " {k2} av {n2} ledamöter med få voteringar visas separat."
 - **Empty state** (ranked list empty): bordered box in place of the table, "Inga rankade ledamöter matchar filtren {period}." + `Button` "Rensa filter". The below-threshold section is hidden when it has no rows.
 - **Caption** of the ranked table: "{k} riksdagsledamöter rankade efter närvaro i voteringar {label}, {högst|lägst} närvaro först. … Lika närvaro ger delad plats." plus, when filtered, "Plats gäller hela riksdagen." Below-threshold caption as today with the filtered count.
-- `RankingTable` gets `sortDirection?: "ascending" | "descending"` → `aria-sort` on the Närvaro header (descending = most present first). It takes `TableRow` instead of the contract rows.
+- `RankingTable` gets `sortDirection?: "ascending" | "descending"` → `aria-sort` on the Närvaro header (descending = most present first). It takes `RankingRow` instead of the contract rows.
 
 ### Shared UI
 
@@ -176,7 +176,7 @@ No new npm dependencies.
 - `components/ui/native-select.tsx`, `components/ui/button.tsx` — shadcn/ui primitives
 - `components/ranking-explorer.tsx` — client explorer
 - `components/ranking-filters.tsx` — filter form
-- `components/ranking-table.tsx` — `TableRow` props, `aria-sort`
+- `components/ranking-table.tsx` — `RankingRow` props, `aria-sort`
 - `app/page.tsx` — builds the payload, period-neutral header
 - `app/error.tsx` — root error boundary
 - `docs/tasks/TASK-007.md`, `docs/tasks/BACKLOG.md` — status

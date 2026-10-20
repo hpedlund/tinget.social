@@ -1,6 +1,6 @@
 # TASK-007: Ranking filters and sorting
 
-**Status**: designed
+**Status**: reviewing
 **Priority**: medium
 **Depends on**: TASK-006
 **Branch**: claude/focused-pascal-1h7rnf
