@@ -1,9 +1,11 @@
 ---
-description: "Use when building API routes or route handlers in Next.js App Router. Covers request validation, error handling, Supabase server client usage, and consistent response formats."
+description: "(Later phases — not used in Version 1.) Use when building API routes or route handlers in Next.js App Router. Covers request validation, error handling, Supabase server client usage, and consistent response formats."
 applyTo: "app/api/**"
 ---
 
 # API Route Conventions
+
+> **Later phases only.** Version 1 is a static export served from GitHub Pages and has **no API routes**. Do not create files under `app/api/` until a task explicitly introduces the backend (Supabase + Node hosting). See `PROJECT.md` → "When to introduce Supabase".
 
 ## Route Handler Pattern
 

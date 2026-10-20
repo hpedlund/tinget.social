@@ -43,7 +43,7 @@ Every task produces exactly two commits on its branch:
 ### Step 4: Delegate to @coder (→ Commit 2)
 - Tell @coder to read the spec from `docs/specs/TASK-{NNN}.md`
 - **Verify**: task status is `reviewing`
-- **Verify**: `tsc --noEmit` passes (if TypeScript code was created)
+- **Verify**: `tsc --noEmit` and `next build` pass (if TypeScript code was created)
 - **Commit**: `feat(TASK-NNN): implement {title}`
 
 ### Step 5: Delegate to @security
@@ -93,12 +93,4 @@ Every task produces exactly two commits on its branch:
 - ALWAYS enforce the two-commit pattern (plan commit, then code commit)
 - ALWAYS verify `tsc --noEmit` passes before committing code
 - Maximum **2 fix iterations** per review before escalating to the user
-
-## Constraints
-
-- DO NOT implement code yourself — always delegate to @coder
-- DO NOT skip the security review — it is mandatory for every feature
-- DO NOT skip the UX review for any feature with UI components
-- ALWAYS start with @architect for non-trivial features
 - For bug fixes or small changes, you may skip @architect and go directly to @coder
-- Maximum **2 iteration loops** (coder → security → coder) before escalating to the user
