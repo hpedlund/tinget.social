@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0722683622001",
+  "name": "Lars Jilmstad",
+  "firstName": "Lars",
+  "lastName": "Jilmstad",
+  "sortName": "Jilmstad,Lars",
+  "party": "M",
+  "constituency": "Stockholms kommun",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 787,
+      "nej": 1,
+      "avstar": 0,
+      "franvarande": 1
+    },
+    "eligible": 789,
+    "present": 788,
+    "attendance": 0.9987325728770595
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 369,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 370,
+      "present": 370,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 418,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 419,
+      "present": 418,
+      "attendance": 0.9976133651551312
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 6,
+      "counts": {
+        "ja": 787,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 789,
+      "present": 788,
+      "attendance": 0.9987325728770595
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 369,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 370,
+      "present": 370,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 35,
+      "counts": {
+        "ja": 418,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 419,
+      "present": 418,
+      "attendance": 0.9976133651551312
+    }
+  ],
+  "missedVoteIds": [
+    "FD37B8B1-D557-4BDA-B5CA-ED1A7480E89E"
+  ]
+}

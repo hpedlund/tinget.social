@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0150200797210",
+  "name": "Mats Sander",
+  "firstName": "Mats",
+  "lastName": "Sander",
+  "sortName": "Sander,Mats",
+  "party": "M",
+  "constituency": "Skåne läns västra",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 556,
+      "nej": 4,
+      "avstar": 1,
+      "franvarande": 21
+    },
+    "eligible": 582,
+    "present": 561,
+    "attendance": 0.9639175257731959
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 555,
+        "nej": 3,
+        "avstar": 1,
+        "franvarande": 21
+      },
+      "eligible": 580,
+      "present": 559,
+      "attendance": 0.9637931034482758
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 36,
+      "counts": {
+        "ja": 556,
+        "nej": 3,
+        "avstar": 1,
+        "franvarande": 21
+      },
+      "eligible": 581,
+      "present": 560,
+      "attendance": 0.963855421686747
+    },
+    {
+      "periodId": "2023-24",
+      "rank": null,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 44,
+      "counts": {
+        "ja": 555,
+        "nej": 3,
+        "avstar": 1,
+        "franvarande": 21
+      },
+      "eligible": 580,
+      "present": 559,
+      "attendance": 0.9637931034482758
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "00419725-4314-4903-BCB7-A9B056752B1B",
+    "4AEA9DF7-E24F-4C07-9095-64C6F9BBC486",
+    "6306ABE8-3F15-44FE-9004-04B74B9E2B50",
+    "645AA761-8228-41DA-AFD4-EF607D2FE315",
+    "79DD2C91-3D33-4AB9-8250-AFE06072ED46",
+    "DB9D37EE-5250-428F-8149-708CE682D3B0",
+    "EE73143B-2037-4B6A-87AB-DB2B36839AAE",
+    "F7D2ECC6-AD1F-4837-B15F-74D8A1F35BFB",
+    "07050D26-4BE0-4AA0-A989-D2C6CF514485",
+    "0DC432BE-2A87-4BA7-A4F3-F8AB9E7B4D38",
+    "3317397F-D718-4493-BA7E-D72B777FA3D7",
+    "34A249DE-E24C-465C-96D9-AE3812FFC3EB",
+    "6459ABCF-ABDB-4511-87B8-C7CC09737090",
+    "844A7286-5159-4157-A177-63795C03B8C7",
+    "9237405C-BA67-4C0A-969A-443DD68B2229",
+    "97D5A462-4A88-4427-B398-B1660EF6316D",
+    "A624E3F6-AC46-401C-B1B2-457FA98E4BA8",
+    "A635F5BE-A3C4-4987-933B-A2611EB13D72",
+    "B1C1299A-8356-4714-B52A-D903B134BE85",
+    "C18566EF-ED7D-4902-B993-8E3614B5D4EE",
+    "DA60D23A-E480-4DBF-8ED5-5872B8C5FEC8"
+  ]
+}

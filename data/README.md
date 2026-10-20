@@ -31,7 +31,7 @@ A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `p
 
 **Deterministic**: the same cache gives byte-identical files (fixed key order, explicit sorting, 2-space indent). There is deliberately no `generatedAt` timestamp, so a run without new votes produces no diff; `lastVoteDate` shows how current the data is and the git history shows when it was generated.
 
-**Size**: `data/` is build input only — it is not published as-is; the site publishes pre-rendered pages. Estimated ≈ 8 MB, dominated by `missedVoteIds` in the ~566 member files (~151 000 Frånvarande rows); the measured size is recorded here with the first committed snapshot.
+**Size**: `data/` is build input only — it is not published as-is; the site publishes pre-rendered pages. First snapshot (votes up to 2026-10-15): 580 files, 8.0 MB, of which the 566 member files (dominated by `missedVoteIds`) are the bulk; each ranking file is ≈ 100–200 kB.
 
 ## Fetch pipeline
 

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "036926802512",
+  "name": "Blåvitt Elofsson",
+  "firstName": "Blåvitt",
+  "lastName": "Elofsson",
+  "sortName": "Elofsson,Blåvitt",
+  "party": "S",
+  "constituency": "Värmlands län",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 550,
+      "nej": 496,
+      "avstar": 191,
+      "franvarande": 4
+    },
+    "eligible": 1241,
+    "present": 1237,
+    "attendance": 0.9967767929089444
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 206,
+        "nej": 158,
+        "avstar": 79,
+        "franvarande": 1
+      },
+      "eligible": 444,
+      "present": 443,
+      "attendance": 0.9977477477477478
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 344,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 3
+      },
+      "eligible": 797,
+      "present": 794,
+      "attendance": 0.9962358845671268
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 8,
+      "counts": {
+        "ja": 550,
+        "nej": 496,
+        "avstar": 191,
+        "franvarande": 4
+      },
+      "eligible": 1241,
+      "present": 1237,
+      "attendance": 0.9967767929089444
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 18,
+      "counts": {
+        "ja": 206,
+        "nej": 158,
+        "avstar": 79,
+        "franvarande": 1
+      },
+      "eligible": 444,
+      "present": 443,
+      "attendance": 0.9977477477477478
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 40,
+      "counts": {
+        "ja": 344,
+        "nej": 338,
+        "avstar": 112,
+        "franvarande": 3
+      },
+      "eligible": 797,
+      "present": 794,
+      "attendance": 0.9962358845671268
+    }
+  ],
+  "missedVoteIds": [
+    "4B4F9930-8DC5-494F-AA9A-680382B91AB0",
+    "710AF36A-C354-40F8-AF30-C0CAB1A99000",
+    "81ACC65B-CFDF-4A11-8A9E-70FB88D24248",
+    "E812F38E-54D7-492C-B67A-323BEC9C65E3"
+  ]
+}

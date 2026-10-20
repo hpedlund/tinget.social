@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0802606848923",
+  "name": "Mariya Voyvodova",
+  "firstName": "Mariya",
+  "lastName": "Voyvodova",
+  "sortName": "Voyvodova,Mariya",
+  "party": "S",
+  "constituency": "Göteborgs kommun",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 222,
+      "nej": 155,
+      "avstar": 66,
+      "franvarande": 47
+    },
+    "eligible": 490,
+    "present": 443,
+    "attendance": 0.9040816326530612
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 222,
+        "nej": 155,
+        "avstar": 66,
+        "franvarande": 47
+      },
+      "eligible": 490,
+      "present": 443,
+      "attendance": 0.9040816326530612
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 141,
+      "counts": {
+        "ja": 222,
+        "nej": 155,
+        "avstar": 66,
+        "franvarande": 47
+      },
+      "eligible": 490,
+      "present": 443,
+      "attendance": 0.9040816326530612
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 130,
+      "counts": {
+        "ja": 222,
+        "nej": 155,
+        "avstar": 66,
+        "franvarande": 47
+      },
+      "eligible": 490,
+      "present": 443,
+      "attendance": 0.9040816326530612
+    }
+  ],
+  "missedVoteIds": [
+    "719EDE65-9268-433E-9A30-70E50CF7083B",
+    "B36A237F-CB85-4E3D-B192-BC1CB0C42689",
+    "B8EF0C9B-07C3-4627-B031-10435FDDC86E",
+    "FF6B2BAF-3F50-4012-ABA1-0303F62FC6A9",
+    "064B6EEB-A880-4D6E-AFD5-84C40655510D",
+    "1B7DA87C-46AE-4F04-B406-A3F987580F48",
+    "1C1F62EA-1290-4646-8B4C-CE1C52FBF953",
+    "1C67EC89-BDBB-4062-8647-4404FB42DE4A",
+    "2AC2866E-8949-4F67-8E0E-9D0D5A5D484E",
+    "2B50F66F-09FD-410C-9A13-0E3B87402304",
+    "2F03FB68-2A32-445C-8A55-3C9CA77A0C16",
+    "396F0459-173D-4DAC-8651-6FA7468C5714",
+    "3B66A96C-4777-43D6-B83D-819364312DF0",
+    "406EB102-6071-432D-9AFA-A8925A4A1C73",
+    "4761CA68-3042-4772-A492-FED0BE82D168",
+    "568F5E6F-F294-4ED1-BD86-513BB9440919",
+    "5D6335AC-B6F6-42DD-91BE-11617CCDF990",
+    "5EB8E9FE-85A5-4165-9929-B447950E1985",
+    "62740581-78AA-4425-B071-A00B6B3CBB50",
+    "63D81BBF-096F-4CB1-B4E6-9FE40945E491",
+    "686714F0-7F86-48B7-84DF-A6DD3A58C6A5",
+    "68EF2AE6-3C9E-45EC-804D-39B3A21403F3",
+    "70BD61A5-228D-4DAC-8172-AE83301C0CB2",
+    "73F5FCE7-DEEC-4C65-8885-13B65B800901",
+    "792E2949-F565-4353-B41A-AA40D3A4A098",
+    "86303DBC-74B4-4029-9FB9-3ED6A27E69A7",
+    "8A2875A6-4393-48D3-A559-BC4DE82FEE98",
+    "8A2F5687-651B-421F-9915-209C66CF9A26",
+    "9C68275B-7168-40CA-A3CB-62EA2C797662",
+    "9E6063F3-C284-4CA1-868E-E9580B71D5A7",
+    "9EF2D82C-5A69-4F9D-A836-8A1D5CAC36F7",
+    "A90E7E8A-16B4-43A1-9D96-C2DE9E0C0FB5",
+    "AA71BE84-DF78-4D40-B3F7-BF4CC369A93A",
+    "ACF95989-0ECB-4D06-9C5A-3A68982E1BD4",
+    "B0450FCF-3888-47D6-897A-08691EF0F8CF",
+    "B41F29C2-6DC6-40E3-89B4-84BBDD5A7FF5",
+    "B9609AA8-9728-4E6C-841F-7CBF88E33BA6",
+    "B9CD2295-6A8B-4333-BBDC-EA1AA4B890F9",
+    "C17FD3A1-FF03-49C5-BA93-A4903CA22B92",
+    "C4F9CD01-9CAC-4A65-A259-3A2ABC5E7C7B",
+    "CBA1E498-8F0E-45DA-90B3-1EC9E61DD648",
+    "DCB373CD-F1CE-4AFB-820E-06E537E309D6",
+    "E28CD87F-F1B2-4091-B59C-E4E4C048408C",
+    "E7429367-EC5A-4337-AD46-0E9CFBE75C90",
+    "EB8D7159-B6CD-4860-B267-B7C19BCDFC62",
+    "F1EC7D59-2334-47E6-9783-339FAE76D681",
+    "FEF5FED2-4E13-4E6B-B1E4-69B0928DA9A8"
+  ]
+}

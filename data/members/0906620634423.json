@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0906620634423",
+  "name": "Eleonore Lundkvist",
+  "firstName": "Eleonore",
+  "lastName": "Lundkvist",
+  "sortName": "Lundkvist,Eleonore",
+  "party": "M",
+  "constituency": "Västmanlands län",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 379,
+      "nej": 2,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 381,
+    "present": 381,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 379,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 381,
+      "present": 381,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 1,
+      "counts": {
+        "ja": 379,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 381,
+      "present": 381,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 1,
+      "counts": {
+        "ja": 379,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 381,
+      "present": 381,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

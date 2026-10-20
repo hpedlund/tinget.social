@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0929594210324",
+  "name": "Mohamed Ali",
+  "firstName": "Mohamed",
+  "lastName": "Ali",
+  "sortName": "Ali,Mohamed",
+  "party": "V",
+  "constituency": "Dalarnas län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 0,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 1
+    },
+    "eligible": 1,
+    "present": 0,
+    "attendance": 0
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 1,
+      "present": 0,
+      "attendance": 0
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2026-27",
+      "rank": 348,
+      "counts": {
+        "ja": 0,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 1
+      },
+      "eligible": 1,
+      "present": 0,
+      "attendance": 0
+    }
+  ],
+  "missedVoteIds": [
+    "3C26FA04-DAA4-4E03-B135-C55FD0B8567F"
+  ]
+}

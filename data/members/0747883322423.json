@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0747883322423",
+  "name": "Amir Jawad",
+  "firstName": "Amir",
+  "lastName": "Jawad",
+  "sortName": "Jawad,Amir",
+  "party": "L",
+  "constituency": "Skåne läns västra",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 87,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 34
+    },
+    "eligible": 121,
+    "present": 87,
+    "attendance": 0.71900826446281
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 87,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 34
+      },
+      "eligible": 121,
+      "present": 87,
+      "attendance": 0.71900826446281
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 87,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 34
+      },
+      "eligible": 121,
+      "present": 87,
+      "attendance": 0.71900826446281
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 335,
+      "counts": {
+        "ja": 87,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 34
+      },
+      "eligible": 121,
+      "present": 87,
+      "attendance": 0.71900826446281
+    }
+  ],
+  "missedVoteIds": [
+    "08750B55-BEFA-42E6-80D6-7078512037B9",
+    "09B1BD7C-773C-469E-A538-EF841115BFD5",
+    "0B70FB76-7BE0-418A-B3F5-D95C36E1D102",
+    "18CE9060-9EFC-4D72-813F-E04045807534",
+    "233AF5A6-6C35-480A-8093-C9B7BB345185",
+    "265E87B2-7148-4F41-9868-B4A401DF0110",
+    "56F4FDAD-5CAE-401D-9EAA-53562AFF2C48",
+    "58EB0E51-9BDC-4009-A4DC-2AA8C00F1FC9",
+    "5A77326E-2F6B-4B5A-AF92-6D8D7FB32D77",
+    "5CB686EB-B892-4480-8424-73039C2DC10D",
+    "611511D8-4D80-4FB8-A1C6-EFB70E451AFA",
+    "61EC5B59-B498-4C60-8D69-C15A90CF6A45",
+    "728E2FE1-C615-488C-8886-83C4BC4A3B58",
+    "8236EECD-8D57-4BF7-B9F8-C537168E81D3",
+    "91F2E73F-8E9A-4A9D-B99E-4CC2A4A73DAB",
+    "934BEA69-B783-44D5-942E-7796C05EF305",
+    "957199E6-7BE3-4817-94AB-39D92637E535",
+    "99416877-C9C8-48A1-8093-18207F03D2C6",
+    "9FA3EA3A-6FE3-4AAC-AA55-CCC0F2904132",
+    "A276556D-182F-453A-AB24-860215596B59",
+    "A37A23CB-C2A7-4CA0-8015-637716F60A1D",
+    "AABA6692-3368-4E3B-A384-851777527D58",
+    "B7D1CEE2-8D20-46E8-B7DF-6EA42A222D38",
+    "C2388AA4-70C5-4E1B-B5FB-888870CFF0F3",
+    "CCD47323-B18A-447D-ADAC-1085B9492C58",
+    "CDDF2B94-7304-40C3-954B-801AB9F8F18C",
+    "CFFC8D73-A4FF-480B-A876-BC13FEDF48D5",
+    "D5D1AAD5-B430-447F-9D9A-BD67B9335091",
+    "E3CB3459-F4A6-441A-A1A6-98030B1BDDDE",
+    "E4C68CDE-0680-4051-BCE5-29B18A6F53F9",
+    "E8B69B04-3578-4DB6-BDCA-8408BA7FD12E",
+    "E9F13062-54EA-48AB-876B-14BE42C5F57E",
+    "ED89B2A2-1C10-4F17-9B85-FF726E974087",
+    "F12A2F43-F915-43E9-BAC3-5E4D62818B72"
+  ]
+}

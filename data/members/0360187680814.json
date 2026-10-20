@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0360187680814",
+  "name": "Mats Hellhoff",
+  "firstName": "Mats",
+  "lastName": "Hellhoff",
+  "sortName": "Hellhoff,Mats",
+  "party": "SD",
+  "constituency": "Västernorrlands län",
+  "status": "Tjänstgörande ersättare",
+  "total": {
+    "counts": {
+      "ja": 1265,
+      "nej": 113,
+      "avstar": 73,
+      "franvarande": 0
+    },
+    "eligible": 1451,
+    "present": 1451,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 481,
+        "nej": 101,
+        "avstar": 70,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 1,
+      "counts": {
+        "ja": 1265,
+        "nej": 112,
+        "avstar": 73,
+        "franvarande": 0
+      },
+      "eligible": 1450,
+      "present": 1450,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": null,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 481,
+        "nej": 101,
+        "avstar": 70,
+        "franvarande": 0
+      },
+      "eligible": 652,
+      "present": 652,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 784,
+        "nej": 10,
+        "avstar": 3,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

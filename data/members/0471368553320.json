@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0471368553320",
+  "name": "Ylva Stadell",
+  "firstName": "Ylva",
+  "lastName": "Stadell",
+  "sortName": "Stadell,Ylva",
+  "party": "S",
+  "constituency": "Uppsala län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 1,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 1,
+    "present": 1,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 1,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

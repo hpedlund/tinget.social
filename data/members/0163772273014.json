@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0163772273014",
+  "name": "Anna Vedin",
+  "firstName": "Anna",
+  "lastName": "Vedin",
+  "sortName": "Vedin,Anna",
+  "party": "M",
+  "constituency": "Västra Götalands läns västra",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 241,
+      "nej": 2,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 243,
+    "present": 243,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 241,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 242,
+      "present": 242,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 241,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 242,
+      "present": 242,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": 1,
+      "counts": {
+        "ja": 241,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 242,
+      "present": 242,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

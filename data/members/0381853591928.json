@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0381853591928",
+  "name": "Malte Tängmark Roos",
+  "firstName": "Malte",
+  "lastName": "Tängmark Roos",
+  "sortName": "Tängmark",
+  "party": "MP",
+  "constituency": "Malmö kommun",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 450,
+      "nej": 454,
+      "avstar": 352,
+      "franvarande": 60
+    },
+    "eligible": 1316,
+    "present": 1256,
+    "attendance": 0.9544072948328267
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 86,
+        "nej": 54,
+        "avstar": 44,
+        "franvarande": 0
+      },
+      "eligible": 184,
+      "present": 184,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 197,
+        "nej": 171,
+        "avstar": 162,
+        "franvarande": 16
+      },
+      "eligible": 546,
+      "present": 530,
+      "attendance": 0.9706959706959707
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 167,
+        "nej": 229,
+        "avstar": 146,
+        "franvarande": 44
+      },
+      "eligible": 586,
+      "present": 542,
+      "attendance": 0.9249146757679181
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 50,
+      "counts": {
+        "ja": 450,
+        "nej": 454,
+        "avstar": 352,
+        "franvarande": 60
+      },
+      "eligible": 1316,
+      "present": 1256,
+      "attendance": 0.9544072948328267
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 1,
+      "counts": {
+        "ja": 86,
+        "nej": 54,
+        "avstar": 44,
+        "franvarande": 0
+      },
+      "eligible": 184,
+      "present": 184,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 36,
+      "counts": {
+        "ja": 197,
+        "nej": 171,
+        "avstar": 162,
+        "franvarande": 16
+      },
+      "eligible": 546,
+      "present": 530,
+      "attendance": 0.9706959706959707
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 154,
+      "counts": {
+        "ja": 167,
+        "nej": 229,
+        "avstar": 146,
+        "franvarande": 44
+      },
+      "eligible": 586,
+      "present": 542,
+      "attendance": 0.9249146757679181
+    }
+  ],
+  "missedVoteIds": [
+    "0CEDDFD1-DD11-416D-B174-164307E9CBC3",
+    "14C7024E-441A-4471-BE90-6EB3F78DDDE4",
+    "21A3FBA4-B272-4884-90FB-903A43990AAA",
+    "276806A8-21F8-448C-95D7-FFD27FA025DE",
+    "5830E959-B045-4463-B481-28DA1F9F0E36",
+    "5FBF925A-16B3-4575-9CF0-84DBE13186FF",
+    "68EA69C5-6449-4128-AF9B-1DE692C54812",
+    "6F18F472-9547-4A3F-A0DA-0A985E96A8FF",
+    "759E06D9-8D1F-4A61-9C4C-E387E677D328",
+    "898348E5-9E9B-4FDF-8D09-5842663BCFC8",
+    "98723A52-1DF5-47C5-9CF3-C217ACE82340",
+    "AE4FCAFD-DCDA-495B-887F-9A9A3BFA6222",
+    "B59286B8-F0F8-4B33-B3A3-7CF13B3719B0",
+    "BACDD41C-CD3C-4A9A-95EF-4C1A4577DF2B",
+    "BB059BD3-52FB-4791-A243-DF0B476D6D80",
+    "D84F3A0A-2C8A-4DEC-8CB3-DBA25A301D47",
+    "32146DAA-1163-4C9A-BF77-035F0CE99FE2",
+    "36923091-4AE5-4540-B95F-F3AAB5B696E4",
+    "9EE91030-1678-4D28-BBDC-1D8A25B05A27",
+    "B71975D9-8BF9-44DC-AC25-DAF8411CEBE4",
+    "D83C11F6-B07B-4E44-A6B4-13265EF6DB72",
+    "E3C24459-8781-47DF-9596-62424ADA903B",
+    "04D51E50-2BDE-4703-BD2E-7A566F1D8BE1",
+    "1F31356B-ECE6-492F-9714-60942D3FE761",
+    "2298FB6F-135A-4A51-B679-8A4DB810D9C1",
+    "365DD3DF-51FC-459F-8025-7E88556698B6",
+    "39D821F1-4AFD-4844-AB77-035A354542CC",
+    "39E53578-8A95-459F-8757-E7B2F1053255",
+    "42649C95-87B8-488A-9C91-728844978620",
+    "4A833524-C58D-461B-B5FA-CDF9114E14DE",
+    "4FDA951B-5A3B-4B55-8455-DCB6AC6EBCA4",
+    "50F0524A-DE83-4C0F-A236-9AC3558E4CAF",
+    "59423CF9-3583-410F-8491-3B8F798F049B",
+    "5C8E2D53-E4F8-418F-86BC-806C5AA56213",
+    "5F40EAF9-CCB1-4788-A6BB-2F7D96787CD2",
+    "5F4A9BAF-E407-41DD-9936-354EF8FEC140",
+    "641B281D-9F2D-4048-A494-150F10173C01",
+    "663697B9-AE0E-45DE-B86D-418822AC810B",
+    "84BE55C9-727C-4E1A-AE0B-2179C5CEAC9E",
+    "8548ADAD-BC85-4B41-A30E-89547B8C1257",
+    "8C3BCFF5-72AF-4C20-8C44-3BCBA07D53A8",
+    "95F45D48-DF0D-4644-BA2B-B4D975C12BC5",
+    "97B3BFEF-BF52-4502-88A4-49F6E8C1422E",
+    "9F441314-5E1B-4D23-BD47-A5B2B644E97D",
+    "A3779C8A-9819-48D4-A012-FF7179B0085E",
+    "AC583076-E8CC-4D0E-A114-178EDE3DE82B",
+    "B40E2EC3-91DC-48A6-967C-E69CF2A780E1",
+    "BB088EAB-B704-401D-8530-3AB70B0C0B88",
+    "BF4284A9-C542-4979-A045-73D450BC3527",
+    "C91095C6-C964-4EF7-BE86-0D76EABC3DA5",
+    "CE14CCEF-5B44-4BE2-AD5E-3B0B0F4871B6",
+    "CEAE69E1-72A8-4AE9-9441-D4DD997FA3C4",
+    "D458DE09-0898-470F-969E-28781EE590A6",
+    "E116FF77-2C83-49A4-8BFC-8D42A2CF4CE3",
+    "E4B4D42E-78AA-4646-9D7C-E04DB83EEB90",
+    "E6637E2D-0CC5-48B8-B2D7-1680F04E0303",
+    "FABF82BC-AE2C-4DB5-846B-99A889DBB7DA",
+    "FEF89C9C-2B60-4169-9226-DD87D9964079",
+    "A088E04B-49C6-4956-955C-CF15273E38B5",
+    "D290BB0D-530B-4621-BD2B-02B4B6C2660E"
+  ]
+}

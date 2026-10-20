@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0371013828421",
+  "name": "Lars Larsson",
+  "firstName": "Lars",
+  "lastName": "Larsson",
+  "sortName": "Larsson,Lars",
+  "party": "SD",
+  "constituency": "Hallands län",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 5,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 5,
+    "present": 5,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 5,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 5,
+      "present": 5,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 5,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 5,
+      "present": 5,
+      "attendance": 1
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 5,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 5,
+      "present": 5,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

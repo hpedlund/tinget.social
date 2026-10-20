@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0427836082425",
+  "name": "Fredrik Lindstål",
+  "firstName": "Fredrik",
+  "lastName": "Lindstål",
+  "sortName": "Lindstål,Fredrik",
+  "party": "C",
+  "constituency": "Stockholms kommun",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 59,
+      "nej": 29,
+      "avstar": 17,
+      "franvarande": 5
+    },
+    "eligible": 110,
+    "present": 105,
+    "attendance": 0.9545454545454546
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 59,
+        "nej": 29,
+        "avstar": 17,
+        "franvarande": 5
+      },
+      "eligible": 110,
+      "present": 105,
+      "attendance": 0.9545454545454546
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 59,
+        "nej": 29,
+        "avstar": 17,
+        "franvarande": 5
+      },
+      "eligible": 110,
+      "present": 105,
+      "attendance": 0.9545454545454546
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 99,
+      "counts": {
+        "ja": 59,
+        "nej": 29,
+        "avstar": 17,
+        "franvarande": 5
+      },
+      "eligible": 110,
+      "present": 105,
+      "attendance": 0.9545454545454546
+    }
+  ],
+  "missedVoteIds": [
+    "3FDD0E96-73F2-4D37-BEAD-DAC42D9FD9C4",
+    "763E20D4-96D7-48CD-897E-8580FB1B2E5B",
+    "7833FC0F-F9E3-4017-BF21-0B85DFFE1ED9",
+    "8151336D-552D-4685-B163-9BE1305C2AC0",
+    "D8DC0B6A-C29D-4D40-A414-7126583C66DD"
+  ]
+}

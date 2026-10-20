@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0653578338415",
+  "name": "Agneta Nilsson",
+  "firstName": "Agneta",
+  "lastName": "Nilsson",
+  "sortName": "Nilsson,Agneta",
+  "party": "S",
+  "constituency": "Skåne läns västra",
+  "status": "Tidigare riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 559,
+      "nej": 498,
+      "avstar": 190,
+      "franvarande": 0
+    },
+    "eligible": 1247,
+    "present": 1247,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2023/24",
+      "counts": {
+        "ja": 3,
+        "nej": 3,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 6,
+      "present": 6,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2024/25",
+      "counts": {
+        "ja": 208,
+        "nej": 158,
+        "avstar": 78,
+        "franvarande": 0
+      },
+      "eligible": 444,
+      "present": 444,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 348,
+        "nej": 337,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 1,
+      "counts": {
+        "ja": 559,
+        "nej": 498,
+        "avstar": 190,
+        "franvarande": 0
+      },
+      "eligible": 1247,
+      "present": 1247,
+      "attendance": 1
+    },
+    {
+      "periodId": "2023-24",
+      "rank": null,
+      "counts": {
+        "ja": 3,
+        "nej": 3,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 6,
+      "present": 6,
+      "attendance": 1
+    },
+    {
+      "periodId": "2024-25",
+      "rank": 1,
+      "counts": {
+        "ja": 208,
+        "nej": 158,
+        "avstar": 78,
+        "franvarande": 0
+      },
+      "eligible": 444,
+      "present": 444,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 348,
+        "nej": 337,
+        "avstar": 112,
+        "franvarande": 0
+      },
+      "eligible": 797,
+      "present": 797,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

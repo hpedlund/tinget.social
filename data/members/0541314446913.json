@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0541314446913",
+  "name": "Susanne Wahlström",
+  "firstName": "Susanne",
+  "lastName": "Wahlström",
+  "sortName": "Wahlström,Susanne",
+  "party": "M",
+  "constituency": "Jönköpings län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 0,
+      "nej": 1,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 1,
+    "present": 1,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

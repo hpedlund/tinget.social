@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0398471271026",
+  "name": "Frida Tånghag",
+  "firstName": "Frida",
+  "lastName": "Tånghag",
+  "sortName": "Tånghag,Frida",
+  "party": "V",
+  "constituency": "Göteborgs kommun",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 211,
+      "nej": 127,
+      "avstar": 63,
+      "franvarande": 0
+    },
+    "eligible": 401,
+    "present": 401,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 211,
+        "nej": 126,
+        "avstar": 63,
+        "franvarande": 0
+      },
+      "eligible": 400,
+      "present": 400,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": 1,
+      "counts": {
+        "ja": 211,
+        "nej": 126,
+        "avstar": 63,
+        "franvarande": 0
+      },
+      "eligible": 400,
+      "present": 400,
+      "attendance": 1
+    },
+    {
+      "periodId": "2022-23",
+      "rank": 1,
+      "counts": {
+        "ja": 211,
+        "nej": 126,
+        "avstar": 63,
+        "franvarande": 0
+      },
+      "eligible": 400,
+      "present": 400,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

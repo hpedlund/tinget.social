@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0965245623824",
+  "name": "Nicklas Attefjord",
+  "firstName": "Nicklas",
+  "lastName": "Attefjord",
+  "sortName": "Attefjord,Nicklas",
+  "party": "MP",
+  "constituency": "Göteborgs kommun",
+  "status": "Tillgänglig ersättare",
+  "total": {
+    "counts": {
+      "ja": 11,
+      "nej": 14,
+      "avstar": 3,
+      "franvarande": 1
+    },
+    "eligible": 29,
+    "present": 28,
+    "attendance": 0.9655172413793104
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 11,
+        "nej": 14,
+        "avstar": 3,
+        "franvarande": 1
+      },
+      "eligible": 29,
+      "present": 28,
+      "attendance": 0.9655172413793104
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 11,
+        "nej": 14,
+        "avstar": 3,
+        "franvarande": 1
+      },
+      "eligible": 29,
+      "present": 28,
+      "attendance": 0.9655172413793104
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 11,
+        "nej": 14,
+        "avstar": 3,
+        "franvarande": 1
+      },
+      "eligible": 29,
+      "present": 28,
+      "attendance": 0.9655172413793104
+    }
+  ],
+  "missedVoteIds": [
+    "1459843C-F3F9-43D5-933C-759BE764543B"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "030110584526",
+  "name": "Caroline Täljeblad",
+  "firstName": "Caroline",
+  "lastName": "Täljeblad",
+  "sortName": "Täljeblad,Caroline",
+  "party": "V",
+  "constituency": "Västerbottens län",
+  "status": "Tjänstgörande riksdagsledamot",
+  "total": {
+    "counts": {
+      "ja": 8,
+      "nej": 13,
+      "avstar": 1,
+      "franvarande": 11
+    },
+    "eligible": 33,
+    "present": 22,
+    "attendance": 0.6666666666666666
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 8,
+        "nej": 12,
+        "avstar": 1,
+        "franvarande": 11
+      },
+      "eligible": 32,
+      "present": 21,
+      "attendance": 0.65625
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 8,
+        "nej": 12,
+        "avstar": 1,
+        "franvarande": 11
+      },
+      "eligible": 32,
+      "present": 21,
+      "attendance": 0.65625
+    },
+    {
+      "periodId": "2025-26",
+      "rank": null,
+      "counts": {
+        "ja": 8,
+        "nej": 12,
+        "avstar": 1,
+        "franvarande": 11
+      },
+      "eligible": 32,
+      "present": 21,
+      "attendance": 0.65625
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": [
+    "0F410663-1201-44DD-823D-C5D9DFB05145",
+    "7E8C7C5F-60A7-45BE-AA2F-365D9AD231D2",
+    "8FFED8C8-41A8-48EA-B543-CB4F38F4D09A",
+    "A35B58B0-F1D5-4848-B94A-8DA12E1449FC",
+    "D0D8782A-DF50-4048-A99E-DAC8530C74D8",
+    "D4990000-0EC3-4B74-A82D-D651DA273BB6",
+    "D53B613B-E18C-4471-844A-868CE73B05E6",
+    "E5A494C8-DD42-411F-AC96-58DC588425E2",
+    "A5CA2579-F735-48F1-AC34-21B8AA0A2398",
+    "B5956830-C1F9-4267-BB34-B71E89B6815D",
+    "CEEFA06F-3798-4FE4-A7EC-F814769964BA"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0374824090417",
+  "name": "Anna Lipinska",
+  "firstName": "Anna",
+  "lastName": "Lipinska",
+  "sortName": "Lipinska,Anna",
+  "party": "KD",
+  "constituency": "Stockholms län",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 211,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 211,
+    "present": 211,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 211,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 211,
+      "present": 211,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 211,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 211,
+      "present": 211,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": 1,
+      "counts": {
+        "ja": 211,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 211,
+      "present": 211,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

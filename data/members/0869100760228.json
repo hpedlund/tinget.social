@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "0869100760228",
+  "name": "Tony Rahm",
+  "firstName": "Tony",
+  "lastName": "Rahm",
+  "sortName": "Rahm,Tony",
+  "party": "M",
+  "constituency": "Malmö kommun",
+  "status": "Tjänstgörande ersättare",
+  "total": {
+    "counts": {
+      "ja": 29,
+      "nej": 1,
+      "avstar": 0,
+      "franvarande": 0
+    },
+    "eligible": 30,
+    "present": 30,
+    "attendance": 1
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2025/26",
+      "counts": {
+        "ja": 29,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 29,
+      "present": 29,
+      "attendance": 1
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 29,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 29,
+      "present": 29,
+      "attendance": 1
+    },
+    {
+      "periodId": "2025-26",
+      "rank": null,
+      "counts": {
+        "ja": 29,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 29,
+      "present": 29,
+      "attendance": 1
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
+    }
+  ],
+  "missedVoteIds": []
+}

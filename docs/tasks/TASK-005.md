@@ -17,7 +17,7 @@ See PROJECT.md → "Data access layer" and `/data-modeling` skill.
 - Files: ranking per period, one file per member, party overview, metadata (`schemaVersion`, `generatedAt`, source, riksmöten)
 - `lib/data/types.ts` + zod schemas; `lib/data/` functions: `getPeriods`, `getRanking`, `getMember`, `getAllMemberIds`, `getParties`
 - `data/README.md` documents every file
-- Commit an initial data snapshot — *pending: `data.riksdagen.se` was not reachable from the development environment; run `npm run data:fetch && npm run data:compute` and commit `data/`*
+- Commit an initial data snapshot
 
 ## Acceptance Criteria
 

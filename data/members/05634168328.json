@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "id": "05634168328",
+  "name": "Nike Örbrink",
+  "firstName": "Nike",
+  "lastName": "Örbrink",
+  "sortName": "Örbrink,Nike",
+  "party": "KD",
+  "constituency": "Stockholms län",
+  "status": "Tidigare ersättare",
+  "total": {
+    "counts": {
+      "ja": 0,
+      "nej": 0,
+      "avstar": 0,
+      "franvarande": 2
+    },
+    "eligible": 2,
+    "present": 0,
+    "attendance": 0
+  },
+  "byRiksmote": [
+    {
+      "riksmote": "2022/23",
+      "counts": {
+        "ja": 0,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 2
+      },
+      "eligible": 2,
+      "present": 0,
+      "attendance": 0
+    }
+  ],
+  "periods": [
+    {
+      "periodId": "2022-2026",
+      "rank": null,
+      "counts": {
+        "ja": 0,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 2
+      },
+      "eligible": 2,
+      "present": 0,
+      "attendance": 0
+    },
+    {
+      "periodId": "2022-23",
+      "rank": null,
+      "counts": {
+        "ja": 0,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 2
+      },
+      "eligible": 2,
+      "present": 0,
+      "attendance": 0
+    }
+  ],
+  "missedVoteIds": [
+    "C7E795A0-9F65-49C8-A574-6CBEBF90DD0E",
+    "E187E14A-EAEB-42CD-A8A1-606BFAD5D0E0"
+  ]
+}
