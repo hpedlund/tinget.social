@@ -7,17 +7,20 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "data:fetch": "tsx scripts/fetch.ts"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
     "clsx": "2.1.1",
+    "fflate": "0.8.3",
     "next": "16.4.2",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "tailwind-merge": "3.7.0"
+    "tailwind-merge": "3.7.0",
+    "zod": "4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.3.3",
@@ -27,6 +30,7 @@
     "eslint": "9.39.5",
     "eslint-config-next": "16.4.2",
     "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
     "typescript": "5.9.3"
   }
 }
