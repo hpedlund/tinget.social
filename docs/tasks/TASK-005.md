@@ -1,9 +1,9 @@
 # TASK-005: Data contract and data access layer
 
-**Status**: draft
+**Status**: designed
 **Priority**: high
 **Depends on**: TASK-003, TASK-004
-**Branch**: task/005-data-contract
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
