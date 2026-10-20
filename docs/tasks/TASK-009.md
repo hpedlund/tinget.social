@@ -1,6 +1,6 @@
 # TASK-009: Party overview page
 
-**Status**: in progress
+**Status**: done
 **Priority**: medium
 **Depends on**: TASK-005, TASK-002
 **Branch**: claude/focused-pascal-1h7rnf
@@ -17,9 +17,9 @@
 
 ## Acceptance Criteria
 
-- [ ] All parties in the period are shown with correct averages
-- [ ] Links open the ranking pre-filtered by party
-- [ ] Accessible without relying on colour alone
+- [x] All parties in the period are shown with correct averages
+- [x] Links open the ranking pre-filtered by party
+- [x] Accessible without relying on colour alone
 
 ## Artifacts
 

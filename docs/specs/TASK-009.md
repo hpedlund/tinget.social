@@ -38,7 +38,7 @@ rankingHref(party: string, periodId: string, defaultPeriodId: string): string
 ```
 
 - **"Average" = pooled attendance**: all votes the party's members could take part in, together — the figure the member page already shows as "Partiets snitt". It weights members by how many votes they served, so a member who served briefly does not count as much as a full-term member. The median of the ranked members is shown next to it.
-- **Party per period**: `parties.json` assigns each member to their latest party in the period (TASK-004); the page says so.
+- **Party assignment** (TASK-004): the pooled figure and `memberCount` count each vote for the party the member had at that vote (a member who switched counts in both parties; substitutes for their own votes); `spread` uses ranked members by their latest party in the period. The page says so.
 - **Trend order**: parties in headline order; parties that only appear in other periods follow, in `PARTY_CODES` order. `"-"` is not in the trend table.
 - **`rankingHref`** builds the query with `URLSearchParams` (`parti`, plus `period` only when not the default), matching what `parseViewState` reads. Unknown values are already ignored by the ranking.
 
