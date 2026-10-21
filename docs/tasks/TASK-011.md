@@ -1,6 +1,6 @@
 # TASK-011: Daily data refresh
 
-**Status**: reviewing
+**Status**: done
 **Priority**: medium
 **Depends on**: TASK-005
 **Branch**: claude/focused-pascal-1h7rnf
@@ -18,10 +18,10 @@ A scheduled workflow refreshes the data daily, commits changes to `data/` and re
 
 ## Acceptance Criteria
 
-- [ ] Workflow runs on schedule and on demand
-- [ ] No commit when data is unchanged
-- [ ] A failed fetch or validation leaves the live site untouched
-- [ ] Security review of the workflow passes
+- [ ] Workflow runs on schedule and on demand — to confirm after merge (schedules and the commit step only run on `main`)
+- [x] No commit when data is unchanged
+- [x] A failed fetch or validation leaves the live site untouched
+- [x] Security review of the workflow passes
 
 ## Artifacts
 
