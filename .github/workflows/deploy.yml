@@ -40,7 +40,7 @@ jobs:
       - run: npm run data:check
       - run: npm run build
         env:
-          # "/tinget.social" on hpedlund.github.io, empty once a custom domain is set
+          # Empty on the custom domain tinget.social; "/<repo>" on a github.io project site
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

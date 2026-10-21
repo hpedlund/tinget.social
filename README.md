@@ -6,7 +6,7 @@ tinget.social is an independent, non-partisan website that uses the Swedish parl
 
 > **På svenska:** tinget.social är en oberoende och partipolitiskt obunden webbplats som visar hur ofta varje riksdagsledamot är på plats och röstar i kammaren — och hur ofta de är frånvarande. Allt bygger på riksdagens egna öppna data.
 
-🚧 **Status:** under development — not yet live.
+🌐 **Live:** [tinget.social](https://tinget.social)
 
 ## What you will find
 

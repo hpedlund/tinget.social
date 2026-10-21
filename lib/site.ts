@@ -1,5 +1,8 @@
 export const SITE_NAME = "tinget.social";
 
+/** Canonical origin, for absolute URLs (metadata, sitemap). No trailing slash. */
+export const SITE_URL = "https://tinget.social";
+
 export const REPOSITORY_URL = "https://github.com/hpedlund/tinget.social";
 
 export const RIKSDAGEN_OPEN_DATA_URL =

@@ -1,6 +1,6 @@
 # TASK-013: Custom domain tinget.social
 
-**Status**: designed
+**Status**: reviewing
 **Priority**: low
 **Depends on**: TASK-001
 **Branch**: claude/focused-pascal-1h7rnf

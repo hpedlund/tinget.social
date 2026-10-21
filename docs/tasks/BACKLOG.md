@@ -6,7 +6,6 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 - **Critical path**: 001 → 003 + 004 → 005 → 006 → 007 → 012
 - **In parallel**: 002 after 001 · 008, 009, 010 once 002 and 005 (010: 004) are done · 011 after 005
-- **Blocked on DNS**: 013
 
 ## In Progress
 
@@ -18,7 +17,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
 | TASK-012 | [Pre-launch review](TASK-012.md) | draft | medium | TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011 |
-| TASK-013 | [Custom domain tinget.social](TASK-013.md) | designed | low | TASK-001 |
+| TASK-013 | [Custom domain tinget.social](TASK-013.md) | reviewing | low | TASK-001 |
 
 ## Done
 
