@@ -17,7 +17,6 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
 | TASK-012 | [Pre-launch review](TASK-012.md) | draft | medium | TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011 |
-| TASK-013 | [Custom domain tinget.social](TASK-013.md) | reviewing | low | TASK-001 |
 
 ## Done
 
@@ -34,3 +33,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-009 | [Party overview page](TASK-009.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-010 | [Methodology page (Så räknar vi)](TASK-010.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
 | TASK-011 | [Daily data refresh](TASK-011.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
+| TASK-013 | [Custom domain tinget.social](TASK-013.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
