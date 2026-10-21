@@ -119,12 +119,14 @@ The generated JSON files are the **data contract** between the pipeline and the 
 - **Single data access layer** — `lib/data/` is the only place that knows where data comes from
 - **No secrets** — Version 1 needs no API keys or credentials; the deploy uses GitHub's built-in Pages permissions
 - **No tracking** — No cookies, analytics or third-party scripts in Version 1
+- **Content-Security-Policy** — Every page carries a CSP meta tag (GitHub Pages cannot send headers) that allows only same-origin resources and the page's own inline scripts by hash; written after `next build` by `scripts/csp.ts`. GitHub Pages sends `Access-Control-Allow-Origin: *`, which is harmless for public, credential-free static files; a later backend must use an explicit origin allow-list (see `docs/specs/TASK-014.md`)
 
 ### Static export constraints (Version 1)
 
 Because the site is built with `output: "export"`, the following Next.js features are **not available** and must not be used:
 
 - Server Actions, Route Handlers that run per request (`app/api/**`), Middleware
+- Response headers (CSP, HSTS, CORS) — security policies go in meta tags
 - `cookies()`, `headers()`, request-time `searchParams` in Server Components
 - ISR / `revalidate`, `next/image` optimisation (use `unoptimized`)
 - Dynamic routes without `generateStaticParams` (set `dynamicParams = false`)

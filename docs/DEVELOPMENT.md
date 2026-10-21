@@ -14,7 +14,7 @@ npm run dev         # development server at http://localhost:3000
 npm run lint        # ESLint
 npm run typecheck   # TypeScript
 npm test            # unit tests (Vitest)
-npm run build       # static export to out/
+npm run build       # static export to out/, then adds the Content-Security-Policy to every page
 npm run data:fetch  # download + validate Riksdagen data into .cache/ (add -- --refresh to bypass the cache)
 npm run data:compute # calculate attendance from .cache/ into data/ (the committed data contract)
 npm run data:check  # validate data/ the way the site build reads it
@@ -22,6 +22,8 @@ npm run data:spot-check # compare a sample of members with Riksdagen's per-membe
 ```
 
 `data:fetch` needs network access to `data.riksdagen.se`; a first run takes about 30 seconds and downloads ~50 MB. What it fetches, the values observed and every generated file in `data/` are documented in [data/README.md](../data/README.md). Pages read data only through `lib/data/`.
+
+**Content-Security-Policy**: `scripts/csp.ts` writes a CSP meta tag into every page after `next build`, hashing that page's inline scripts (policy in `lib/csp.ts`, rationale in `docs/specs/TASK-014.md`). `npm run dev` has no CSP. Any third-party script, stylesheet, font, image or request is blocked in production — adding one means changing the policy deliberately.
 
 To preview the build as GitHub Pages serves it (under `/tinget.social/`):
 
