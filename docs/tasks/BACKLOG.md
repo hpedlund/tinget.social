@@ -1,6 +1,6 @@
 # Backlog
 
-> Next ID: TASK-014
+> Next ID: TASK-015
 
 Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered by dependency chain.
 
@@ -35,3 +35,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-006 | [Attendance ranking page](TASK-006.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-007 | [Ranking filters and sorting](TASK-007.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
 | TASK-008 | [Member detail page](TASK-008.md) | claude/focused-pascal-1h7rnf | 2026-10-20 |
+| TASK-014 | [Current and upcoming votes page](TASK-014.md) | claude/epic-ritchie-64wpx2 | 2026-10-21 |
