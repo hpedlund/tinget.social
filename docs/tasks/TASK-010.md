@@ -1,9 +1,9 @@
 # TASK-010: Methodology page (Så räknar vi)
 
-**Status**: draft
+**Status**: done
 **Priority**: high
 **Depends on**: TASK-004, TASK-002
-**Branch**: task/010-methodology-page
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
@@ -18,9 +18,9 @@
 
 ## Acceptance Criteria
 
-- [ ] Content matches the implemented calculation exactly
-- [ ] Readable by a general audience (plain language, no jargon)
-- [ ] Linked from the ranking, member and party pages
+- [x] Content matches the implemented calculation exactly
+- [x] Readable by a general audience (plain language, no jargon)
+- [x] Linked from the ranking, member and party pages
 
 ## Artifacts
 

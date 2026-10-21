@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
-// GitHub Pages serves project sites under /<repo>/. The deploy workflow sets
-// PAGES_BASE_PATH from actions/configure-pages; it is empty locally and once a
-// custom domain is configured.
+// The site is served from the root of tinget.social. GitHub Pages without a
+// custom domain (e.g. a fork) serves under /<repo>/: the deploy workflow sets
+// PAGES_BASE_PATH from actions/configure-pages, empty for the custom domain.
 const basePath = process.env.PAGES_BASE_PATH ?? "";
 
 const nextConfig: NextConfig = {

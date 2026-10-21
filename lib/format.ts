@@ -22,6 +22,16 @@ export function formatPercent(share: number): string {
   return percent.format(Math.floor(share * 1000 + 1e-9) / 1000);
 }
 
+const wholePercent = new Intl.NumberFormat("sv-SE", {
+  style: "percent",
+  maximumFractionDigits: 0,
+});
+
+/** 0.1 → "10 %". For rules such as the ranking threshold, not measured values. */
+export function formatShare(share: number): string {
+  return wholePercent.format(share);
+}
+
 /** 2610 → "2 610" */
 export function formatNumber(value: number): string {
   return integer.format(value);

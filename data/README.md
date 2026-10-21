@@ -25,6 +25,8 @@ Schemas: `lib/data/schemas.ts` (zod, strict — unknown keys are rejected). Type
 
 A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `present` and `attendance` (`present / eligible`, 0–1, **unrounded** — the site rounds for display). Calculation rules: [docs/specs/TASK-004.md](../docs/specs/TASK-004.md).
 
+**Refresh**: `.github/workflows/data-refresh.yml` runs fetch → compute → check daily and commits `data/` to `main` only when it changed (commits by `github-actions[bot]`, `chore(data): …`). Completed riksmöten come from the Actions cache; a manual run with *refresh* re-downloads them.
+
 **Periods**: `2022-2026` (the whole 2022–2026 term, the default) and one per riksmöte, `2022-23` … `2026-27`. Each period is ranked on its own, with its own threshold (10 % of the period's votes). `2026-27` is the riksmöte in progress (`complete: false`).
 
 **Not published**: birth year, gender, portrait URL and contact details — not needed for the attendance figures.

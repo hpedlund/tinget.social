@@ -1,0 +1,128 @@
+name: Data refresh
+
+# Daily: fetch Riksdagen data, recompute data/, and when it changed commit it
+# to main and deploy. See docs/specs/TASK-011.md.
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Re-download every riksmöte, ignoring the cache
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  # Handles untrusted Riksdagen data and runs npm packages: read-only token.
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    outputs:
+      changed: ${{ steps.diff.outputs.changed }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      # A new entry every run; changed fetch code starts from an empty cache.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/riksdagen
+          key: riksdagen-${{ hashFiles('lib/riksdagen/**') }}-${{ github.run_id }}
+          restore-keys: riksdagen-${{ hashFiles('lib/riksdagen/**') }}-
+      - run: npm ci
+      - if: ${{ !inputs.refresh }}
+        run: npm run data:fetch
+      - if: ${{ inputs.refresh }}
+        run: npm run data:fetch -- --refresh
+      - run: npm run data:compute
+      - run: npm run data:check
+      - run: npm test
+      - run: npm run build
+      - id: diff
+        run: |
+          if [ -n "$(git status --porcelain -- data/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+          {
+            echo "### Data refresh"
+            echo "- Newest vote: $(jq -r .lastVoteDate data/meta.json)"
+            echo "- Changed files in data/: $(git status --porcelain -- data/ | wc -l)"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - if: steps.diff.outputs.changed == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: data
+          path: data/
+          if-no-files-found: error
+          retention-days: 5
+
+  # Write token: runs only checkout, download-artifact, jq and git.
+  commit:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.push.outputs.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: find data -mindepth 1 -delete
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: data
+          path: data
+      - id: push
+        run: |
+          last_vote=$(jq -r .lastVoteDate data/meta.json)
+          if ! [[ "$last_vote" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "Unexpected lastVoteDate in data/meta.json" >&2
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- data
+          git commit -m "chore(data): refresh Riksdagen data (votes up to $last_vote)"
+          # Fails if main moved during the run; the next run recomputes.
+          git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: commit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.commit.outputs.sha }}
+
+  # Scheduled workflows stop after 60 days without repository activity; the
+  # summer recess has no votes and therefore no data commits.
+  keepalive:
+    if: github.event_name == 'schedule' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: gh api --method PUT "repos/$REPOSITORY/actions/workflows/data-refresh.yml/enable"

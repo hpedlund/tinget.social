@@ -1,9 +1,9 @@
 # TASK-012: Pre-launch review
 
-**Status**: draft
+**Status**: done
 **Priority**: medium
 **Depends on**: TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011
-**Branch**: task/012-prelaunch
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
@@ -18,9 +18,9 @@ The complete Version 1 site has passed a full accessibility, security and conten
 
 ## Acceptance Criteria
 
-- [ ] No open critical/high findings
-- [ ] Sample of figures verified manually and documented
-- [ ] Sitemap and metadata present
+- [x] No open critical/high findings
+- [x] Sample of figures verified manually and documented
+- [x] Sitemap and metadata present
 
 ## Artifacts
 

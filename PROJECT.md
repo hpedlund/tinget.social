@@ -148,7 +148,7 @@ Migration path: create a Supabase project (EU region), add migrations under `sup
 
 - Deployed by a GitHub Actions workflow using the official Pages actions (`actions/upload-pages-artifact`, `actions/deploy-pages`)
 - Triggers: push to `main`, a daily schedule (data refresh) and manual dispatch
-- Custom domain `tinget.social` via a `CNAME` file and DNS records at the registrar; HTTPS provided by GitHub Pages
+- Custom domain `tinget.social`: DNS records at the registrar and the domain set in the repository's Pages settings (with a custom Actions workflow GitHub ignores a `CNAME` file); HTTPS provided by GitHub Pages
 - Requirements: a public repository (or a paid GitHub plan for Pages on private repositories)
 - Limits that matter: 1 GB published site, soft limit of 100 GB/month bandwidth, 10 builds/hour — all far above Version 1 needs
 - Scheduled workflows in public repositories are paused after 60 days without repository activity; the daily data commit keeps the repository active
@@ -183,7 +183,7 @@ tinget.social/
 │   └── utils.ts                   # General utilities
 ├── scripts/                       # Pipeline entry points (fetch, compute)
 ├── data/                          # Generated JSON (committed) + README.md
-├── public/                        # Static assets, CNAME
+├── public/                        # Static assets
 ├── PROJECT.md                     # This file
 ├── docs/                          # Development guide, tasks, specs, reviews
 └── README.md                      # Public project description

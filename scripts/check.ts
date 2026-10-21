@@ -10,6 +10,7 @@ import path from "node:path";
 
 import { DATA_DIR, getAllMemberIds, getParties, getPeriods, getRanking } from "@/lib/data";
 import { loadMemberProfile } from "@/lib/member/load";
+import { loadPartyOverview } from "@/lib/party-overview/load";
 
 async function main() {
   const periods = await getPeriods();
@@ -25,6 +26,8 @@ async function main() {
       }
     }
   }
+
+  await loadPartyOverview();
 
   // Building the profile also checks that every member file agrees with the rankings.
   for (const id of memberIds) {

@@ -1,15 +1,25 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { DEFAULT_TITLE, OG_DEFAULTS } from "@/lib/metadata";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
+const description =
+  "Vilka riksdagsledamöter är på plats och röstar? En oberoende sammanställning baserad på riksdagens öppna data.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "tinget.social — Närvaro i riksdagen",
-    template: "%s — tinget.social",
+    default: DEFAULT_TITLE,
+    template: `%s — ${SITE_NAME}`,
   },
-  description:
-    "Vilka riksdagsledamöter är på plats och röstar? En oberoende sammanställning baserad på riksdagens öppna data.",
+  description,
+  openGraph: {
+    ...OG_DEFAULTS,
+    title: DEFAULT_TITLE,
+    description,
+  },
 };
 
 export default function RootLayout({
