@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "source": "Sveriges riksdag",
+  "riksmote": "2026/27",
+  "items": [
+    {
+      "dokId": "HE01FiU12",
+      "beteckning": "FiU12",
+      "title": "Ändring i statens budget för 2026 – Bemyndigande om ekonomiska åtaganden för beräkningskraft",
+      "committee": "FiU",
+      "decisionDate": "2026-10-21",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU2",
+      "beteckning": "JuU2",
+      "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
+      "committee": "JuU",
+      "decisionDate": "2026-10-21",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03285",
+          "label": "Proposition 2025/26:285",
+          "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU8",
+      "beteckning": "NU8",
+      "title": "Framtidssäkring av elräkningar i unionen",
+      "committee": "NU",
+      "decisionDate": "2026-10-21",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU9",
+      "beteckning": "SkU9",
+      "title": "Subsidiaritetsprövning av kommissionens förslag till ändringar av direktiv vad gäller regelförenklingar på direktbeskattningens område",
+      "committee": "SkU",
+      "decisionDate": "2026-10-21",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU7",
+      "beteckning": "FiU7",
+      "title": "Avveckling av Utbetalningsmyndighetens system med transaktionskonto",
+      "committee": "FiU",
+      "decisionDate": "2026-11-04",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03277",
+          "label": "Proposition 2025/26:277",
+          "title": "Avveckling av Utbetalningsmyndighetens system med transaktionskonto"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01FöU2",
+      "beteckning": "FöU2",
+      "title": "Personalförsörjning av det militära försvaret",
+      "committee": "FöU",
+      "decisionDate": "2026-11-04",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03279",
+          "label": "Proposition 2025/26:279",
+          "title": "Personalförsörjning av det militära försvaret"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01KU2",
+      "beteckning": "KU2",
+      "title": "Översyn av JO-ämbetet (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-04",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU3",
+      "beteckning": "KU3",
+      "title": "En tydligare bestämmelse om hets mot folkgrupp (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-04",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU4",
+      "beteckning": "KU4",
+      "title": "Stärkt skydd för demokratin och domstolarnas oberoende (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-04",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU6",
+      "beteckning": "KU6",
+      "title": "Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
+      "committee": "KU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HC03155",
+          "label": "Proposition 2024/25:155",
+          "title": "Stärkt konstitutionell beredskap"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU7",
+      "beteckning": "KU7",
+      "title": "Tillgänglighetskrav för vissa medier (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU8",
+      "beteckning": "KU8",
+      "title": "Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU9",
+      "beteckning": "KU9",
+      "title": "En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
+      "committee": "KU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01MJU3",
+      "beteckning": "MJU3",
+      "title": "Kompletterande bestämmelser till EU-förordningar om kemikalier och avfall",
+      "committee": "MJU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03270",
+          "label": "Proposition 2025/26:270",
+          "title": "Kompletterande bestämmelser till EU-förordningar om kemikalier och avfall"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU2",
+      "beteckning": "SkU2",
+      "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel",
+      "committee": "SkU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03278",
+          "label": "Proposition 2025/26:278",
+          "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU3",
+      "beteckning": "SkU3",
+      "title": "Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",
+      "committee": "SkU",
+      "decisionDate": "2026-11-11",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03282",
+          "label": "Proposition 2025/26:282",
+          "title": "Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare"
+        }
+      ],
+      "motions": 2
+    },
+    {
+      "dokId": "HE01AU3",
+      "beteckning": "AU3",
+      "title": "Riksrevisionens rapport om statens arbete för att motverka risker för etnisk diskriminering vid myndigheters beslut",
+      "committee": "AU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03308",
+          "label": "Regeringens skrivelse 2025/26:308",
+          "title": "Riksrevisionens rapport om statens arbete för att motverka risker för etnisk diskriminering vid myndigheters beslut"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01FiU8",
+      "beteckning": "FiU8",
+      "title": "Skattetransparenta värdepappersfonder för institutionella investerare",
+      "committee": "FiU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03296",
+          "label": "Proposition 2025/26:296",
+          "title": "Skattetransparenta värdepappersfonder för institutionella investerare"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU9",
+      "beteckning": "FiU9",
+      "title": "Riksrevisorns årliga rapport 2026",
+      "committee": "FiU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD04RR5",
+          "label": "Framställning / redogörelse 2025/26:RR5",
+          "title": "Riksrevisorns årliga rapport 2026"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FöU3",
+      "beteckning": "FöU3",
+      "title": "En modern personalförsörjning av det civila försvaret",
+      "committee": "FöU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03302",
+          "label": "Proposition 2025/26:302",
+          "title": "En modern personalförsörjning av det civila försvaret"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU5",
+      "beteckning": "JuU5",
+      "title": "Riksrevisionens rapport om infiltration i staten",
+      "committee": "JuU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03273",
+          "label": "Regeringens skrivelse 2025/26:273",
+          "title": "Riksrevisionens rapport om infiltration i staten"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU12",
+      "beteckning": "KU12",
+      "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska",
+      "committee": "KU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03280",
+          "label": "Regeringens skrivelse 2025/26:280",
+          "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU13",
+      "beteckning": "KU13",
+      "title": "Några frågor om ledamöternas ersättningar och om trygghetsskapande åtgärder",
+      "committee": "KU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD04RS6",
+          "label": "Framställning 2025/26:RS6",
+          "title": "Några frågor om ledamöternas ersättningar och om trygghetsskapande åtgärder"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KrU2",
+      "beteckning": "KrU2",
+      "title": "Ungdomspolitisk skrivelse",
+      "committee": "KrU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03283",
+          "label": "Regeringens skrivelse 2025/26:283",
+          "title": "Ungdomspolitisk skrivelse"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01MJU4",
+      "beteckning": "MJU4",
+      "title": "En mer enhetlig reglering av tillsyn och kontroll på miljöbalkens område",
+      "committee": "MJU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03305",
+          "label": "Proposition 2025/26:305",
+          "title": "En mer enhetlig reglering av tillsyn och kontroll på miljöbalkens område"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SfU5",
+      "beteckning": "SfU5",
+      "title": "Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden",
+      "committee": "SfU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03281",
+          "label": "Regeringens skrivelse 2025/26:281",
+          "title": "Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SfU6",
+      "beteckning": "SfU6",
+      "title": "Riksrevisionens rapport om Migrationsverkets kontroller av arbetstillstånd",
+      "committee": "SfU",
+      "decisionDate": "2026-11-18",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03284",
+          "label": "Regeringens skrivelse 2025/26:284",
+          "title": "Riksrevisionens rapport om Migrationsverkets kontroller av arbetstillstånd - stor risk för fel och missbruk"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01CU2",
+      "beteckning": "CU2",
+      "title": "Stärkt trygghet i bostadsrätter",
+      "committee": "CU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03304",
+          "label": "Proposition 2025/26:304",
+          "title": "Stärkt trygghet i bostadsrätter"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01CU3",
+      "beteckning": "CU3",
+      "title": "Några förtydliganden och justeringar i de nya reglerna om bygglov",
+      "committee": "CU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03312",
+          "label": "Proposition 2025/26:312",
+          "title": "Några förtydliganden och justeringar i de nya reglerna om bygglov"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01CU4",
+      "beteckning": "CU4",
+      "title": "En ny produktansvarslag",
+      "committee": "CU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE0312",
+          "label": "Proposition 2026/27:12",
+          "title": "En ny produktansvarslag"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FöU4",
+      "beteckning": "FöU4",
+      "title": "En ny lag för ökad motståndskraft hos kritiska verksamhetsutövare",
+      "committee": "FöU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03303",
+          "label": "Proposition 2025/26:303",
+          "title": "En ny lag för ökad motståndskraft hos kritiska verksamhetsutövare"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FöU5",
+      "beteckning": "FöU5",
+      "title": "Kommuners och regioners grundläggande beredskap inför kris och krig",
+      "committee": "FöU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE035",
+          "label": "Proposition 2026/27:5",
+          "title": "Kommuners och regioners grundläggande beredskap inför kris och krig"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU6",
+      "beteckning": "JuU6",
+      "title": "Uppföljning av den brottsförebyggande strategin Barriärer mot brott",
+      "committee": "JuU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03272",
+          "label": "Regeringens skrivelse 2025/26:272",
+          "title": "Uppföljning av den brottsförebyggande strategin Barriärer mot brott"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU9",
+      "beteckning": "JuU9",
+      "title": "Ett nytt brott och andra åtgärder mot människohandel",
+      "committee": "JuU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03313",
+          "label": "Proposition 2025/26:313",
+          "title": "Ett nytt brott och andra åtgärder mot människohandel"
+        }
+      ],
+      "motions": 2
+    },
+    {
+      "dokId": "HE01KrU3",
+      "beteckning": "KrU3",
+      "title": "Ny politisk inriktning för ett starkare filmland",
+      "committee": "KrU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03287",
+          "label": "Proposition 2025/26:287",
+          "title": "Ny politisk inriktning för ett starkare filmland"
+        }
+      ],
+      "motions": 2
+    },
+    {
+      "dokId": "HE01MJU5",
+      "beteckning": "MJU5",
+      "title": "Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion",
+      "committee": "MJU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE037",
+          "label": "Proposition 2026/27:7",
+          "title": "Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU5",
+      "beteckning": "NU5",
+      "title": "Energieffektivitet i företag och i fjärrvärme- och fjärrkylesektorn",
+      "committee": "NU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU6",
+      "beteckning": "NU6",
+      "title": "Kontaktpunkter, tillstånd och tidsfrister enligt EU-förordningen om kritiska råmaterial och EU-förordningen om nettonollindustri",
+      "committee": "NU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU4",
+      "beteckning": "SkU4",
+      "title": "Stadigvarande vistelse – en definition",
+      "committee": "SkU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03306",
+          "label": "Proposition 2025/26:306",
+          "title": "Stadigvarande vistelse - en definition"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU5",
+      "beteckning": "SkU5",
+      "title": "Förändringar i förfarandet för kupongskatt",
+      "committee": "SkU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03309",
+          "label": "Proposition 2025/26:309",
+          "title": "Förändringar i förfarandet för kupongskatt"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU6",
+      "beteckning": "SkU6",
+      "title": "Skatteavtal mellan Sverige och Nederländerna",
+      "committee": "SkU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03307",
+          "label": "Proposition 2025/26:307",
+          "title": "Skatteavtal mellan Sverige och Nederländerna"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU7",
+      "beteckning": "SkU7",
+      "title": "Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd",
+      "committee": "SkU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE033",
+          "label": "Proposition 2026/27:3",
+          "title": "Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU8",
+      "beteckning": "SkU8",
+      "title": "Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt",
+      "committee": "SkU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE034",
+          "label": "Proposition 2026/27:4",
+          "title": "Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SoU2",
+      "beteckning": "SoU2",
+      "title": "Riksrevisionens rapport om tandvårdsstödet",
+      "committee": "SoU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03219",
+          "label": "Regeringens skrivelse 2025/26:219",
+          "title": "Riksrevisionens rapport om tandvårdsstödet"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SoU3",
+      "beteckning": "SoU3",
+      "title": "En förändrad abortlag",
+      "committee": "SoU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03271",
+          "label": "Proposition 2025/26:271",
+          "title": "En förändrad abortlag"
+        }
+      ],
+      "motions": 4
+    },
+    {
+      "dokId": "HE01SoU6",
+      "beteckning": "SoU6",
+      "title": "Redovisning av fördelning av medel från Allmänna arvsfonden under budgetåret 2025",
+      "committee": "SoU",
+      "decisionDate": "2026-11-25",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03299",
+          "label": "Regeringens skrivelse 2025/26:299",
+          "title": "Redovisning av fördelning av medel från Allmänna arvsfonden under budgetåret 2025"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU1",
+      "beteckning": "FiU1",
+      "title": "Statens budget 2027 - Rambeslutet",
+      "committee": "FiU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU11",
+      "beteckning": "FiU11",
+      "title": "Höständringsbudget för 2026",
+      "committee": "FiU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FöU1",
+      "beteckning": "FöU1",
+      "title": "Utgiftsområde 6 Försvar och samhällets krisberedskap",
+      "committee": "FöU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU1",
+      "beteckning": "JuU1",
+      "title": "Utgiftsområde 4 Rättsväsendet",
+      "committee": "JuU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU4",
+      "beteckning": "JuU4",
+      "title": "Kompletterande bestämmelser till EU:s förordning om överföring av straffrättsliga förfaranden",
+      "committee": "JuU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03298",
+          "label": "Proposition 2025/26:298",
+          "title": "Kompletterande bestämmelser till EU:s förordning om överföring av straffrättsliga förfaranden"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU1",
+      "beteckning": "KU1",
+      "title": "Utgiftsområde 1 Rikets styrelse",
+      "committee": "KU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD04RS1",
+          "label": "Framställning / redogörelse 2025/26:RS1",
+          "title": "Riksdagsförvaltningens årsredovisning för verksamhetsåret 2025"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KrU1",
+      "beteckning": "KrU1",
+      "title": "Utgiftsområde 17 Kultur, medier, trossamfund och fritid",
+      "committee": "KrU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SkU1",
+      "beteckning": "SkU1",
+      "title": "Utgiftsområde 3 Skatt, tull och exekution",
+      "committee": "SkU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01UFöU1",
+      "beteckning": "UFöU1",
+      "title": "Svenskt bidrag till Natos avskräckning och försvar under 2027",
+      "committee": "UFöU",
+      "decisionDate": "2026-12-09",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HE036",
+          "label": "Proposition 2026/27:6",
+          "title": "Svenskt bidrag till Natos avskräckning och försvar under 2027"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01AU1",
+      "beteckning": "AU1",
+      "title": "Utgiftsområde 13 Integration och jämställdhet",
+      "committee": "AU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01AU2",
+      "beteckning": "AU2",
+      "title": "Utgiftsområde 14 Arbetsmarknad och arbetsliv",
+      "committee": "AU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01CU1",
+      "beteckning": "CU1",
+      "title": "Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",
+      "committee": "CU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU3",
+      "beteckning": "JuU3",
+      "title": "Stärkt skydd för domstolarnas och domarnas oberoende",
+      "committee": "JuU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03286",
+          "label": "Proposition 2025/26:286",
+          "title": "Stärkt skydd för domstolarnas och domarnas oberoende"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01MJU2",
+      "beteckning": "MJU2",
+      "title": "Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",
+      "committee": "MJU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU3",
+      "beteckning": "NU3",
+      "title": "Utgiftsområde 21 Energi",
+      "committee": "NU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SoU1",
+      "beteckning": "SoU1",
+      "title": "Utgiftsområde 9 Hälsovård, sjukvård och social omsorg",
+      "committee": "SoU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01TU1",
+      "beteckning": "TU1",
+      "title": "Utgiftsområde 22 Kommunikationer",
+      "committee": "TU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01UbU2",
+      "beteckning": "UbU2",
+      "title": "Utgiftsområde 15 Studiestöd",
+      "committee": "UbU",
+      "decisionDate": "2026-12-15",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01MJU1",
+      "beteckning": "MJU1",
+      "title": "Utgiftsområde 20 Klimat, miljö och natur",
+      "committee": "MJU",
+      "decisionDate": "2026-12-16",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU1",
+      "beteckning": "NU1",
+      "title": "Utgiftsområde 24 Näringsliv",
+      "committee": "NU",
+      "decisionDate": "2026-12-16",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU2",
+      "beteckning": "NU2",
+      "title": "Utgiftsområde 19 Regional utveckling",
+      "committee": "NU",
+      "decisionDate": "2026-12-16",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01NU7",
+      "beteckning": "NU7",
+      "title": "En myndighet för redovisning och revision",
+      "committee": "NU",
+      "decisionDate": "2026-12-16",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01UbU1",
+      "beteckning": "UbU1",
+      "title": "Utgiftsområde 16 Utbildning och universitetsforskning",
+      "committee": "UbU",
+      "decisionDate": "2026-12-16",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU2",
+      "beteckning": "FiU2",
+      "title": "Utgiftsområde 2 Samhällsekonomi och finansförvaltning",
+      "committee": "FiU",
+      "decisionDate": "2026-12-17",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU3",
+      "beteckning": "FiU3",
+      "title": "Utgiftsområde 25 Allmänna bidrag till kommuner",
+      "committee": "FiU",
+      "decisionDate": "2026-12-17",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU4",
+      "beteckning": "FiU4",
+      "title": "Utgiftsområde 26 Statsskuldsräntor m.m.",
+      "committee": "FiU",
+      "decisionDate": "2026-12-17",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU5",
+      "beteckning": "FiU5",
+      "title": "Utgiftsområde 27 Avgiften till Europeiska unionen",
+      "committee": "FiU",
+      "decisionDate": "2026-12-17",
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU10",
+      "beteckning": "FiU10",
+      "title": "Statens budget för 2027",
+      "committee": "FiU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01FiU6",
+      "beteckning": "FiU6",
+      "title": "Redovisning av AP-fondernas verksamhet t.o.m. 2025",
+      "committee": "FiU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03130",
+          "label": "Regeringens skrivelse 2025/26:130",
+          "title": "Redovisning av AP-fondernas verksamhet t.o.m. 2025"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01JuU7",
+      "beteckning": "JuU7",
+      "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
+      "committee": "JuU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03274",
+          "label": "Regeringens skrivelse 2025/26:274",
+          "title": "Uppföljning av den nationella strategin mot organiserad brottslighet"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01JuU8",
+      "beteckning": "JuU8",
+      "title": "Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism",
+      "committee": "JuU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03291",
+          "label": "Regeringens skrivelse 2025/26:291",
+          "title": "Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism"
+        }
+      ],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU10",
+      "beteckning": "KU10",
+      "title": "Granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning",
+      "committee": "KU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01KU5",
+      "beteckning": "KU5",
+      "title": "Uppföljning av riksdagens tillämpning av subsidiaritetsprincipen",
+      "committee": "KU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [],
+      "motions": 0
+    },
+    {
+      "dokId": "HE01SoU4",
+      "beteckning": "SoU4",
+      "title": "Riksrevisionens rapport statens arbete mot problem med spel om pengar",
+      "committee": "SoU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03269",
+          "label": "Regeringens skrivelse 2025/26:269",
+          "title": "Riksrevisionens rapport statens arbete mot problem med spel om pengar"
+        }
+      ],
+      "motions": 1
+    },
+    {
+      "dokId": "HE01SoU5",
+      "beteckning": "SoU5",
+      "title": "Riksrevisionens rapport om statens styrning av kommunernas myndighetsutövning som avser LSS",
+      "committee": "SoU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03288",
+          "label": "Regeringens skrivelse 2025/26:288",
+          "title": "Riksrevisionens rapport om statens styrning av kommunernas myndighetsutövning som avser LSS"
+        }
+      ],
+      "motions": 2
+    },
+    {
+      "dokId": "HE01SoU7",
+      "beteckning": "SoU7",
+      "title": "Nytt regelverk för hälsodataregister",
+      "committee": "SoU",
+      "decisionDate": null,
+      "debateDate": null,
+      "documents": [
+        {
+          "dokId": "HD03310",
+          "label": "Proposition 2025/26:310",
+          "title": "Nytt regelverk för hälsodataregister"
+        }
+      ],
+      "motions": 0
+    }
+  ]
+}

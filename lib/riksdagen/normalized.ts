@@ -63,6 +63,34 @@ export const membersSchema = z.object({
   members: z.array(memberSchema),
 });
 
+export const treatedDocumentSchema = z.object({
+  dokId: z.string().min(1),
+  type: z.string().min(1),
+  riksmote: z.string(),
+  number: z.string(),
+  title: z.string(),
+  name: z.string(),
+});
+
+/** A betänkande the chamber has not yet decided on. */
+export const agendaItemSchema = z.object({
+  dokId: z.string().min(1),
+  riksmote: z.string(),
+  beteckning: z.string().min(1),
+  title: z.string().min(1),
+  committee: z.string(),
+  decisionDate: isoDate.nullable(),
+  debateDate: isoDate.nullable(),
+  treats: z.array(treatedDocumentSchema),
+});
+
+export const agendaSchema = z.object({
+  schemaVersion: z.literal(NORMALIZED_SCHEMA_VERSION),
+  riksmote: z.string(),
+  fetchedAt: z.string(),
+  items: z.array(agendaItemSchema),
+});
+
 export const manifestSchema = z.object({
   riksmoten: z.record(
     z.string(),

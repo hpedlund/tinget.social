@@ -6,7 +6,7 @@
  */
 import { z } from "zod";
 
-import { AVSER_VALUES } from "@/lib/riksdagen/schemas";
+import { AVSER_VALUES, dokId } from "@/lib/riksdagen/schemas";
 
 export const DATA_SCHEMA_VERSION = 1;
 export const DATA_SOURCE = "Sveriges riksdag";
@@ -145,4 +145,23 @@ export const votesFileSchema = z.strictObject({
   ...header,
   riksmote,
   votes: z.array(voteEntrySchema),
+});
+
+export const agendaItemSchema = z.strictObject({
+  dokId,
+  beteckning: z.string().min(1),
+  title: z.string().min(1),
+  committee: z.string(),
+  /** Planned decision (vote) date; `null` while not yet scheduled */
+  decisionDate: isoDate.nullable(),
+  debateDate: isoDate.nullable(),
+  /** Treated documents other than motions, e.g. "Proposition 2025/26:271" */
+  documents: z.array(z.strictObject({ dokId, label: z.string().min(1), title: z.string() })),
+  motions: count,
+});
+
+export const agendaFileSchema = z.strictObject({
+  ...header,
+  riksmote,
+  items: z.array(agendaItemSchema),
 });

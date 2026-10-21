@@ -5,6 +5,7 @@ import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 
 import { writeFileAtomic } from "@/lib/riksdagen/cache";
+import { buildAgendaFile } from "@/lib/pipeline/agenda";
 import { buildDataFiles } from "@/lib/pipeline/build";
 import { FIXTURE_INPUT } from "@/lib/pipeline/fixtures";
 
@@ -14,7 +15,8 @@ let dir: string;
 
 beforeEach(async () => {
   dir = await mkdtemp(path.join(tmpdir(), "tinget-data-"));
-  for (const file of buildDataFiles(FIXTURE_INPUT)) {
+  const agenda = buildAgendaFile({ schemaVersion: 1, riksmote: "2024/25", fetchedAt: "", items: [] });
+  for (const file of [...buildDataFiles(FIXTURE_INPUT), agenda]) {
     await writeFileAtomic(path.join(dir, file.path), file.content);
   }
 });
@@ -83,6 +85,15 @@ describe("createDataSource", () => {
     expect(await data.getMember("999999")).toBeNull();
     expect(await data.getMember("../meta")).toBeNull();
     expect(await data.getMember("")).toBeNull();
+  });
+
+  it("reads the agenda", async () => {
+    expect(await createDataSource(dir).getAgenda()).toEqual({
+      schemaVersion: 1,
+      source: "Sveriges riksdag",
+      riksmote: "2024/25",
+      items: [],
+    });
   });
 
   it("fails when a file is missing", async () => {

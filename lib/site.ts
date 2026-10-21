@@ -12,6 +12,7 @@ export interface NavItem {
 
 export const NAV_ITEMS: readonly NavItem[] = [
   { href: "/", label: "Närvaro" },
+  { href: "/voteringar/", label: "Voteringar" },
   { href: "/partier/", label: "Partier" },
   { href: "/sa-raknar-vi/", label: "Så räknar vi" },
 ];
@@ -24,4 +25,9 @@ export function memberSourceUrl(memberId: string): string {
 /** Riksdagen's page for one vote, listing how every member voted. */
 export function voteSourceUrl(voteId: string): string {
   return `https://data.riksdagen.se/votering/${encodeURIComponent(voteId)}/html`;
+}
+
+/** A document's page on riksdagen.se (riksdagen.se redirects the id-only path for any document type). */
+export function documentSourceUrl(dokId: string): string {
+  return `https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_${encodeURIComponent(dokId)}/`;
 }

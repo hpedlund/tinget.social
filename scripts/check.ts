@@ -8,7 +8,7 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { DATA_DIR, getAllMemberIds, getParties, getPeriods, getRanking } from "@/lib/data";
+import { DATA_DIR, getAgenda, getAllMemberIds, getParties, getPeriods, getRanking } from "@/lib/data";
 import { loadMemberProfile } from "@/lib/member/load";
 
 async function main() {
@@ -35,7 +35,15 @@ async function main() {
   const stray = files.filter((f) => !known.has(path.basename(f, ".json")));
   if (stray.length > 0) throw new Error(`members/ has files not in members.json: ${stray.join(", ")}`);
 
-  console.log(`data/ OK: ${periods.length} periods, ${memberIds.length} members`);
+  const agenda = await getAgenda();
+  const latest = periods.at(-1)?.riksmoten.at(-1);
+  if (agenda.riksmote !== latest) {
+    throw new Error(`agenda.json is for ${agenda.riksmote}, but the latest riksmöte in the data is ${latest}`);
+  }
+
+  console.log(
+    `data/ OK: ${periods.length} periods, ${memberIds.length} members, ${agenda.items.length} upcoming decisions`,
+  );
 }
 
 main().catch((error: unknown) => {

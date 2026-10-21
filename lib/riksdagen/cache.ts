@@ -5,12 +5,13 @@ import type { z } from "zod";
 
 import { CACHE_DIR, riksmoteSlug } from "./config";
 import { formatZodError } from "./errors";
-import { manifestSchema, membersSchema, riksmoteVotesSchema } from "./normalized";
-import type { Manifest, Members, RiksmoteVotes } from "./types";
+import { agendaSchema, manifestSchema, membersSchema, riksmoteVotesSchema } from "./normalized";
+import type { Agenda, Manifest, Members, RiksmoteVotes } from "./types";
 
 export const votesPath = (riksmote: string) =>
   path.join(CACHE_DIR, `votes-${riksmoteSlug(riksmote)}.json`);
 export const MEMBERS_PATH = path.join(CACHE_DIR, "members.json");
+export const AGENDA_PATH = path.join(CACHE_DIR, "agenda.json");
 export const MANIFEST_PATH = path.join(CACHE_DIR, "manifest.json");
 export const OBSERVED_PATH = path.join(CACHE_DIR, "observed.json");
 
@@ -53,6 +54,11 @@ export function readRiksmoteVotes(riksmote: string): Promise<RiksmoteVotes> {
 /** Validated members, as written by `npm run data:fetch`. */
 export function readMembers(): Promise<Members> {
   return readValidated(MEMBERS_PATH, membersSchema);
+}
+
+/** Validated upcoming decisions, as written by `npm run data:fetch`. */
+export function readAgenda(): Promise<Agenda> {
+  return readValidated(AGENDA_PATH, agendaSchema);
 }
 
 export async function readManifest(): Promise<Manifest> {

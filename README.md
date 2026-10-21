@@ -13,6 +13,7 @@ tinget.social is an independent, non-partisan website that uses the Swedish parl
 - **A ranked list of all members of parliament** by voting attendance, from most present to most absent
 - **Filters** by party, constituency and period
 - **A page per member** showing their attendance over time and which votes they missed
+- **Current and upcoming votes** — what the Riksdag is about to decide, with links to the reports and proposals behind each decision
 - **A party overview** so individual numbers can be compared with their party's average
 - **"Så räknar vi"** — a plain-language explanation of how every number is calculated
 

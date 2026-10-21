@@ -137,3 +137,53 @@ export const personlistaSchema = z.object({
     person: listOf(personSchema),
   }),
 });
+
+/** "HE01FiU1", "HE01UFöU1", "HD03285" — used in cache file names and links, so restricted. */
+export const dokId = z.string().regex(/^[0-9A-Za-zÅÄÖåäö]{1,32}$/, "expected dok_id");
+/** "2026-12-09" or "" (not yet scheduled) */
+const optionalDate = z.union([dateTime, z.literal("")]);
+
+/** A betänkande in `/dokumentlista/?doktyp=bet`. */
+const betankandeSchema = z.object({
+  dok_id: dokId,
+  rm: riksmote,
+  doktyp: z.literal("bet"),
+  beteckning: nonEmpty,
+  titel: nonEmpty,
+  organ: z.string(),
+  beslutsdag: optionalDate,
+  debattdag: optionalDate,
+  beslutad: z.enum(["0", "1"]),
+});
+export type RawBetankande = z.infer<typeof betankandeSchema>;
+
+export const dokumentlistaSchema = z.object({
+  dokumentlista: z.object({
+    "@sida": count,
+    "@sidor": count,
+    "@traffar": count,
+    dokument: listOf(betankandeSchema),
+  }),
+});
+
+/** `/dokumentstatus/{dok_id}.json` — only the documents a betänkande treats. */
+export const dokumentstatusSchema = z.object({
+  dokumentstatus: z.object({
+    dokument: z.object({ dok_id: dokId }),
+    dokreferens: z
+      .object({
+        referens: listOf(
+          z.object({
+            referenstyp: z.string(),
+            ref_dok_id: z.union([dokId, z.literal("")]),
+            ref_dok_typ: z.string(),
+            ref_dok_rm: z.string(),
+            ref_dok_bet: z.string(),
+            ref_dok_titel: z.string(),
+            ref_dok_dokumentnamn: z.string(),
+          }),
+        ),
+      })
+      .nullish(),
+  }),
+});

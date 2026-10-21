@@ -1,6 +1,8 @@
 import type { z } from "zod";
 
 import type {
+  agendaFileSchema,
+  agendaItemSchema,
   memberFileSchema,
   memberIndexEntrySchema,
   membersIndexFileSchema,
@@ -29,6 +31,8 @@ export type MembersIndexFile = z.infer<typeof membersIndexFileSchema>;
 export type MemberFile = z.infer<typeof memberFileSchema>;
 export type VoteEntry = z.infer<typeof voteEntrySchema>;
 export type VotesFile = z.infer<typeof votesFileSchema>;
+export type AgendaItem = z.infer<typeof agendaItemSchema>;
+export type AgendaFile = z.infer<typeof agendaFileSchema>;
 
 /** A missed vote joined with its details from data/votes/. */
 export interface MissedVote extends VoteEntry {

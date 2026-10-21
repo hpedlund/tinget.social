@@ -21,6 +21,7 @@ Schemas: `lib/data/schemas.ts` (zod, strict — unknown keys are rejected). Type
 | `parties.json` | Per period: `parties[]` with `party`, `memberCount`, pooled summary, `rankedMembers` and `spread` (`min`/`median`/`max` attendance of ranked members whose latest party in the period it is; `null` if none), best first |
 | `members.json` | Index of everyone in the data: `id`, `name`, `party`, `constituency` (latest), by id |
 | `members/{id}.json` | One member: `name`, `party`, `constituency` (latest vote), `firstName`, `lastName`, `sortName`, `status` (from `personlista`), `total` (all riksmöten in the data), `byRiksmote[]`, `periods[]` (`periodId`, `rank` or `null` if below the threshold, summary), `missedVoteIds[]` (Frånvarande, in date order) |
+| `agenda.json` | Upcoming decisions in the current riksmöte: `riksmote`, `items[]` — betänkanden not yet decided, with `dokId`, `beteckning`, `title`, `committee`, `decisionDate`/`debateDate` (`null` if not set), `documents[]` they treat other than motions (`dokId`, `label` e.g. `Proposition 2025/26:285`, `title`) and a `motions` count; by decision date, unscheduled last |
 | `votes/{riksmote}.json` | Vote index, e.g. `votes/2025-26.json`: `id` (votering_id), `date`, `beteckning`, `punkt`, `avser`, `counts`, by date then id |
 
 A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `present` and `attendance` (`present / eligible`, 0–1, **unrounded** — the site rounds for display). Calculation rules: [docs/specs/TASK-004.md](../docs/specs/TASK-004.md).
@@ -45,6 +46,9 @@ A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `p
 | `raw/personlista-tjanst.json` | `/personlista/?rdlstatus=tjanst` |
 | `votes-{rm}.json` | Validated, normalised votes (see `lib/riksdagen/normalized.ts`) |
 | `members.json` | Validated, normalised members: only people who appear in the vote data |
+| `raw/dokumentlista/bet-{rm}-{page}.json` | Betänkanden of the current riksmöte (`/dokumentlista/?doktyp=bet`) |
+| `raw/dokumentstatus/{dok_id}.json` | Status of each undecided betänkande — the documents it treats |
+| `agenda.json` | Validated, normalised undecided betänkanden (always re-fetched) |
 | `manifest.json` | Per riksmöte: source, complete, counts, fetch time |
 | `observed.json` | Value sets seen in the last run (basis for the tables below) |
 

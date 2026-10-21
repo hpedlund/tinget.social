@@ -15,6 +15,7 @@ import { riksmoteSlug } from "@/lib/riksdagen/config";
 import { formatZodError } from "@/lib/riksdagen/errors";
 
 import {
+  agendaFileSchema,
   memberFileSchema,
   memberIdSchema,
   membersIndexFileSchema,
@@ -24,6 +25,7 @@ import {
   votesFileSchema,
 } from "./schemas";
 import type {
+  AgendaFile,
   MemberDetail,
   MemberIndexEntry,
   Meta,
@@ -98,6 +100,9 @@ export function createDataSource(dir: string) {
 
     getMembers,
 
+    /** Betänkanden not yet decided in the current riksmöte, by planned decision date (unscheduled last). */
+    getAgenda: (): Promise<AgendaFile> => load("agenda.json", agendaFileSchema),
+
     getAllMemberIds: async (): Promise<string[]> => (await getMembers()).map((m) => m.id),
 
     /** `null` when the id is not in the member index. */
@@ -147,6 +152,7 @@ export const {
   getRanking,
   getParties,
   getMembers,
+  getAgenda,
   getAllMemberIds,
   getMember,
 } = source;

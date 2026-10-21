@@ -1,13 +1,16 @@
 /**
  * npm run data:fetch [-- --refresh]
  *
- * Downloads members and every vote row for the configured riksmöten from
+ * Downloads members, every vote row for the configured riksmöten and the
+ * betänkanden the chamber has yet to decide on (upcoming votes) from
  * data.riksdagen.se, validates everything with zod and writes raw downloads
  * plus normalised files to .cache/riksdagen/. Completed riksmöten are served
  * from the cache unless --refresh is given. Any unexpected data aborts the
  * run with exit code 1.
  */
+import { fetchAgenda } from "@/lib/riksdagen/agenda";
 import {
+  AGENDA_PATH,
   MANIFEST_PATH,
   MEMBERS_PATH,
   OBSERVED_PATH,
@@ -118,6 +121,16 @@ async function main() {
   await writeJson(MEMBERS_PATH, members);
   console.log(`  ${members.members.length} members (everyone who voted in ${RIKSMOTEN.join(", ")})`);
   observed.members = observeMembers(members);
+
+  console.log(`\nUpcoming decisions ${CURRENT_RIKSMOTE}`);
+  const agenda = await fetchAgenda(CURRENT_RIKSMOTE);
+  await writeJson(AGENDA_PATH, agenda);
+  console.log(`  ${agenda.items.length} betänkanden not yet decided`);
+  observed.agenda = {
+    items: agenda.items.length,
+    scheduled: agenda.items.filter((item) => item.decisionDate !== null).length,
+    treatedTypes: tally(agenda.items.flatMap((item) => item.treats.map((doc) => doc.type))),
+  };
 
   await writeJson(OBSERVED_PATH, { generatedAt: new Date().toISOString(), ...observed });
   console.log(`\nDone. Observed values: ${OBSERVED_PATH}`);

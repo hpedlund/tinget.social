@@ -118,7 +118,7 @@ function partyEntries(result: AttendanceResult): PartyEntry[] {
 }
 
 /** Parses with the contract schema and serialises; a failure is a pipeline bug. */
-function file<T>(path: string, schema: z.ZodType<T>, value: T): DataFile {
+export function file<T>(path: string, schema: z.ZodType<T>, value: T): DataFile {
   const result = schema.safeParse(value);
   if (!result.success) {
     throw new Error(`Generated ${path} breaks the data contract:\n${formatZodError(result.error)}`);
