@@ -1,9 +1,9 @@
 # TASK-010: Methodology page (Så räknar vi)
 
-**Status**: draft
+**Status**: designed
 **Priority**: high
 **Depends on**: TASK-004, TASK-002
-**Branch**: task/010-methodology-page
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
