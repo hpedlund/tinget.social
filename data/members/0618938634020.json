@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "id": "0618938634020",
   "name": "Marcus Wennerström",
@@ -87,27 +87,14 @@
       "attendance": 0.9451697127937336
     }
   ],
-  "missedVoteIds": [
-    "3C51A5F3-9DE0-4C35-8892-AA750E185A41",
-    "4DA66DFA-E66A-4811-9E51-3879EE4A1409",
-    "9FD8DB60-5D6D-4D2A-9132-5655B72AE885",
-    "BDAEDB62-6EAF-47F4-9CAF-3B3365D0A7B8",
-    "C155CDB8-981A-4EED-804F-471A132EEDB7",
-    "DD560E54-23F4-4C54-B6A2-FD7EA140A20F",
-    "F7754841-F326-4054-95CE-76376687C7A0",
-    "0005C5A0-9CD4-42BA-9C62-8FFF47BB688F",
-    "11014E4E-4C66-4CDF-A919-D7C72EF83934",
-    "1DFA9BF4-0DFF-4078-89B6-01E0890756C6",
-    "33C4B39C-1C56-4F1E-88AD-E49CDB78C5B2",
-    "3FEB9E46-CBFF-49C1-B4A2-9EB0C8994B51",
-    "434F8E13-5316-4F77-838D-6110936A5CDE",
-    "657B9525-36F7-449D-8BA9-12ABDCD1781C",
-    "9353F398-551F-4604-8495-7149F4F10F4E",
-    "A117F0FA-23AC-423A-9CFC-09FB8450CB83",
-    "A3CE1A90-55AA-422E-A121-7C78AEA9A213",
-    "AD23FA67-476A-46B5-B2E4-639952F0579E",
-    "D938A355-ED1B-4CC5-9C21-938B938720FC",
-    "EC1680F5-01A1-4E18-906E-E60F7D81FF65",
-    "F0B9F746-E8DD-4145-861F-16C6E638A341"
+  "ballots": [
+    {
+      "riksmote": "2022/23",
+      "votes": "N--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------JJJJJ"
+    },
+    {
+      "riksmote": "2023/24",
+      "votes": "NNNJJJJNJJJJJJNJNJNJNJNNJNANJANNNJJJJJNNJJNJNJNANJANNNNNNAJNAJNJJJJAANANJJJNNJJNJNJAAJAJANNJJNNNNNJJJNJJJNNNNJJNJANJJNJJNJNNJJNJNJJNJJAJANNJNNNNAJNJANNANJJJJANJJNNANJAJJAFFFFFFFJNJJJJNNJNNNNNNNNJJJJJNJJANJJJJANANJJJJNJJJANJNNAANJJJANANJNJAAJNNNNANNJJNJJAAJNAJJNANJJNJANNJNJJANAJJNJJJNJJJJFFFFFFFFFFFFFFNNJNNNAAJNJNJJJJNJJNAJJJJNJJJJJJJNAANJJNJAJJNNNJNAJJJJNJJJJNNNNNJJJANNJJNAJNAAANA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+    }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "id": "0320357433721",
   "name": "Mohamed Yassin",
@@ -62,5 +62,10 @@
       "attendance": 1
     }
   ],
-  "missedVoteIds": []
+  "ballots": [
+    {
+      "riksmote": "2025/26",
+      "votes": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NNJNNNANNNANNNJNJJANAANANNNJNAJNJNNNNNNJNAANNJANANJJANJNNNANNANJJNNANNNNJNJJJNNNJJNNNNNNNNNJNANNNNNJNNAJNNJAJJNAAJJNNJJJNAAJNNJANNNNJANNNNNNNNANNJJJJNNJNNNNJNNANANNANNNANJANANNANJNANANNNNNANNNNNANNJNNJNANNJJJNNJ-----------------------------"
+    }
+  ]
 }

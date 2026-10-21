@@ -33,6 +33,7 @@ const SECTIONS = [
   { id: "perioder", title: "Perioder" },
   { id: "ranking", title: "Rankingen" },
   { id: "partier", title: "Partierna" },
+  { id: "arenden", title: "Hur ledamöterna röstade och vad det gällde" },
   { id: "begransningar", title: "Vad siffrorna inte visar" },
   { id: "kallor", title: "Källor och rådata" },
   { id: "fel", title: "Hittat ett fel?" },
@@ -246,6 +247,36 @@ export default async function MethodologyPage() {
         </p>
       </Section>
 
+      <Section id="arenden">
+        <p>
+          På varje ledamots sida finns alla voteringar ledamoten kunde delta i, med hur hen
+          röstade och vilket ärende voteringen gällde. Uppgifterna kommer från samma filer som
+          närvaron.
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            <strong>Ja och Nej.</strong> I de flesta voteringar är Ja en röst för utskottets förslag
+            och Nej en röst för motförslaget, oftast en reservation från ett eller flera partier.
+            Det säger alltså inte i sig om ledamoten var för eller emot en viss förändring: läs
+            vad förslaget och motförslaget gick ut på.
+          </li>
+          <li>
+            <strong>Ärendet.</strong> Varje votering gäller en punkt i ett betänkande från ett av
+            riksdagens utskott. Vi visar punktens rubrik och betänkandets titel som riksdagen
+            publicerar dem, och länkar till betänkandet hos riksdagen.
+          </li>
+          <li>
+            <strong>Sammanfattningar.</strong> Sammanfattningen av ett ärende är riksdagens egen
+            text <em>Beslut i korthet</em>. När riksdagen inte har publicerat någon, till exempel
+            för omröstningar om statsminister eller innan texten har kommit, kan sidan visa en
+            sammanfattning skriven av en AI-språkmodell utifrån riksdagens dokument. Den är
+            tydligt märkt, är inte granskad av riksdagen och kan innehålla fel. Den ersätts av
+            riksdagens text när den publiceras. Ledamöternas röster och alla siffror påverkas
+            aldrig av sammanfattningarna.
+          </li>
+        </ul>
+      </Section>
+
       <Section id="begransningar">
         <p>
           Uppgifterna visar <em>att</em> någon var frånvarande, inte <em>varför</em>. Frånvaro
@@ -268,8 +299,8 @@ export default async function MethodologyPage() {
         </ul>
         <p>
           Voteringar är bara en del av en ledamots arbete. Arbete i utskott, i valkretsen eller
-          i partiet syns inte här. Siffrorna visar inte heller <em>hur</em> någon röstade, bara
-          <em> om</em>.
+          i partiet syns inte här. Närvaron räknar bara <em>om</em> någon röstade, inte
+          <em> hur</em>.
         </p>
         <p>
           Siffrorna är en sammanställning av offentliga uppgifter om ledamöternas uppdrag. De är
@@ -284,13 +315,15 @@ export default async function MethodologyPage() {
             riksdagens öppna data
           </a>
           : riksdagens listor över voteringar, filerna med hur varje ledamot röstade i varje
-          votering och uppgifter om ledamöterna. Uppgifterna hämtas från data.riksdagen.se varje
+          votering, uppgifter om ledamöterna och riksdagens dokumentlistor med betänkandenas
+          titlar, förslagspunkter och sammanfattningar. Uppgifterna hämtas från data.riksdagen.se varje
           dag, och siffrorna räknas om när det har hållits nya voteringar.
         </p>
         <ul className="list-disc space-y-2 pl-5">
           <li>
-            På varje ledamots sida finns en länk till ledamoten hos riksdagen, och varje missad
-            votering länkar till riksdagens uppgifter om den voteringen.
+            På varje ledamots sida finns en länk till ledamoten hos riksdagen. Varje ärende har
+            en sida med länkar till betänkandet och till riksdagens uppgifter om varje votering,
+            där det framgår hur alla ledamöter röstade.
           </li>
           <li>
             Alla uträknade siffror finns som filer i{" "}

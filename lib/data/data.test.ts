@@ -1,4 +1,4 @@
-import { mkdtemp, rm, unlink, writeFile } from "node:fs/promises";
+import { mkdtemp, readFile, rm, unlink, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
@@ -61,21 +61,22 @@ describe("createDataSource", () => {
     });
   });
 
-  it("joins a member's missed votes with their details", async () => {
+  it("reads a member with ballot strings that match the vote files", async () => {
     const member = await createDataSource(dir).getMember("100002");
-    expect(member).not.toHaveProperty("missedVoteIds");
-    expect(member?.missedVotes).toEqual([
-      {
-        id: "V1",
-        riksmote: "2022/23",
-        date: "2022-10-01",
-        beteckning: "AU1",
-        punkt: 1,
-        avser: "sakfrågan",
-        counts: { ja: 1, nej: 1, avstar: 0, franvarande: 1 },
-      },
-      expect.objectContaining({ id: "V4", riksmote: "2023/24", date: "2023-10-01" }),
-    ]);
+    expect(member?.ballots.map((b) => b.riksmote)).toEqual(["2022/23", "2023/24", "2024/25"]);
+  });
+
+  it("reads votes and documents per riksmöte", async () => {
+    const data = createDataSource(dir);
+    expect(await data.getRiksmoten()).toEqual(["2022/23", "2023/24", "2024/25"]);
+    expect((await data.getVotes("2023/24")).map((v) => v.id)).toEqual(["V4", "V5"]);
+    const loaded = await data.getDocument("2022/23", "AU1");
+    expect(loaded?.document.title).toBe("Betänkande AU1");
+    expect(loaded?.votes.map((v) => v.id)).toEqual(["V1", "F1"]);
+    expect(await data.getDocument("2022/23", "XX9")).toBeNull();
+    expect(await data.getDocument("1999/00", "AU1")).toBeNull();
+    expect(await data.getDocument("2022/23", "../meta")).toBeNull();
+    await expect(data.getVotes("1999/00")).rejects.toThrow(/Unknown riksmöte/);
   });
 
   it("returns null for unknown or malformed member ids", async () => {
@@ -95,18 +96,26 @@ describe("createDataSource", () => {
   it("fails when a file does not match the contract", async () => {
     await writeFile(
       path.join(dir, "meta.json"),
-      JSON.stringify({ schemaVersion: 2, source: "Sveriges riksdag" }),
+      JSON.stringify({ schemaVersion: 1, source: "Sveriges riksdag" }),
     );
     await expect(createDataSource(dir).getPeriods()).rejects.toThrow(
       /Invalid data file .*meta\.json:\n.*schemaVersion/,
     );
   });
 
-  it("fails when a member's missed vote is not in the vote index", async () => {
+  it("fails when a member's ballots do not line up with the vote file", async () => {
     await writeFile(
       path.join(dir, "votes", "2023-24.json"),
-      JSON.stringify({ schemaVersion: 1, source: "Sveriges riksdag", riksmote: "2023/24", votes: [] }),
+      JSON.stringify({ schemaVersion: 2, source: "Sveriges riksdag", riksmote: "2023/24", votes: [] }),
     );
-    await expect(createDataSource(dir).getMember("100002")).rejects.toThrow(/V4/);
+    await expect(createDataSource(dir).getMember("100002")).rejects.toThrow(/2 ballots for 2023\/24/);
+  });
+
+  it("fails when a member's ballots disagree with their figures", async () => {
+    const file = path.join(dir, "members", "100002.json");
+    const member = JSON.parse(await readFile(file, "utf-8"));
+    member.ballots[1].votes = "JJ";
+    await writeFile(file, JSON.stringify(member));
+    await expect(createDataSource(dir).getMember("100002")).rejects.toThrow(/disagree with byRiksmote/);
   });
 });

@@ -16,7 +16,8 @@ An open, public website (no accounts, no login) that uses Riksdagen open data to
 
 - **Ranked list**: All members ranked by voting attendance — share of votes (voteringar) where they cast a vote (`Ja`, `Nej` or `Avstår`) versus were absent (`Frånvarande`). Sortable both ways: most present first and most absent first.
 - **Filters**: Party, constituency (valkrets), and period (parliamentary year / riksmöte, e.g. `2025/26`, or full electoral term).
-- **Member detail page**: Attendance over time for one member — totals per vote type, trend per riksmöte, and the list of votes they missed.
+- **Member detail page**: Attendance over time for one member — totals per vote type, trend per riksmöte, and every vote they could take part in: how they voted (Ja/Nej/Avstår/Frånvarande) and what it was about.
+- **Vote topics**: A page per voted betänkande (or omröstning) with its title, the heading of each voted proposal point, Riksdagen's own summary ("Beslut i korthet"), the result of each vote and links to the document and vote at Riksdagen. Where Riksdagen has published no summary, a clearly labelled AI-generated one may be shown (see TASK-014).
 - **Party overview**: Average attendance per party, so individual numbers can be put in context.
 - **Transparent method**: A public "Så räknar vi" (how we calculate) page explaining the metric, its limitations, and linking to the raw Riksdagen data. Every number must be traceable back to the source.
 - **Attribution**: "Källa: Sveriges riksdag" on every page showing data.
@@ -24,8 +25,8 @@ An open, public website (no accounts, no login) that uses Riksdagen open data to
 **Out of scope for Version 1**
 
 - User accounts, authentication, comments or any user-generated content
-- Speeches (anföranden), documents (dokument) and calendar (kalender) exploration
-- How members voted on specific issues (only *whether* they voted)
+- Speeches (anföranden), free document search (dokument) and calendar (kalender) exploration
+- Per-party breakdowns of individual votes and any interpretation of positions (votes are shown as recorded, with the topic, never scored)
 - Historical data before the electoral terms needed for the ranking
 
 **Attendance metric (definition)**
@@ -73,7 +74,7 @@ Version 1 is a **static website**: all data is downloaded and processed at build
 | Ledamöter (Members) | `/personlista/` | ~1990 | Yes — names, party, constituency, service periods |
 | Voteringar (Votes) | `/voteringlista/` | 1993/94 | Yes — one row per member per vote, incl. `Frånvarande` |
 | Anföranden (Speeches) | `/anforandelista/` | 1993/94 | No |
-| Dokument (Documents) | `/dokumentlista/` | 1961 (some types) | No |
+| Dokument (Documents) | `/dokumentlista/`, `/utskottsforslag/` | 1961 (some types) | Yes — titles, proposal-point headings and "Beslut i korthet" of voted betänkanden |
 | Kalender (Calendar) | `/kalender/` | Current | No |
 
 Riksdagen also publishes **bulk datasets** (zipped files per riksmöte) under `https://data.riksdagen.se/dataset/`. The pipeline should prefer these over paging the API for full-year vote data; confirm exact file names when implementing the pipeline.
@@ -117,7 +118,7 @@ The generated JSON files are the **data contract** between the pipeline and the 
 - **Precomputed statistics** — Attendance is calculated in the pipeline, never in the browser or per request
 - **Committed data snapshots** — Generated JSON is committed, giving a public, dated history of every number (transparency) and reproducible builds
 - **Single data access layer** — `lib/data/` is the only place that knows where data comes from
-- **No secrets** — Version 1 needs no API keys or credentials; the deploy uses GitHub's built-in Pages permissions
+- **No secrets in the site** — the site and deploy need no API keys; the deploy uses GitHub's built-in Pages permissions. The one optional secret is `ANTHROPIC_API_KEY` for the data refresh's summary step (`data:summarize`), scoped to that step; without it no summaries are generated and everything else works
 - **No tracking** — No cookies, analytics or third-party scripts in Version 1
 
 ### Static export constraints (Version 1)

@@ -3,14 +3,7 @@
  * with the period rankings and party averages at build time; computes no
  * attendance itself.
  */
-import type {
-  MemberDetail,
-  MissedVote,
-  PartyEntry,
-  Period,
-  Ranking,
-  VoteCounts,
-} from "@/lib/data/types";
+import type { MemberDetail, PartyEntry, Period, Ranking, VoteCounts } from "@/lib/data/types";
 
 export interface MemberPeriodRow {
   periodId: string;
@@ -30,19 +23,12 @@ export interface MemberPeriodRow {
   partyAttendance: number | null;
 }
 
-export interface MissedVoteGroup {
-  riksmote: string;
-  /** In date order. */
-  votes: MissedVote[];
-}
-
 export interface MemberProfile {
   /** The default period if the member has it, else their latest period. */
   headline: MemberPeriodRow;
   /** Riksmöte periods, oldest first. */
   riksmoten: MemberPeriodRow[];
-  /** Newest riksmöte first; only riksmöten with missed votes. */
-  missed: MissedVoteGroup[];
+  /** Frånvarande over every riksmöte in the data. */
   missedCount: number;
 }
 
@@ -106,47 +92,9 @@ export function buildMemberProfile(member: MemberDetail, sources: ProfileSources
     rows.at(-1);
   if (!headline) throw new Error(`Member ${member.id} has no periods`);
 
-  const groups = new Map<string, MissedVote[]>();
-  for (const vote of member.missedVotes) {
-    const group = groups.get(vote.riksmote);
-    if (group) group.push(vote);
-    else groups.set(vote.riksmote, [vote]);
-  }
-  const missed = [...groups]
-    .map(([riksmote, votes]) => ({ riksmote, votes }))
-    .sort((a, b) => b.riksmote.localeCompare(a.riksmote));
-
   return {
     headline,
     riksmoten: rows.filter((row) => row.kind === "riksmote"),
-    missed,
-    missedCount: member.missedVotes.length,
+    missedCount: member.total.counts.franvarande,
   };
-}
-
-/** [vote id, date, beteckning, punkt, motivfrågan (1) or not (0), Frånvarande in the vote] */
-export type CompactMissedVote = [string, string, string, number, 0 | 1, number];
-
-export interface CompactMissedGroup {
-  riksmote: string;
-  votes: CompactMissedVote[];
-}
-
-/**
- * Tuples for the client list: as Client Component props the rows are
- * serialised once, instead of as a server-rendered element tree next to
- * the HTML (2 000+ rows for some members).
- */
-export function compactMissedVotes(groups: readonly MissedVoteGroup[]): CompactMissedGroup[] {
-  return groups.map(({ riksmote, votes }) => ({
-    riksmote,
-    votes: votes.map((v) => [
-      v.id,
-      v.date,
-      v.beteckning,
-      v.punkt,
-      v.avser === "motivfrågan" ? 1 : 0,
-      v.counts.franvarande,
-    ]),
-  }));
 }

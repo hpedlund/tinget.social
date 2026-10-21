@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "riksmote": "2026/27",
   "votes": [
@@ -9,6 +9,7 @@
       "beteckning": "1015-1",
       "punkt": 0,
       "avser": "frågan",
+      "rubrik": null,
       "counts": {
         "ja": 99,
         "nej": 248,

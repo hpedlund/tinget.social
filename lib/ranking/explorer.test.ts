@@ -51,7 +51,7 @@ const ranked = (rank: number, base: UnrankedRow): RankedRow => ({ rank, ...base 
 
 function ranking(periodId: string, rankedRows: RankedRow[], below: UnrankedRow[] = []): Ranking {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     source: "Sveriges riksdag",
     periodId,
     totalVotes: 100,

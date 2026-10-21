@@ -3,11 +3,13 @@
  *
  * Downloads members and every vote row for the configured riksmöten from
  * data.riksdagen.se, validates everything with zod and writes raw downloads
- * plus normalised files to .cache/riksdagen/. Completed riksmöten are served
+ * plus normalised files to .cache/riksdagen/, including what each vote is
+ * about (betänkande titles, summaries and proposal-point headings). Completed riksmöten are served
  * from the cache unless --refresh is given. Any unexpected data aborts the
  * run with exit code 1.
  */
 import {
+  documentsPath,
   MANIFEST_PATH,
   MEMBERS_PATH,
   OBSERVED_PATH,
@@ -17,6 +19,7 @@ import {
   writeJson,
 } from "@/lib/riksdagen/cache";
 import { CACHE_DIR, CURRENT_RIKSMOTE, RIKSMOTEN } from "@/lib/riksdagen/config";
+import { fetchRiksmoteDocuments } from "@/lib/riksdagen/documents";
 import { fetchMembers } from "@/lib/riksdagen/members";
 import type { Members, RiksmoteVotes } from "@/lib/riksdagen/types";
 import { fetchRiksmoteVotes } from "@/lib/riksdagen/votes";
@@ -111,6 +114,20 @@ async function main() {
     for (const vote of data.votes) {
       for (const ballot of vote.ballots) memberIds.add(ballot.memberId);
     }
+
+    const documents = await fetchRiksmoteDocuments(data);
+    await writeJson(documentsPath(riksmote), documents.data);
+    const docs = documents.data.documents;
+    console.log(
+      `  ${docs.length} documents for ${new Set(data.votes.map((v) => v.beteckning)).size} beteckningar ` +
+        `(${documents.fetched} fetched, ${docs.filter((d) => d.summary.length === 0).length} without summary)`,
+    );
+    (observed[riksmote] as Record<string, unknown>).documents = {
+      documents: docs.length,
+      kind: tally(docs.map((d) => d.kind)),
+      withoutSummary: docs.filter((d) => d.summary.length === 0).map((d) => d.beteckning),
+      unresolved: documents.unresolved,
+    };
   }
 
   console.log("\nMembers");

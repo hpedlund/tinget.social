@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import type { MemberDetail, MissedVote, PartyEntry, Period, Ranking, UnrankedRow } from "@/lib/data/types";
+import type { MemberDetail, PartyEntry, Period, Ranking, UnrankedRow } from "@/lib/data/types";
 
-import { buildMemberProfile, compactMissedVotes, type ProfileSources } from "./profile";
+import { buildMemberProfile, type ProfileSources } from "./profile";
 
 function period(id: string, kind: Period["kind"] = "riksmote"): Period {
   return {
@@ -36,7 +36,7 @@ function row(memberId: string, party: string, attendance: number, eligible = 100
 
 function ranking(periodId: string, ranked: UnrankedRow[], below: UnrankedRow[] = []): Ranking {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     source: "Sveriges riksdag",
     periodId,
     totalVotes: 100,
@@ -50,25 +50,12 @@ function party(code: string, attendance: number): PartyEntry {
   return { party: code, memberCount: 2, ...summary(attendance), rankedMembers: 2, spread: null };
 }
 
-function vote(id: string, riksmote: string, date: string): MissedVote {
-  return {
-    id,
-    riksmote,
-    date,
-    beteckning: "JuU2",
-    punkt: 1,
-    avser: "sakfrågan",
-    counts: { ja: 200, nej: 100, avstar: 0, franvarande: 49 },
-  };
-}
-
 function member(
   periods: { periodId: string; rank: number | null; attendance: number; eligible?: number }[],
-  missedVotes: MissedVote[] = [],
 ): MemberDetail {
   const s = summary(0.9);
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     source: "Sveriges riksdag",
     id: "1",
     name: "Namn 1",
@@ -81,7 +68,7 @@ function member(
     total: s,
     byRiksmote: [],
     periods: periods.map((p) => ({ periodId: p.periodId, rank: p.rank, ...summary(p.attendance, p.eligible) })),
-    missedVotes,
+    ballots: [],
   };
 }
 
@@ -139,25 +126,9 @@ describe("buildMemberProfile", () => {
     ]);
   });
 
-  it("groups missed votes by riksmöte, newest first, keeping date order", () => {
-    const votes = [
-      vote("a", "2022/23", "2022-10-17"),
-      vote("b", "2022/23", "2023-01-10"),
-      vote("c", "2023/24", "2023-10-25"),
-      vote("d", "2023/24", "2023-11-01"),
-    ];
-    const profile = buildMemberProfile(member(FULL, votes), sources());
-    expect(profile.missedCount).toBe(4);
-    expect(profile.missed.map((g) => [g.riksmote, g.votes.map((v) => v.id)])).toEqual([
-      ["2023/24", ["c", "d"]],
-      ["2022/23", ["a", "b"]],
-    ]);
-  });
-
-  it("has no groups without missed votes", () => {
-    const profile = buildMemberProfile(member(FULL), sources());
-    expect(profile.missed).toEqual([]);
-    expect(profile.missedCount).toBe(0);
+  it("counts missed votes over every riksmöte", () => {
+    // total = summary(0.9): 90 present of 100.
+    expect(buildMemberProfile(member(FULL), sources()).missedCount).toBe(10);
   });
 
   it("throws when the member is missing from a period's ranking", () => {
@@ -177,20 +148,5 @@ describe("buildMemberProfile", () => {
     expect(() =>
       buildMemberProfile(member([{ periodId: "2018-19", rank: 1, attendance: 1 }]), sources()),
     ).toThrow(/2018-19/);
-  });
-});
-
-describe("compactMissedVotes", () => {
-  it("keeps group order and encodes each vote as a tuple", () => {
-    const motiv = { ...vote("b", "2022/23", "2023-01-10"), punkt: 3, avser: "motivfrågan" as const };
-    expect(compactMissedVotes([{ riksmote: "2022/23", votes: [vote("a", "2022/23", "2022-10-17"), motiv] }])).toEqual([
-      {
-        riksmote: "2022/23",
-        votes: [
-          ["a", "2022-10-17", "JuU2", 1, 0, 49],
-          ["b", "2023-01-10", "JuU2", 3, 1, 49],
-        ],
-      },
-    ]);
   });
 });

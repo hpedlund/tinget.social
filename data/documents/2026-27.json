@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "source": "Sveriges riksdag",
+  "riksmote": "2026/27",
+  "documents": [
+    {
+      "beteckning": "1015-1",
+      "kind": "omrostning",
+      "dokId": "HE191015-1",
+      "title": "Prövning av talmannens förslag till statsminister den 15 oktober",
+      "summary": null
+    }
+  ]
+}

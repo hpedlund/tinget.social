@@ -8,7 +8,14 @@
  * - 100003 (SD): substitute, votes only in V4
  * - 100004: V until V3/fillers, then "-" (politisk vilde) from V5; misses V3
  */
-import type { Ballot, Members, RiksmoteVotes, Rost, Vote } from "@/lib/riksdagen/types";
+import type {
+  Ballot,
+  Members,
+  RiksmoteDocuments,
+  RiksmoteVotes,
+  Rost,
+  Vote,
+} from "@/lib/riksdagen/types";
 
 import { definePeriods } from "./periods";
 
@@ -77,6 +84,25 @@ export const FIXTURE_VOTES: RiksmoteVotes[] = [
   ]),
 ];
 
+/**
+ * One betänkande per beteckning. AU1 has Riksdagen's summary; the others
+ * have none yet (AU2 gets a generated one in tests that need it).
+ */
+export const FIXTURE_DOCUMENTS: RiksmoteDocuments[] = FIXTURE_VOTES.map((rm) => ({
+  schemaVersion: 1,
+  riksmote: rm.riksmote,
+  fetchedAt: "2026-10-20T00:00:00.000Z",
+  documents: [...new Set(rm.votes.map((v) => v.beteckning))].map((beteckning) => ({
+    beteckning,
+    kind: "betankande" as const,
+    dokId: `HA01${beteckning}`,
+    title: `Betänkande ${beteckning}`,
+    heading: beteckning === "AU1" ? "Riksdagen sa ja (AU1)" : null,
+    summary: beteckning === "AU1" ? [{ type: "p" as const, text: "Riksdagen sa ja till förslaget." }] : [],
+    punkter: [{ punkt: 1, rubrik: `Förslag ${beteckning}` }],
+  })),
+}));
+
 export const FIXTURE_MEMBERS: Members = {
   schemaVersion: 1,
   fetchedAt: "2026-10-20T00:00:00.000Z",
@@ -99,6 +125,8 @@ export const FIXTURE_PERIODS = definePeriods(["2022/23", "2023/24"], "2024/25");
 
 export const FIXTURE_INPUT = {
   votes: FIXTURE_VOTES,
+  documents: FIXTURE_DOCUMENTS,
+  generatedSummaries: [],
   members: FIXTURE_MEMBERS,
   periods: FIXTURE_PERIODS,
   defaultPeriodId: "2022-2024",

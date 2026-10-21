@@ -15,6 +15,8 @@ import { riksmoteSlug } from "@/lib/riksdagen/config";
 import { formatZodError } from "@/lib/riksdagen/errors";
 
 import {
+  beteckningSchema,
+  documentsFileSchema,
   memberFileSchema,
   memberIdSchema,
   membersIndexFileSchema,
@@ -24,12 +26,14 @@ import {
   votesFileSchema,
 } from "./schemas";
 import type {
+  DocumentEntry,
   MemberDetail,
   MemberIndexEntry,
   Meta,
   PartyEntry,
   Period,
   Ranking,
+  VoteCounts,
   VoteEntry,
 } from "./types";
 
@@ -62,14 +66,26 @@ export function createDataSource(dir: string) {
     return (await load("members.json", membersIndexFileSchema)).members;
   }
 
-  async function getVoteIndex(): Promise<Map<string, VoteEntry & { riksmote: string }>> {
-    const riksmoten = [...new Set((await getMeta()).periods.flatMap((p) => p.riksmoten))];
-    const files = await Promise.all(
-      riksmoten.map((rm) => load(`votes/${riksmoteSlug(rm)}.json`, votesFileSchema)),
-    );
-    return new Map(
-      files.flatMap((f) => f.votes.map((vote) => [vote.id, { ...vote, riksmote: f.riksmote }] as const)),
-    );
+  async function getRiksmoten(): Promise<string[]> {
+    return [...new Set((await getMeta()).periods.flatMap((p) => p.riksmoten))].sort();
+  }
+
+  async function assertRiksmote(riksmote: string): Promise<void> {
+    if (!(await getRiksmoten()).includes(riksmote)) throw new Error(`Unknown riksmöte: ${riksmote}`);
+  }
+
+  /** Votes of a riksmöte by date — the order of the members' ballot strings. */
+  async function getVotes(riksmote: string): Promise<VoteEntry[]> {
+    await assertRiksmote(riksmote);
+    return (await load(`votes/${riksmoteSlug(riksmote)}.json`, votesFileSchema)).votes;
+  }
+
+  /** What the votes of a riksmöte are about, by beteckning. */
+  async function getDocuments(riksmote: string): Promise<DocumentEntry[]> {
+    await assertRiksmote(riksmote);
+    const file = await load(`documents/${riksmoteSlug(riksmote)}.json`, documentsFileSchema);
+    if (file.riksmote !== riksmote) throw new Error(`documents for ${riksmote} contain ${file.riksmote}`);
+    return file.documents;
   }
 
   return {
@@ -100,26 +116,67 @@ export function createDataSource(dir: string) {
 
     getAllMemberIds: async (): Promise<string[]> => (await getMembers()).map((m) => m.id),
 
+    /** Every riksmöte in the data, oldest first. */
+    getRiksmoten,
+
+    getVotes,
+
+    getDocuments,
+
+    /** `null` for an unknown riksmöte or beteckning. */
+    async getDocument(
+      riksmote: string,
+      beteckning: string,
+    ): Promise<{ document: DocumentEntry; votes: VoteEntry[] } | null> {
+      if (!(await getRiksmoten()).includes(riksmote) || !beteckningSchema.safeParse(beteckning).success) {
+        return null;
+      }
+      const document = (await getDocuments(riksmote)).find((d) => d.beteckning === beteckning);
+      if (!document) return null;
+      const votes = (await getVotes(riksmote)).filter((v) => v.beteckning === beteckning);
+      return { document, votes };
+    },
+
     /** `null` when the id is not in the member index. */
     async getMember(id: string): Promise<MemberDetail | null> {
       if (!memberIdSchema.safeParse(id).success) return null;
       if (!(await getMembers()).some((m) => m.id === id)) return null;
 
-      const { missedVoteIds, ...member } = await load(`members/${id}.json`, memberFileSchema);
+      const member = await load(`members/${id}.json`, memberFileSchema);
       if (member.id !== id) throw new Error(`data/members/${id}.json contains member ${member.id}`);
 
-      const votes = await getVoteIndex();
-      return {
-        ...member,
-        missedVotes: missedVoteIds.map((voteId) => {
-          const vote = votes.get(voteId);
-          if (!vote) throw new Error(`Member ${id} missed vote ${voteId}, which is not in data/votes/`);
-          return vote;
-        }),
-      };
+      // The ballot strings must line up with the vote files and add up to the member's figures.
+      for (const { riksmote, votes: codes } of member.ballots) {
+        const votes = await getVotes(riksmote);
+        if (codes.length !== votes.length) {
+          throw new Error(`Member ${id}: ${codes.length} ballots for ${riksmote}, which has ${votes.length} votes`);
+        }
+        const expected = member.byRiksmote.find((r) => r.riksmote === riksmote)?.counts;
+        if (!expected || !sameCounts(tallyBallots(codes), expected)) {
+          throw new Error(`Member ${id}: ballots for ${riksmote} disagree with byRiksmote`);
+        }
+      }
+      if (member.ballots.length !== member.byRiksmote.length) {
+        throw new Error(`Member ${id}: ballots and byRiksmote list different riksmöten`);
+      }
+      return member;
     },
   };
 }
+
+export function tallyBallots(codes: string): VoteCounts {
+  const counts: VoteCounts = { ja: 0, nej: 0, avstar: 0, franvarande: 0 };
+  for (const code of codes) {
+    if (code === "J") counts.ja++;
+    else if (code === "N") counts.nej++;
+    else if (code === "A") counts.avstar++;
+    else if (code === "F") counts.franvarande++;
+  }
+  return counts;
+}
+
+const sameCounts = (a: VoteCounts, b: VoteCounts) =>
+  a.ja === b.ja && a.nej === b.nej && a.avstar === b.avstar && a.franvarande === b.franvarande;
 
 async function readValidated<T>(filePath: string, schema: z.ZodType<T>): Promise<T> {
   let json: unknown;
@@ -149,4 +206,8 @@ export const {
   getMembers,
   getAllMemberIds,
   getMember,
+  getRiksmoten,
+  getVotes,
+  getDocuments,
+  getDocument,
 } = source;

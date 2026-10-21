@@ -36,6 +36,31 @@ export const riksmoteVotesSchema = z.object({
   votes: z.array(voteSchema),
 });
 
+export const textBlockSchema = z.object({
+  type: z.enum(["p", "li"]),
+  text: z.string().min(1),
+});
+
+/** What the votes of one beteckning are about: a betänkande, or an omröstning. */
+export const voteDocumentSchema = z.object({
+  beteckning: z.string().min(1),
+  kind: z.enum(["betankande", "omrostning"]),
+  dokId: z.string().min(1),
+  title: z.string().min(1),
+  /** Riksdagen's "Beslut i korthet" heading and text; empty until published. */
+  heading: z.string().nullable(),
+  summary: z.array(textBlockSchema),
+  /** Headings of the betänkande's proposal points (empty for omröstningar). */
+  punkter: z.array(z.object({ punkt: z.number().int().nonnegative(), rubrik: z.string().min(1) })),
+});
+
+export const riksmoteDocumentsSchema = z.object({
+  schemaVersion: z.literal(NORMALIZED_SCHEMA_VERSION),
+  riksmote: z.string(),
+  fetchedAt: z.string(),
+  documents: z.array(voteDocumentSchema),
+});
+
 export const chamberAssignmentSchema = z.object({
   role: z.string(),
   status: z.string(),

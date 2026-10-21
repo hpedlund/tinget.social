@@ -5,11 +5,13 @@ import type { z } from "zod";
 
 import { CACHE_DIR, riksmoteSlug } from "./config";
 import { formatZodError } from "./errors";
-import { manifestSchema, membersSchema, riksmoteVotesSchema } from "./normalized";
-import type { Manifest, Members, RiksmoteVotes } from "./types";
+import { manifestSchema, membersSchema, riksmoteDocumentsSchema, riksmoteVotesSchema } from "./normalized";
+import type { Manifest, Members, RiksmoteDocuments, RiksmoteVotes } from "./types";
 
 export const votesPath = (riksmote: string) =>
   path.join(CACHE_DIR, `votes-${riksmoteSlug(riksmote)}.json`);
+export const documentsPath = (riksmote: string) =>
+  path.join(CACHE_DIR, `documents-${riksmoteSlug(riksmote)}.json`);
 export const MEMBERS_PATH = path.join(CACHE_DIR, "members.json");
 export const MANIFEST_PATH = path.join(CACHE_DIR, "manifest.json");
 export const OBSERVED_PATH = path.join(CACHE_DIR, "observed.json");
@@ -48,6 +50,11 @@ async function readValidated<T>(filePath: string, schema: z.ZodType<T>): Promise
 /** Validated votes for one riksmöte, as written by `npm run data:fetch`. */
 export function readRiksmoteVotes(riksmote: string): Promise<RiksmoteVotes> {
   return readValidated(votesPath(riksmote), riksmoteVotesSchema);
+}
+
+/** Validated vote documents for one riksmöte, as written by `npm run data:fetch`. */
+export function readRiksmoteDocuments(riksmote: string): Promise<RiksmoteDocuments> {
+  return readValidated(documentsPath(riksmote), riksmoteDocumentsSchema);
 }
 
 /** Validated members, as written by `npm run data:fetch`. */

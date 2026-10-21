@@ -137,3 +137,49 @@ export const personlistaSchema = z.object({
     person: listOf(personSchema),
   }),
 });
+
+// ---------------------------------------------------------------------------
+// Documents (what a vote is about). Text fields are untrusted HTML or plain
+// text; they are converted to plain text before they reach data/.
+
+/** e.g. "HD01JuU41", "HA01FöU9", "HE191015-1" */
+const dokId = z.string().regex(/^[\p{L}\d-]{4,32}$/u, "expected dok_id");
+
+/** `/dokumentlista/?doktyp=bet&rm=…` — one page of betänkanden. */
+export const dokumentlistaSchema = z.object({
+  dokumentlista: z.object({
+    "@traffar": count,
+    "@sidor": count,
+    "@sida": count,
+    dokument: listOf(
+      z.object({
+        dok_id: dokId,
+        rm: riksmote,
+        beteckning: nonEmpty,
+        doktyp: z.string(),
+        titel: z.string(),
+        notisrubrik: z.string().nullish(),
+        notis: z.string().nullish(),
+      }),
+    ),
+  }),
+});
+
+/** `/utskottsforslag/{dok_id}.json` — a betänkande's proposal points. */
+export const utskottsforslagSchema = z.object({
+  utskottsforslag: z.object({
+    dokument: z.object({ dok_id: dokId, rm: riksmote, beteckning: nonEmpty }),
+    dokutskottsforslag: z
+      .object({
+        utskottsforslag: listOf(z.object({ punkt, rubrik: z.string().nullish() })),
+      })
+      .nullish(),
+  }),
+});
+
+/** The document fields of `/votering/{id}/json`, for omröstningar (no betänkande). */
+export const voteringDocumentSchema = z.object({
+  votering: z.object({
+    dokument: z.object({ dok_id: dokId, rm: riksmote, beteckning: nonEmpty, titel: z.string() }),
+  }),
+});

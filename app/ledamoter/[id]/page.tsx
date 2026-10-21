@@ -4,15 +4,15 @@ import { notFound } from "next/navigation";
 
 import { AttendanceCaveat } from "@/components/attendance-caveat";
 import { MemberTrendTable } from "@/components/member-trend-table";
-import { MissedVotes } from "@/components/missed-votes";
+import { MemberVotes, type MemberRiksmoteBallots } from "@/components/member-votes";
 import { getAllMemberIds } from "@/lib/data";
 import { formatNumber, formatPercent } from "@/lib/format";
 import { pageMetadata } from "@/lib/metadata";
 import { loadMemberProfile } from "@/lib/member/load";
-import { compactMissedVotes } from "@/lib/member/profile";
 import { partyName } from "@/lib/parties";
-import { memberSourceUrl } from "@/lib/site";
+import { memberSourceUrl, withBasePath } from "@/lib/site";
 import { cn } from "@/lib/utils";
+import { voteListPath } from "@/lib/votes";
 
 export const dynamicParams = false;
 
@@ -56,6 +56,15 @@ export default async function MemberPage({ params }: Props) {
     member.constituency && <span key="constituency">{member.constituency}</span>,
     member.status && !member.status.startsWith("Avliden") && <span key="status">{member.status}</span>,
   ].filter(Boolean);
+
+  const ballots: MemberRiksmoteBallots[] = member.ballots
+    .map(({ riksmote, votes }) => ({
+      riksmote,
+      url: withBasePath(voteListPath(riksmote)),
+      codes: votes,
+      counts: member.byRiksmote.find((r) => r.riksmote === riksmote)!.counts,
+    }))
+    .reverse();
 
   const tiles = [
     ["Voteringar", headline.eligible],
@@ -161,23 +170,28 @@ export default async function MemberPage({ params }: Props) {
         </section>
       )}
 
-      <section aria-labelledby="missade" className="space-y-3">
-        <h2 id="missade" className="text-2xl font-semibold tracking-tight">
-          Missade voteringar
+      <section aria-labelledby="roster" className="space-y-3">
+        <h2 id="roster" className="text-2xl font-semibold tracking-tight">
+          Så röstade {member.name}
         </h2>
-        {profile.missedCount === 0 ? (
-          <p>Inga missade voteringar.</p>
-        ) : (
-          <>
-            <p className="max-w-2xl leading-7 text-muted-foreground">
-              {formatNumber(profile.missedCount)}{" "}
-              {profile.missedCount === 1 ? "votering" : "voteringar"} där {member.name} var
-              frånvarande, per riksmöte. Länkarna går till voteringen hos riksdagen, där det framgår
-              hur alla ledamöter röstade.
-            </p>
-            <MissedVotes groups={compactMissedVotes(profile.missed)} memberName={member.name} />
-          </>
-        )}
+        <div className="max-w-2xl space-y-2 leading-7 text-muted-foreground">
+          <p>
+            Alla voteringar {member.name} kunde delta i, med ärendet de gällde.{" "}
+            {profile.missedCount === 0
+              ? "Ledamoten har inte varit frånvarande i någon votering."
+              : `Välj Frånvarande för att se de ${formatNumber(profile.missedCount)} voteringar där ledamoten inte röstade.`}
+          </p>
+          <p>
+            <strong className="font-medium text-foreground">Ja</strong> är en röst för utskottets förslag,{" "}
+            <strong className="font-medium text-foreground">Nej</strong> för motförslaget (oftast en
+            reservation från ett eller flera partier). Ärendet länkar till en sida med en sammanfattning,
+            resultatet och dokumentet hos riksdagen.
+          </p>
+        </div>
+        <MemberVotes riksmoten={ballots} memberName={member.name} />
+        <noscript>
+          <p>Listan över voteringar kräver JavaScript. Alla röster finns också hos riksdagen.</p>
+        </noscript>
       </section>
     </div>
   );

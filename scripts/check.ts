@@ -2,15 +2,26 @@
  * npm run data:check
  *
  * Reads every file in data/ through lib/data/ — exactly as the site build
- * does — and checks that the files agree with each other. Exit code 1 on
+ * does — and checks that the files agree with each other (including every
+ * member's ballot strings against the vote files). Exit code 1 on
  * the first problem.
  */
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { DATA_DIR, getAllMemberIds, getParties, getPeriods, getRanking } from "@/lib/data";
+import {
+  DATA_DIR,
+  getAllMemberIds,
+  getDocuments,
+  getParties,
+  getPeriods,
+  getRanking,
+  getRiksmoten,
+  getVotes,
+} from "@/lib/data";
 import { loadMemberProfile } from "@/lib/member/load";
 import { loadPartyOverview } from "@/lib/party-overview/load";
+import { getDocumentPageParams } from "@/lib/votes/load";
 
 async function main() {
   const periods = await getPeriods();
@@ -38,7 +49,24 @@ async function main() {
   const stray = files.filter((f) => !known.has(path.basename(f, ".json")));
   if (stray.length > 0) throw new Error(`members/ has files not in members.json: ${stray.join(", ")}`);
 
-  console.log(`data/ OK: ${periods.length} periods, ${memberIds.length} members`);
+  // Every document is about votes in the data; also checks that URL slugs are unique.
+  const pages = await getDocumentPageParams();
+  let withoutDocument = 0;
+  for (const riksmote of await getRiksmoten()) {
+    const votes = await getVotes(riksmote);
+    const voted = new Set(votes.map((v) => v.beteckning));
+    const documents = await getDocuments(riksmote);
+    for (const doc of documents) {
+      if (!voted.has(doc.beteckning)) throw new Error(`documents/${riksmote}: ${doc.beteckning} has no votes`);
+    }
+    const known = new Set(documents.map((d) => d.beteckning));
+    withoutDocument += votes.filter((v) => !known.has(v.beteckning)).length;
+  }
+  if (withoutDocument > 0) console.warn(`  ${withoutDocument} votes have no document (no topic shown)`);
+
+  console.log(
+    `data/ OK: ${periods.length} periods, ${memberIds.length} members, ${pages.length} document pages`,
+  );
 }
 
 main().catch((error: unknown) => {

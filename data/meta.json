@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "sourceUrl": "https://data.riksdagen.se",
   "defaultPeriodId": "2022-2026",

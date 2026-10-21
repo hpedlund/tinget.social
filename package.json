@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "data:fetch": "tsx scripts/fetch.ts",
+    "data:summarize": "tsx scripts/summarize.ts",
     "data:compute": "tsx scripts/compute.ts",
     "data:check": "tsx scripts/check.ts",
     "data:spot-check": "tsx scripts/spot-check.ts"
@@ -27,6 +28,7 @@
     "zod": "4.6.7"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "0.132.1",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "22.20.5",
     "@types/react": "19.3.0",

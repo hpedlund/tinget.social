@@ -47,6 +47,12 @@ jobs:
         run: npm run data:fetch
       - if: ${{ inputs.refresh }}
         run: npm run data:fetch -- --refresh
+      # Summaries for documents Riksdagen has not summarised (omröstningar, new
+      # betänkanden). Optional: without the secret it only lists them. The key
+      # is given to this step only, not to the steps that build or test.
+      - run: npm run data:summarize
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - run: npm run data:compute
       - run: npm run data:check
       - run: npm test

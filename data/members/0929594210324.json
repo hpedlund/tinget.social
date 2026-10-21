@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "id": "0929594210324",
   "name": "Mohamed Ali",
@@ -49,7 +49,10 @@
       "attendance": 0
     }
   ],
-  "missedVoteIds": [
-    "3C26FA04-DAA4-4E03-B135-C55FD0B8567F"
+  "ballots": [
+    {
+      "riksmote": "2026/27",
+      "votes": "F"
+    }
   ]
 }

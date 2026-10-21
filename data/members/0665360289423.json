@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "id": "0665360289423",
   "name": "Fredrik Stenberg",
@@ -87,5 +87,14 @@
       "attendance": 1
     }
   ],
-  "missedVoteIds": []
+  "ballots": [
+    {
+      "riksmote": "2022/23",
+      "votes": "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NNJJJJJNJAJNNNJJJNANNNJNNJJJNJJNJNJJNJJNJJJJNNNJJNNNJJNJJJNJJJANJJJNAJNJJNJJNJNJJJJNJJJJJNNJJJJNJAJJJAJJJJNJNNNNNJJNNNJNNJNJJNJNJAAJAJNAAAJNNJNNJNAJNJJJNNNJNJJJJAJNJNNJJJANJNJJANNJJJNJJNJJNJJJNJJNJJJNJAJNJJJJJJNJNANJJANJJJJJNJNJNAJAJNNJJJAAJNJJAJJNJJNNJJNJNJNJJJJNJJJJAAJANJJNNJJNJAJJJJJJJJANNNJNJNNAJAJJJJNJJJJJJJJJNNJJNJJJJNNANJJJJJJJJJNNNNNNNJNJJNJNJJNJJJJJJJNJJJNJJJJJ"
+    },
+    {
+      "riksmote": "2024/25",
+      "votes": "------------------------------------------------------------------------------------JJJJJNJJJJNANNAJJJNJNJNJJNJJJJJJJAAJJJJNNAJJJANNAAJJJJJANNNNAAJNJNJNNJJANJNJJNAJNJNNJANNJNJNJAJJAJJNJJAJJNJNNJJJJJJJNJNAJJNNNJJAJJJAJNJJJJJJJNANAAJNJJNAJJNNJAJNNNAJAJNJJNJNNNAAJJNAJANJNAJNNJANNNNNJNNJJJJAANNJNNNNJJNJJJJJANANJNNAANNAAJNJNAJAJ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+    }
+  ]
 }

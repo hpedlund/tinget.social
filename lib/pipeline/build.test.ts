@@ -1,9 +1,16 @@
 import { describe, expect, it } from "vitest";
 
-import type { MemberFile, Meta, PartiesFile, Ranking, VotesFile } from "@/lib/data/types";
+import type {
+  DocumentsFile,
+  MemberFile,
+  Meta,
+  PartiesFile,
+  Ranking,
+  VotesFile,
+} from "@/lib/data/types";
 
 import { buildDataFiles, type BuildInput } from "./build";
-import { FIXTURE_INPUT, FIXTURE_MEMBERS, FIXTURE_VOTES } from "./fixtures";
+import { FIXTURE_DOCUMENTS, FIXTURE_INPUT, FIXTURE_MEMBERS, FIXTURE_VOTES } from "./fixtures";
 import { definePeriods } from "./periods";
 
 function build(input: BuildInput = FIXTURE_INPUT) {
@@ -38,6 +45,9 @@ describe("definePeriods", () => {
 describe("buildDataFiles", () => {
   it("writes the expected files", () => {
     expect(build().files.map((f) => f.path)).toEqual([
+      "documents/2022-23.json",
+      "documents/2023-24.json",
+      "documents/2024-25.json",
       "members.json",
       "members/100001.json",
       "members/100002.json",
@@ -58,7 +68,7 @@ describe("buildDataFiles", () => {
   it("describes periods and freshness in meta.json", () => {
     const meta = build().read<Meta>("meta.json");
     expect(meta).toMatchObject({
-      schemaVersion: 1,
+      schemaVersion: 2,
       source: "Sveriges riksdag",
       sourceUrl: "https://data.riksdagen.se",
       defaultPeriodId: "2022-2024",
@@ -147,8 +157,13 @@ describe("buildDataFiles", () => {
       constituency: "Gotlands län",
       status: "Tjänstgörande riksdagsledamot",
       total: { eligible: 13, present: 12 },
-      missedVoteIds: ["V3"],
     });
+    // Vote order V1 V2 F1–F8 V3 | V4 V5 | V6; David has no ballot in V4.
+    expect(david.ballots).toEqual([
+      { riksmote: "2022/23", votes: "NAJJJJJJJJF" },
+      { riksmote: "2023/24", votes: "-J" },
+      { riksmote: "2024/25", votes: "J" },
+    ]);
     expect(david.byRiksmote.map((r) => [r.riksmote, r.eligible])).toEqual([
       ["2022/23", 11],
       ["2023/24", 1],
@@ -165,9 +180,10 @@ describe("buildDataFiles", () => {
     expect(david).not.toHaveProperty("imageUrl");
 
     const bo = read<MemberFile>("members/100002.json");
-    expect(bo.missedVoteIds).toEqual(["V1", "V4"]);
+    expect(bo.ballots.map((b) => b.votes)).toEqual(["FJNNNNNNNNJ", "FJ", "J"]);
 
     const cecilia = read<MemberFile>("members/100003.json");
+    expect(cecilia.ballots).toEqual([{ riksmote: "2023/24", votes: "J-" }]);
     expect(cecilia.periods.map((p) => [p.periodId, p.rank])).toEqual([
       ["2022-2024", null],
       ["2023-24", 1],
@@ -186,8 +202,63 @@ describe("buildDataFiles", () => {
       beteckning: "AU1",
       punkt: 1,
       avser: "sakfrågan",
+      rubrik: "Förslag AU1",
       counts: { ja: 1, nej: 1, avstar: 0, franvarande: 1 },
     });
+  });
+
+  it("writes what the votes are about, with Riksdagen's summary or a generated one", () => {
+    const docs = build().read<DocumentsFile>("documents/2022-23.json");
+    expect(docs.documents.map((d) => d.beteckning)).toEqual([
+      "AU1", "AU2", "AU3", "AU4", "AU5", "AU6", "AU7", "AU8",
+    ]);
+    expect(docs.documents[0]).toEqual({
+      beteckning: "AU1",
+      kind: "betankande",
+      dokId: "HA01AU1",
+      title: "Betänkande AU1",
+      summary: {
+        source: "riksdagen",
+        heading: "Riksdagen sa ja (AU1)",
+        blocks: [{ type: "p", text: "Riksdagen sa ja till förslaget." }],
+        model: null,
+      },
+    });
+    expect(docs.documents[1]!.summary).toBeNull();
+
+    const generated = {
+      riksmote: "2022/23",
+      beteckning: "AU2",
+      dokId: "HA01AU2",
+      model: "claude-test",
+      generatedAt: "2026-10-21",
+      heading: null,
+      blocks: [{ type: "p" as const, text: "Genererad." }],
+    };
+    const withGenerated = buildDataFiles({
+      ...FIXTURE_INPUT,
+      generatedSummaries: [generated, { ...generated, beteckning: "AU1" }, { ...generated, beteckning: "AU3" }],
+    });
+    const read = JSON.parse(withGenerated.find((f) => f.path === "documents/2022-23.json")!.content) as DocumentsFile;
+    expect(read.documents[1]!.summary).toEqual({
+      source: "generated",
+      heading: null,
+      blocks: [{ type: "p", text: "Genererad." }],
+      model: "claude-test",
+    });
+    // Riksdagen's own summary wins; a generated one for another document (dokId) is ignored.
+    expect(read.documents[0]!.summary?.source).toBe("riksdagen");
+    expect(read.documents[2]!.summary).toBeNull();
+  });
+
+  it("leaves the topic out for votes without a document", () => {
+    const documents = FIXTURE_DOCUMENTS.map((rm) => ({
+      ...rm,
+      documents: rm.documents.filter((d) => d.beteckning !== "AU1"),
+    }));
+    const files = buildDataFiles({ ...FIXTURE_INPUT, documents });
+    const votes = JSON.parse(files.find((f) => f.path === "votes/2022-23.json")!.content) as VotesFile;
+    expect(votes.votes[0]).toMatchObject({ id: "V1", rubrik: null });
   });
 
   it("is deterministic regardless of input order", () => {
@@ -200,6 +271,7 @@ describe("buildDataFiles", () => {
         ...rm,
         votes: [...rm.votes].reverse().map((v) => ({ ...v, ballots: [...v.ballots].reverse() })),
       })),
+      documents: [...FIXTURE_DOCUMENTS].reverse().map((rm) => ({ ...rm, documents: [...rm.documents].reverse() })),
       members: { ...FIXTURE_MEMBERS, members: [...FIXTURE_MEMBERS.members].reverse() },
     };
     expect(buildDataFiles(shuffled)).toEqual(first);
@@ -207,7 +279,7 @@ describe("buildDataFiles", () => {
 
   it("pretty-prints with a trailing newline", () => {
     const meta = build().files.find((f) => f.path === "meta.json")!;
-    expect(meta.content.startsWith('{\n  "schemaVersion": 1,')).toBe(true);
+    expect(meta.content.startsWith('{\n  "schemaVersion": 2,')).toBe(true);
     expect(meta.content.endsWith("}\n")).toBe(true);
   });
 

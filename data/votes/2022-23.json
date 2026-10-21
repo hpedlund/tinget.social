@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "riksmote": "2022/23",
   "votes": [
@@ -9,6 +9,7 @@
       "beteckning": "1017-1",
       "punkt": 0,
       "avser": "frågan",
+      "rubrik": null,
       "counts": {
         "ja": 176,
         "nej": 173,
@@ -22,6 +23,7 @@
       "beteckning": "SkU2",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Utveckla skatten på kemikalier i viss elektronik",
       "counts": {
         "ja": 283,
         "nej": 14,
@@ -35,6 +37,7 @@
       "beteckning": "SkU2",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "BNP-indexering av skatterna på kemikalier i viss elektronik och avfallsförbränning",
       "counts": {
         "ja": 172,
         "nej": 94,
@@ -48,6 +51,7 @@
       "beteckning": "KU4",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Vilande förslag",
       "counts": {
         "ja": 278,
         "nej": 25,
@@ -61,6 +65,7 @@
       "beteckning": "KU7",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ändringar i rättegångsbalken",
       "counts": {
         "ja": 269,
         "nej": 38,
@@ -74,6 +79,7 @@
       "beteckning": "KU7",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Övriga lagförslag",
       "counts": {
         "ja": 270,
         "nej": 37,
@@ -87,6 +93,7 @@
       "beteckning": "KU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Vilande förslag",
       "counts": {
         "ja": 270,
         "nej": 37,
@@ -100,6 +107,7 @@
       "beteckning": "JuU2",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ny påföljdsbestämning efter tidigare dom",
       "counts": {
         "ja": 247,
         "nej": 56,
@@ -113,6 +121,7 @@
       "beteckning": "SfU5",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Riktlinjer för Sjunde AP-fonden",
       "counts": {
         "ja": 264,
         "nej": 35,
@@ -126,6 +135,7 @@
       "beteckning": "KrU2",
       "punkt": 16,
       "avser": "sakfrågan",
+      "rubrik": "Allmännyttiga lotterier",
       "counts": {
         "ja": 236,
         "nej": 63,
@@ -139,6 +149,7 @@
       "beteckning": "SoU3",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Vårdplatser, köer och arbetsmiljö",
       "counts": {
         "ja": 151,
         "nej": 93,
@@ -152,6 +163,7 @@
       "beteckning": "KU13",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Uppföljning",
       "counts": {
         "ja": 279,
         "nej": 20,
@@ -165,6 +177,7 @@
       "beteckning": "FiU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Sveriges genomförande av Agenda 2030",
       "counts": {
         "ja": 264,
         "nej": 35,
@@ -178,6 +191,7 @@
       "beteckning": "KrU2",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Kassaregister för förströelsespel",
       "counts": {
         "ja": 278,
         "nej": 20,
@@ -191,6 +205,7 @@
       "beteckning": "KrU2",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Krav på måttfullhet vid marknadsföring av spel",
       "counts": {
         "ja": 171,
         "nej": 107,
@@ -204,6 +219,7 @@
       "beteckning": "SoU2",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Framtida inriktning",
       "counts": {
         "ja": 284,
         "nej": 15,
@@ -217,6 +233,7 @@
       "beteckning": "KU8",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ändringar i den nya riksbankslagen",
       "counts": {
         "ja": 279,
         "nej": 20,
@@ -230,6 +247,7 @@
       "beteckning": "KrU2",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Måttfullhet vid marknadsföring av spel",
       "counts": {
         "ja": 279,
         "nej": 20,
@@ -243,6 +261,7 @@
       "beteckning": "CU2",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Den framtida regleringen av tvistlösningsförfarandet",
       "counts": {
         "ja": 281,
         "nej": 20,
@@ -256,6 +275,7 @@
       "beteckning": "CU4",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
       "counts": {
         "ja": 282,
         "nej": 20,
@@ -269,6 +289,7 @@
       "beteckning": "SfU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Krav på heltidsanställning",
       "counts": {
         "ja": 277,
         "nej": 21,
@@ -282,6 +303,7 @@
       "beteckning": "SkU4",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Tilldelning av samordningsnummer till asylsökande",
       "counts": {
         "ja": 261,
         "nej": 37,
@@ -295,6 +317,7 @@
       "beteckning": "NU6",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Lagvalsregler",
       "counts": {
         "ja": 262,
         "nej": 36,
@@ -308,6 +331,7 @@
       "beteckning": "SfU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Domstolarnas handläggningstider i asylmål",
       "counts": {
         "ja": 262,
         "nej": 36,
@@ -321,6 +345,7 @@
       "beteckning": "SkU4",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Undantag från underrättelseskyldighet",
       "counts": {
         "ja": 262,
         "nej": 36,
@@ -334,6 +359,7 @@
       "beteckning": "SkU4",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Lagring av biometriska data",
       "counts": {
         "ja": 279,
         "nej": 19,
@@ -347,6 +373,7 @@
       "beteckning": "NU6",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om genomförandet av direktivet",
       "counts": {
         "ja": 277,
         "nej": 21,
@@ -360,6 +387,7 @@
       "beteckning": "SfU9",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Regeringens lagförslag",
       "counts": {
         "ja": 244,
         "nej": 54,
@@ -373,6 +401,7 @@
       "beteckning": "SfU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Uppföljning av Socialstyrelsens arbete med beslutsstödet",
       "counts": {
         "ja": 234,
         "nej": 64,
@@ -386,6 +415,7 @@
       "beteckning": "MJU4",
       "punkt": 1,
       "avser": "motivfrågan",
+      "rubrik": "Kommissionens meddelande om en EU-strategi för hållbara och cirkulära textilier",
       "counts": {
         "ja": 265,
         "nej": 34,
@@ -399,6 +429,7 @@
       "beteckning": "FiU1",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riktlinjerna för den ekonomiska politiken och budgetpolitiken",
       "counts": {
         "ja": 150,
         "nej": 93,
@@ -412,6 +443,7 @@
       "beteckning": "FiU1",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Rambeslutet - utgiftstak, utgiftsramar och inkomsterna i statens budget",
       "counts": {
         "ja": 150,
         "nej": 93,
@@ -425,6 +457,7 @@
       "beteckning": "FöU1",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Mål och resultatredovisning för utgiftsområdet",
       "counts": {
         "ja": 278,
         "nej": 21,
@@ -438,6 +471,7 @@
       "beteckning": "SfU1",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Mål för utgiftsområde 10",
       "counts": {
         "ja": 279,
         "nej": 20,
@@ -451,6 +485,7 @@
       "beteckning": "CU1",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Bostadspolitiskt mål",
       "counts": {
         "ja": 269,
         "nej": 21,
@@ -464,6 +499,7 @@
       "beteckning": "FiU2",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Agenda 2030",
       "counts": {
         "ja": 265,
         "nej": 17,
@@ -477,6 +513,7 @@
       "beteckning": "NU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Subsidiaritetsprövning av kommissionens förslag till förordning om inrättande av ett krisinstrument för den inre marknaden",
       "counts": {
         "ja": 200,
         "nej": 83,
@@ -490,6 +527,7 @@
       "beteckning": "NU1",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Mål för Utrikeshandel, export- och investeringsfrämjande",
       "counts": {
         "ja": 159,
         "nej": 121,
@@ -503,6 +541,7 @@
       "beteckning": "FiU5",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Frågor om Europeiska unionens budget",
       "counts": {
         "ja": 262,
         "nej": 19,
@@ -516,6 +555,7 @@
       "beteckning": "SkU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Syftet med den tillfälliga skatten",
       "counts": {
         "ja": 250,
         "nej": 32,
@@ -529,6 +569,7 @@
       "beteckning": "SoU5",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Förutsättningar när regioner tecknar avtal med privata vårdgivare",
       "counts": {
         "ja": 179,
         "nej": 127,
@@ -542,6 +583,7 @@
       "beteckning": "FiU6",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Skärpta krav på hållbarhet i AP-fondernas placeringsverksamhet",
       "counts": {
         "ja": 248,
         "nej": 58,
@@ -555,6 +597,7 @@
       "beteckning": "SoU5",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Hälso- och sjukvårdslagens framtida utformning",
       "counts": {
         "ja": 269,
         "nej": 21,
@@ -568,6 +611,7 @@
       "beteckning": "KU16",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Sekretess hos Försäkringskassan för uppgift som används för att identifiera elektriska anläggningar i ärenden om stöd till elanvändare",
       "counts": {
         "ja": 248,
         "nej": 58,
@@ -581,6 +625,7 @@
       "beteckning": "SoU5",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Ökade resurser",
       "counts": {
         "ja": 268,
         "nej": 37,
@@ -594,6 +639,7 @@
       "beteckning": "KU16",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Sekretess hos Försäkringskassan för uppgift om enskilds personliga förhållanden i ärenden om stöd till elanvändare",
       "counts": {
         "ja": 155,
         "nej": 151,
@@ -607,6 +653,7 @@
       "beteckning": "FöU6",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Cyberpolitik",
       "counts": {
         "ja": 202,
         "nej": 19,
@@ -620,6 +667,7 @@
       "beteckning": "FöU6",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Militärt försvar och förmåga",
       "counts": {
         "ja": 185,
         "nej": 94,
@@ -633,6 +681,7 @@
       "beteckning": "NU8",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om återföring av medel och produktionsvärden från naturresurser",
       "counts": {
         "ja": 261,
         "nej": 21,
@@ -646,6 +695,7 @@
       "beteckning": "NU4",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Visit Sweden AB:s övergripande förutsättningar",
       "counts": {
         "ja": 186,
         "nej": 110,
@@ -659,6 +709,7 @@
       "beteckning": "NU8",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Regionalisering av fastighetsskatt",
       "counts": {
         "ja": 217,
         "nej": 61,
@@ -672,6 +723,7 @@
       "beteckning": "FöU6",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Civilt försvar och förmåga",
       "counts": {
         "ja": 172,
         "nej": 92,
@@ -685,6 +737,7 @@
       "beteckning": "FöU6",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Kritisk infrastruktur",
       "counts": {
         "ja": 139,
         "nej": 60,
@@ -698,6 +751,7 @@
       "beteckning": "NU4",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "SJ AB",
       "counts": {
         "ja": 197,
         "nej": 35,
@@ -711,6 +765,7 @@
       "beteckning": "FiU12",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riksrevisionens rapport om den årliga omräkningen av myndigheternas anslag",
       "counts": {
         "ja": 255,
         "nej": 22,
@@ -724,6 +779,7 @@
       "beteckning": "NU4",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om statens ägande och förvaltning av företag",
       "counts": {
         "ja": 206,
         "nej": 16,
@@ -737,6 +793,7 @@
       "beteckning": "FöU6",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Försvarspolitisk inriktning och totalförsvar",
       "counts": {
         "ja": 189,
         "nej": 92,
@@ -750,6 +807,7 @@
       "beteckning": "NU8",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande om regional utveckling",
       "counts": {
         "ja": 151,
         "nej": 94,
@@ -763,6 +821,7 @@
       "beteckning": "SfU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Nedsättning av socialavgifter",
       "counts": {
         "ja": 208,
         "nej": 21,
@@ -776,6 +835,7 @@
       "beteckning": "SfU10",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Undantag från kravet att betala socialavgifter",
       "counts": {
         "ja": 203,
         "nej": 62,
@@ -789,6 +849,7 @@
       "beteckning": "SoU6",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Förbättrad kontroll och delning av uppgifter",
       "counts": {
         "ja": 149,
         "nej": 127,
@@ -802,6 +863,7 @@
       "beteckning": "AU5",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Sysselsättningsgrad",
       "counts": {
         "ja": 261,
         "nej": 21,
@@ -815,6 +877,7 @@
       "beteckning": "AU5",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "EU-lagstiftning på arbetsmarknadsområdet",
       "counts": {
         "ja": 277,
         "nej": 20,
@@ -828,6 +891,7 @@
       "beteckning": "SfU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Pensionssystemet",
       "counts": {
         "ja": 179,
         "nej": 63,
@@ -841,6 +905,7 @@
       "beteckning": "SkU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Höjd mervärdesskatt på vissa reparationer",
       "counts": {
         "ja": 154,
         "nej": 35,
@@ -854,6 +919,7 @@
       "beteckning": "SoU6",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Sanktionsavgifter",
       "counts": {
         "ja": 261,
         "nej": 35,
@@ -867,6 +933,7 @@
       "beteckning": "FiU33",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Extra ändringsbudget för 2023 - Tillfällig skatt på vissa elproducenters överintäkter",
       "counts": {
         "ja": 150,
         "nej": 92,
@@ -880,6 +947,7 @@
       "beteckning": "AU5",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Global Deal",
       "counts": {
         "ja": 205,
         "nej": 92,
@@ -893,6 +961,7 @@
       "beteckning": "SoU6",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Överpriser på läkemedel",
       "counts": {
         "ja": 170,
         "nej": 127,
@@ -906,6 +975,7 @@
       "beteckning": "AU6",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Nyanlända kvinnors etablering",
       "counts": {
         "ja": 260,
         "nej": 20,
@@ -919,6 +989,7 @@
       "beteckning": "AU6",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Målgruppen för etableringsprogrammet",
       "counts": {
         "ja": 167,
         "nej": 20,
@@ -932,6 +1003,7 @@
       "beteckning": "UbU3",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Avskrivning av studielån för vissa yrkesgrupper",
       "counts": {
         "ja": 231,
         "nej": 63,
@@ -945,6 +1017,7 @@
       "beteckning": "UbU3",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Studiemedel för vidareutbildning och omställning",
       "counts": {
         "ja": 169,
         "nej": 20,
@@ -958,6 +1031,7 @@
       "beteckning": "AU6",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Segregation",
       "counts": {
         "ja": 189,
         "nej": 13,
@@ -971,6 +1045,7 @@
       "beteckning": "UbU3",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Villkor för studiemedel",
       "counts": {
         "ja": 181,
         "nej": 93,
@@ -984,6 +1059,7 @@
       "beteckning": "UbU3",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Studiemedel vid sjukskrivning och för personer med funktionsnedsättning",
       "counts": {
         "ja": 168,
         "nej": 106,
@@ -997,6 +1073,7 @@
       "beteckning": "UbU3",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Fribeloppet",
       "counts": {
         "ja": 274,
         "nej": 20,
@@ -1010,6 +1087,7 @@
       "beteckning": "AU6",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Bosättningslagen",
       "counts": {
         "ja": 169,
         "nej": 94,
@@ -1023,6 +1101,7 @@
       "beteckning": "TU4",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Ett långsiktigt hållbart transportsystem",
       "counts": {
         "ja": 89,
         "nej": 91,
@@ -1036,6 +1115,7 @@
       "beteckning": "CU7",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Utmätningsförbudet",
       "counts": {
         "ja": 235,
         "nej": 64,
@@ -1049,6 +1129,7 @@
       "beteckning": "TU5",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Färdtjänst",
       "counts": {
         "ja": 193,
         "nej": 64,
@@ -1062,6 +1143,7 @@
       "beteckning": "CU7",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Utmätning efter bristande kreditprövning",
       "counts": {
         "ja": 278,
         "nej": 21,
@@ -1075,6 +1157,7 @@
       "beteckning": "KrU5",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Det ideella föreningslivets särart",
       "counts": {
         "ja": 177,
         "nej": 22,
@@ -1088,6 +1171,7 @@
       "beteckning": "TU4",
       "punkt": 19,
       "avser": "sakfrågan",
+      "rubrik": "Myndighetsstrukturen inom transportområdet",
       "counts": {
         "ja": 235,
         "nej": 64,
@@ -1101,6 +1185,7 @@
       "beteckning": "CU11",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Krav på sammansättning i bolagsstyrelser",
       "counts": {
         "ja": 202,
         "nej": 34,
@@ -1114,6 +1199,7 @@
       "beteckning": "TU5",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Jämställd och jämlik kollektivtrafik",
       "counts": {
         "ja": 174,
         "nej": 21,
@@ -1127,6 +1213,7 @@
       "beteckning": "TU4",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Åtgärder i transportinfrastrukturen",
       "counts": {
         "ja": 94,
         "nej": 20,
@@ -1140,6 +1227,7 @@
       "beteckning": "KrU3",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Fritid för barn och unga",
       "counts": {
         "ja": 193,
         "nej": 106,
@@ -1153,6 +1241,7 @@
       "beteckning": "CU9",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Expropriationsersättning m.m.",
       "counts": {
         "ja": 215,
         "nej": 64,
@@ -1166,6 +1255,7 @@
       "beteckning": "CU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Den framtida regleringen av jordförvärvslagstiftningen",
       "counts": {
         "ja": 235,
         "nej": 64,
@@ -1179,6 +1269,7 @@
       "beteckning": "CU9",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Översyn av Lantmäteriet",
       "counts": {
         "ja": 278,
         "nej": 21,
@@ -1192,6 +1283,7 @@
       "beteckning": "TU5",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "En ökad andel kollektivtrafik",
       "counts": {
         "ja": 152,
         "nej": 91,
@@ -1205,6 +1297,7 @@
       "beteckning": "SoU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Vårdplatser, köer, kompetensförsörjning och arbetsmiljö",
       "counts": {
         "ja": 151,
         "nej": 112,
@@ -1218,6 +1311,7 @@
       "beteckning": "CU7",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Hemförsäkring",
       "counts": {
         "ja": 207,
         "nej": 91,
@@ -1231,6 +1325,7 @@
       "beteckning": "UbU4",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande förutsättningar",
       "counts": {
         "ja": 141,
         "nej": 92,
@@ -1244,6 +1339,7 @@
       "beteckning": "KrU3",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Barn och unga på nätet",
       "counts": {
         "ja": 277,
         "nej": 22,
@@ -1257,6 +1353,7 @@
       "beteckning": "CU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Modernisering av bokföringslagen",
       "counts": {
         "ja": 214,
         "nej": 85,
@@ -1270,6 +1367,7 @@
       "beteckning": "TU4",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Nya stambanor för höghastighetståg",
       "counts": {
         "ja": 151,
         "nej": 148,
@@ -1283,6 +1381,7 @@
       "beteckning": "KrU3",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Kultur för barn och unga",
       "counts": {
         "ja": 263,
         "nej": 21,
@@ -1296,6 +1395,7 @@
       "beteckning": "UbU4",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Förutsättningar för att utveckla förskolan",
       "counts": {
         "ja": 151,
         "nej": 128,
@@ -1309,6 +1409,7 @@
       "beteckning": "KrU5",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Stöd till trossamfund",
       "counts": {
         "ja": 144,
         "nej": 91,
@@ -1322,6 +1423,7 @@
       "beteckning": "CU7",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Betalningsplanen vid skuldsanering",
       "counts": {
         "ja": 213,
         "nej": 21,
@@ -1335,6 +1437,7 @@
       "beteckning": "KrU3",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Kulturskolelag",
       "counts": {
         "ja": 263,
         "nej": 36,
@@ -1348,6 +1451,7 @@
       "beteckning": "KrU5",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Stöd till civilsamhället",
       "counts": {
         "ja": 219,
         "nej": 63,
@@ -1361,6 +1465,7 @@
       "beteckning": "CU9",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Laddmöjligheter inom samfälligheter",
       "counts": {
         "ja": 172,
         "nej": 127,
@@ -1374,6 +1479,7 @@
       "beteckning": "KrU3",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Barns och ungas inflytande och delaktighet",
       "counts": {
         "ja": 208,
         "nej": 91,
@@ -1387,6 +1493,7 @@
       "beteckning": "CU9",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Förköpslag",
       "counts": {
         "ja": 187,
         "nej": 112,
@@ -1400,6 +1507,7 @@
       "beteckning": "MJU7",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Genomförande av ramdirektivet för vatten",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -1413,6 +1521,7 @@
       "beteckning": "KrU6",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Världsarvsfrågor",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -1426,6 +1535,7 @@
       "beteckning": "KrU6",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Museifrågor",
       "counts": {
         "ja": 130,
         "nej": 93,
@@ -1439,6 +1549,7 @@
       "beteckning": "MJU7",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Anläggande av våtmarker",
       "counts": {
         "ja": 152,
         "nej": 86,
@@ -1452,6 +1563,7 @@
       "beteckning": "MJU7",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Skydd av dricksvattentäkter",
       "counts": {
         "ja": 193,
         "nej": 108,
@@ -1465,6 +1577,7 @@
       "beteckning": "MJU7",
       "punkt": 20,
       "avser": "sakfrågan",
+      "rubrik": "En havsmiljölag",
       "counts": {
         "ja": 266,
         "nej": 36,
@@ -1478,6 +1591,7 @@
       "beteckning": "KrU6",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Repatriering av kvarlevor och museiföremål",
       "counts": {
         "ja": 267,
         "nej": 20,
@@ -1491,6 +1605,7 @@
       "beteckning": "MJU7",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "System för utsläppshandel i Östersjön",
       "counts": {
         "ja": 280,
         "nej": 22,
@@ -1504,6 +1619,7 @@
       "beteckning": "UU3",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Kvinnors deltagande i återuppbyggnad efter konflikt",
       "counts": {
         "ja": 260,
         "nej": 32,
@@ -1517,6 +1633,7 @@
       "beteckning": "MJU6",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Utredningar om farliga ämnen i produkter",
       "counts": {
         "ja": 230,
         "nej": 62,
@@ -1530,6 +1647,7 @@
       "beteckning": "JuU11",
       "punkt": 37,
       "avser": "sakfrågan",
+      "rubrik": "Preskription",
       "counts": {
         "ja": 181,
         "nej": 19,
@@ -1543,6 +1661,7 @@
       "beteckning": "JuU11",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Hets mot folkgrupp",
       "counts": {
         "ja": 271,
         "nej": 20,
@@ -1556,6 +1675,7 @@
       "beteckning": "UU3",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Kärnstöd m.m.",
       "counts": {
         "ja": 178,
         "nej": 62,
@@ -1569,6 +1689,7 @@
       "beteckning": "MJU6",
       "punkt": 16,
       "avser": "sakfrågan",
+      "rubrik": "Lagstiftning om hormonstörande ämnen",
       "counts": {
         "ja": 170,
         "nej": 121,
@@ -1582,6 +1703,7 @@
       "beteckning": "SkU11",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Grönt avdrag m.m.",
       "counts": {
         "ja": 260,
         "nej": 19,
@@ -1595,6 +1717,7 @@
       "beteckning": "SkU11",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Förhöjt grundavdrag",
       "counts": {
         "ja": 259,
         "nej": 33,
@@ -1608,6 +1731,7 @@
       "beteckning": "SkU11",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Avdrag för pensions- och bosparande m.m.",
       "counts": {
         "ja": 231,
         "nej": 61,
@@ -1621,6 +1745,7 @@
       "beteckning": "SkU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Jobbskatteavdrag, skattereduktion för sjuk- och aktivitetsersättning, regional skattereduktion m.m.",
       "counts": {
         "ja": 148,
         "nej": 108,
@@ -1634,6 +1759,7 @@
       "beteckning": "JuU11",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Fridskränkningsbrott",
       "counts": {
         "ja": 169,
         "nej": 13,
@@ -1647,6 +1773,7 @@
       "beteckning": "MJU6",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Vissa förbud mot PFAS",
       "counts": {
         "ja": 240,
         "nej": 52,
@@ -1660,6 +1787,7 @@
       "beteckning": "SkU11",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Medlemsavgifter m.m.",
       "counts": {
         "ja": 161,
         "nej": 112,
@@ -1673,6 +1801,7 @@
       "beteckning": "UU3",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Övriga frågor om prioriteringar",
       "counts": {
         "ja": 258,
         "nej": 13,
@@ -1686,6 +1815,7 @@
       "beteckning": "MJU6",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Gränsvärden för PFAS i dricksvatten",
       "counts": {
         "ja": 260,
         "nej": 32,
@@ -1699,6 +1829,7 @@
       "beteckning": "MJU6",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ett utökat internationellt arbete",
       "counts": {
         "ja": 167,
         "nej": 125,
@@ -1712,6 +1843,7 @@
       "beteckning": "JuU11",
       "punkt": 36,
       "avser": "sakfrågan",
+      "rubrik": "Påföljder",
       "counts": {
         "ja": 230,
         "nej": 62,
@@ -1725,6 +1857,7 @@
       "beteckning": "UU3",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Jämställdhet, SRHR och biståndseffektivitetsagendan",
       "counts": {
         "ja": 258,
         "nej": 34,
@@ -1738,6 +1871,7 @@
       "beteckning": "JuU11",
       "punkt": 34,
       "avser": "sakfrågan",
+      "rubrik": "Försvårande omständigheter",
       "counts": {
         "ja": 182,
         "nej": 92,
@@ -1751,6 +1885,7 @@
       "beteckning": "FöU4",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Totalförsvarets riksintresse och målkonflikter",
       "counts": {
         "ja": 236,
         "nej": 19,
@@ -1764,6 +1899,7 @@
       "beteckning": "FöU4",
       "punkt": 2,
       "avser": "motivfrågan",
+      "rubrik": "Försvarsmaktens stöd till polisen",
       "counts": {
         "ja": 146,
         "nej": 143,
@@ -1777,6 +1913,7 @@
       "beteckning": "SoU22",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Boendefrågor",
       "counts": {
         "ja": 199,
         "nej": 21,
@@ -1790,6 +1927,7 @@
       "beteckning": "UU16",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Sveriges medlemskap i Nato",
       "counts": {
         "ja": 269,
         "nej": 37,
@@ -1803,6 +1941,7 @@
       "beteckning": "SoU22",
       "punkt": 20,
       "avser": "sakfrågan",
+      "rubrik": "Hälsoförebyggande arbete",
       "counts": {
         "ja": 183,
         "nej": 64,
@@ -1816,6 +1955,7 @@
       "beteckning": "SoU22",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Hälso- och sjukvård inom äldreomsorgen",
       "counts": {
         "ja": 155,
         "nej": 21,
@@ -1829,6 +1969,7 @@
       "beteckning": "UU16",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Kärnvapen och utländsk trupp på svensk mark",
       "counts": {
         "ja": 268,
         "nej": 37,
@@ -1842,6 +1983,7 @@
       "beteckning": "SoU22",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Förlängning av Äldreomsorgslyftet",
       "counts": {
         "ja": 176,
         "nej": 130,
@@ -1855,6 +1997,7 @@
       "beteckning": "SoU22",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Äldres rättigheter",
       "counts": {
         "ja": 133,
         "nej": 109,
@@ -1868,6 +2011,7 @@
       "beteckning": "MJU9",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Djurskydd och konkurrenskraft",
       "counts": {
         "ja": 188,
         "nej": 94,
@@ -1881,6 +2025,7 @@
       "beteckning": "MJU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande åtgärder för en cirkulär ekonomi",
       "counts": {
         "ja": 172,
         "nej": 94,
@@ -1894,6 +2039,7 @@
       "beteckning": "MJU10",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Återanvändning och återvinning av innovationskritiska material såsom metaller och mineral",
       "counts": {
         "ja": 219,
         "nej": 62,
@@ -1907,6 +2053,7 @@
       "beteckning": "MJU9",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Djurparksverksamhet",
       "counts": {
         "ja": 224,
         "nej": 62,
@@ -1920,6 +2067,7 @@
       "beteckning": "UbU12",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ett nytt system för resursfördelning",
       "counts": {
         "ja": 154,
         "nej": 128,
@@ -1933,6 +2081,7 @@
       "beteckning": "MJU9",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Minkhållning",
       "counts": {
         "ja": 203,
         "nej": 20,
@@ -1946,6 +2095,7 @@
       "beteckning": "UbU12",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "En s.k. klasspeng",
       "counts": {
         "ja": 281,
         "nej": 20,
@@ -1959,6 +2109,7 @@
       "beteckning": "MJU11",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Betesmarker, hagmarker och slåtterängar",
       "counts": {
         "ja": 205,
         "nej": 15,
@@ -1972,6 +2123,7 @@
       "beteckning": "MJU11",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Regelförenkling",
       "counts": {
         "ja": 219,
         "nej": 62,
@@ -1985,6 +2137,7 @@
       "beteckning": "MJU11",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Livsmedelsstrategins inriktning",
       "counts": {
         "ja": 187,
         "nej": 114,
@@ -1998,6 +2151,7 @@
       "beteckning": "MJU11",
       "punkt": 32,
       "avser": "sakfrågan",
+      "rubrik": "Rennäringen",
       "counts": {
         "ja": 206,
         "nej": 94,
@@ -2011,6 +2165,7 @@
       "beteckning": "MJU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Försörjningstrygghet i den strategiska planen för 2023-2027",
       "counts": {
         "ja": 219,
         "nej": 82,
@@ -2024,6 +2179,7 @@
       "beteckning": "MJU10",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Hållbar design, produktion, konsumtion och teknik",
       "counts": {
         "ja": 247,
         "nej": 35,
@@ -2037,6 +2193,7 @@
       "beteckning": "KU18",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Riksdagsledamöternas ekonomiska villkor",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2050,6 +2207,7 @@
       "beteckning": "KU27",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Begränsa sökbarheten när det gäller vissa personuppgifter",
       "counts": {
         "ja": 173,
         "nej": 129,
@@ -2063,6 +2221,7 @@
       "beteckning": "SoU19",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Skademinimering inom beroendevården och förebyggande arbete",
       "counts": {
         "ja": 246,
         "nej": 42,
@@ -2076,6 +2235,7 @@
       "beteckning": "FiU34",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Små och medelstora företag",
       "counts": {
         "ja": 217,
         "nej": 64,
@@ -2089,6 +2249,7 @@
       "beteckning": "FiU25",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Konjunkturinstitutets uppdrag om svenska företags prissättning",
       "counts": {
         "ja": 209,
         "nej": 93,
@@ -2102,6 +2263,7 @@
       "beteckning": "FiU34",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Allmännyttan och LOU",
       "counts": {
         "ja": 188,
         "nej": 93,
@@ -2115,6 +2277,7 @@
       "beteckning": "FiU34",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Miljökrav",
       "counts": {
         "ja": 266,
         "nej": 15,
@@ -2128,6 +2291,7 @@
       "beteckning": "NU12",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Frågor om den fria rörligheten för vissa varor",
       "counts": {
         "ja": 237,
         "nej": 64,
@@ -2141,6 +2305,7 @@
       "beteckning": "SkU8",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Folkräkning m.m.",
       "counts": {
         "ja": 145,
         "nej": 93,
@@ -2154,6 +2319,7 @@
       "beteckning": "KU18",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Utredning om oppositionens ställning",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2167,6 +2333,7 @@
       "beteckning": "SoU19",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Frågor om spelberoende",
       "counts": {
         "ja": 223,
         "nej": 65,
@@ -2180,6 +2347,7 @@
       "beteckning": "SkU8",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Skydd för folkbokföringsuppgifter m.m.",
       "counts": {
         "ja": 124,
         "nej": 21,
@@ -2193,6 +2361,7 @@
       "beteckning": "FiU25",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Staten som arbetsgivare",
       "counts": {
         "ja": 261,
         "nej": 21,
@@ -2206,6 +2375,7 @@
       "beteckning": "SkU8",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Samordningsnummer m.m.",
       "counts": {
         "ja": 238,
         "nej": 63,
@@ -2219,6 +2389,7 @@
       "beteckning": "SoU19",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Systembolagets detaljhandelsmonopol m.m.",
       "counts": {
         "ja": 174,
         "nej": 129,
@@ -2232,6 +2403,7 @@
       "beteckning": "NU12",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Hållbart företagande",
       "counts": {
         "ja": 182,
         "nej": 36,
@@ -2245,6 +2417,7 @@
       "beteckning": "KU25",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Informationsutbyte mellan myndigheter",
       "counts": {
         "ja": 188,
         "nej": 93,
@@ -2258,6 +2431,7 @@
       "beteckning": "NU12",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Klimattullar och handel med klimatsmarta varor och tjänster",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2271,6 +2445,7 @@
       "beteckning": "SkU8",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Folkbokföring av barn på två adresser m.m.",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2284,6 +2459,7 @@
       "beteckning": "KU19",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Regler om flaggning",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -2297,6 +2473,7 @@
       "beteckning": "SkU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Regeringens lagförslag",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -2310,6 +2487,7 @@
       "beteckning": "KU29",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Byte av partitillhörighet",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -2323,6 +2501,7 @@
       "beteckning": "NU12",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Omarbetade hållbarhetskrav i handelsavtal",
       "counts": {
         "ja": 266,
         "nej": 36,
@@ -2336,6 +2515,7 @@
       "beteckning": "NU12",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande om internationell handel",
       "counts": {
         "ja": 144,
         "nej": 93,
@@ -2349,6 +2529,7 @@
       "beteckning": "FiU34",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Antal underleverantörer och skäliga villkor",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2362,6 +2543,7 @@
       "beteckning": "KU27",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Stärkt skydd för journalister, förtroendevalda och konstnärer",
       "counts": {
         "ja": 173,
         "nej": 21,
@@ -2375,6 +2557,7 @@
       "beteckning": "SoU19",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Gårdsförsäljning av alkoholhaltiga drycker",
       "counts": {
         "ja": 218,
         "nej": 21,
@@ -2388,6 +2571,7 @@
       "beteckning": "KU25",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Artificiell intelligens och integritet",
       "counts": {
         "ja": 287,
         "nej": 15,
@@ -2401,6 +2585,7 @@
       "beteckning": "NU13",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Utvinning av uran",
       "counts": {
         "ja": 237,
         "nej": 64,
@@ -2414,6 +2599,7 @@
       "beteckning": "TU6",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Reglering och kontroll av åkerinäringen",
       "counts": {
         "ja": 167,
         "nej": 93,
@@ -2427,6 +2613,7 @@
       "beteckning": "NU13",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Mineralersättning",
       "counts": {
         "ja": 181,
         "nej": 36,
@@ -2440,6 +2627,7 @@
       "beteckning": "TU6",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Kontroller och tillsyn inom taxibranschen",
       "counts": {
         "ja": 218,
         "nej": 21,
@@ -2453,6 +2641,7 @@
       "beteckning": "NU13",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Övriga frågor om ersättningar",
       "counts": {
         "ja": 153,
         "nej": 36,
@@ -2466,6 +2655,7 @@
       "beteckning": "TU6",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Vissa arbetsmiljöfrågor inom åkeri- och taxibranschen",
       "counts": {
         "ja": 190,
         "nej": 93,
@@ -2479,6 +2669,7 @@
       "beteckning": "NU13",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Myndigheternas roll vid tillståndsprocesser",
       "counts": {
         "ja": 156,
         "nej": 146,
@@ -2492,6 +2683,7 @@
       "beteckning": "NU13",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Natura 2000-tillstånd",
       "counts": {
         "ja": 209,
         "nej": 92,
@@ -2505,6 +2697,7 @@
       "beteckning": "NU13",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Tillgänglighet och kartläggning",
       "counts": {
         "ja": 218,
         "nej": 21,
@@ -2518,6 +2711,7 @@
       "beteckning": "NU13",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Stärkta förutsättningar för utvinning",
       "counts": {
         "ja": 190,
         "nej": 21,
@@ -2531,6 +2725,7 @@
       "beteckning": "FöU7",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Klimatanpassning för krisberedskapen",
       "counts": {
         "ja": 174,
         "nej": 128,
@@ -2544,6 +2739,7 @@
       "beteckning": "CU12",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Översyn av plan- och bygglagen",
       "counts": {
         "ja": 127,
         "nej": 92,
@@ -2557,6 +2753,7 @@
       "beteckning": "JuU12",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Vittnesskydd m.m.",
       "counts": {
         "ja": 196,
         "nej": 63,
@@ -2570,6 +2767,7 @@
       "beteckning": "CU12",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Klimatfrågor i planeringen och planering för gröna områden",
       "counts": {
         "ja": 266,
         "nej": 15,
@@ -2583,6 +2781,7 @@
       "beteckning": "FöU7",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Stöd till personer med funktionsnedsättning",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2596,6 +2795,7 @@
       "beteckning": "FöU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Krisberedskapssystemet",
       "counts": {
         "ja": 280,
         "nej": 21,
@@ -2609,6 +2809,7 @@
       "beteckning": "JuU12",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Rätten till målsägandebiträde",
       "counts": {
         "ja": 259,
         "nej": 42,
@@ -2622,6 +2823,7 @@
       "beteckning": "CU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Åtgärder på bostadsmarknaden",
       "counts": {
         "ja": 154,
         "nej": 92,
@@ -2635,6 +2837,7 @@
       "beteckning": "CU12",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Reglering med detaljplan",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2648,6 +2851,7 @@
       "beteckning": "CU10",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Bostadsförsörjning",
       "counts": {
         "ja": 176,
         "nej": 21,
@@ -2661,6 +2865,7 @@
       "beteckning": "MJU12",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Värna den svenska jakten och viltvården",
       "counts": {
         "ja": 217,
         "nej": 64,
@@ -2674,6 +2879,7 @@
       "beteckning": "JuU12",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Tillståndsplikten för kommuner",
       "counts": {
         "ja": 210,
         "nej": 92,
@@ -2687,6 +2893,7 @@
       "beteckning": "CU12",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Bygglovsbefriade åtgärder",
       "counts": {
         "ja": 189,
         "nej": 92,
@@ -2700,6 +2907,7 @@
       "beteckning": "UU6",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Prioriteringar",
       "counts": {
         "ja": 153,
         "nej": 92,
@@ -2713,6 +2921,7 @@
       "beteckning": "MJU12",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Blyammunition",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -2726,6 +2935,7 @@
       "beteckning": "CU12",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Medborgarinflytandet och vissa andra intressen vid fysisk planering",
       "counts": {
         "ja": 196,
         "nej": 63,
@@ -2739,6 +2949,7 @@
       "beteckning": "CU10",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Trygga bostadsområden",
       "counts": {
         "ja": 217,
         "nej": 64,
@@ -2752,6 +2963,7 @@
       "beteckning": "MJU12",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Stärkt lokalt inflytande i viltförvaltningen",
       "counts": {
         "ja": 189,
         "nej": 113,
@@ -2765,6 +2977,7 @@
       "beteckning": "JuU12",
       "punkt": 20,
       "avser": "sakfrågan",
+      "rubrik": "Förstärkning av rättsväsendet",
       "counts": {
         "ja": 191,
         "nej": 21,
@@ -2778,6 +2991,7 @@
       "beteckning": "UU6",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Biståndsnivå",
       "counts": {
         "ja": 153,
         "nej": 92,
@@ -2791,6 +3005,7 @@
       "beteckning": "FöU7",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Kunskapsuppbyggnad inom cybersäkerhetsområdet",
       "counts": {
         "ja": 175,
         "nej": 106,
@@ -2804,6 +3019,7 @@
       "beteckning": "FöU7",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Utveckling av räddningstjänsten",
       "counts": {
         "ja": 175,
         "nej": 113,
@@ -2817,6 +3033,7 @@
       "beteckning": "CU10",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Bostäder för äldre personer",
       "counts": {
         "ja": 267,
         "nej": 21,
@@ -2830,6 +3047,7 @@
       "beteckning": "SoU11",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Uppföljning av effekterna av lagförslaget",
       "counts": {
         "ja": 170,
         "nej": 126,
@@ -2843,6 +3061,7 @@
       "beteckning": "NU14",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Övriga frågor som rör immaterialrätt",
       "counts": {
         "ja": 139,
         "nej": 93,
@@ -2856,6 +3075,7 @@
       "beteckning": "NU14",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om upphovsrätt",
       "counts": {
         "ja": 179,
         "nej": 33,
@@ -2869,6 +3089,7 @@
       "beteckning": "NU15",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om regelförenklingar för företag",
       "counts": {
         "ja": 242,
         "nej": 33,
@@ -2882,6 +3103,7 @@
       "beteckning": "NU15",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Konsekvensutredningar",
       "counts": {
         "ja": 211,
         "nej": 21,
@@ -2895,6 +3117,7 @@
       "beteckning": "SoU11",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Förslag om hälso- och sjukvårdens beredskap",
       "counts": {
         "ja": 171,
         "nej": 126,
@@ -2908,6 +3131,7 @@
       "beteckning": "NU15",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Regelrådets organisation",
       "counts": {
         "ja": 212,
         "nej": 21,
@@ -2921,6 +3145,7 @@
       "beteckning": "NU14",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Upphovsrättsskyddade konstverk på offentlig plats",
       "counts": {
         "ja": 211,
         "nej": 85,
@@ -2934,6 +3159,7 @@
       "beteckning": "NU15",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Mål för förenklingspolitiken",
       "counts": {
         "ja": 203,
         "nej": 93,
@@ -2947,6 +3173,7 @@
       "beteckning": "NU15",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ett systematiskt regelförenklingsarbete",
       "counts": {
         "ja": 212,
         "nej": 64,
@@ -2960,6 +3187,7 @@
       "beteckning": "SoU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Krav på sjukvårdsprodukter och övrig utrustning för att skydda sjukvårdspersonal",
       "counts": {
         "ja": 204,
         "nej": 93,
@@ -2973,6 +3201,7 @@
       "beteckning": "SoU11",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Utrustning till skydd av sjukvårdspersonal",
       "counts": {
         "ja": 264,
         "nej": 33,
@@ -2986,6 +3215,7 @@
       "beteckning": "JuU13",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Gps vid fångtransporter och permissioner",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -2999,6 +3229,7 @@
       "beteckning": "JuU15",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Samordnade insatser",
       "counts": {
         "ja": 212,
         "nej": 93,
@@ -3012,6 +3243,7 @@
       "beteckning": "CU14",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Avhysning av barnfamiljer",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3025,6 +3257,7 @@
       "beteckning": "AU7",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Översyn av diskrimineringslagen",
       "counts": {
         "ja": 247,
         "nej": 16,
@@ -3038,6 +3271,7 @@
       "beteckning": "CU14",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Förbättrings- och ändringsarbeten",
       "counts": {
         "ja": 191,
         "nej": 93,
@@ -3051,6 +3285,7 @@
       "beteckning": "JuU14",
       "punkt": 16,
       "avser": "sakfrågan",
+      "rubrik": "Nolltolerans mot barnäktenskap",
       "counts": {
         "ja": 241,
         "nej": 64,
@@ -3064,6 +3299,7 @@
       "beteckning": "JuU15",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Åtgärdsplan för pojkar och män",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3077,6 +3313,7 @@
       "beteckning": "AU7",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Jämställdhet i arbetslivet m.m.",
       "counts": {
         "ja": 204,
         "nej": 64,
@@ -3090,6 +3327,7 @@
       "beteckning": "AU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Jämställdhetspolitikens mål m.m.",
       "counts": {
         "ja": 246,
         "nej": 21,
@@ -3103,6 +3341,7 @@
       "beteckning": "CU14",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Stärkt hyresrättsligt skydd",
       "counts": {
         "ja": 192,
         "nej": 92,
@@ -3116,6 +3355,7 @@
       "beteckning": "JuU17",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Vapenbrott",
       "counts": {
         "ja": 212,
         "nej": 93,
@@ -3129,6 +3369,7 @@
       "beteckning": "AU7",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Nollvision för våld i nära relationer",
       "counts": {
         "ja": 154,
         "nej": 151,
@@ -3142,6 +3383,7 @@
       "beteckning": "CU6",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Betänketid vid äktenskapsskillnad",
       "counts": {
         "ja": 218,
         "nej": 65,
@@ -3155,6 +3397,7 @@
       "beteckning": "JuU14",
       "punkt": 48,
       "avser": "sakfrågan",
+      "rubrik": "Brottsofferstatus för barn som utnyttjas i barnpornografi",
       "counts": {
         "ja": 289,
         "nej": 16,
@@ -3168,6 +3411,7 @@
       "beteckning": "JuU14",
       "punkt": 37,
       "avser": "sakfrågan",
+      "rubrik": "Särskild brottsofferlag",
       "counts": {
         "ja": 212,
         "nej": 93,
@@ -3181,6 +3425,7 @@
       "beteckning": "CU6",
       "punkt": 20,
       "avser": "sakfrågan",
+      "rubrik": "Allmänt om kompetens i mål om vårdnad",
       "counts": {
         "ja": 176,
         "nej": 128,
@@ -3194,6 +3439,7 @@
       "beteckning": "FiU26",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Det kommunalekonomiska utjämningssystemet",
       "counts": {
         "ja": 176,
         "nej": 91,
@@ -3207,6 +3453,7 @@
       "beteckning": "JuU15",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Ungdomsövervakning",
       "counts": {
         "ja": 240,
         "nej": 64,
@@ -3220,6 +3467,7 @@
       "beteckning": "JuU17",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Tillsyn av skjutbanor",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3233,6 +3481,7 @@
       "beteckning": "SoU20",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Folkhälsofrämjande insatser",
       "counts": {
         "ja": 154,
         "nej": 91,
@@ -3246,6 +3495,7 @@
       "beteckning": "SoU20",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Sexuell och reproduktiv hälsa och rättigheter",
       "counts": {
         "ja": 245,
         "nej": 58,
@@ -3259,6 +3509,7 @@
       "beteckning": "CU14",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Hyressättning och normerande hyror",
       "counts": {
         "ja": 263,
         "nej": 21,
@@ -3272,6 +3523,7 @@
       "beteckning": "CU6",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Adoption i övrigt",
       "counts": {
         "ja": 288,
         "nej": 16,
@@ -3285,6 +3537,7 @@
       "beteckning": "JuU13",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Fler anstalts- och häktesplatser",
       "counts": {
         "ja": 191,
         "nej": 114,
@@ -3298,6 +3551,7 @@
       "beteckning": "JuU13",
       "punkt": 19,
       "avser": "sakfrågan",
+      "rubrik": "Ägandeformer för Kriminalvårdens lokaler",
       "counts": {
         "ja": 242,
         "nej": 63,
@@ -3311,6 +3565,7 @@
       "beteckning": "JuU15",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Sociala insatsgrupper",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3324,6 +3579,7 @@
       "beteckning": "JuU13",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Obligatorisk undervisning för sexköpsdömda",
       "counts": {
         "ja": 283,
         "nej": 21,
@@ -3337,6 +3593,7 @@
       "beteckning": "SoU20",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Psykisk hälsa",
       "counts": {
         "ja": 112,
         "nej": 64,
@@ -3350,6 +3607,7 @@
       "beteckning": "JuU13",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Avhopparverksamhet",
       "counts": {
         "ja": 191,
         "nej": 114,
@@ -3363,6 +3621,7 @@
       "beteckning": "JuU14",
       "punkt": 38,
       "avser": "sakfrågan",
+      "rubrik": "Brottsofferombudsman",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3376,6 +3635,7 @@
       "beteckning": "CU14",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Olovlig handel med hyreskontrakt m.m.",
       "counts": {
         "ja": 240,
         "nej": 64,
@@ -3389,6 +3649,7 @@
       "beteckning": "SoU20",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Folkhälsoarbetets organisation",
       "counts": {
         "ja": 266,
         "nej": 37,
@@ -3402,6 +3663,7 @@
       "beteckning": "FiU26",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Vinster inom välfärdens verksamheter",
       "counts": {
         "ja": 175,
         "nej": 127,
@@ -3415,6 +3677,7 @@
       "beteckning": "AU7",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Mäns våld mot kvinnor och våld i nära relationer",
       "counts": {
         "ja": 174,
         "nej": 21,
@@ -3428,6 +3691,7 @@
       "beteckning": "JuU14",
       "punkt": 55,
       "avser": "sakfrågan",
+      "rubrik": "Kränkningsersättning och indrivning",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -3441,6 +3705,7 @@
       "beteckning": "SoU20",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Vaccinationsprogram för äldre",
       "counts": {
         "ja": 175,
         "nej": 128,
@@ -3454,6 +3719,7 @@
       "beteckning": "JuU14",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Kunskap inom rättsväsendet m.m. om våld i nära relationer",
       "counts": {
         "ja": 267,
         "nej": 16,
@@ -3467,6 +3733,7 @@
       "beteckning": "FiU26",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Kommunsektorns uppdrag",
       "counts": {
         "ja": 239,
         "nej": 64,
@@ -3480,6 +3747,7 @@
       "beteckning": "CU6",
       "punkt": 23,
       "avser": "sakfrågan",
+      "rubrik": "Vissa frågor om vårdnad, boende och umgänge vid våld i familjen",
       "counts": {
         "ja": 154,
         "nej": 93,
@@ -3493,6 +3761,7 @@
       "beteckning": "SfU14",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Rätten till aktivitets- och sjukersättning",
       "counts": {
         "ja": 217,
         "nej": 64,
@@ -3506,6 +3775,7 @@
       "beteckning": "SkU14",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Energiskatt m.m.",
       "counts": {
         "ja": 204,
         "nej": 14,
@@ -3519,6 +3789,7 @@
       "beteckning": "SfU14",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Studier och arbete",
       "counts": {
         "ja": 153,
         "nej": 95,
@@ -3532,6 +3803,7 @@
       "beteckning": "SkU10",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Undantaget för tjänster inom fristående grupper",
       "counts": {
         "ja": 247,
         "nej": 56,
@@ -3545,6 +3817,7 @@
       "beteckning": "SfU15",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Migration och asylpolitik",
       "counts": {
         "ja": 110,
         "nej": 95,
@@ -3558,6 +3831,7 @@
       "beteckning": "SfU15",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Anhöriginvandring",
       "counts": {
         "ja": 204,
         "nej": 35,
@@ -3571,6 +3845,7 @@
       "beteckning": "SkU15",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Skattesatser m.m.",
       "counts": {
         "ja": 204,
         "nej": 64,
@@ -3584,6 +3859,7 @@
       "beteckning": "SkU14",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Energiskatt på eldriven kollektivtrafik",
       "counts": {
         "ja": 261,
         "nej": 21,
@@ -3597,6 +3873,7 @@
       "beteckning": "SfU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Skydd för utsatta kvinnor",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -3610,6 +3887,7 @@
       "beteckning": "SfU14",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Företagare inom kulturområdet",
       "counts": {
         "ja": 173,
         "nej": 129,
@@ -3623,6 +3901,7 @@
       "beteckning": "SfU14",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Trygghetssystem för företagare",
       "counts": {
         "ja": 202,
         "nej": 21,
@@ -3636,6 +3915,7 @@
       "beteckning": "SkU14",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Övriga miljöskatter",
       "counts": {
         "ja": 218,
         "nej": 64,
@@ -3649,6 +3929,7 @@
       "beteckning": "SkU14",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Skatt på drivmedel m.m.",
       "counts": {
         "ja": 268,
         "nej": 21,
@@ -3662,6 +3943,7 @@
       "beteckning": "SfU14",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Rehabiliteringskedjan",
       "counts": {
         "ja": 197,
         "nej": 20,
@@ -3675,6 +3957,7 @@
       "beteckning": "SkU15",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Övriga mervärdesskattefrågor",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -3688,6 +3971,7 @@
       "beteckning": "KU30",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Reglering av lobbyister",
       "counts": {
         "ja": 172,
         "nej": 92,
@@ -3701,6 +3985,7 @@
       "beteckning": "UbU6",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Modersmål och minoritetsspråk",
       "counts": {
         "ja": 151,
         "nej": 92,
@@ -3714,6 +3999,7 @@
       "beteckning": "KrU9",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Biografer på mindre orter",
       "counts": {
         "ja": 214,
         "nej": 21,
@@ -3727,6 +4013,7 @@
       "beteckning": "KU30",
       "punkt": 32,
       "avser": "sakfrågan",
+      "rubrik": "Bestämmelser om nationella minoriteter och minoritetsspråken",
       "counts": {
         "ja": 193,
         "nej": 21,
@@ -3740,6 +4027,7 @@
       "beteckning": "UU7",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Mellanöstern",
       "counts": {
         "ja": 193,
         "nej": 64,
@@ -3753,6 +4041,7 @@
       "beteckning": "KrU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Språkfrågor",
       "counts": {
         "ja": 284,
         "nej": 14,
@@ -3766,6 +4055,7 @@
       "beteckning": "UbU8",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Branschskolor",
       "counts": {
         "ja": 151,
         "nej": 148,
@@ -3779,6 +4069,7 @@
       "beteckning": "KrU9",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Digitalisering av filmarvet",
       "counts": {
         "ja": 263,
         "nej": 36,
@@ -3792,6 +4083,7 @@
       "beteckning": "KU30",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Partifinansiering",
       "counts": {
         "ja": 173,
         "nej": 13,
@@ -3805,6 +4097,7 @@
       "beteckning": "NU9",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Elprisfrågor",
       "counts": {
         "ja": 214,
         "nej": 64,
@@ -3818,6 +4111,7 @@
       "beteckning": "KrU11",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Påverkan på leder i sårbar natur",
       "counts": {
         "ja": 235,
         "nej": 64,
@@ -3831,6 +4125,7 @@
       "beteckning": "SoU24",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Avskiljningar i övrigt",
       "counts": {
         "ja": 200,
         "nej": 63,
@@ -3844,6 +4139,7 @@
       "beteckning": "SoU24",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Ny skrivelse till riksdagen",
       "counts": {
         "ja": 150,
         "nej": 21,
@@ -3857,6 +4153,7 @@
       "beteckning": "NU9",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Krav på flexibilitet vid anslutning",
       "counts": {
         "ja": 264,
         "nej": 35,
@@ -3870,6 +4167,7 @@
       "beteckning": "UbU6",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Genusfrågor i skolan",
       "counts": {
         "ja": 221,
         "nej": 14,
@@ -3883,6 +4181,7 @@
       "beteckning": "UbU6",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Ansvaret för tryggheten och studieron i skolan",
       "counts": {
         "ja": 278,
         "nej": 21,
@@ -3896,6 +4195,7 @@
       "beteckning": "UbU6",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande värdegrundsfrågor",
       "counts": {
         "ja": 200,
         "nej": 14,
@@ -3909,6 +4209,7 @@
       "beteckning": "KrU9",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Framtidens filmpolitik",
       "counts": {
         "ja": 151,
         "nej": 127,
@@ -3922,6 +4223,7 @@
       "beteckning": "KU30",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Nationella folkomröstningar och medborgarinitiativ",
       "counts": {
         "ja": 220,
         "nej": 64,
@@ -3935,6 +4237,7 @@
       "beteckning": "UU7",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Västsahara",
       "counts": {
         "ja": 172,
         "nej": 127,
@@ -3948,6 +4251,7 @@
       "beteckning": "UbU6",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Särskilda ämnen och kunskapsområden",
       "counts": {
         "ja": 151,
         "nej": 92,
@@ -3961,6 +4265,7 @@
       "beteckning": "NU9",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ekonomiskt ansvar och kompensationsmodell för obalanserna",
       "counts": {
         "ja": 186,
         "nej": 113,
@@ -3974,6 +4279,7 @@
       "beteckning": "UbU6",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Läromedelsutredningens förslag",
       "counts": {
         "ja": 173,
         "nej": 106,
@@ -3987,6 +4293,7 @@
       "beteckning": "NU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Definitionen av obalans",
       "counts": {
         "ja": 173,
         "nej": 126,
@@ -4000,6 +4307,7 @@
       "beteckning": "KU24",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Digitalisering",
       "counts": {
         "ja": 215,
         "nej": 63,
@@ -4013,6 +4321,7 @@
       "beteckning": "UU7",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Kina och Taiwan",
       "counts": {
         "ja": 276,
         "nej": 22,
@@ -4026,6 +4335,7 @@
       "beteckning": "NU9",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Svenska kraftnät och anslutning av havsbaserad vindkraft",
       "counts": {
         "ja": 172,
         "nej": 127,
@@ -4039,6 +4349,7 @@
       "beteckning": "UbU8",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ämnen i gymnasieskolan",
       "counts": {
         "ja": 171,
         "nej": 127,
@@ -4052,6 +4363,7 @@
       "beteckning": "KU24",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Lokal service",
       "counts": {
         "ja": 172,
         "nej": 127,
@@ -4065,6 +4377,7 @@
       "beteckning": "UbU8",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Studie- och yrkesvägledning i skolväsendet",
       "counts": {
         "ja": 179,
         "nej": 21,
@@ -4078,6 +4391,7 @@
       "beteckning": "UU7",
       "punkt": 11,
       "avser": "motivfrågan",
+      "rubrik": "Israel och Palestina",
       "counts": {
         "ja": 151,
         "nej": 147,
@@ -4091,6 +4405,7 @@
       "beteckning": "KrU11",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Idrottsanläggningar",
       "counts": {
         "ja": 173,
         "nej": 91,
@@ -4104,6 +4419,7 @@
       "beteckning": "KrU11",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Ett brett idrottsliv",
       "counts": {
         "ja": 264,
         "nej": 21,
@@ -4117,6 +4433,7 @@
       "beteckning": "UU7",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Utrikespolitikens inriktning",
       "counts": {
         "ja": 151,
         "nej": 92,
@@ -4130,6 +4447,7 @@
       "beteckning": "KU30",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Yttre hot mot politiska partier",
       "counts": {
         "ja": 277,
         "nej": 22,
@@ -4143,6 +4461,7 @@
       "beteckning": "UbU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Utbildningens dimensionering",
       "counts": {
         "ja": 236,
         "nej": 63,
@@ -4156,6 +4475,7 @@
       "beteckning": "SoU24",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ensamarbete i klientnära kontakter",
       "counts": {
         "ja": 206,
         "nej": 92,
@@ -4169,6 +4489,7 @@
       "beteckning": "KrU11",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Parasport",
       "counts": {
         "ja": 180,
         "nej": 22,
@@ -4182,6 +4503,7 @@
       "beteckning": "NU9",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Elektrifiering och industrins gröna omställning",
       "counts": {
         "ja": 186,
         "nej": 112,
@@ -4195,6 +4517,7 @@
       "beteckning": "KU24",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Främjande av demokrati",
       "counts": {
         "ja": 264,
         "nej": 14,
@@ -4208,6 +4531,7 @@
       "beteckning": "UbU9",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Utformningen av sfi",
       "counts": {
         "ja": 126,
         "nej": 63,
@@ -4221,6 +4545,7 @@
       "beteckning": "AU9",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Arbetsmarknadspolitiska program och insatser",
       "counts": {
         "ja": 168,
         "nej": 20,
@@ -4234,6 +4559,7 @@
       "beteckning": "AU8",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Lokala skyddsombud och skyddskommittéer",
       "counts": {
         "ja": 219,
         "nej": 63,
@@ -4247,6 +4573,7 @@
       "beteckning": "AU8",
       "punkt": 16,
       "avser": "sakfrågan",
+      "rubrik": "Arbetstid",
       "counts": {
         "ja": 172,
         "nej": 20,
@@ -4260,6 +4587,7 @@
       "beteckning": "FiU22",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Makrotillsyn, bolånemarknaden och hushållens skuldsättning",
       "counts": {
         "ja": 183,
         "nej": 63,
@@ -4273,6 +4601,7 @@
       "beteckning": "AU9",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Arbetsförmedlingen",
       "counts": {
         "ja": 188,
         "nej": 94,
@@ -4286,6 +4615,7 @@
       "beteckning": "UbU9",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Utveckling av yrkeshögskolan",
       "counts": {
         "ja": 167,
         "nej": 20,
@@ -4299,6 +4629,7 @@
       "beteckning": "FiU22",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Kapitalförsörjning i hela landet",
       "counts": {
         "ja": 188,
         "nej": 21,
@@ -4312,6 +4643,7 @@
       "beteckning": "AU9",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Insatser för personer med funktionsnedsättning som medför nedsatt arbetsförmåga",
       "counts": {
         "ja": 109,
         "nej": 16,
@@ -4325,6 +4657,7 @@
       "beteckning": "AU9",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Arbetsintegrerande sociala företag",
       "counts": {
         "ja": 286,
         "nej": 16,
@@ -4338,6 +4671,7 @@
       "beteckning": "UbU9",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Utbildning för omställning och livslångt lärande",
       "counts": {
         "ja": 171,
         "nej": 94,
@@ -4351,6 +4685,7 @@
       "beteckning": "AU8",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Sanktionsavgifter",
       "counts": {
         "ja": 172,
         "nej": 130,
@@ -4364,6 +4699,7 @@
       "beteckning": "AU9",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Fler vägar till jobb",
       "counts": {
         "ja": 219,
         "nej": 63,
@@ -4377,6 +4713,7 @@
       "beteckning": "FiU22",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Ett nationellt skuldregister",
       "counts": {
         "ja": 208,
         "nej": 94,
@@ -4390,6 +4727,7 @@
       "beteckning": "AU8",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Tillträdesrätt för regionala skyddsombud",
       "counts": {
         "ja": 188,
         "nej": 114,
@@ -4403,6 +4741,7 @@
       "beteckning": "AU8",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Distansarbete",
       "counts": {
         "ja": 282,
         "nej": 20,
@@ -4416,6 +4755,7 @@
       "beteckning": "SoU14",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Marknadsföring av vårdtjänster",
       "counts": {
         "ja": 174,
         "nej": 128,
@@ -4429,6 +4769,7 @@
       "beteckning": "SoU16",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Utveckling av socialtjänstens arbete",
       "counts": {
         "ja": 109,
         "nej": 64,
@@ -4442,6 +4783,7 @@
       "beteckning": "JuU10",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Polisberedning och strategiskt arbete",
       "counts": {
         "ja": 283,
         "nej": 20,
@@ -4455,6 +4797,7 @@
       "beteckning": "FöU8",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Försvarsmaktens förmåga att utveckla och behålla personal",
       "counts": {
         "ja": 168,
         "nej": 94,
@@ -4468,6 +4811,7 @@
       "beteckning": "SoU10",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Behov av en utredning om grundlagsändring",
       "counts": {
         "ja": 247,
         "nej": 21,
@@ -4481,6 +4825,7 @@
       "beteckning": "UbU7",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Undervisning för nyanlända m.m.",
       "counts": {
         "ja": 197,
         "nej": 20,
@@ -4494,6 +4839,7 @@
       "beteckning": "SoU14",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Arbetsmiljö och arbetsvillkor",
       "counts": {
         "ja": 183,
         "nej": 64,
@@ -4507,6 +4853,7 @@
       "beteckning": "SoU14",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Kompetensförsörjning",
       "counts": {
         "ja": 152,
         "nej": 94,
@@ -4520,6 +4867,7 @@
       "beteckning": "JuU20",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Uppföljning och utvärdering",
       "counts": {
         "ja": 188,
         "nej": 94,
@@ -4533,6 +4881,7 @@
       "beteckning": "UbU5",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Offentlighetsprincipen i fristående skolor",
       "counts": {
         "ja": 174,
         "nej": 128,
@@ -4546,6 +4895,7 @@
       "beteckning": "SoU10",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Införlivande",
       "counts": {
         "ja": 247,
         "nej": 20,
@@ -4559,6 +4909,7 @@
       "beteckning": "UbU5",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Ekonomiska förutsättningar för fristående skolor",
       "counts": {
         "ja": 188,
         "nej": 94,
@@ -4572,6 +4923,7 @@
       "beteckning": "UbU7",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Registerkontroll",
       "counts": {
         "ja": 216,
         "nej": 64,
@@ -4585,6 +4937,7 @@
       "beteckning": "JuU10",
       "punkt": 25,
       "avser": "sakfrågan",
+      "rubrik": "Utredning av sexualbrott",
       "counts": {
         "ja": 268,
         "nej": 14,
@@ -4598,6 +4951,7 @@
       "beteckning": "FöU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Totalförsvarsplikt",
       "counts": {
         "ja": 248,
         "nej": 14,
@@ -4611,6 +4965,7 @@
       "beteckning": "SoU14",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Legitimation och tillstånd",
       "counts": {
         "ja": 267,
         "nej": 21,
@@ -4624,6 +4979,7 @@
       "beteckning": "UbU7",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Elevers hälsa m.m.",
       "counts": {
         "ja": 174,
         "nej": 21,
@@ -4637,6 +4993,7 @@
       "beteckning": "SoU10",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Uppföljning",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -4650,6 +5007,7 @@
       "beteckning": "SoU16",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Jämställt försörjningsstöd",
       "counts": {
         "ja": 187,
         "nej": 115,
@@ -4663,6 +5021,7 @@
       "beteckning": "FöU8",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Frivilligorganisationerna",
       "counts": {
         "ja": 267,
         "nej": 14,
@@ -4676,6 +5035,7 @@
       "beteckning": "CU18",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Lagstiftningens framtida utformning",
       "counts": {
         "ja": 110,
         "nej": 94,
@@ -4689,6 +5049,7 @@
       "beteckning": "SoU16",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Hemlöshet",
       "counts": {
         "ja": 154,
         "nej": 108,
@@ -4702,6 +5063,7 @@
       "beteckning": "JuU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Regeringens lagförslag",
       "counts": {
         "ja": 268,
         "nej": 20,
@@ -4715,6 +5077,7 @@
       "beteckning": "JuU20",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "En särskild straffbestämmelse för deltagande i en terroristorganisation",
       "counts": {
         "ja": 268,
         "nej": 34,
@@ -4728,6 +5091,7 @@
       "beteckning": "FöU8",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Rekrytering och personalförsörjning vid Försvarsmakten",
       "counts": {
         "ja": 260,
         "nej": 21,
@@ -4741,6 +5105,7 @@
       "beteckning": "UbU5",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Jämlik och likvärdig skola",
       "counts": {
         "ja": 173,
         "nej": 14,
@@ -4754,6 +5119,7 @@
       "beteckning": "JuU10",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Polisernas placering m.m.",
       "counts": {
         "ja": 124,
         "nej": 94,
@@ -4767,6 +5133,7 @@
       "beteckning": "JuU10",
       "punkt": 16,
       "avser": "sakfrågan",
+      "rubrik": "Antagningskrav till polisutbildningen",
       "counts": {
         "ja": 239,
         "nej": 63,
@@ -4780,6 +5147,7 @@
       "beteckning": "UbU7",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Elever med särskilda behov",
       "counts": {
         "ja": 166,
         "nej": 94,
@@ -4793,6 +5161,7 @@
       "beteckning": "CU18",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Ändringar i lagen om kollektivtrafikresenärers rättigheter",
       "counts": {
         "ja": 268,
         "nej": 34,
@@ -4806,6 +5175,7 @@
       "beteckning": "JuU10",
       "punkt": 38,
       "avser": "sakfrågan",
+      "rubrik": "Jaktbrott",
       "counts": {
         "ja": 289,
         "nej": 14,
@@ -4819,6 +5189,7 @@
       "beteckning": "UbU5",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Kunskapsutveckling och kunskapsmål",
       "counts": {
         "ja": 123,
         "nej": 64,
@@ -4832,6 +5203,7 @@
       "beteckning": "SfU16",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Reserverade dagar",
       "counts": {
         "ja": 173,
         "nej": 108,
@@ -4845,6 +5217,7 @@
       "beteckning": "TU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Cykling, hållbarhet och folkhälsa",
       "counts": {
         "ja": 208,
         "nej": 93,
@@ -4858,6 +5231,7 @@
       "beteckning": "TU9",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Infrastruktur för cykling",
       "counts": {
         "ja": 202,
         "nej": 15,
@@ -4871,6 +5245,7 @@
       "beteckning": "TU9",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Mål för cykling",
       "counts": {
         "ja": 265,
         "nej": 21,
@@ -4884,6 +5259,7 @@
       "beteckning": "SfU16",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Föräldraförsäkring",
       "counts": {
         "ja": 196,
         "nej": 64,
@@ -4897,6 +5273,7 @@
       "beteckning": "SfU16",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Bostadsbidrag",
       "counts": {
         "ja": 102,
         "nej": 93,
@@ -4910,6 +5287,7 @@
       "beteckning": "TU9",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Trafikregler för cyklister",
       "counts": {
         "ja": 201,
         "nej": 64,
@@ -4923,6 +5301,7 @@
       "beteckning": "UU15",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Stöd och skydd för MR-försvarare, aktivister, kulturarbetare och journalister samt klimat- och kvinnorättsaktivister",
       "counts": {
         "ja": 289,
         "nej": 14,
@@ -4936,6 +5315,7 @@
       "beteckning": "KU26",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Förbud mot rasistiska organisationer m.m.",
       "counts": {
         "ja": 195,
         "nej": 108,
@@ -4949,6 +5329,7 @@
       "beteckning": "JuU16",
       "punkt": 19,
       "avser": "sakfrågan",
+      "rubrik": "Samverkan inom EU",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -4962,6 +5343,7 @@
       "beteckning": "MJU17",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Nationell målsättning för skydd av skogsmark",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -4975,6 +5357,7 @@
       "beteckning": "MJU17",
       "punkt": 24,
       "avser": "sakfrågan",
+      "rubrik": "Vargstammens storlek och referensnivå",
       "counts": {
         "ja": 125,
         "nej": 94,
@@ -4988,6 +5371,7 @@
       "beteckning": "UU15",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Religions- och övertygelsefrihet",
       "counts": {
         "ja": 182,
         "nej": 65,
@@ -5001,6 +5385,7 @@
       "beteckning": "KU28",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Rättigheter för nationella minoriteter och urfolk",
       "counts": {
         "ja": 205,
         "nej": 34,
@@ -5014,6 +5399,7 @@
       "beteckning": "SoU12",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Ambulanssjukvård",
       "counts": {
         "ja": 238,
         "nej": 64,
@@ -5027,6 +5413,7 @@
       "beteckning": "CU13",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riksintressen",
       "counts": {
         "ja": 124,
         "nej": 94,
@@ -5040,6 +5427,7 @@
       "beteckning": "SkU13",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Personalliggare",
       "counts": {
         "ja": 197,
         "nej": 21,
@@ -5053,6 +5441,7 @@
       "beteckning": "KU28",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Genomförande, tillsyn och uppföljning av minoritetspolitiken",
       "counts": {
         "ja": 183,
         "nej": 21,
@@ -5066,6 +5455,7 @@
       "beteckning": "SoU12",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Hälso- och sjukvårdens organisation och styrning",
       "counts": {
         "ja": 153,
         "nej": 94,
@@ -5079,6 +5469,7 @@
       "beteckning": "TU7",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Främjande av inlands- och kustsjöfarten",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -5092,6 +5483,7 @@
       "beteckning": "KU23",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Sänkt rösträttsålder",
       "counts": {
         "ja": 267,
         "nej": 35,
@@ -5105,6 +5497,7 @@
       "beteckning": "CU13",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Vattenförsörjning och vattenförvaltning",
       "counts": {
         "ja": 268,
         "nej": 14,
@@ -5118,6 +5511,7 @@
       "beteckning": "SoU12",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Tolkning i hälso- och sjukvården",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -5131,6 +5525,7 @@
       "beteckning": "JuU16",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Nationellt avhopparprogram",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -5144,6 +5539,7 @@
       "beteckning": "MJU17",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Skötsel av skyddad natur och restaurering av livsmiljöer",
       "counts": {
         "ja": 174,
         "nej": 21,
@@ -5157,6 +5553,7 @@
       "beteckning": "KU28",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Älvdalskans ställning",
       "counts": {
         "ja": 196,
         "nej": 64,
@@ -5170,6 +5567,7 @@
       "beteckning": "KU26",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Grundlagsskydda aborträtten",
       "counts": {
         "ja": 152,
         "nej": 150,
@@ -5183,6 +5581,7 @@
       "beteckning": "CU13",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Skyddet av jordbruksmark",
       "counts": {
         "ja": 218,
         "nej": 21,
@@ -5196,6 +5595,7 @@
       "beteckning": "KU26",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Diskriminering",
       "counts": {
         "ja": 217,
         "nej": 64,
@@ -5209,6 +5609,7 @@
       "beteckning": "CU8",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Reklam riktad till barn",
       "counts": {
         "ja": 218,
         "nej": 85,
@@ -5222,6 +5623,7 @@
       "beteckning": "UU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Yttrandefrihet i Ryssland",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -5235,6 +5637,7 @@
       "beteckning": "KU23",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Incidentrapportering",
       "counts": {
         "ja": 239,
         "nej": 64,
@@ -5248,6 +5651,7 @@
       "beteckning": "JuU19",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Utlämnande av humanbiologiskt material",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -5261,6 +5665,7 @@
       "beteckning": "TU7",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "En konkurrenskraftig svensk sjöfart",
       "counts": {
         "ja": 167,
         "nej": 94,
@@ -5274,6 +5679,7 @@
       "beteckning": "MJU17",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Internationella konventioner och avtal",
       "counts": {
         "ja": 218,
         "nej": 64,
@@ -5287,6 +5693,7 @@
       "beteckning": "SfU17",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Arbetskraftsinvandring",
       "counts": {
         "ja": 153,
         "nej": 94,
@@ -5300,6 +5707,7 @@
       "beteckning": "CU13",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Vattenkraft",
       "counts": {
         "ja": 174,
         "nej": 14,
@@ -5313,6 +5721,7 @@
       "beteckning": "SkU13",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "F-skatt och näringsverksamhet",
       "counts": {
         "ja": 188,
         "nej": 94,
@@ -5326,6 +5735,7 @@
       "beteckning": "KU26",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Juridiskt kön",
       "counts": {
         "ja": 247,
         "nej": 56,
@@ -5339,6 +5749,7 @@
       "beteckning": "SoU12",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Jämställd vård",
       "counts": {
         "ja": 247,
         "nej": 35,
@@ -5352,6 +5763,7 @@
       "beteckning": "SoU12",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Primärvård",
       "counts": {
         "ja": 167,
         "nej": 21,
@@ -5365,6 +5777,7 @@
       "beteckning": "CU8",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Konsumentvägledning",
       "counts": {
         "ja": 154,
         "nej": 128,
@@ -5378,6 +5791,7 @@
       "beteckning": "SkU13",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Synliga skatter och avgifter",
       "counts": {
         "ja": 218,
         "nej": 64,
@@ -5391,6 +5805,7 @@
       "beteckning": "SkU13",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Offentlig land-för-land-rapportering",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -5404,6 +5819,7 @@
       "beteckning": "CU8",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Telefonförsäljning av lotter och andra spel",
       "counts": {
         "ja": 218,
         "nej": 85,
@@ -5417,6 +5833,7 @@
       "beteckning": "TU7",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Farledsavgifter",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -5430,6 +5847,7 @@
       "beteckning": "JuU16",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Förbud mot deltagande i våldsbejakande organisationer",
       "counts": {
         "ja": 239,
         "nej": 64,
@@ -5443,6 +5861,7 @@
       "beteckning": "UU15",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Yttrandefrihet och politiska fångar i Turkiet",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -5456,6 +5875,7 @@
       "beteckning": "KU23",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Valsedelssystemet",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -5469,6 +5889,7 @@
       "beteckning": "UU15",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Yttrandefrihet och politiska fångar i Ryssland",
       "counts": {
         "ja": 173,
         "nej": 129,
@@ -5482,6 +5903,7 @@
       "beteckning": "MJU14",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Utflyttning av trålgränsen",
       "counts": {
         "ja": 238,
         "nej": 35,
@@ -5495,6 +5917,7 @@
       "beteckning": "MJU14",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Begränsningar av trålfisket i övrigt",
       "counts": {
         "ja": 127,
         "nej": 90,
@@ -5508,6 +5931,7 @@
       "beteckning": "NU16",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Kooperativt företagande",
       "counts": {
         "ja": 149,
         "nej": 21,
@@ -5521,6 +5945,7 @@
       "beteckning": "MJU13",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Kommunal tillstyrkan av vindkraft",
       "counts": {
         "ja": 258,
         "nej": 21,
@@ -5534,6 +5959,7 @@
       "beteckning": "KrU7",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Vadhållning och matchfixning",
       "counts": {
         "ja": 107,
         "nej": 35,
@@ -5547,6 +5973,7 @@
       "beteckning": "KrU7",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "E-sport",
       "counts": {
         "ja": 196,
         "nej": 34,
@@ -5560,6 +5987,7 @@
       "beteckning": "NU16",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Företagsstöd för klimatomställningen",
       "counts": {
         "ja": 189,
         "nej": 90,
@@ -5573,6 +6001,7 @@
       "beteckning": "KrU7",
       "punkt": 5,
       "avser": "motivfrågan",
+      "rubrik": "Reglering av politiska partiers lotterier",
       "counts": {
         "ja": 149,
         "nej": 124,
@@ -5586,6 +6015,7 @@
       "beteckning": "MJU13",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Klimat och miljöprövning",
       "counts": {
         "ja": 238,
         "nej": 35,
@@ -5599,6 +6029,7 @@
       "beteckning": "MJU14",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Selektiva redskap och alternativa fiskemetoder",
       "counts": {
         "ja": 211,
         "nej": 62,
@@ -5612,6 +6043,7 @@
       "beteckning": "MJU13",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Översyn av miljöbalken",
       "counts": {
         "ja": 210,
         "nej": 20,
@@ -5625,6 +6057,7 @@
       "beteckning": "KrU7",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Reglering av politiska partiers lotterier",
       "counts": {
         "ja": 160,
         "nej": 62,
@@ -5638,6 +6071,7 @@
       "beteckning": "NU16",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Innovationsfrämjande åtgärder",
       "counts": {
         "ja": 121,
         "nej": 20,
@@ -5651,6 +6085,7 @@
       "beteckning": "MJU14",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Hållbara fiskekvoter",
       "counts": {
         "ja": 211,
         "nej": 20,
@@ -5664,6 +6099,7 @@
       "beteckning": "MJU13",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Effektivare tillståndsprocesser och kortare handläggningstider",
       "counts": {
         "ja": 183,
         "nej": 110,
@@ -5677,6 +6113,7 @@
       "beteckning": "KrU7",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Lagring och delning av personuppgifter",
       "counts": {
         "ja": 187,
         "nej": 41,
@@ -5690,6 +6127,7 @@
       "beteckning": "MJU13",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Torvfrågor",
       "counts": {
         "ja": 231,
         "nej": 62,
@@ -5703,6 +6141,7 @@
       "beteckning": "MJU14",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Övergripande åtgärder för hållbara bestånd, bl.a. bestånden av sill och strömming",
       "counts": {
         "ja": 189,
         "nej": 14,
@@ -5716,6 +6155,7 @@
       "beteckning": "NU16",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om företagsfrämjande åtgärder",
       "counts": {
         "ja": 196,
         "nej": 62,
@@ -5729,6 +6169,7 @@
       "beteckning": "MJU15",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Förutsättningar för skydd av skog",
       "counts": {
         "ja": 208,
         "nej": 64,
@@ -5742,6 +6183,7 @@
       "beteckning": "UbU10",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Resurstilldelningssystemet",
       "counts": {
         "ja": 148,
         "nej": 105,
@@ -5755,6 +6197,7 @@
       "beteckning": "MJU15",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Skydd av skogar med höga naturvärden",
       "counts": {
         "ja": 275,
         "nej": 18,
@@ -5768,6 +6211,7 @@
       "beteckning": "SkU12",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Boendebeskattning m.m.",
       "counts": {
         "ja": 192,
         "nej": 20,
@@ -5781,6 +6225,7 @@
       "beteckning": "SoU13",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Nya könstillhörighetslagar",
       "counts": {
         "ja": 148,
         "nej": 93,
@@ -5794,6 +6239,7 @@
       "beteckning": "SkU12",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Beredskapsskatt",
       "counts": {
         "ja": 182,
         "nej": 111,
@@ -5807,6 +6253,7 @@
       "beteckning": "TU10",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Andra styrmedel i fråga om transportsektorns klimatmål",
       "counts": {
         "ja": 195,
         "nej": 63,
@@ -5820,6 +6267,7 @@
       "beteckning": "KrU8",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Kulturens oberoende ställning",
       "counts": {
         "ja": 258,
         "nej": 21,
@@ -5833,6 +6281,7 @@
       "beteckning": "TU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "En fossilfri fordonsflotta",
       "counts": {
         "ja": 147,
         "nej": 93,
@@ -5846,6 +6295,7 @@
       "beteckning": "SkU12",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Övriga skatter",
       "counts": {
         "ja": 207,
         "nej": 65,
@@ -5859,6 +6309,7 @@
       "beteckning": "SkU12",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Utdelning och kapitalvinster till delägare i fåmansföretag",
       "counts": {
         "ja": 179,
         "nej": 93,
@@ -5872,6 +6323,7 @@
       "beteckning": "TU10",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Bilpooler",
       "counts": {
         "ja": 195,
         "nej": 13,
@@ -5885,6 +6337,7 @@
       "beteckning": "KrU8",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Konstnärernas villkor",
       "counts": {
         "ja": 102,
         "nej": 93,
@@ -5898,6 +6351,7 @@
       "beteckning": "TU10",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Historiska fordon och motorhobbyn",
       "counts": {
         "ja": 228,
         "nej": 65,
@@ -5911,6 +6365,7 @@
       "beteckning": "SoU13",
       "punkt": 19,
       "avser": "sakfrågan",
+      "rubrik": "Övriga frågor om könstillhörighet",
       "counts": {
         "ja": 216,
         "nej": 64,
@@ -5924,6 +6379,7 @@
       "beteckning": "TU10",
       "punkt": 18,
       "avser": "sakfrågan",
+      "rubrik": "Vinterväghållning",
       "counts": {
         "ja": 209,
         "nej": 84,
@@ -5937,6 +6393,7 @@
       "beteckning": "MJU15",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Landskapsplanering",
       "counts": {
         "ja": 262,
         "nej": 13,
@@ -5950,6 +6407,7 @@
       "beteckning": "SkU12",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Kapitalbeskattning",
       "counts": {
         "ja": 169,
         "nej": 111,
@@ -5963,6 +6421,7 @@
       "beteckning": "SfU13",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Spårbyte",
       "counts": {
         "ja": 242,
         "nej": 51,
@@ -5976,6 +6435,7 @@
       "beteckning": "SoU26",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Öppna insatser utan vårdnadshavarens samtycke",
       "counts": {
         "ja": 258,
         "nej": 35,
@@ -5989,6 +6449,7 @@
       "beteckning": "CU19",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Lagstiftningens framtida utformning",
       "counts": {
         "ja": 261,
         "nej": 31,
@@ -6002,6 +6463,7 @@
       "beteckning": "KrU8",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Nationella minoriteters språk och kultur",
       "counts": {
         "ja": 199,
         "nej": 18,
@@ -6015,6 +6477,7 @@
       "beteckning": "KrU8",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Kultur i hela landet",
       "counts": {
         "ja": 84,
         "nej": 64,
@@ -6028,6 +6491,7 @@
       "beteckning": "SoU13",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Nationella screeningprogram",
       "counts": {
         "ja": 171,
         "nej": 18,
@@ -6041,6 +6505,7 @@
       "beteckning": "SkU12",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Avdrag för sponsring av kultur",
       "counts": {
         "ja": 280,
         "nej": 13,
@@ -6054,6 +6519,7 @@
       "beteckning": "UbU10",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Breddad rekrytering",
       "counts": {
         "ja": 169,
         "nej": 13,
@@ -6067,6 +6533,7 @@
       "beteckning": "SoU26",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Öppna insatser utan vårdnadshavarens kännedom",
       "counts": {
         "ja": 200,
         "nej": 93,
@@ -6080,6 +6547,7 @@
       "beteckning": "UbU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Styrning och akademisk frihet",
       "counts": {
         "ja": 208,
         "nej": 64,
@@ -6093,6 +6561,7 @@
       "beteckning": "SoU26",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Processbehörighet",
       "counts": {
         "ja": 259,
         "nej": 21,
@@ -6106,6 +6575,7 @@
       "beteckning": "KrU8",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Litteratur och läsande",
       "counts": {
         "ja": 170,
         "nej": 93,
@@ -6119,6 +6589,7 @@
       "beteckning": "MJU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Skogsbrukets roll i bioekonomin",
       "counts": {
         "ja": 179,
         "nej": 93,
@@ -6132,6 +6603,7 @@
       "beteckning": "JuU21",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Drogtester av barn under 15 år i fler fall",
       "counts": {
         "ja": 274,
         "nej": 18,
@@ -6145,6 +6617,7 @@
       "beteckning": "MJU15",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Olika former för skydd av skog",
       "counts": {
         "ja": 241,
         "nej": 21,
@@ -6158,6 +6631,7 @@
       "beteckning": "UbU10",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Antal och fördelning av högskoleplatser",
       "counts": {
         "ja": 136,
         "nej": 93,
@@ -6171,6 +6645,7 @@
       "beteckning": "KrU10",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Allmän kurs",
       "counts": {
         "ja": 240,
         "nej": 63,
@@ -6184,6 +6659,7 @@
       "beteckning": "NU17",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Biobränslen och biodrivmedel",
       "counts": {
         "ja": 154,
         "nej": 21,
@@ -6197,6 +6673,7 @@
       "beteckning": "SkU17",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Permanent skattenedsättning på viss dieselanvändning",
       "counts": {
         "ja": 283,
         "nej": 20,
@@ -6210,6 +6687,7 @@
       "beteckning": "TU11",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Ökad säkerhet vid flygresor",
       "counts": {
         "ja": 239,
         "nej": 62,
@@ -6223,6 +6701,7 @@
       "beteckning": "JuU28",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Framtida utformning av säkerhetsskyddslagen",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -6236,6 +6715,7 @@
       "beteckning": "UbU14",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Upphävande av sekretessbrytande bestämmelse",
       "counts": {
         "ja": 283,
         "nej": 20,
@@ -6249,6 +6729,7 @@
       "beteckning": "KU35",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Sekretessgenombrott vid utlämnande för teknisk bearbetning eller teknisk lagring av uppgifter",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -6262,6 +6743,7 @@
       "beteckning": "NU17",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Övrigt om energipolitikens inriktning",
       "counts": {
         "ja": 230,
         "nej": 16,
@@ -6275,6 +6757,7 @@
       "beteckning": "SfU19",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Nedsättningen av arbetsgivaravgifterna för personer som arbetar med forskning eller utveckling",
       "counts": {
         "ja": 283,
         "nej": 20,
@@ -6288,6 +6771,7 @@
       "beteckning": "NU17",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Vattenkraft",
       "counts": {
         "ja": 222,
         "nej": 63,
@@ -6301,6 +6785,7 @@
       "beteckning": "TU11",
       "punkt": 4,
       "avser": "motivfrågan",
+      "rubrik": "Arlanda och Bromma flygplats",
       "counts": {
         "ja": 127,
         "nej": 36,
@@ -6314,6 +6799,7 @@
       "beteckning": "UbU14",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Utbildning till hantverksyrken",
       "counts": {
         "ja": 188,
         "nej": 114,
@@ -6327,6 +6813,7 @@
       "beteckning": "NU17",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Blocköverskridande energisamtal",
       "counts": {
         "ja": 176,
         "nej": 114,
@@ -6340,6 +6827,7 @@
       "beteckning": "TU11",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Särskilt om beredskapsflygplatser",
       "counts": {
         "ja": 126,
         "nej": 94,
@@ -6353,6 +6841,7 @@
       "beteckning": "SkU17",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Förlängning av den tillfälligt utökade skattenedsättningen på viss dieselanvändning inom jord-, skogs- och vattenbruk",
       "counts": {
         "ja": 267,
         "nej": 36,
@@ -6366,6 +6855,7 @@
       "beteckning": "KrU10",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Folkbildningens roll",
       "counts": {
         "ja": 190,
         "nej": 94,
@@ -6379,6 +6869,7 @@
       "beteckning": "TU11",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Finansiering och stöd till regionala flygplatser",
       "counts": {
         "ja": 219,
         "nej": 20,
@@ -6392,6 +6883,7 @@
       "beteckning": "TU11",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Arlanda och Bromma flygplats",
       "counts": {
         "ja": 126,
         "nej": 94,
@@ -6405,6 +6897,7 @@
       "beteckning": "SoU21",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Statligt huvudmannaskap för personlig assistans",
       "counts": {
         "ja": 154,
         "nej": 151,
@@ -6418,6 +6911,7 @@
       "beteckning": "MJU16",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Ökad ambition i det internationella klimatarbetet",
       "counts": {
         "ja": 190,
         "nej": 21,
@@ -6431,6 +6925,7 @@
       "beteckning": "UU5",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Arktis",
       "counts": {
         "ja": 204,
         "nej": 21,
@@ -6444,6 +6939,7 @@
       "beteckning": "MJU16",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Kompletterande mål och sektorsmål",
       "counts": {
         "ja": 132,
         "nej": 64,
@@ -6457,6 +6953,7 @@
       "beteckning": "JuU25",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Genomförande på miniminivå",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -6470,6 +6967,7 @@
       "beteckning": "JuU23",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ordningsvaktsutbildningen",
       "counts": {
         "ja": 269,
         "nej": 21,
@@ -6483,6 +6981,7 @@
       "beteckning": "AU10",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ytterligare lättnader i arbetsvillkoret och karensvillkoret",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -6496,6 +6995,7 @@
       "beteckning": "SoU21",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Stöd till synskadade och tillgång till ledarhundar",
       "counts": {
         "ja": 240,
         "nej": 64,
@@ -6509,6 +7009,7 @@
       "beteckning": "MJU16",
       "punkt": 21,
       "avser": "sakfrågan",
+      "rubrik": "Klimatklivet och Industriklivet",
       "counts": {
         "ja": 175,
         "nej": 94,
@@ -6522,6 +7023,7 @@
       "beteckning": "UU5",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Nordiskt samarbete och gränshinder m.m.",
       "counts": {
         "ja": 220,
         "nej": 21,
@@ -6535,6 +7037,7 @@
       "beteckning": "SoU21",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "FN:s konvention om rättigheter för personer med funktions- nedsättning",
       "counts": {
         "ja": 247,
         "nej": 21,
@@ -6548,6 +7051,7 @@
       "beteckning": "AU10",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Regeringens lagförslag",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -6561,6 +7065,7 @@
       "beteckning": "JuU23",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Ordningsvakters befogenheter",
       "counts": {
         "ja": 269,
         "nej": 36,
@@ -6574,6 +7079,7 @@
       "beteckning": "MJU16",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Utsläppsbudget",
       "counts": {
         "ja": 248,
         "nej": 36,
@@ -6587,6 +7093,7 @@
       "beteckning": "MJU16",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Naturbaserade klimatlösningar",
       "counts": {
         "ja": 290,
         "nej": 15,
@@ -6600,6 +7107,7 @@
       "beteckning": "SoU21",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Schablonbeloppet för assistansersättning",
       "counts": {
         "ja": 268,
         "nej": 15,
@@ -6613,6 +7121,7 @@
       "beteckning": "MJU16",
       "punkt": 24,
       "avser": "sakfrågan",
+      "rubrik": "Reduktionsplikten",
       "counts": {
         "ja": 269,
         "nej": 15,
@@ -6626,6 +7135,7 @@
       "beteckning": "UU5",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Utrikespolitik, säkerhetspolitik och krisberedskap",
       "counts": {
         "ja": 220,
         "nej": 63,
@@ -6639,6 +7149,7 @@
       "beteckning": "UU5",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Arbetsmarknad, kultur, utbildning och integration",
       "counts": {
         "ja": 126,
         "nej": 115,
@@ -6652,6 +7163,7 @@
       "beteckning": "FiU41",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riksrevisionens rapport om miljömässig hållbarhet vid statlig upphandling",
       "counts": {
         "ja": 175,
         "nej": 130,
@@ -6665,6 +7177,7 @@
       "beteckning": "UU9",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Regelverket för krigsmaterielexport",
       "counts": {
         "ja": 219,
         "nej": 63,
@@ -6678,6 +7191,7 @@
       "beteckning": "TU12",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Tillgång till elektronisk kommunikation",
       "counts": {
         "ja": 205,
         "nej": 21,
@@ -6691,6 +7205,7 @@
       "beteckning": "UbU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Frågor om en likvärdig betygssättning",
       "counts": {
         "ja": 170,
         "nej": 114,
@@ -6704,6 +7219,7 @@
       "beteckning": "SoU17",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Samverkan mellan myndigheter",
       "counts": {
         "ja": 269,
         "nej": 21,
@@ -6717,6 +7233,7 @@
       "beteckning": "UU13",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Europarådet",
       "counts": {
         "ja": 248,
         "nej": 36,
@@ -6730,6 +7247,7 @@
       "beteckning": "SoU17",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Verksamhetsstöd",
       "counts": {
         "ja": 248,
         "nej": 21,
@@ -6743,6 +7261,7 @@
       "beteckning": "SoU17",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Villkor och befogenheter på särskilda ungdomshem",
       "counts": {
         "ja": 220,
         "nej": 64,
@@ -6756,6 +7275,7 @@
       "beteckning": "SoU17",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Tidiga insatser",
       "counts": {
         "ja": 195,
         "nej": 94,
@@ -6769,6 +7289,7 @@
       "beteckning": "UbU11",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Forskningens frihet och vetenskaplig kvalitet",
       "counts": {
         "ja": 175,
         "nej": 130,
@@ -6782,6 +7303,7 @@
       "beteckning": "SoU17",
       "punkt": 17,
       "avser": "sakfrågan",
+      "rubrik": "Barnkonventionen",
       "counts": {
         "ja": 133,
         "nej": 15,
@@ -6795,6 +7317,7 @@
       "beteckning": "TU12",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Digitalisering i offentlig verksamhet",
       "counts": {
         "ja": 126,
         "nej": 94,
@@ -6808,6 +7331,7 @@
       "beteckning": "TU12",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Mobiltäckningen längs järnvägsnätet",
       "counts": {
         "ja": 205,
         "nej": 64,
@@ -6821,6 +7345,7 @@
       "beteckning": "TU15",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riksrevisionens rapport om Transportstyrelsens tillsyn",
       "counts": {
         "ja": 241,
         "nej": 64,
@@ -6834,6 +7359,7 @@
       "beteckning": "TU12",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Vissa postala konkurrensfrågor",
       "counts": {
         "ja": 284,
         "nej": 21,
@@ -6847,6 +7373,7 @@
       "beteckning": "UbU11",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Forskning om alternativa metoder till djurförsök",
       "counts": {
         "ja": 204,
         "nej": 36,
@@ -6860,6 +7387,7 @@
       "beteckning": "UbU11",
       "punkt": 6,
       "avser": "sakfrågan",
+      "rubrik": "Jämställdhet",
       "counts": {
         "ja": 199,
         "nej": 64,
@@ -6873,6 +7401,7 @@
       "beteckning": "UbU11",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Innovationsstöd",
       "counts": {
         "ja": 220,
         "nej": 21,
@@ -6886,6 +7415,7 @@
       "beteckning": "TU13",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Synkontroller och andra trafikmedicinska frågor",
       "counts": {
         "ja": 184,
         "nej": 56,
@@ -6899,6 +7429,7 @@
       "beteckning": "TU13",
       "punkt": 15,
       "avser": "sakfrågan",
+      "rubrik": "Vissa frågor om körkortsbehörigheter",
       "counts": {
         "ja": 268,
         "nej": 35,
@@ -6912,6 +7443,7 @@
       "beteckning": "JuU26",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Stärkt diskrimineringslag",
       "counts": {
         "ja": 267,
         "nej": 15,
@@ -6925,6 +7457,7 @@
       "beteckning": "FiU21",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ett nytt energipolitiskt mål",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -6938,6 +7471,7 @@
       "beteckning": "UU10",
       "punkt": 10,
       "avser": "sakfrågan",
+      "rubrik": "Terroristlistning av Wagnergruppen",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -6951,6 +7485,7 @@
       "beteckning": "TU14",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Organisering av järnvägsunderhåll",
       "counts": {
         "ja": 153,
         "nej": 130,
@@ -6964,6 +7499,7 @@
       "beteckning": "UU10",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Iran",
       "counts": {
         "ja": 125,
         "nej": 114,
@@ -6977,6 +7513,7 @@
       "beteckning": "FiU20",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Riktlinjer för den ekonomiska politiken och budgetpolitiken",
       "counts": {
         "ja": 153,
         "nej": 94,
@@ -6990,6 +7527,7 @@
       "beteckning": "MJU18",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Beredskapsarbetet inom livsmedelskedjan",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -7003,6 +7541,7 @@
       "beteckning": "TU13",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Trafiksäkerhet vid vägarbeten och räddningsinsatser",
       "counts": {
         "ja": 146,
         "nej": 94,
@@ -7016,6 +7555,7 @@
       "beteckning": "UU10",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Kuba",
       "counts": {
         "ja": 260,
         "nej": 20,
@@ -7029,6 +7569,7 @@
       "beteckning": "UU10",
       "punkt": 5,
       "avser": "sakfrågan",
+      "rubrik": "Ekocid",
       "counts": {
         "ja": 174,
         "nej": 129,
@@ -7042,6 +7583,7 @@
       "beteckning": "MJU18",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Offentlig upphandling av livsmedel",
       "counts": {
         "ja": 225,
         "nej": 15,
@@ -7055,6 +7597,7 @@
       "beteckning": "MJU18",
       "punkt": 14,
       "avser": "sakfrågan",
+      "rubrik": "Regelförenkling",
       "counts": {
         "ja": 219,
         "nej": 21,
@@ -7068,6 +7611,7 @@
       "beteckning": "FiU21",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Blocköverskridande energisamtal",
       "counts": {
         "ja": 153,
         "nej": 150,
@@ -7081,6 +7625,7 @@
       "beteckning": "TU13",
       "punkt": 9,
       "avser": "sakfrågan",
+      "rubrik": "Trafiksäkerhet för mopedbilar och A-traktorer",
       "counts": {
         "ja": 219,
         "nej": 20,
@@ -7094,6 +7639,7 @@
       "beteckning": "FiU21",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Ett energipolitiskt mål om kraftproduktionsutbyggnad",
       "counts": {
         "ja": 209,
         "nej": 94,
@@ -7107,6 +7653,7 @@
       "beteckning": "JuU27",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Stärkt straffrättsligt skydd för opinionsbildare m.fl.",
       "counts": {
         "ja": 288,
         "nej": 15,
@@ -7120,6 +7667,7 @@
       "beteckning": "JuU26",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Utökade polisiära befogenheter i gränsnära områden",
       "counts": {
         "ja": 268,
         "nej": 21,
@@ -7133,6 +7681,7 @@
       "beteckning": "UU10",
       "punkt": 11,
       "avser": "motivfrågan",
+      "rubrik": "Israel",
       "counts": {
         "ja": 155,
         "nej": 94,
@@ -7146,6 +7695,7 @@
       "beteckning": "MJU18",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Ursprungsinformation på restauranger och i andra storhushåll",
       "counts": {
         "ja": 225,
         "nej": 63,
@@ -7159,6 +7709,7 @@
       "beteckning": "UU10",
       "punkt": 11,
       "avser": "sakfrågan",
+      "rubrik": "Israel",
       "counts": {
         "ja": 266,
         "nej": 36,
@@ -7172,6 +7723,7 @@
       "beteckning": "SoU15",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Läkemedel till barn och unga",
       "counts": {
         "ja": 204,
         "nej": 63,
@@ -7185,6 +7737,7 @@
       "beteckning": "KU32",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Ändringar i riksdagsordningens huvudbestämmelser i övrigt",
       "counts": {
         "ja": 303,
         "nej": 0,
@@ -7198,6 +7751,7 @@
       "beteckning": "SoU15",
       "punkt": 8,
       "avser": "sakfrågan",
+      "rubrik": "Glesbygdsbidrag",
       "counts": {
         "ja": 267,
         "nej": 36,
@@ -7211,6 +7765,7 @@
       "beteckning": "SoU18",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Förebyggande arbete",
       "counts": {
         "ja": 245,
         "nej": 22,
@@ -7224,6 +7779,7 @@
       "beteckning": "SoU15",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Läkemedelsgenomgång",
       "counts": {
         "ja": 267,
         "nej": 36,
@@ -7237,6 +7793,7 @@
       "beteckning": "SoU18",
       "punkt": 13,
       "avser": "sakfrågan",
+      "rubrik": "Lagreglering av skyddat boende",
       "counts": {
         "ja": 189,
         "nej": 93,
@@ -7250,6 +7807,7 @@
       "beteckning": "SkU22",
       "punkt": 1,
       "avser": "motivfrågan",
+      "rubrik": "Skatteverket som behörig brottsbekämpande myndighet vid förenklat uppgiftsutbyte inom EU",
       "counts": {
         "ja": 267,
         "nej": 36,
@@ -7263,6 +7821,7 @@
       "beteckning": "KU41",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "En tillfällig allmän flaggdag för att högtidlighålla 50-årsdagen av konungens trontillträde",
       "counts": {
         "ja": 282,
         "nej": 21,
@@ -7276,6 +7835,7 @@
       "beteckning": "SoU18",
       "punkt": 7,
       "avser": "sakfrågan",
+      "rubrik": "Allmänt om våld i nära relationer",
       "counts": {
         "ja": 204,
         "nej": 63,
@@ -7289,6 +7849,7 @@
       "beteckning": "SoU15",
       "punkt": 12,
       "avser": "sakfrågan",
+      "rubrik": "Högkostnadsskydd för tandvård",
       "counts": {
         "ja": 210,
         "nej": 93,
@@ -7302,6 +7863,7 @@
       "beteckning": "JuU31",
       "punkt": 3,
       "avser": "sakfrågan",
+      "rubrik": "Utvärdering av preventivlagen",
       "counts": {
         "ja": 246,
         "nej": 56,
@@ -7315,6 +7877,7 @@
       "beteckning": "JuU31",
       "punkt": 4,
       "avser": "sakfrågan",
+      "rubrik": "Resurser för tillsyn m.m.",
       "counts": {
         "ja": 261,
         "nej": 40,
@@ -7328,6 +7891,7 @@
       "beteckning": "JuU32",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Granskning av investeringar i medieföretag",
       "counts": {
         "ja": 281,
         "nej": 21,
@@ -7341,6 +7905,7 @@
       "beteckning": "JuU31",
       "punkt": 2,
       "avser": "sakfrågan",
+      "rubrik": "Överskottsinformation",
       "counts": {
         "ja": 267,
         "nej": 16,
@@ -7354,6 +7919,7 @@
       "beteckning": "JuU31",
       "punkt": 1,
       "avser": "sakfrågan",
+      "rubrik": "Hemliga tvångsmedel - effektiva verktyg för att förhindra och utreda allvarliga brott",
       "counts": {
         "ja": 283,
         "nej": 19,

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "Sveriges riksdag",
   "id": "0677609280627",
   "name": "Filip Reinhag",
@@ -49,5 +49,10 @@
       "attendance": 1
     }
   ],
-  "missedVoteIds": []
+  "ballots": [
+    {
+      "riksmote": "2026/27",
+      "votes": "J"
+    }
+  ]
 }

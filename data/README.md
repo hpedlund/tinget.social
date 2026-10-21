@@ -8,11 +8,12 @@ Source: [Riksdagens öppna data](https://www.riksdagen.se/sv/dokument-och-lagar/
 
 ```bash
 npm run data:fetch     # Riksdagen → .cache/riksdagen/ (validated)
-npm run data:compute   # .cache/riksdagen/ → data/ (deterministic)
+npm run data:summarize # optional: generated summaries → data/generated-summaries.json (needs ANTHROPIC_API_KEY)
+npm run data:compute   # .cache/riksdagen/ (+ generated summaries) → data/ (deterministic)
 npm run data:check     # validate data/ exactly as the site build reads it
 ```
 
-Schemas: `lib/data/schemas.ts` (zod, strict — unknown keys are rejected). Types: `lib/data/types.ts`. Builder: `lib/pipeline/build.ts`. Every file has `schemaVersion` (currently `1`) and `source` (`"Sveriges riksdag"`); bump `schemaVersion` on any breaking change.
+Schemas: `lib/data/schemas.ts` (zod, strict — unknown keys are rejected). Types: `lib/data/types.ts`. Builder: `lib/pipeline/build.ts`. Every file has `schemaVersion` (currently `2`; `2` added `documents/`, `rubrik` in vote entries and member `ballots`, replacing `missedVoteIds`) and `source` (`"Sveriges riksdag"`); bump `schemaVersion` on any breaking change.
 
 | File | Contents |
 |------|----------|
@@ -20,8 +21,14 @@ Schemas: `lib/data/schemas.ts` (zod, strict — unknown keys are rejected). Type
 | `ranking/{periodId}.json` | `totalVotes`, `minEligibleVotes`, `ranked[]` (`rank`, `memberId`, `name`, `party`, `constituency`, summary) best first, `belowThreshold[]` (same without `rank`) by name |
 | `parties.json` | Per period: `parties[]` with `party`, `memberCount`, pooled summary, `rankedMembers` and `spread` (`min`/`median`/`max` attendance of ranked members whose latest party in the period it is; `null` if none), best first |
 | `members.json` | Index of everyone in the data: `id`, `name`, `party`, `constituency` (latest), by id |
-| `members/{id}.json` | One member: `name`, `party`, `constituency` (latest vote), `firstName`, `lastName`, `sortName`, `status` (from `personlista`), `total` (all riksmöten in the data), `byRiksmote[]`, `periods[]` (`periodId`, `rank` or `null` if below the threshold, summary), `missedVoteIds[]` (Frånvarande, in date order) |
-| `votes/{riksmote}.json` | Vote index, e.g. `votes/2025-26.json`: `id` (votering_id), `date`, `beteckning`, `punkt`, `avser`, `counts`, by date then id |
+| `members/{id}.json` | One member: `name`, `party`, `constituency` (latest vote), `firstName`, `lastName`, `sortName`, `status` (from `personlista`), `total` (all riksmöten in the data), `byRiksmote[]`, `periods[]` (`periodId`, `rank` or `null` if below the threshold, summary), `ballots[]` (see below) |
+| `votes/{riksmote}.json` | Vote index, e.g. `votes/2025-26.json`: `id` (votering_id), `date`, `beteckning`, `punkt`, `avser`, `rubrik` (heading of the betänkande's proposal point; `null` for omröstningar or when unknown), `counts`, by date then id |
+| `documents/{riksmote}.json` | What the votes are about, one entry per voted `beteckning`, by beteckning: `kind` (`betankande`/`omrostning`), `dokId` (links to riksdagen.se), `title`, `summary` (`null`, or `source` `riksdagen`/`generated`, `heading`, `blocks[]` of plain-text `p`/`li`, `model` for generated ones) |
+| `generated-summaries.json` | **Pipeline input, not output** — summaries written by `data:summarize` for documents Riksdagen has not summarised, kept across runs (`riksmote`, `beteckning`, `dokId`, `model`, `generatedAt`, `heading`, `blocks`). `data:compute` uses one only while Riksdagen's own summary is missing and the `dokId` matches; `data:summarize` drops it once Riksdagen publishes one |
+
+**Ballots**: `ballots[]` has one entry per riksmöte in which the member has at least one ballot: `{ riksmote, votes }`, where `votes` has one character per vote of `votes/{riksmote}.json`, in that file's order — `J` Ja, `N` Nej, `A` Avstår, `F` Frånvarande, `-` no ballot (not serving). `lib/data/` checks on read that each string has the vote file's length and adds up to the member's `byRiksmote` counts, so a misaligned file fails the build. The site also publishes each riksmöte's vote list as static JSON (`/data/voteringar/{riksmote}.json`: `[id, date, beteckning, punkt, motivfrågan 0/1, rubrik]` plus titles), which the member page joins with the ballot string in the browser.
+
+**Summaries are plain text.** Riksdagen's "Beslut i korthet" is HTML; the fetch step converts it to paragraphs and list items (`lib/riksdagen/html-text.ts`) and the site renders only that text, never source HTML.
 
 A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `present` and `attendance` (`present / eligible`, 0–1, **unrounded** — the site rounds for display). Calculation rules: [docs/specs/TASK-004.md](../docs/specs/TASK-004.md).
 
@@ -33,7 +40,7 @@ A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `p
 
 **Deterministic**: the same cache gives byte-identical files (fixed key order, explicit sorting, 2-space indent). There is deliberately no `generatedAt` timestamp, so a run without new votes produces no diff; `lastVoteDate` shows how current the data is and the git history shows when it was generated.
 
-**Size**: `data/` is build input only — it is not published as-is; the site publishes pre-rendered pages. First snapshot (votes up to 2026-10-15): 580 files, 8.0 MB, of which the 566 member files (dominated by `missedVoteIds`) are the bulk; each ranking file is ≈ 100–200 kB.
+**Size**: `data/` is build input only — it is not published as-is; the site publishes pre-rendered pages. Snapshot with votes up to 2026-10-15: 585 files, 5.2 MB (the ballot strings are smaller than the former `missedVoteIds`); member files ≈ 3.7 MB, `documents/` ≈ 1.2 MB, each ranking file ≈ 100–200 kB.
 
 ## Fetch pipeline
 
@@ -46,6 +53,9 @@ A **summary** is `counts` (`ja`, `nej`, `avstar`, `franvarande`), `eligible`, `p
 | `raw/voteringlista/{rm}-by-vote.json` | Vote index per riksmöte (`gruppering=votering_id`) |
 | `raw/personlista-tjanst.json` | `/personlista/?rdlstatus=tjanst` |
 | `votes-{rm}.json` | Validated, normalised votes (see `lib/riksdagen/normalized.ts`) |
+| `raw/dokumentlista/bet-{rm}-{page}.json` | Betänkanden of the riksmöte (`/dokumentlista/?doktyp=bet`), re-fetched every run |
+| `raw/utskottsforslag/{dok_id}.json` | Proposal points of a voted betänkande (kept; re-fetched in the current riksmöte when a voted point is missing) |
+| `documents-{rm}.json` | Validated, normalised vote documents: title, "Beslut i korthet" as text blocks, proposal-point headings |
 | `members.json` | Validated, normalised members: only people who appear in the vote data |
 | `manifest.json` | Per riksmöte: source, complete, counts, fetch time |
 | `observed.json` | Value sets seen in the last run (basis for the tables below) |
@@ -59,6 +69,12 @@ Riksmöten: 2022/23–2025/26 (2022–2026 term, cached once complete) and 2026/
 3. Votes in the index but missing from the dataset, and every vote when there is no dataset yet (the current riksmöte), are fetched from **`/votering/{id}/json`**. *Omröstningar* (e.g. the vote on a new prime minister) have no rows there; they are read from `/voteringlista/?rm=…&bet={beteckning}`.
 4. Every vote's per-`rost` counts must equal the index, or the run aborts.
 5. Dataset votes that are **not in the index** are excluded and listed in `observed.json` (see below).
+
+### How documents are assembled
+
+Every vote has a `beteckning`. For a betänkande (e.g. `JuU41`) the pipeline finds it in `/dokumentlista/?doktyp=bet&rm=…` (title, `notisrubrik`, `notis` = "Beslut i korthet") and reads the heading of each voted point from `/utskottsforslag/{dok_id}.json`. Omröstningar (`MMDD-N`, e.g. the vote on a prime minister) have no betänkande; their title comes from the vote document (`/votering/{id}/json`). A beteckning shared by several betänkanden, or with no document, is reported in `observed.json` and shown without a topic — topics never affect the attendance figures, so this does not abort the run.
+
+Observed 2026-10-21: every voted betänkande was found and had a "Beslut i korthet"; every vote in a betänkande had a point heading. Only the 6 omröstningar lack a summary. `dok_id` and `beteckning` can contain `ö` (`HA01FöU9`, `UFöU1`); page URLs use an ASCII slug (`fou9`).
 
 ## Vote rows
 

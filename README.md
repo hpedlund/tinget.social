@@ -12,7 +12,8 @@ tinget.social is an independent, non-partisan website that uses the Swedish parl
 
 - **A ranked list of all members of parliament** by voting attendance, from most present to most absent
 - **Filters** by party, constituency and period
-- **A page per member** showing their attendance over time and which votes they missed
+- **A page per member** showing their attendance over time and every vote: how they voted and what it was about
+- **A page per voted proposal** (betänkande) with Riksdagen's own short summary, the result of each vote and a link to the document
 - **A party overview** so individual numbers can be compared with their party's average
 - **"Så räknar vi"** — a plain-language explanation of how every number is calculated
 
@@ -33,13 +34,15 @@ Absence is not always a failure to show up for work. Members can be absent for l
 
 The data shows *that* someone was absent, not *why*. We present the figures factually and never comment on individual members.
 
+Summaries of what a vote was about are Riksdagen's own ("Beslut i korthet"). Where Riksdagen has published none, a summary written by an AI language model may be shown, clearly marked as such.
+
 ## The name
 
 *Tinget* was the ancient Nordic assembly where free people gathered to settle matters of common concern. tinget.social aims to make today's assembly a little easier to follow.
 
 ## Looking ahead
 
-Attendance is the first step. Later ideas include exploring how members voted on specific issues, their speeches and parliamentary documents — and possibly a place for structured discussion between citizens and politicians.
+Attendance and how members voted are the first steps. Later ideas include speeches and parliamentary documents — and possibly a place for structured discussion between citizens and politicians.
 
 ## Data source
 

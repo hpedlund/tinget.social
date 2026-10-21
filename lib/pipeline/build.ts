@@ -15,6 +15,7 @@ import type {
 import {
   DATA_SCHEMA_VERSION,
   DATA_SOURCE,
+  documentsFileSchema,
   memberFileSchema,
   membersIndexFileSchema,
   metaFileSchema,
@@ -22,17 +23,36 @@ import {
   rankingFileSchema,
   votesFileSchema,
 } from "@/lib/data/schemas";
-import type { MemberFile, PartyEntry, Period, VoteCounts } from "@/lib/data/types";
+import type {
+  DocumentEntry,
+  GeneratedSummary,
+  MemberFile,
+  PartyEntry,
+  Period,
+  VoteCounts,
+} from "@/lib/data/types";
 import { compare } from "@/lib/riksdagen/compare";
 import { RIKSDAGEN_BASE_URL, riksmoteSlug } from "@/lib/riksdagen/config";
 import { formatZodError } from "@/lib/riksdagen/errors";
-import type { Member, Members, RiksmoteVotes, Vote } from "@/lib/riksdagen/types";
+import type {
+  Member,
+  Members,
+  RiksmoteDocuments,
+  RiksmoteVotes,
+  Rost,
+  Vote,
+  VoteDocument,
+} from "@/lib/riksdagen/types";
 
 import type { PeriodDefinition } from "./periods";
 
 export interface BuildInput {
   /** One entry per riksmöte; every riksmöte of every period must be present */
   votes: readonly RiksmoteVotes[];
+  /** What the votes are about, one entry per riksmöte of `votes`. */
+  documents: readonly RiksmoteDocuments[];
+  /** From data/generated-summaries.json; used only where Riksdagen has no summary. */
+  generatedSummaries: readonly GeneratedSummary[];
   members: Members;
   periods: readonly PeriodDefinition[];
   defaultPeriodId: string;
@@ -89,6 +109,28 @@ function voteCounts(vote: Vote): VoteCounts {
     else counts.franvarande += 1;
   }
   return counts;
+}
+
+const BALLOT_CODE: Record<Rost, string> = { Ja: "J", Nej: "N", Avstår: "A", Frånvarande: "F" };
+
+/** Votes in the order of votes/{riksmote}.json (and of the ballot strings). */
+function sortedVotes(data: RiksmoteVotes): Vote[] {
+  return [...data.votes].sort((a, b) => compare(a.date, b.date) || compare(a.id, b.id));
+}
+
+function documentEntry(
+  riksmote: string,
+  doc: VoteDocument,
+  generated: ReadonlyMap<string, GeneratedSummary>,
+): DocumentEntry {
+  const fallback = generated.get(`${riksmote} ${doc.beteckning}`);
+  const summary: DocumentEntry["summary"] =
+    doc.summary.length > 0
+      ? { source: "riksdagen", heading: doc.heading, blocks: doc.summary, model: null }
+      : fallback && fallback.dokId === doc.dokId
+        ? { source: "generated", heading: fallback.heading, blocks: fallback.blocks, model: fallback.model }
+        : null;
+  return { beteckning: doc.beteckning, kind: doc.kind, dokId: doc.dokId, title: doc.title, summary };
 }
 
 function median(sorted: readonly number[]): number {
@@ -231,6 +273,25 @@ export function buildDataFiles(input: BuildInput): DataFile[] {
     }),
   );
 
+  // Ballot strings: one character per vote, in vote file order.
+  const ballotStrings = new Map<string, { riksmote: string; votes: string }[]>();
+  for (const rm of riksmoten) {
+    const votes = sortedVotes(byRiksmote.get(rm)!);
+    const codes = new Map<string, string[]>();
+    votes.forEach((vote, index) => {
+      for (const ballot of vote.ballots) {
+        let row = codes.get(ballot.memberId);
+        if (!row) codes.set(ballot.memberId, (row = Array<string>(votes.length).fill("-")));
+        row[index] = BALLOT_CODE[ballot.rost];
+      }
+    });
+    for (const [memberId, row] of codes) {
+      const list = ballotStrings.get(memberId) ?? [];
+      list.push({ riksmote: rm, votes: row.join("") });
+      ballotStrings.set(memberId, list);
+    }
+  }
+
   for (const member of all) {
     const person = people.get(member.memberId);
     if (!person) throw new Error(`Member ${member.memberId} votes but is missing from members`);
@@ -252,16 +313,25 @@ export function buildDataFiles(input: BuildInput): DataFile[] {
           ? [{ periodId, rank: placement.rank, ...summary(placement.member) }]
           : [];
       }),
-      missedVoteIds: member.missedVoteIds,
+      ballots: ballotStrings.get(member.memberId) ?? [],
     };
     files.push(file(`members/${member.memberId}.json`, memberFileSchema, memberFile));
   }
 
-  // Vote index per riksmöte
+  // Vote index and documents per riksmöte
+  const documentsByRiksmote = new Map<string, RiksmoteDocuments>();
+  for (const docs of input.documents) {
+    if (documentsByRiksmote.has(docs.riksmote)) throw new Error(`Documents for ${docs.riksmote} given twice`);
+    documentsByRiksmote.set(docs.riksmote, docs);
+  }
+  const generated = new Map(input.generatedSummaries.map((g) => [`${g.riksmote} ${g.beteckning}`, g]));
+
   for (const rm of riksmoten) {
-    const votes = [...byRiksmote.get(rm)!.votes].sort(
-      (a, b) => compare(a.date, b.date) || compare(a.id, b.id),
-    );
+    const docs = documentsByRiksmote.get(rm);
+    if (!docs) throw new Error(`No documents for ${rm}`);
+    const byBeteckning = new Map(docs.documents.map((doc) => [doc.beteckning, doc]));
+    const votes = sortedVotes(byRiksmote.get(rm)!);
+
     files.push(
       file(`votes/${riksmoteSlug(rm)}.json`, votesFileSchema, {
         ...header,
@@ -272,8 +342,22 @@ export function buildDataFiles(input: BuildInput): DataFile[] {
           beteckning: vote.beteckning,
           punkt: vote.punkt,
           avser: vote.avser,
+          rubrik:
+            byBeteckning.get(vote.beteckning)?.punkter.find((p) => p.punkt === vote.punkt)?.rubrik ?? null,
           counts: voteCounts(vote),
         })),
+      }),
+    );
+
+    const voted = new Set(votes.map((vote) => vote.beteckning));
+    files.push(
+      file(`documents/${riksmoteSlug(rm)}.json`, documentsFileSchema, {
+        ...header,
+        riksmote: rm,
+        documents: docs.documents
+          .filter((doc) => voted.has(doc.beteckning))
+          .sort((a, b) => compare(a.beteckning, b.beteckning))
+          .map((doc) => documentEntry(rm, doc, generated)),
       }),
     );
   }

@@ -1,6 +1,9 @@
 import type { z } from "zod";
 
 import type {
+  documentEntrySchema,
+  documentsFileSchema,
+  generatedSummariesFileSchema,
   memberFileSchema,
   memberIndexEntrySchema,
   membersIndexFileSchema,
@@ -10,6 +13,8 @@ import type {
   periodSchema,
   rankedRowSchema,
   rankingFileSchema,
+  summarySchema,
+  textBlockSchema,
   unrankedRowSchema,
   voteCountsSchema,
   voteEntrySchema,
@@ -30,12 +35,12 @@ export type MemberFile = z.infer<typeof memberFileSchema>;
 export type VoteEntry = z.infer<typeof voteEntrySchema>;
 export type VotesFile = z.infer<typeof votesFileSchema>;
 
-/** A missed vote joined with its details from data/votes/. */
-export interface MissedVote extends VoteEntry {
-  riksmote: string;
-}
+export type TextBlock = z.infer<typeof textBlockSchema>;
+export type Summary = z.infer<typeof summarySchema>;
+export type DocumentEntry = z.infer<typeof documentEntrySchema>;
+export type DocumentsFile = z.infer<typeof documentsFileSchema>;
+export type GeneratedSummariesFile = z.infer<typeof generatedSummariesFileSchema>;
+export type GeneratedSummary = GeneratedSummariesFile["summaries"][number];
 
-/** What `getMember` returns: the member file with missed votes resolved. */
-export interface MemberDetail extends Omit<MemberFile, "missedVoteIds"> {
-  missedVotes: MissedVote[];
-}
+/** What `getMember` returns: the member file, checked against data/votes/. */
+export type MemberDetail = MemberFile;
