@@ -1,6 +1,6 @@
 # Backlog
 
-> Next ID: TASK-014
+> Next ID: TASK-015
 
 Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered by dependency chain.
 
