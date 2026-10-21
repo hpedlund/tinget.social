@@ -282,8 +282,8 @@ export default async function MethodologyPage() {
             riksdagens öppna data
           </a>
           : riksdagens listor över voteringar, filerna med hur varje ledamot röstade i varje
-          votering och uppgifter om ledamöterna. Uppgifterna hämtas från data.riksdagen.se och
-          siffrorna räknas om när webbplatsen uppdateras med nya voteringar.
+          votering och uppgifter om ledamöterna. Uppgifterna hämtas från data.riksdagen.se varje
+          dag, och siffrorna räknas om när det har hållits nya voteringar.
         </p>
         <ul className="list-disc space-y-2 pl-5">
           <li>

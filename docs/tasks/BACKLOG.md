@@ -17,7 +17,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-011 | [Daily data refresh](TASK-011.md) | designed | medium | TASK-005 |
+| TASK-011 | [Daily data refresh](TASK-011.md) | reviewing | medium | TASK-005 |
 | TASK-012 | [Pre-launch review](TASK-012.md) | draft | medium | TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011 |
 | TASK-013 | [Custom domain tinget.social](TASK-013.md) | draft | low | TASK-001 |
 

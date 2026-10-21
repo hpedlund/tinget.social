@@ -32,6 +32,7 @@ PAGES_BASE_PATH=/tinget.social npm run build
 
 - **CI** (`.github/workflows/ci.yml`): lint, typecheck, unit tests and build on every pull request and branch push.
 - **Deploy** (`.github/workflows/deploy.yml`): on every push to `main` (and manually), builds and publishes `out/` to GitHub Pages.
+- **Data refresh** (`.github/workflows/data-refresh.yml`): daily at 04:23 UTC and manually (optionally re-downloading every riksmöte). Fetches, computes and checks the data, runs the tests and the build; when `data/` changed, commits it to `main` as `github-actions[bot]` and runs the deploy workflow. The job that handles Riksdagen data has a read-only token; only the commit job, which runs no npm code, can write. A manual run on another branch is a dry run. If `main` is protected against direct pushes, allow GitHub Actions to push, or the commit step fails.
 - One-time setup: repository Settings → Pages → Source: **GitHub Actions**.
 - The site is live at `https://hpedlund.github.io/tinget.social/` until the custom domain is mapped (TASK-013); the sub-path is picked up automatically from the Pages configuration.
 
