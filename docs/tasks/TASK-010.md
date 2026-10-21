@@ -1,6 +1,6 @@
 # TASK-010: Methodology page (Så räknar vi)
 
-**Status**: designed
+**Status**: reviewing
 **Priority**: high
 **Depends on**: TASK-004, TASK-002
 **Branch**: claude/focused-pascal-1h7rnf

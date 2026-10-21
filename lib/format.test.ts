@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { formatDate, formatNumber, formatPercent } from "./format";
+import { formatDate, formatNumber, formatPercent, formatShare } from "./format";
 import { partyName } from "./parties";
 
 // Intl uses U+00A0 / U+202F between digits and units in sv-SE.
@@ -21,6 +21,13 @@ describe("formatPercent", () => {
   it("is not thrown off by float noise", () => {
     expect(plain(formatPercent(0.29))).toBe("29,0 %");
     expect(plain(formatPercent(12 / 13))).toBe("92,3 %");
+  });
+});
+
+describe("formatShare", () => {
+  it("formats a rule as a whole percent", () => {
+    expect(plain(formatShare(0.1))).toBe("10 %");
+    expect(plain(formatShare(0.5))).toBe("50 %");
   });
 });
 

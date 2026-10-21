@@ -61,7 +61,10 @@ export default async function PartiesPage() {
         <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
           Varje votering räknas till det parti ledamoten tillhörde vid voteringen, och ersättare
           ingår för de voteringar de tjänstgjorde. En ledamot som bytt parti kan därför finnas med
-          i två partier. Median, lägst och högst utgår från ledamotens senaste parti under perioden.
+          i två partier. Median, lägst och högst utgår från ledamotens senaste parti under perioden.{" "}
+          <Link href="/sa-raknar-vi/#partier" prefetch={false} className={linkClassName}>
+            Så räknar vi partiernas närvaro
+          </Link>
         </p>
       </section>
 

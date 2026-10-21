@@ -119,7 +119,10 @@ export default async function MemberPage({ params }: Props) {
             ) : (
               <>
                 Rankas inte: tjänstgjorde under färre än {formatNumber(headline.minEligibleVotes)}{" "}
-                voteringar (en tiondel av perioden).
+                voteringar (en tiondel av perioden).{" "}
+                <Link href="/sa-raknar-vi/#ranking" prefetch={false} className={linkClassName}>
+                  Om gränsen för ranking
+                </Link>
               </>
             )}
           </p>

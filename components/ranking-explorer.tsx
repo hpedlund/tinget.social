@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useRef } from "react";
 
 import { RankingFilters } from "@/components/ranking-filters";
@@ -108,7 +109,14 @@ export function RankingExplorer({ data }: { data: ExplorerData }) {
             som lämnat riksdagen, tjänstgjorde i kammaren under färre än{" "}
             {formatNumber(period.minEligibleVotes)} voteringar (en tiondel av
             perioden) och rankas därför inte. Närvaron räknas bara på de
-            voteringar de själva kunde delta i.
+            voteringar de själva kunde delta i.{" "}
+            <Link
+              href="/sa-raknar-vi/#ranking"
+              prefetch={false}
+              className="underline underline-offset-4 hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2"
+            >
+              Om gränsen för ranking
+            </Link>
           </p>
           <RankingTable
             rows={belowThreshold}
