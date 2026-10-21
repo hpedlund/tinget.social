@@ -14,13 +14,15 @@ import { DEFAULT_THRESHOLD_SHARE } from "@/lib/attendance";
 import { getMeta } from "@/lib/data";
 import type { Period } from "@/lib/data";
 import { formatDate, formatNumber, formatShare } from "@/lib/format";
+import { pageMetadata } from "@/lib/metadata";
 import { REPOSITORY_URL, RIKSDAGEN_OPEN_DATA_URL } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Så räknar vi",
   description:
     "Hur närvaron i riksdagens voteringar räknas, vilka voteringar som ingår och vad siffrorna inte visar.",
-};
+  path: "/sa-raknar-vi/",
+});
 
 const linkClassName =
   "underline underline-offset-4 hover:text-muted-foreground focus-visible:outline-2 focus-visible:outline-offset-2";

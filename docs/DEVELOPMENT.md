@@ -18,6 +18,7 @@ npm run build       # static export to out/
 npm run data:fetch  # download + validate Riksdagen data into .cache/ (add -- --refresh to bypass the cache)
 npm run data:compute # calculate attendance from .cache/ into data/ (the committed data contract)
 npm run data:check  # validate data/ the way the site build reads it
+npm run data:spot-check # compare a sample of members with Riksdagen's per-member vote lists (network)
 ```
 
 `data:fetch` needs network access to `data.riksdagen.se`; a first run takes about 30 seconds and downloads ~50 MB. What it fetches, the values observed and every generated file in `data/` are documented in [data/README.md](../data/README.md). Pages read data only through `lib/data/`.

@@ -5,15 +5,17 @@ import { AttendanceCaveat } from "@/components/attendance-caveat";
 import { PartyTable } from "@/components/party-table";
 import { PartyTrendTable } from "@/components/party-trend-table";
 import { formatNumber, formatPercent } from "@/lib/format";
+import { pageMetadata } from "@/lib/metadata";
 import { loadPartyOverview } from "@/lib/party-overview/load";
 import { RIKSDAGEN_OPEN_DATA_URL } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { period } = await loadPartyOverview();
-  return {
+  return pageMetadata({
     title: "Partier",
     description: `Närvaro i riksdagens voteringar per parti ${period.label}: partiets samlade närvaro, median och spridning bland ledamöterna.`,
-  };
+    path: "/partier/",
+  });
 }
 
 const linkClassName =

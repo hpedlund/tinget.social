@@ -3,14 +3,16 @@ import type { Metadata } from "next";
 import { AttendanceCaveat } from "@/components/attendance-caveat";
 import { RankingExplorer } from "@/components/ranking-explorer";
 import { getDefaultPeriod, getPeriods, getRanking } from "@/lib/data";
+import { pageMetadata } from "@/lib/metadata";
 import { buildExplorerData } from "@/lib/ranking/explorer";
 import { RIKSDAGEN_OPEN_DATA_URL } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const period = await getDefaultPeriod();
-  return {
+  return pageMetadata({
     description: `Hur ofta varje riksdagsledamot röstar i riksdagens voteringar ${period.label} — rankat från högst till lägst närvaro.`,
-  };
+    path: "/",
+  });
 }
 
 export default async function Home() {

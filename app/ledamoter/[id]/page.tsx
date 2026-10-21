@@ -7,6 +7,7 @@ import { MemberTrendTable } from "@/components/member-trend-table";
 import { MissedVotes } from "@/components/missed-votes";
 import { getAllMemberIds } from "@/lib/data";
 import { formatNumber, formatPercent } from "@/lib/format";
+import { pageMetadata } from "@/lib/metadata";
 import { loadMemberProfile } from "@/lib/member/load";
 import { compactMissedVotes } from "@/lib/member/profile";
 import { partyName } from "@/lib/parties";
@@ -26,13 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!loaded) return {};
   const { member, profile } = loaded;
   const where = [member.party, member.constituency].filter(Boolean);
-  return {
+  return pageMetadata({
     title: member.name,
     description:
       `Närvaro i riksdagens voteringar för ${member.name}` +
       (where.length > 0 ? ` (${where.join(", ")})` : "") +
       `: ${formatPercent(profile.headline.attendance)} ${profile.headline.label}.`,
-  };
+    path: `/ledamoter/${encodeURIComponent(member.id)}/`,
+  });
 }
 
 const linkClassName =

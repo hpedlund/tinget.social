@@ -16,7 +16,7 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 
 | ID | Title | Status | Priority | Dependencies |
 |----|-------|--------|----------|--------------|
-| TASK-012 | [Pre-launch review](TASK-012.md) | designed | medium | TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011 |
+| TASK-012 | [Pre-launch review](TASK-012.md) | reviewing | medium | TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011 |
 
 ## Done
 

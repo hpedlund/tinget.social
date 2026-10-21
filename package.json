@@ -11,7 +11,8 @@
     "test": "vitest run",
     "data:fetch": "tsx scripts/fetch.ts",
     "data:compute": "tsx scripts/compute.ts",
-    "data:check": "tsx scripts/check.ts"
+    "data:check": "tsx scripts/check.ts",
+    "data:spot-check": "tsx scripts/spot-check.ts"
   },
   "engines": {
     "node": ">=22"
