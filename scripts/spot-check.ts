@@ -37,7 +37,17 @@ async function chooseSample(): Promise<Sample[]> {
       parties.set(row.memberId, set);
     }
   }
-  const switcher = term.ranked.find((row) => (parties.get(row.memberId)?.size ?? 0) > 1);
+  // Each rule picks a member not already in the sample.
+  const picked = new Set<string>([term.ranked[0]!.memberId, term.ranked.at(-1)!.memberId]);
+  const pick = <T extends { memberId: string }>(row: T | undefined) => {
+    if (row) picked.add(row.memberId);
+    return row;
+  };
+  const fresh = (row: { memberId: string }) => !picked.has(row.memberId);
+
+  const switcher = pick(
+    term.ranked.find((row) => fresh(row) && (parties.get(row.memberId)?.size ?? 0) > 1),
+  );
 
   const largestParty = (() => {
     const counts = new Map<string, number>();
@@ -45,16 +55,16 @@ async function chooseSample(): Promise<Sample[]> {
     return [...counts].sort((a, b) => b[1] - a[1])[0]![0];
   })();
   const partyRows = term.ranked.filter((row) => row.party === largestParty);
-  const median = partyRows[Math.floor(partyRows.length / 2)];
+  const median = pick(partyRows[Math.floor(partyRows.length / 2)]);
 
-  const vilde = term.ranked.find((row) => row.party === "-");
-  const substitute = [...term.belowThreshold].sort((a, b) => b.eligible - a.eligible)[0];
+  const vilde = pick(term.ranked.find((row) => fresh(row) && row.party === "-"));
+  const substitute = pick([...term.belowThreshold].sort((a, b) => b.eligible - a.eligible)[0]);
 
   let leftDuringTerm: RankedRow | undefined;
-  for (const row of term.ranked) {
+  for (const row of term.ranked.filter(fresh)) {
     const member = await getMember(row.memberId);
-    if (member?.status.startsWith("Tidigare")) {
-      leftDuringTerm = row;
+    if (member?.status === "Tidigare riksdagsledamot") {
+      leftDuringTerm = pick(row);
       break;
     }
   }
