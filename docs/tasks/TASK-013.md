@@ -1,9 +1,9 @@
 # TASK-013: Custom domain tinget.social
 
-**Status**: draft
+**Status**: designed
 **Priority**: low
 **Depends on**: TASK-001
-**Branch**: task/013-custom-domain
+**Branch**: claude/focused-pascal-1h7rnf
 
 ## Goal
 
@@ -11,7 +11,7 @@ The site is served from `https://tinget.social` with HTTPS.
 
 ## Details
 
-Blocked until DNS is mapped.
+DNS is mapped (done outside the repository).
 
 - DNS records at the registrar (apex A/AAAA records to GitHub Pages, `www` CNAME)
 - Set the custom domain and "Enforce HTTPS" in repository Settings → Pages; verify the domain for the account
