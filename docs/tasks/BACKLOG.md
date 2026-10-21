@@ -34,3 +34,4 @@ Version 1 — attendance ranking (see [PROJECT.md](../../PROJECT.md)). Ordered b
 | TASK-011 | [Daily data refresh](TASK-011.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
 | TASK-012 | [Pre-launch review](TASK-012.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
 | TASK-013 | [Custom domain tinget.social](TASK-013.md) | claude/focused-pascal-1h7rnf | 2026-10-21 |
+| TASK-014 | [Content-Security-Policy and CORS](TASK-014.md) | claude/lucid-tesla-7uijzq | 2026-10-21 |
