@@ -1095,6 +1095,12 @@
       "constituency": "Stockholms län"
     },
     {
+      "id": "0386985788291",
+      "name": "Edmir Mehmeti",
+      "party": "M",
+      "constituency": "Skåne läns södra"
+    },
+    {
       "id": "0387230530213",
       "name": "Crister Carlsson",
       "party": "M",
@@ -1327,6 +1333,12 @@
       "name": "Adrian Magnusson",
       "party": "S",
       "constituency": "Skåne läns södra"
+    },
+    {
+      "id": "0450884035316",
+      "name": "Åsa Kullgren",
+      "party": "S",
+      "constituency": "Södermanlands län"
     },
     {
       "id": "0452755722723",
@@ -1864,7 +1876,7 @@
     },
     {
       "id": "0592345073323",
-      "name": "Anna Sillén",
+      "name": "Anna af Sillén",
       "party": "M",
       "constituency": "Södermanlands län"
     },
@@ -2253,6 +2265,12 @@
       "constituency": "Stockholms län"
     },
     {
+      "id": "0704212851213",
+      "name": "Mårten Blix",
+      "party": "M",
+      "constituency": "Stockholms län"
+    },
+    {
       "id": "0706528359123",
       "name": "Linus Sköld",
       "party": "S",
@@ -2374,7 +2392,7 @@
     },
     {
       "id": "0742703244417",
-      "name": "Ilan Basso",
+      "name": "Ilan De Basso",
       "party": "S",
       "constituency": "Jönköpings län"
     },
@@ -2910,7 +2928,7 @@
       "id": "0880018341619",
       "name": "Thomas Morell",
       "party": "SD",
-      "constituency": "Skåne läns norra och östra"
+      "constituency": "Västra Götalands läns östra"
     },
     {
       "id": "0880137451720",

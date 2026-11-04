@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "Sveriges riksdag",
   "periodId": "2026-27",
-  "totalVotes": 1,
+  "totalVotes": 2,
   "minEligibleVotes": 1,
   "ranked": [
     {
@@ -13,12 +13,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -29,12 +29,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -45,12 +45,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -61,12 +61,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -77,12 +77,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -93,12 +93,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -109,12 +109,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -141,12 +141,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -157,12 +157,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -173,12 +173,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -189,12 +189,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -205,12 +205,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -221,12 +221,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -237,12 +237,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -253,12 +253,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -269,12 +269,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -285,12 +285,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -301,12 +301,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -316,13 +316,13 @@
       "party": "C",
       "constituency": "Västra Götalands läns västra",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -333,12 +333,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -349,12 +349,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -365,12 +365,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -381,12 +381,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -397,12 +397,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -413,12 +413,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -429,12 +429,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -445,12 +445,28 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0592345073323",
+      "name": "Anna af Sillén",
+      "party": "M",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 0,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -460,29 +476,13 @@
       "party": "C",
       "constituency": "Stockholms län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
-      "attendance": 1
-    },
-    {
-      "rank": 1,
-      "memberId": "0592345073323",
-      "name": "Anna Sillén",
-      "party": "M",
-      "constituency": "Södermanlands län",
-      "counts": {
-        "ja": 0,
-        "nej": 1,
-        "avstar": 0,
-        "franvarande": 0
-      },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -493,12 +493,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -509,12 +509,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -525,12 +525,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -541,12 +541,12 @@
       "constituency": "Jämtlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -556,13 +556,13 @@
       "party": "C",
       "constituency": "Västernorrlands län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -573,12 +573,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -589,12 +589,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -605,12 +605,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -621,12 +621,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -637,12 +637,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -653,12 +653,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -669,12 +669,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -685,12 +685,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -701,12 +701,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -717,12 +717,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -733,12 +733,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -749,12 +749,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -764,13 +764,13 @@
       "party": "C",
       "constituency": "Stockholms kommun",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -780,13 +780,13 @@
       "party": "C",
       "constituency": "Skåne läns norra och östra",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -797,12 +797,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -813,12 +813,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -829,12 +829,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -845,12 +845,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -861,12 +861,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -877,12 +877,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -893,12 +893,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -909,12 +909,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -925,12 +925,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -941,12 +941,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -957,12 +957,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -973,12 +973,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -988,13 +988,13 @@
       "party": "C",
       "constituency": "Gävleborgs län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1005,12 +1005,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1020,13 +1020,13 @@
       "party": "C",
       "constituency": "Uppsala län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1037,12 +1037,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1053,12 +1053,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1069,12 +1069,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1085,12 +1085,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1101,12 +1101,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1116,13 +1116,13 @@
       "party": "C",
       "constituency": "Hallands län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1133,12 +1133,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1149,12 +1149,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1165,12 +1165,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1181,12 +1181,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1197,12 +1197,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1213,12 +1213,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1228,13 +1228,13 @@
       "party": "C",
       "constituency": "Värmlands län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1245,12 +1245,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1261,12 +1261,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1277,12 +1277,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1293,12 +1293,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1309,12 +1309,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1325,12 +1325,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1341,12 +1341,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1357,12 +1357,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1373,12 +1373,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1387,6 +1387,22 @@
       "name": "Dennis Dioukarev",
       "party": "SD",
       "constituency": "Göteborgs kommun",
+      "counts": {
+        "ja": 0,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0386985788291",
+      "name": "Edmir Mehmeti",
+      "party": "M",
+      "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
         "nej": 1,
@@ -1405,12 +1421,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1421,12 +1437,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1437,12 +1453,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1453,12 +1469,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1468,13 +1484,13 @@
       "party": "C",
       "constituency": "Stockholms kommun",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1485,12 +1501,12 @@
       "constituency": "Jämtlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1501,12 +1517,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1517,12 +1533,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1533,12 +1549,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1548,13 +1564,13 @@
       "party": "C",
       "constituency": "Jönköpings län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1565,12 +1581,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1580,13 +1596,13 @@
       "party": "C",
       "constituency": "Kalmar län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1597,12 +1613,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1613,12 +1629,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1629,12 +1645,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1645,12 +1661,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1661,12 +1677,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1677,12 +1693,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1693,12 +1709,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1709,12 +1725,12 @@
       "constituency": "Gotlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1725,12 +1741,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1741,12 +1757,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1757,12 +1773,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1773,12 +1789,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1789,12 +1805,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1805,12 +1821,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1821,12 +1837,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1837,12 +1853,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1853,12 +1869,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1869,12 +1885,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1885,12 +1901,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1901,12 +1917,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1917,12 +1933,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1933,12 +1949,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1949,12 +1965,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1965,12 +1981,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1980,13 +1996,13 @@
       "party": "C",
       "constituency": "Örebro län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -1997,12 +2013,12 @@
       "constituency": "Blekinge län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2013,12 +2029,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2029,12 +2045,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2045,12 +2061,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2061,12 +2077,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2077,12 +2093,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2093,28 +2109,28 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
       "rank": 1,
       "memberId": "0742703244417",
-      "name": "Ilan Basso",
+      "name": "Ilan De Basso",
       "party": "S",
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2125,12 +2141,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2141,12 +2157,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2157,12 +2173,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2173,12 +2189,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2189,12 +2205,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2205,12 +2221,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2221,12 +2237,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2237,12 +2253,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2253,12 +2269,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2269,12 +2285,12 @@
       "constituency": "Gotlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2285,12 +2301,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2299,6 +2315,22 @@
       "name": "Jessica Stegrud",
       "party": "SD",
       "constituency": "Skåne läns södra",
+      "counts": {
+        "ja": 0,
+        "nej": 2,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0822010116020",
+      "name": "Jim Svensk Larm",
+      "party": "S",
+      "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
         "nej": 1,
@@ -2317,12 +2349,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2349,12 +2381,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2365,12 +2397,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2381,12 +2413,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2397,12 +2429,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2413,12 +2445,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2429,12 +2461,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2445,12 +2477,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2461,12 +2493,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2477,12 +2509,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2493,12 +2525,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2509,12 +2541,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2525,12 +2557,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2541,12 +2573,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2557,12 +2589,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2573,12 +2605,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2589,12 +2621,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2636,13 +2668,13 @@
       "party": "C",
       "constituency": "Västerbottens län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2653,12 +2685,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2669,12 +2701,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2685,12 +2717,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2701,12 +2733,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2717,12 +2749,12 @@
       "constituency": "Jämtlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2733,12 +2765,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2749,12 +2781,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2765,12 +2797,12 @@
       "constituency": "Blekinge län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2781,12 +2813,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2797,12 +2829,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2813,12 +2845,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2828,13 +2860,13 @@
       "party": "C",
       "constituency": "Stockholms län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2845,12 +2877,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2861,12 +2893,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2877,12 +2909,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2893,12 +2925,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2909,12 +2941,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2925,12 +2957,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2941,12 +2973,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2957,12 +2989,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -2973,7 +3005,23 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0265240520811",
+      "name": "Leif Gripestam",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
@@ -2989,12 +3037,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3005,12 +3053,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3021,12 +3069,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3037,12 +3085,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3053,12 +3101,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3069,12 +3117,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3085,12 +3133,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3101,12 +3149,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3117,12 +3165,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3133,12 +3181,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3149,12 +3197,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3165,12 +3213,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3181,12 +3229,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3197,12 +3245,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3213,12 +3261,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3245,12 +3293,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3261,12 +3309,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3277,12 +3325,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3293,12 +3341,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3309,12 +3357,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3325,12 +3373,12 @@
       "constituency": "Västra Götalands läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3340,13 +3388,13 @@
       "party": "C",
       "constituency": "Skåne läns västra",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3357,12 +3405,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3373,12 +3421,12 @@
       "constituency": "Blekinge län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3389,12 +3437,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3405,12 +3453,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3421,12 +3469,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3437,12 +3485,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3453,12 +3501,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3469,12 +3517,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3485,12 +3533,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3501,12 +3549,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3517,12 +3565,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3533,12 +3581,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3549,12 +3597,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3565,12 +3613,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3581,12 +3629,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3597,12 +3645,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3613,12 +3661,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3629,12 +3677,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3645,12 +3693,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3661,12 +3709,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3677,12 +3725,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3693,12 +3741,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3709,12 +3757,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3725,12 +3773,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3741,12 +3789,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3756,13 +3804,13 @@
       "party": "C",
       "constituency": "Stockholms kommun",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3772,13 +3820,13 @@
       "party": "C",
       "constituency": "Södermanlands län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3789,12 +3837,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3805,12 +3853,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3821,12 +3869,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3837,12 +3885,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3853,12 +3901,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3869,12 +3917,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3885,12 +3933,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3901,12 +3949,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3917,12 +3965,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3933,12 +3981,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3949,12 +3997,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3965,12 +4013,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3981,12 +4029,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -3997,12 +4045,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4013,12 +4061,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4029,12 +4077,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4045,12 +4093,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4061,12 +4109,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4077,12 +4125,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4093,12 +4141,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4109,12 +4157,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4125,12 +4173,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4141,12 +4189,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4157,12 +4205,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4173,12 +4221,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4189,12 +4237,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4205,12 +4253,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4220,13 +4268,13 @@
       "party": "C",
       "constituency": "Östergötlands län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4237,12 +4285,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4253,7 +4301,23 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0704212851213",
+      "name": "Mårten Blix",
+      "party": "M",
+      "constituency": "Stockholms län",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
@@ -4269,12 +4333,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4285,12 +4349,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4300,13 +4364,13 @@
       "party": "C",
       "constituency": "Malmö kommun",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4317,12 +4381,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4333,12 +4397,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4349,12 +4413,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4365,12 +4429,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4381,12 +4445,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4397,12 +4461,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4413,12 +4477,12 @@
       "constituency": "Kalmar län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4429,12 +4493,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4445,12 +4509,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4461,12 +4525,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4477,12 +4541,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4493,12 +4557,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4525,12 +4589,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4541,12 +4605,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4557,12 +4621,12 @@
       "constituency": "Skåne läns norra och östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4573,12 +4637,12 @@
       "constituency": "Jämtlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4589,12 +4653,12 @@
       "constituency": "Västernorrlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4605,12 +4669,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4621,12 +4685,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4637,12 +4701,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4653,12 +4717,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4669,12 +4733,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4685,12 +4749,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4700,13 +4764,13 @@
       "party": "C",
       "constituency": "Stockholms län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4717,12 +4781,12 @@
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4733,12 +4797,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4749,12 +4813,12 @@
       "constituency": "Blekinge län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4764,13 +4828,13 @@
       "party": "C",
       "constituency": "Göteborgs kommun",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4781,12 +4845,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4797,12 +4861,12 @@
       "constituency": "Göteborgs kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4813,12 +4877,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4829,12 +4893,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4845,12 +4909,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4861,12 +4925,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4877,12 +4941,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4893,12 +4957,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4909,12 +4973,12 @@
       "constituency": "Norrbottens län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4925,12 +4989,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4941,12 +5005,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4957,12 +5021,12 @@
       "constituency": "Hallands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4973,12 +5037,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -4989,12 +5053,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5005,12 +5069,12 @@
       "constituency": "Södermanlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5021,12 +5085,12 @@
       "constituency": "Värmlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5037,12 +5101,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5053,12 +5117,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5069,12 +5133,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5084,13 +5148,13 @@
       "party": "C",
       "constituency": "Skåne läns södra",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5101,12 +5165,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5117,12 +5181,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5133,12 +5197,12 @@
       "constituency": "Östergötlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5149,12 +5213,12 @@
       "constituency": "Västra Götalands läns norra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5165,7 +5229,23 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0880018341619",
+      "name": "Thomas Morell",
+      "party": "SD",
+      "constituency": "Västra Götalands läns östra",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
@@ -5181,12 +5261,12 @@
       "constituency": "Kronobergs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5197,12 +5277,12 @@
       "constituency": "Västra Götalands läns östra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5213,12 +5293,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5229,12 +5309,12 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5245,12 +5325,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5261,12 +5341,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5277,12 +5357,12 @@
       "constituency": "Västra Götalands läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5292,13 +5372,13 @@
       "party": "C",
       "constituency": "Västra Götalands läns östra",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5308,13 +5388,13 @@
       "party": "C",
       "constituency": "Dalarnas län",
       "counts": {
-        "ja": 0,
+        "ja": 1,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5325,12 +5405,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5341,12 +5421,12 @@
       "constituency": "Skåne läns västra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5357,12 +5437,12 @@
       "constituency": "Västerbottens län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5373,12 +5453,12 @@
       "constituency": "Skåne läns södra",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5389,12 +5469,12 @@
       "constituency": "Gävleborgs län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5405,12 +5485,12 @@
       "constituency": "Örebro län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5421,12 +5501,12 @@
       "constituency": "Jönköpings län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5437,12 +5517,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5453,12 +5533,12 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5469,12 +5549,12 @@
       "constituency": "Malmö kommun",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5485,12 +5565,12 @@
       "constituency": "Uppsala län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5501,12 +5581,12 @@
       "constituency": "Blekinge län",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5517,7 +5597,23 @@
       "constituency": "Västmanlands län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 2,
+      "present": 2,
+      "attendance": 1
+    },
+    {
+      "rank": 1,
+      "memberId": "0450884035316",
+      "name": "Åsa Kullgren",
+      "party": "S",
+      "constituency": "Södermanlands län",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
@@ -5533,12 +5629,12 @@
       "constituency": "Stockholms kommun",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
@@ -5549,45 +5645,45 @@
       "constituency": "Stockholms län",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     },
     {
-      "rank": 348,
+      "rank": 354,
       "memberId": "0604604418610",
       "name": "Jacob Risberg",
       "party": "MP",
       "constituency": "Uppsala län",
       "counts": {
         "ja": 0,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 1
       },
-      "eligible": 1,
-      "present": 0,
-      "attendance": 0
+      "eligible": 2,
+      "present": 1,
+      "attendance": 0.5
     },
     {
-      "rank": 348,
+      "rank": 354,
       "memberId": "0929594210324",
       "name": "Mohamed Ali",
       "party": "V",
       "constituency": "Dalarnas län",
       "counts": {
         "ja": 0,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 1
       },
-      "eligible": 1,
-      "present": 0,
-      "attendance": 0
+      "eligible": 2,
+      "present": 1,
+      "attendance": 0.5
     }
   ],
   "belowThreshold": []

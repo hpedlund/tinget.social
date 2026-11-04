@@ -12,13 +12,13 @@
   "total": {
     "counts": {
       "ja": 843,
-      "nej": 861,
+      "nej": 862,
       "avstar": 586,
       "franvarande": 321
     },
-    "eligible": 2611,
-    "present": 2290,
-    "attendance": 0.8770585982382229
+    "eligible": 2612,
+    "present": 2291,
+    "attendance": 0.8771056661562021
   },
   "byRiksmote": [
     {
@@ -73,13 +73,13 @@
       "riksmote": "2026/27",
       "counts": {
         "ja": 0,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 1
       },
-      "eligible": 1,
-      "present": 0,
-      "attendance": 0
+      "eligible": 2,
+      "present": 1,
+      "attendance": 0.5
     }
   ],
   "periods": [
@@ -150,16 +150,16 @@
     },
     {
       "periodId": "2026-27",
-      "rank": 348,
+      "rank": 354,
       "counts": {
         "ja": 0,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 1
       },
-      "eligible": 1,
-      "present": 0,
-      "attendance": 0
+      "eligible": 2,
+      "present": 1,
+      "attendance": 0.5
     }
   ],
   "missedVoteIds": [

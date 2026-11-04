@@ -12,13 +12,13 @@
   "total": {
     "counts": {
       "ja": 1161,
-      "nej": 868,
+      "nej": 869,
       "avstar": 318,
       "franvarande": 263
     },
-    "eligible": 2610,
-    "present": 2347,
-    "attendance": 0.8992337164750958
+    "eligible": 2611,
+    "present": 2348,
+    "attendance": 0.899272309459977
   },
   "byRiksmote": [
     {
@@ -73,12 +73,12 @@
       "riksmote": "2026/27",
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     }
   ],
@@ -153,12 +153,12 @@
       "rank": 1,
       "counts": {
         "ja": 1,
-        "nej": 0,
+        "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     }
   ],

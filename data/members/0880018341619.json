@@ -7,18 +7,18 @@
   "lastName": "Morell",
   "sortName": "Morell,Thomas",
   "party": "SD",
-  "constituency": "Skåne läns norra och östra",
+  "constituency": "Västra Götalands läns östra",
   "status": "Tjänstgörande ersättare",
   "total": {
     "counts": {
       "ja": 1913,
-      "nej": 275,
+      "nej": 276,
       "avstar": 206,
       "franvarande": 216
     },
-    "eligible": 2610,
-    "present": 2394,
-    "attendance": 0.9172413793103448
+    "eligible": 2611,
+    "present": 2395,
+    "attendance": 0.9172730754500191
   },
   "byRiksmote": [
     {
@@ -68,6 +68,18 @@
       "eligible": 797,
       "present": 751,
       "attendance": 0.9422835633626098
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
     }
   ],
   "periods": [
@@ -135,6 +147,19 @@
       "eligible": 797,
       "present": 751,
       "attendance": 0.9422835633626098
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 0,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 1,
+      "present": 1,
+      "attendance": 1
     }
   ],
   "missedVoteIds": [

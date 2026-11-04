@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "Sveriges riksdag",
   "id": "0592345073323",
-  "name": "Anna Sillén",
+  "name": "Anna af Sillén",
   "firstName": "Anna",
   "lastName": "af Sillén",
   "sortName": "Sillén",
@@ -12,13 +12,13 @@
   "total": {
     "counts": {
       "ja": 2171,
-      "nej": 11,
+      "nej": 12,
       "avstar": 1,
       "franvarande": 427
     },
-    "eligible": 2610,
-    "present": 2183,
-    "attendance": 0.8363984674329502
+    "eligible": 2611,
+    "present": 2184,
+    "attendance": 0.8364611260053619
   },
   "byRiksmote": [
     {
@@ -73,12 +73,12 @@
       "riksmote": "2026/27",
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     }
   ],
@@ -153,12 +153,12 @@
       "rank": 1,
       "counts": {
         "ja": 0,
-        "nej": 1,
+        "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 1,
-      "present": 1,
+      "eligible": 2,
+      "present": 2,
       "attendance": 1
     }
   ],

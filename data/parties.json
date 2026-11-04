@@ -889,13 +889,13 @@
           "party": "C",
           "memberCount": 25,
           "counts": {
-            "ja": 0,
+            "ja": 25,
             "nej": 25,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 25,
-          "present": 25,
+          "eligible": 50,
+          "present": 50,
           "attendance": 1,
           "rankedMembers": 25,
           "spread": {
@@ -909,12 +909,12 @@
           "memberCount": 22,
           "counts": {
             "ja": 0,
-            "nej": 22,
+            "nej": 44,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 22,
-          "present": 22,
+          "eligible": 44,
+          "present": 44,
           "attendance": 1,
           "rankedMembers": 22,
           "spread": {
@@ -928,12 +928,12 @@
           "memberCount": 19,
           "counts": {
             "ja": 0,
-            "nej": 19,
+            "nej": 38,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 19,
-          "present": 19,
+          "eligible": 38,
+          "present": 38,
           "attendance": 1,
           "rankedMembers": 19,
           "spread": {
@@ -944,17 +944,17 @@
         },
         {
           "party": "M",
-          "memberCount": 70,
+          "memberCount": 73,
           "counts": {
             "ja": 0,
-            "nej": 70,
+            "nej": 140,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 70,
-          "present": 70,
+          "eligible": 140,
+          "present": 140,
           "attendance": 1,
-          "rankedMembers": 70,
+          "rankedMembers": 73,
           "spread": {
             "min": 1,
             "median": 1,
@@ -963,17 +963,17 @@
         },
         {
           "party": "S",
-          "memberCount": 99,
+          "memberCount": 101,
           "counts": {
             "ja": 99,
-            "nej": 0,
+            "nej": 99,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 99,
-          "present": 99,
+          "eligible": 198,
+          "present": 198,
           "attendance": 1,
-          "rankedMembers": 99,
+          "rankedMembers": 101,
           "spread": {
             "min": 1,
             "median": 1,
@@ -982,17 +982,17 @@
         },
         {
           "party": "SD",
-          "memberCount": 62,
+          "memberCount": 63,
           "counts": {
             "ja": 0,
-            "nej": 62,
+            "nej": 124,
             "avstar": 0,
             "franvarande": 0
           },
-          "eligible": 62,
-          "present": 62,
+          "eligible": 124,
+          "present": 124,
           "attendance": 1,
-          "rankedMembers": 62,
+          "rankedMembers": 63,
           "spread": {
             "min": 1,
             "median": 1,
@@ -1004,16 +1004,16 @@
           "memberCount": 30,
           "counts": {
             "ja": 0,
-            "nej": 29,
+            "nej": 59,
             "avstar": 0,
             "franvarande": 1
           },
-          "eligible": 30,
-          "present": 29,
-          "attendance": 0.9666666666666667,
+          "eligible": 60,
+          "present": 59,
+          "attendance": 0.9833333333333333,
           "rankedMembers": 30,
           "spread": {
-            "min": 0,
+            "min": 0.5,
             "median": 1,
             "max": 1
           }
@@ -1023,16 +1023,16 @@
           "memberCount": 22,
           "counts": {
             "ja": 0,
-            "nej": 21,
+            "nej": 43,
             "avstar": 0,
             "franvarande": 1
           },
-          "eligible": 22,
-          "present": 21,
-          "attendance": 0.9545454545454546,
+          "eligible": 44,
+          "present": 43,
+          "attendance": 0.9772727272727273,
           "rankedMembers": 22,
           "spread": {
-            "min": 0,
+            "min": 0.5,
             "median": 1,
             "max": 1
           }
