@@ -3,7 +3,7 @@
   "source": "Sveriges riksdag",
   "sourceUrl": "https://data.riksdagen.se",
   "defaultPeriodId": "2022-2026",
-  "lastVoteDate": "2026-11-03",
+  "lastVoteDate": "2026-11-04",
   "periods": [
     {
       "id": "2022-2026",
@@ -81,10 +81,10 @@
         "2026/27"
       ],
       "complete": false,
-      "totalVotes": 2,
+      "totalVotes": 4,
       "minEligibleVotes": 1,
       "firstVoteDate": "2026-10-15",
-      "lastVoteDate": "2026-11-03"
+      "lastVoteDate": "2026-11-04"
     }
   ]
 }

@@ -28,6 +28,32 @@
         "avstar": 0,
         "franvarande": 0
       }
+    },
+    {
+      "id": "D41FD97A-5F61-4320-A5AE-B64AF39D8CBC",
+      "date": "2026-11-04",
+      "beteckning": "FöU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 315,
+        "nej": 30,
+        "avstar": 0,
+        "franvarande": 4
+      }
+    },
+    {
+      "id": "F21A5C48-FA78-4414-9602-4495A63C75DE",
+      "date": "2026-11-04",
+      "beteckning": "KU4",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 284,
+        "nej": 61,
+        "avstar": 0,
+        "franvarande": 4
+      }
     }
   ]
 }
