@@ -6,19 +6,19 @@
   "firstName": "Arin",
   "lastName": "Karapet",
   "sortName": "Karapet,Arin",
-  "party": "-",
+  "party": "SD",
   "constituency": "Stockholms kommun",
   "status": "Tjänstgörande riksdagsledamot",
   "total": {
     "counts": {
-      "ja": 2317,
+      "ja": 2320,
       "nej": 9,
       "avstar": 3,
       "franvarande": 281
     },
-    "eligible": 2610,
-    "present": 2329,
-    "attendance": 0.8923371647509578
+    "eligible": 2613,
+    "present": 2332,
+    "attendance": 0.892460773057788
   },
   "byRiksmote": [
     {
@@ -68,6 +68,18 @@
       "eligible": 797,
       "present": 755,
       "attendance": 0.9473023839397742
+    },
+    {
+      "riksmote": "2026/27",
+      "counts": {
+        "ja": 3,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 3,
+      "present": 3,
+      "attendance": 1
     }
   ],
   "periods": [
@@ -135,6 +147,19 @@
       "eligible": 797,
       "present": 755,
       "attendance": 0.9473023839397742
+    },
+    {
+      "periodId": "2026-27",
+      "rank": 1,
+      "counts": {
+        "ja": 3,
+        "nej": 0,
+        "avstar": 0,
+        "franvarande": 0
+      },
+      "eligible": 3,
+      "present": 3,
+      "attendance": 1
     }
   ],
   "missedVoteIds": [

@@ -54,6 +54,45 @@
         "avstar": 0,
         "franvarande": 4
       }
+    },
+    {
+      "id": "5DE56842-83CE-4DD2-B5FF-CF4C54E1EC09",
+      "date": "2026-11-11",
+      "beteckning": "KU6",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 322,
+        "nej": 21,
+        "avstar": 0,
+        "franvarande": 6
+      }
+    },
+    {
+      "id": "A4FFC05D-04B4-4139-A9EB-A0ED698B0443",
+      "date": "2026-11-11",
+      "beteckning": "KU9",
+      "punkt": 1,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 292,
+        "nej": 51,
+        "avstar": 0,
+        "franvarande": 6
+      }
+    },
+    {
+      "id": "E80584EC-68E4-4618-9765-34DFE3C3B525",
+      "date": "2026-11-11",
+      "beteckning": "KU6",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 341,
+        "nej": 1,
+        "avstar": 0,
+        "franvarande": 7
+      }
     }
   ]
 }
