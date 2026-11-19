@@ -11,14 +11,14 @@
   "status": "Tjänstgörande riksdagsledamot",
   "total": {
     "counts": {
-      "ja": 583,
+      "ja": 584,
       "nej": 492,
       "avstar": 170,
       "franvarande": 212
     },
-    "eligible": 1457,
-    "present": 1245,
-    "attendance": 0.8544955387783116
+    "eligible": 1458,
+    "present": 1246,
+    "attendance": 0.8545953360768176
   },
   "byRiksmote": [
     {
@@ -60,13 +60,13 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 6,
+        "ja": 7,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],
@@ -127,13 +127,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 6,
+        "ja": 7,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],

@@ -11,14 +11,14 @@
   "status": "Förste vice talman (tjänstgörande riksdagsledamot)",
   "total": {
     "counts": {
-      "ja": 1142,
+      "ja": 1143,
       "nej": 840,
       "avstar": 308,
       "franvarande": 327
     },
-    "eligible": 2617,
-    "present": 2290,
-    "attendance": 0.8750477646159724
+    "eligible": 2618,
+    "present": 2291,
+    "attendance": 0.8750954927425516
   },
   "byRiksmote": [
     {
@@ -72,13 +72,13 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 6,
+        "ja": 7,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],
@@ -152,13 +152,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 6,
+        "ja": 7,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],

@@ -11,26 +11,26 @@
   "status": "Tjänstgörande talmansersättare",
   "total": {
     "counts": {
-      "ja": 5,
+      "ja": 6,
       "nej": 2,
       "avstar": 0,
       "franvarande": 0
     },
-    "eligible": 7,
-    "present": 7,
+    "eligible": 8,
+    "present": 8,
     "attendance": 1
   },
   "byRiksmote": [
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 5,
+        "ja": 6,
         "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],
@@ -39,13 +39,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 5,
+        "ja": 6,
         "nej": 2,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 7,
-      "present": 7,
+      "eligible": 8,
+      "present": 8,
       "attendance": 1
     }
   ],

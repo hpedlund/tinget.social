@@ -11,13 +11,13 @@
   "status": "Tjänstgörande statsrådsersättare",
   "total": {
     "counts": {
-      "ja": 169,
+      "ja": 170,
       "nej": 1,
       "avstar": 0,
       "franvarande": 0
     },
-    "eligible": 170,
-    "present": 170,
+    "eligible": 171,
+    "present": 171,
     "attendance": 1
   },
   "byRiksmote": [
@@ -36,13 +36,13 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 5,
+        "ja": 6,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 6,
-      "present": 6,
+      "eligible": 7,
+      "present": 7,
       "attendance": 1
     }
   ],
@@ -77,13 +77,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 5,
+        "ja": 6,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 6,
-      "present": 6,
+      "eligible": 7,
+      "present": 7,
       "attendance": 1
     }
   ],

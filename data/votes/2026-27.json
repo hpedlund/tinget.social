@@ -93,6 +93,19 @@
         "avstar": 0,
         "franvarande": 7
       }
+    },
+    {
+      "id": "AAFED836-B59B-4B51-A085-505D44E3AE4D",
+      "date": "2026-11-18",
+      "beteckning": "AU3",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 271,
+        "nej": 61,
+        "avstar": 0,
+        "franvarande": 17
+      }
     }
   ]
 }
