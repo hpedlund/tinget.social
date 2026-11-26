@@ -11,14 +11,14 @@
   "status": "Tjänstgörande riksdagsledamot",
   "total": {
     "counts": {
-      "ja": 1551,
-      "nej": 207,
+      "ja": 1555,
+      "nej": 210,
       "avstar": 141,
-      "franvarande": 719
+      "franvarande": 720
     },
-    "eligible": 2618,
-    "present": 1899,
-    "attendance": 0.725362872421696
+    "eligible": 2626,
+    "present": 1906,
+    "attendance": 0.7258187357197258
   },
   "byRiksmote": [
     {
@@ -72,14 +72,14 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 4,
-        "nej": 4,
+        "ja": 8,
+        "nej": 7,
         "avstar": 0,
-        "franvarande": 0
+        "franvarande": 1
       },
-      "eligible": 8,
-      "present": 8,
-      "attendance": 1
+      "eligible": 16,
+      "present": 15,
+      "attendance": 0.9375
     }
   ],
   "periods": [
@@ -150,16 +150,16 @@
     },
     {
       "periodId": "2026-27",
-      "rank": 1,
+      "rank": 294,
       "counts": {
-        "ja": 4,
-        "nej": 4,
+        "ja": 8,
+        "nej": 7,
         "avstar": 0,
-        "franvarande": 0
+        "franvarande": 1
       },
-      "eligible": 8,
-      "present": 8,
-      "attendance": 1
+      "eligible": 16,
+      "present": 15,
+      "attendance": 0.9375
     }
   ],
   "missedVoteIds": [
@@ -881,6 +881,7 @@
     "B71975D9-8BF9-44DC-AC25-DAF8411CEBE4",
     "D83C11F6-B07B-4E44-A6B4-13265EF6DB72",
     "E3C24459-8781-47DF-9596-62424ADA903B",
-    "3A4EE9E2-C5D6-4015-A238-2EDA5686DB2D"
+    "3A4EE9E2-C5D6-4015-A238-2EDA5686DB2D",
+    "97AF6351-33EC-4C97-A33E-E94E81C4D690"
   ]
 }

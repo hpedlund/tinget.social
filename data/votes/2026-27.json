@@ -106,6 +106,110 @@
         "avstar": 0,
         "franvarande": 17
       }
+    },
+    {
+      "id": "198C54F6-8324-4E75-8447-EF6473E66A9A",
+      "date": "2026-11-25",
+      "beteckning": "SoU3",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 158,
+        "nej": 155,
+        "avstar": 0,
+        "franvarande": 36
+      }
+    },
+    {
+      "id": "68DF2A4B-1362-4317-91C9-93DB45371F2D",
+      "date": "2026-11-25",
+      "beteckning": "SoU3",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 156,
+        "nej": 155,
+        "avstar": 2,
+        "franvarande": 36
+      }
+    },
+    {
+      "id": "91EBF5B0-E95C-42DB-A2F4-499E158A98E9",
+      "date": "2026-11-25",
+      "beteckning": "KrU3",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 267,
+        "nej": 20,
+        "avstar": 26,
+        "franvarande": 36
+      }
+    },
+    {
+      "id": "97AF6351-33EC-4C97-A33E-E94E81C4D690",
+      "date": "2026-11-25",
+      "beteckning": "CU2",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 291,
+        "nej": 20,
+        "avstar": 0,
+        "franvarande": 38
+      }
+    },
+    {
+      "id": "B4397699-5B2D-4585-8107-059508F80F7B",
+      "date": "2026-11-25",
+      "beteckning": "KrU3",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 269,
+        "nej": 21,
+        "avstar": 23,
+        "franvarande": 36
+      }
+    },
+    {
+      "id": "CB04DA35-9E17-4158-8EE6-D59BDE67D402",
+      "date": "2026-11-25",
+      "beteckning": "JuU9",
+      "punkt": 3,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 212,
+        "nej": 54,
+        "avstar": 47,
+        "franvarande": 36
+      }
+    },
+    {
+      "id": "EF32EEF2-7A08-421D-80E9-487AEACBEC37",
+      "date": "2026-11-25",
+      "beteckning": "CU2",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 264,
+        "nej": 48,
+        "avstar": 0,
+        "franvarande": 37
+      }
+    },
+    {
+      "id": "F6B74393-2B7F-47FD-A3D7-4ED641E6776B",
+      "date": "2026-11-25",
+      "beteckning": "JuU9",
+      "punkt": 2,
+      "avser": "sakfrågan",
+      "counts": {
+        "ja": 266,
+        "nej": 46,
+        "avstar": 0,
+        "franvarande": 37
+      }
     }
   ]
 }

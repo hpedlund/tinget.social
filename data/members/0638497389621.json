@@ -11,14 +11,14 @@
   "status": "Andre vice talman (tjänstgörande riksdagsledamot)",
   "total": {
     "counts": {
-      "ja": 1565,
-      "nej": 202,
+      "ja": 1570,
+      "nej": 205,
       "avstar": 150,
       "franvarande": 701
     },
-    "eligible": 2618,
-    "present": 1917,
-    "attendance": 0.7322383498854087
+    "eligible": 2626,
+    "present": 1925,
+    "attendance": 0.733054074638233
   },
   "byRiksmote": [
     {
@@ -72,13 +72,13 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 4,
-        "nej": 4,
+        "ja": 9,
+        "nej": 7,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 8,
-      "present": 8,
+      "eligible": 16,
+      "present": 16,
       "attendance": 1
     }
   ],
@@ -152,13 +152,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 4,
-        "nej": 4,
+        "ja": 9,
+        "nej": 7,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 8,
-      "present": 8,
+      "eligible": 16,
+      "present": 16,
       "attendance": 1
     }
   ],

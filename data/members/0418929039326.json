@@ -150,7 +150,7 @@
     },
     {
       "periodId": "2026-27",
-      "rank": 1,
+      "rank": null,
       "counts": {
         "ja": 1,
         "nej": 0,

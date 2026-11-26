@@ -11,14 +11,14 @@
   "status": "Tjänstgörande ersättare",
   "total": {
     "counts": {
-      "ja": 299,
+      "ja": 307,
       "nej": 171,
       "avstar": 48,
       "franvarande": 23
     },
-    "eligible": 541,
-    "present": 518,
-    "attendance": 0.9574861367837338
+    "eligible": 549,
+    "present": 526,
+    "attendance": 0.9581056466302368
   },
   "byRiksmote": [
     {
@@ -48,13 +48,13 @@
     {
       "riksmote": "2026/27",
       "counts": {
-        "ja": 7,
+        "ja": 15,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 8,
-      "present": 8,
+      "eligible": 16,
+      "present": 16,
       "attendance": 1
     }
   ],
@@ -102,13 +102,13 @@
       "periodId": "2026-27",
       "rank": 1,
       "counts": {
-        "ja": 7,
+        "ja": 15,
         "nej": 1,
         "avstar": 0,
         "franvarande": 0
       },
-      "eligible": 8,
-      "present": 8,
+      "eligible": 16,
+      "present": 16,
       "attendance": 1
     }
   ],

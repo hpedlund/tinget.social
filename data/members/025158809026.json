@@ -14,11 +14,11 @@
       "ja": 727,
       "nej": 709,
       "avstar": 320,
-      "franvarande": 862
+      "franvarande": 870
     },
-    "eligible": 2618,
+    "eligible": 2626,
     "present": 1756,
-    "attendance": 0.6707410236822001
+    "attendance": 0.6686976389946687
   },
   "byRiksmote": [
     {
@@ -75,11 +75,11 @@
         "ja": 3,
         "nej": 4,
         "avstar": 0,
-        "franvarande": 1
+        "franvarande": 9
       },
-      "eligible": 8,
+      "eligible": 16,
       "present": 7,
-      "attendance": 0.875
+      "attendance": 0.4375
     }
   ],
   "periods": [
@@ -150,16 +150,16 @@
     },
     {
       "periodId": "2026-27",
-      "rank": 327,
+      "rank": 342,
       "counts": {
         "ja": 3,
         "nej": 4,
         "avstar": 0,
-        "franvarande": 1
+        "franvarande": 9
       },
-      "eligible": 8,
+      "eligible": 16,
       "present": 7,
-      "attendance": 0.875
+      "attendance": 0.4375
     }
   ],
   "missedVoteIds": [
@@ -1024,6 +1024,14 @@
     "FABF82BC-AE2C-4DB5-846B-99A889DBB7DA",
     "FEF89C9C-2B60-4169-9226-DD87D9964079",
     "0D7ED001-415B-4804-AAF6-488D84AE35EA",
-    "AAFED836-B59B-4B51-A085-505D44E3AE4D"
+    "AAFED836-B59B-4B51-A085-505D44E3AE4D",
+    "198C54F6-8324-4E75-8447-EF6473E66A9A",
+    "68DF2A4B-1362-4317-91C9-93DB45371F2D",
+    "91EBF5B0-E95C-42DB-A2F4-499E158A98E9",
+    "97AF6351-33EC-4C97-A33E-E94E81C4D690",
+    "B4397699-5B2D-4585-8107-059508F80F7B",
+    "CB04DA35-9E17-4158-8EE6-D59BDE67D402",
+    "EF32EEF2-7A08-421D-80E9-487AEACBEC37",
+    "F6B74393-2B7F-47FD-A3D7-4ED641E6776B"
   ]
 }
